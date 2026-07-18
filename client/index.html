@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KSP Crime Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+Kannada:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#16243D;        /* chrome */
+  --navy-2:#1F3355;
+  --paper:#FAFAF7;       /* work surface */
+  --ink:#20242B;
+  --ink-soft:#5A6270;
+  --line:#DDD9CF;
+  --kn-red:#C8362B;      /* Karnataka flag red — evidence/citations */
+  --kn-yellow:#F2C21B;   /* Karnataka flag yellow — highlights */
+  --ok:#2E7D4F;
+  --mono:'IBM Plex Mono',monospace;
+  --sans:'IBM Plex Sans','Noto Sans Kannada',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:var(--sans);background:var(--paper);color:var(--ink);display:flex;flex-direction:column}
+
+/* ---------- header ---------- */
+header{background:var(--navy);color:#fff;padding:14px 22px;display:flex;align-items:center;gap:14px;flex-shrink:0}
+.crest{width:34px;height:34px;border:2px solid var(--kn-yellow);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:var(--kn-yellow);letter-spacing:.5px}
+header h1{font-size:16px;font-weight:600;letter-spacing:.3px}
+header .sub{font-size:11.5px;color:#AEB9CE;margin-top:1px}
+.spacer{flex:1}
+.lang-toggle{display:flex;border:1px solid #3A4A6B;border-radius:6px;overflow:hidden}
+.lang-toggle button{background:none;border:0;color:#AEB9CE;font-family:var(--sans);font-size:12.5px;padding:6px 12px;cursor:pointer}
+.lang-toggle button.active{background:var(--kn-yellow);color:var(--navy);font-weight:600}
+
+/* ---------- chat ---------- */
+main{flex:1;overflow-y:auto;padding:26px 0 12px}
+.wrap{max-width:820px;margin:0 auto;padding:0 20px}
+.msg{margin-bottom:22px;display:flex;flex-direction:column}
+.msg.user{align-items:flex-end}
+.bubble{max-width:88%;padding:12px 16px;border-radius:10px;font-size:14.5px;line-height:1.55;white-space:pre-wrap}
+.user .bubble{background:var(--navy-2);color:#fff;border-bottom-right-radius:3px}
+.bot .bubble{background:#fff;border:1px solid var(--line);border-bottom-left-radius:3px}
+.bot .who{font-size:11px;color:var(--ink-soft);letter-spacing:.6px;text-transform:uppercase;margin:0 0 5px 2px}
+
+/* ---------- chain of custody strip ---------- */
+.custody{max-width:88%;margin-top:8px;border-left:3px solid var(--kn-yellow);background:#FFFDF4;border-radius:0 8px 8px 0;padding:9px 12px;font-size:12px}
+.custody .row{display:flex;flex-wrap:wrap;align-items:center;gap:6px;color:var(--ink-soft)}
+.tool-chip{font-family:var(--mono);font-size:11px;background:var(--navy);color:#fff;border-radius:4px;padding:2px 8px}
+.rows-chip{font-family:var(--mono);font-size:11px;color:var(--ok);border:1px solid var(--ok);border-radius:4px;padding:1px 7px}
+.guard-chip{font-family:var(--mono);font-size:11px;color:#fff;background:var(--kn-red);border-radius:4px;padding:2px 8px}
+.cites{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}
+.cite{font-family:var(--mono);font-size:10.5px;border:1.5px solid var(--kn-red);color:var(--kn-red);border-radius:3px;padding:2px 7px;letter-spacing:.2px;background:#fff;transform:rotate(-.4deg)}
+.custody details{margin-top:7px}
+.custody summary{cursor:pointer;font-size:11px;color:var(--ink-soft);user-select:none}
+.custody pre{font-family:var(--mono);font-size:10.5px;background:var(--navy);color:#D7E0F0;border-radius:6px;padding:10px;margin-top:6px;overflow-x:auto;max-height:260px}
+
+/* ---------- thinking ---------- */
+.thinking .bubble{color:var(--ink-soft);font-style:italic}
+.dots::after{content:'';animation:d 1.4s steps(4,end) infinite}
+@keyframes d{0%{content:''}25%{content:'.'}50%{content:'..'}75%{content:'...'}}
+
+/* ---------- quick prompts ---------- */
+.quick{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 18px}
+.quick button{font-family:var(--sans);font-size:12.5px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:7px 13px;cursor:pointer;color:var(--ink)}
+.quick button:hover{border-color:var(--navy);}
+
+/* ---------- composer ---------- */
+footer{flex-shrink:0;border-top:1px solid var(--line);background:#fff;padding:12px 0}
+.composer{max-width:820px;margin:0 auto;padding:0 20px;display:flex;gap:10px}
+.composer textarea{flex:1;font-family:var(--sans);font-size:14.5px;border:1.5px solid var(--line);border-radius:8px;padding:11px 13px;resize:none;height:48px;outline:none}
+.composer textarea:focus{border-color:var(--navy)}
+.composer button{font-family:var(--sans);font-weight:600;font-size:14px;background:var(--navy);color:#fff;border:0;border-radius:8px;padding:0 22px;cursor:pointer}
+.composer button:disabled{opacity:.45;cursor:default}
+.hint{max-width:820px;margin:6px auto 0;padding:0 20px;font-size:11px;color:var(--ink-soft)}
+
+@media (max-width:640px){
+  .bubble,.custody{max-width:100%}
+  header h1{font-size:14px}
+  .crest{display:none}
+}
+@media (prefers-reduced-motion: reduce){ .dots::after{animation:none;content:'...'} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="crest">KSP</div>
+  <div>
+    <h1 id="t-title">Crime Intelligence Assistant</h1>
+    <div class="sub" id="t-sub">State Crime Records Bureau · Conversational analytics over the FIR database</div>
+  </div>
+  <div class="spacer"></div>
+  <div class="lang-toggle">
+    <button id="lang-en" class="active" onclick="setLang('en')">EN</button>
+    <button id="lang-kn" onclick="setLang('kn')">ಕನ್ನಡ</button>
+  </div>
+</header>
+
+<main id="main"><div class="wrap" id="chat">
+  <div class="msg bot">
+    <div class="who">Assistant</div>
+    <div class="bubble" id="t-welcome">Ask about cases, offenders, networks, or trends. Every answer is backed by records from the crime database — citations and the evidence trail are shown beneath each response.</div>
+  </div>
+  <div class="quick" id="quick"></div>
+</div></main>
+
+<footer>
+  <div class="composer">
+    <textarea id="input" rows="1" placeholder="Ask about a case, person, or crime trend…"></textarea>
+    <button id="send" onclick="send()">Ask</button>
+  </div>
+  <div class="hint" id="t-hint">English and Kannada supported · Answers cite FIR Crime Numbers · Audit trail recorded for every query</div>
+</footer>
+
+<script>
+const API = '/server/crime-agent/';           // same-origin Catalyst function
+const history = [];                            // in-memory conversation state
+const sessionId = 'web-' + Math.random().toString(36).slice(2, 10);
+
+const QUICK = {
+  en: [
+    'Show me the criminal history of Manjunath',
+    'How many chain snatching cases were registered in Bengaluru City in 2025?',
+    'Who does Syed Imran commit crimes with?',
+    'Which district had the most house burglaries in 2024?'
+  ],
+  kn: [
+    'ಮಂಜುನಾಥ್ ಅವರ ಅಪರಾಧ ಇತಿಹಾಸ ತೋರಿಸಿ',
+    '2025ರಲ್ಲಿ ಬೆಂಗಳೂರು ನಗರದಲ್ಲಿ ಎಷ್ಟು ಸರಗಳ್ಳತನ ಪ್ರಕರಣಗಳು ದಾಖಲಾಗಿವೆ?',
+    'ಸೈಯದ್ ಇಮ್ರಾನ್ ಯಾರೊಂದಿಗೆ ಅಪರಾಧ ಮಾಡುತ್ತಾನೆ?'
+  ]
+};
+const T = {
+  en: { title:'Crime Intelligence Assistant',
+        sub:'State Crime Records Bureau · Conversational analytics over the FIR database',
+        welcome:'Ask about cases, offenders, networks, or trends. Every answer is backed by records from the crime database — citations and the evidence trail are shown beneath each response.',
+        hint:'English and Kannada supported · Answers cite FIR Crime Numbers · Audit trail recorded for every query',
+        placeholder:'Ask about a case, person, or crime trend…',
+        ask:'Ask', thinking:'Consulting the crime database', evidence:'Evidence trail',
+        rows:' records examined', error:'Something went wrong reaching the assistant. Check the connection and try again.' },
+  kn: { title:'ಅಪರಾಧ ಗುಪ್ತಚರ ಸಹಾಯಕ',
+        sub:'ರಾಜ್ಯ ಅಪರಾಧ ದಾಖಲೆಗಳ ಬ್ಯೂರೋ · FIR ಡೇಟಾಬೇಸ್ ಮೇಲೆ ಸಂವಾದಾತ್ಮಕ ವಿಶ್ಲೇಷಣೆ',
+        welcome:'ಪ್ರಕರಣಗಳು, ಆರೋಪಿಗಳು, ಜಾಲಗಳು ಅಥವಾ ಪ್ರವೃತ್ತಿಗಳ ಬಗ್ಗೆ ಕೇಳಿ. ಪ್ರತಿ ಉತ್ತರವೂ ಅಪರಾಧ ಡೇಟಾಬೇಸ್‌ನ ದಾಖಲೆಗಳಿಂದ ಬೆಂಬಲಿತವಾಗಿದೆ.',
+        hint:'ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಕನ್ನಡ ಬೆಂಬಲಿತ · ಉತ್ತರಗಳು FIR ಸಂಖ್ಯೆಗಳನ್ನು ಉಲ್ಲೇಖಿಸುತ್ತವೆ',
+        placeholder:'ಪ್ರಕರಣ, ವ್ಯಕ್ತಿ ಅಥವಾ ಅಪರಾಧ ಪ್ರವೃತ್ತಿಯ ಬಗ್ಗೆ ಕೇಳಿ…',
+        ask:'ಕೇಳಿ', thinking:'ಅಪರಾಧ ಡೇಟಾಬೇಸ್ ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ', evidence:'ಸಾಕ್ಷ್ಯ ಜಾಡು',
+        rows:' ದಾಖಲೆಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿದೆ', error:'ಸಹಾಯಕವನ್ನು ತಲುಪಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಸಂಪರ್ಕ ಪರಿಶೀಲಿಸಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.' }
+};
+let lang = 'en';
+
+function setLang(l){
+  lang = l;
+  document.getElementById('lang-en').classList.toggle('active', l==='en');
+  document.getElementById('lang-kn').classList.toggle('active', l==='kn');
+  const t = T[l];
+  document.getElementById('t-title').textContent = t.title;
+  document.getElementById('t-sub').textContent = t.sub;
+  document.getElementById('t-welcome').textContent = t.welcome;
+  document.getElementById('t-hint').textContent = t.hint;
+  document.getElementById('input').placeholder = t.placeholder;
+  document.getElementById('send').textContent = t.ask;
+  renderQuick();
+}
+
+function renderQuick(){
+  const q = document.getElementById('quick');
+  q.innerHTML = '';
+  QUICK[lang].forEach(p => {
+    const b = document.createElement('button');
+    b.textContent = p;
+    b.onclick = () => { document.getElementById('input').value = p; send(); };
+    q.appendChild(b);
+  });
+}
+
+function el(tag, cls, text){
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text !== undefined) e.textContent = text;
+  return e;
+}
+
+function addUser(text){
+  const m = el('div','msg user');
+  m.appendChild(el('div','bubble',text));
+  document.getElementById('chat').appendChild(m);
+  scroll();
+}
+
+function addThinking(){
+  const m = el('div','msg bot thinking');
+  m.id = 'thinking';
+  m.appendChild(el('div','who','Assistant'));
+  const b = el('div','bubble',T[lang].thinking);
+  b.appendChild(el('span','dots'));
+  m.appendChild(b);
+  document.getElementById('chat').appendChild(m);
+  scroll();
+}
+
+function addAnswer(data){
+  const m = el('div','msg bot');
+  m.appendChild(el('div','who','Assistant'));
+  m.appendChild(el('div','bubble',data.answer || '—'));
+
+  // ---- chain of custody strip
+  const audit = data.audit || [];
+  const strip = el('div','custody');
+  const row = el('div','row');
+  row.appendChild(el('span',null,T[lang].evidence + ':'));
+  let rows = null;
+  audit.forEach(a => {
+    if (a.model_action && a.model_action.action && a.model_action.action !== 'final_answer')
+      row.appendChild(el('span','tool-chip',a.model_action.action));
+    if (a.guardrail)
+      row.appendChild(el('span','guard-chip','unverified answer blocked'));
+    if (typeof a.observation_rows === 'number') rows = a.observation_rows;
+  });
+  if (rows !== null) row.appendChild(el('span','rows-chip', rows + T[lang].rows));
+  strip.appendChild(row);
+
+  const cites = data.citations || [];
+  if (cites.length){
+    const c = el('div','cites');
+    cites.forEach(x => c.appendChild(el('span','cite',x)));
+    strip.appendChild(c);
+  }
+  const det = el('details');
+  det.appendChild(el('summary',null,'audit log'));
+  const pre = el('pre');
+  pre.textContent = JSON.stringify(audit, null, 1);
+  det.appendChild(pre);
+  strip.appendChild(det);
+  m.appendChild(strip);
+
+  document.getElementById('chat').appendChild(m);
+  scroll();
+}
+
+function scroll(){
+  const main = document.getElementById('main');
+  main.scrollTop = main.scrollHeight;
+}
+
+async function send(){
+  const input = document.getElementById('input');
+  const text = input.value.trim();
+  if (!text) return;
+  input.value = '';
+  document.getElementById('send').disabled = true;
+  document.getElementById('quick').style.display = 'none';
+  addUser(text);
+  addThinking();
+  try{
+    const r = await fetch(API, {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ message:text, history:history.slice(-8), session_id:sessionId })
+    });
+    const data = await r.json();
+    document.getElementById('thinking')?.remove();
+    if (data.answer !== undefined){
+      addAnswer(data);
+      history.push({role:'user',content:text});
+      history.push({role:'assistant',content:data.answer});
+    } else {
+      addAnswer({answer:T[lang].error, audit:[], citations:[]});
+    }
+  }catch(e){
+    document.getElementById('thinking')?.remove();
+    addAnswer({answer:T[lang].error, audit:[], citations:[]});
+  }
+  document.getElementById('send').disabled = false;
+  input.focus();
+}
+
+document.getElementById('input').addEventListener('keydown', e => {
+  if (e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); send(); }
+});
+renderQuick();
+</script>
+</body>
+</html>
