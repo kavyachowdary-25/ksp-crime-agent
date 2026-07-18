@@ -1,0 +1,5001 @@
+ComplainantID,CaseMasterID,ComplainantName,AgeYear,OccupationID,ReligionID,CasteID,GenderID
+1,1,Puneeth Hegde,54,3,1,1,1
+2,2,Anand,41,5,3,3,1
+3,3,Deepa,62,3,1,3,2
+4,4,Deepa Reddy,60,2,1,1,2
+5,5,Raghavendra Poojari,55,2,1,10,1
+6,6,Krishnappa Reddy,38,4,1,6,1
+7,7,Mahesh Achar,32,7,2,10,1
+8,8,Darshan Gowda,61,2,1,7,1
+9,9,Krishnappa Gowda,45,1,3,6,1
+10,10,Nagaraj Shetty,56,2,2,2,1
+11,11,Suresh Patil,24,8,2,2,1
+12,12,Girish Swamy,68,3,1,9,1
+13,13,Deepa Naik,52,2,5,8,2
+14,14,Raghavendra Naik,42,10,1,1,1
+15,15,Ramesh Achar,40,2,1,2,1
+16,16,Savitha Hegde,37,5,7,9,2
+17,17,Vani Shetty,62,4,1,6,2
+18,18,Girish,53,2,2,8,1
+19,19,Divya Shetty,57,8,1,7,2
+20,20,Manjula Poojari,59,2,4,3,2
+21,21,Raghavendra Poojari,53,2,1,2,1
+22,22,Rathnamma Hegde,20,4,1,4,2
+23,23,Srinivas Reddy,44,6,2,1,1
+24,24,Srinivas,64,6,2,5,1
+25,25,Pallavi Naik,58,2,1,6,2
+26,26,Prakash Hegde,28,7,1,3,1
+27,27,Basavaraj Naik,26,4,1,10,1
+28,28,Srinivas,37,6,1,1,1
+29,29,Raghavendra Shetty,35,2,3,2,1
+30,30,Raghavendra Swamy,60,4,1,7,1
+31,31,Padma,66,6,1,4,2
+32,32,Puneeth Achar,64,4,1,6,1
+33,33,Raghavendra Gowda,57,6,4,8,1
+34,34,Anand Patil,21,6,2,2,1
+35,35,Bhagya Gowda,58,2,7,8,2
+36,36,Anand Poojari,44,2,1,9,1
+37,37,Umesh,70,8,6,3,1
+38,38,Srinivas Shetty,63,4,1,8,1
+39,39,Nagaraj Poojari,48,3,1,8,1
+40,40,Divya Shetty,41,3,1,5,2
+41,41,Nagaraj,42,9,1,8,1
+42,42,Geetha,69,2,2,10,2
+43,43,Mahesh Murthy,41,4,1,10,1
+44,44,Muniraju,26,8,1,5,1
+45,45,Sunitha Swamy,61,2,1,1,2
+46,46,Ramesh Hegde,38,2,3,10,1
+47,47,Shobha Gowda,33,2,1,8,2
+48,48,Lakshmi Gowda,18,2,1,7,2
+49,49,Raghavendra Swamy,62,8,4,1,1
+50,50,Nagaraj Shetty,67,7,1,2,1
+51,51,Girish,46,5,1,2,1
+52,52,Girish Swamy,45,2,1,3,1
+53,53,Srinivas Naik,35,5,2,1,1
+54,54,Nagamma Murthy,60,4,1,5,2
+55,55,Nagaraj Naik,62,1,1,2,1
+56,56,Santosh Naik,30,4,1,9,1
+57,57,Girish Hegde,29,4,1,8,1
+58,58,Sunitha,56,2,3,2,2
+59,59,Santosh Murthy,33,1,1,5,1
+60,60,Lokesh Gowda,41,6,1,8,1
+61,61,Rekha Achar,69,1,1,5,2
+62,62,Suresh Achar,63,10,2,6,1
+63,63,Bhagya Kumar,54,8,7,3,2
+64,64,Nagamma Rao,26,2,1,5,2
+65,65,Srinivas Swamy,18,3,1,9,1
+66,66,Shivakumar,20,8,1,6,1
+67,67,Lakshmi,61,8,2,3,2
+68,68,Mahesh Gowda,50,2,1,7,1
+69,69,Shivakumar Patil,26,8,2,7,1
+70,70,Darshan Achar,38,5,1,10,1
+71,71,Shivakumar Rao,61,2,2,5,1
+72,72,Shivakumar Swamy,22,2,1,9,1
+73,73,Basavaraj,31,6,1,5,1
+74,74,Yogesh,31,8,1,2,1
+75,75,Lakshmi Patil,28,5,1,7,2
+76,76,Puneeth Patil,39,3,1,4,1
+77,77,Lakshmi,50,6,2,10,2
+78,78,Shwetha Hegde,20,2,1,2,2
+79,79,Harish,56,1,3,8,1
+80,80,Shivakumar Poojari,43,6,1,1,1
+81,81,Venkatesh,56,5,1,7,1
+82,82,Anand Kumar,54,4,1,7,1
+83,83,Rathnamma Achar,59,5,2,10,2
+84,84,Mahesh Shetty,44,5,1,9,1
+85,85,Shivakumar Patil,38,3,3,5,1
+86,86,Girish,61,7,1,2,1
+87,87,Padma Shetty,69,9,1,1,2
+88,88,Deepa Swamy,27,8,1,6,2
+89,89,Manjula Swamy,42,3,1,5,2
+90,90,Ramesh Poojari,70,7,1,5,1
+91,91,Deepa Rao,62,6,1,1,2
+92,92,Lokesh Naik,65,10,1,2,1
+93,93,Savitha Gowda,40,6,2,2,2
+94,94,Nagamma,57,2,2,9,2
+95,95,Umesh,41,7,1,10,1
+96,96,Nagaraj Kumar,67,5,2,6,1
+97,97,Shwetha Shetty,49,8,1,10,2
+98,98,Santosh Reddy,48,5,1,7,1
+99,99,Rekha Hegde,57,8,2,10,2
+100,100,Muniraju Achar,35,1,1,1,1
+101,101,Kavitha Naik,27,3,1,3,2
+102,102,Nagaraj Reddy,26,2,2,10,1
+103,103,Rathnamma Achar,65,5,1,1,2
+104,104,Lokesh Achar,63,8,3,2,1
+105,105,Venkatesh Naik,18,6,1,8,1
+106,106,Girish,22,7,2,2,1
+107,107,Lakshmi Reddy,19,4,2,4,2
+108,108,Srinivas Hegde,53,5,1,6,1
+109,109,Sunitha Naik,39,8,2,9,2
+110,110,Kavitha Shetty,28,2,1,10,2
+111,111,Yogesh Murthy,67,4,1,4,1
+112,112,Harish Kumar,22,3,2,10,1
+113,113,Vani Murthy,40,10,1,10,2
+114,114,Ramesh Shetty,64,8,1,3,1
+115,115,Darshan Reddy,33,4,2,2,1
+116,116,Prakash Achar,29,8,2,8,1
+117,117,Anand Naik,42,6,1,5,1
+118,118,Chandrashekar Reddy,61,4,1,5,1
+119,119,Suresh Rao,70,2,1,8,1
+120,120,Muniraju,67,5,1,6,1
+121,121,Yogesh Swamy,51,4,1,9,1
+122,122,Divya Shetty,38,8,2,1,2
+123,123,Manjula Swamy,70,7,1,1,2
+124,124,Prakash Reddy,33,6,1,6,1
+125,125,Lokesh Patil,44,2,1,5,1
+126,126,Kiran Naik,59,10,1,5,1
+127,127,Yogesh Poojari,63,1,2,4,1
+128,128,Shivakumar Rao,22,2,1,3,1
+129,129,Asha Shetty,29,8,1,3,2
+130,130,Sunitha,54,6,3,6,2
+131,131,Lokesh,53,2,2,8,1
+132,132,Harish,62,6,1,5,1
+133,133,Asha Rao,61,6,1,9,2
+134,134,Manjunath Kumar,62,7,1,1,1
+135,135,Divya Gowda,64,2,1,9,2
+136,136,Nagamma Shetty,18,10,1,2,2
+137,137,Lokesh Reddy,25,2,1,3,1
+138,138,Deepa Patil,20,1,1,5,2
+139,139,Srinivas Naik,33,2,1,2,1
+140,140,Puneeth Kumar,69,2,2,2,1
+141,141,Basavaraj Shetty,65,6,1,7,1
+142,142,Manjula,44,8,1,2,2
+143,143,Lakshmi Swamy,56,1,2,1,2
+144,144,Pallavi Reddy,40,4,2,9,2
+145,145,Shobha Gowda,19,8,1,4,2
+146,146,Mahesh Naik,57,4,1,10,1
+147,147,Santosh Murthy,51,4,1,6,1
+148,148,Prakash,64,8,1,2,1
+149,149,Muniraju Swamy,48,4,4,10,1
+150,150,Shwetha Rao,54,6,1,7,2
+151,151,Chandrashekar Gowda,25,7,1,3,1
+152,152,Padma,19,2,1,4,2
+153,153,Anand Reddy,35,8,1,8,1
+154,154,Ramesh Hegde,34,3,1,9,1
+155,155,Pallavi Patil,64,8,1,6,2
+156,156,Pallavi Rao,44,4,1,9,2
+157,157,Pallavi Reddy,64,1,1,9,2
+158,158,Deepa Murthy,49,7,1,3,2
+159,159,Shwetha Gowda,25,5,1,1,2
+160,160,Ramesh Reddy,60,9,1,1,1
+161,161,Santosh Rao,42,9,3,1,1
+162,162,Asha Swamy,28,1,4,8,2
+163,163,Darshan Hegde,19,8,1,1,1
+164,164,Harish Hegde,20,3,3,10,1
+165,165,Suresh,64,2,1,7,1
+166,166,Savitha Kumar,38,8,1,3,2
+167,167,Darshan Patil,29,2,2,1,1
+168,168,Bhagya Achar,37,4,1,8,2
+169,169,Lakshmi,61,2,1,2,2
+170,170,Shivakumar Hegde,63,4,1,8,1
+171,171,Harish Hegde,35,4,1,4,1
+172,172,Shobha Naik,64,7,1,9,2
+173,173,Manjula Poojari,42,2,1,10,2
+174,174,Chandrashekar Murthy,61,4,1,3,1
+175,175,Anand Reddy,41,1,1,6,1
+176,176,Rekha Rao,25,5,1,2,2
+177,177,Prakash,38,3,1,10,1
+178,178,Muniraju Hegde,60,5,1,10,1
+179,179,Suresh,60,10,2,4,1
+180,180,Darshan Murthy,45,7,2,8,1
+181,181,Nagamma Murthy,21,6,3,4,2
+182,182,Shivakumar,49,1,1,7,1
+183,183,Ramesh Achar,33,4,1,2,1
+184,184,Darshan Swamy,60,8,1,4,1
+185,185,Lakshmi Shetty,38,8,2,4,2
+186,186,Nagaraj,42,9,1,6,1
+187,187,Divya Kumar,39,4,1,6,2
+188,188,Rathnamma Naik,20,2,1,5,2
+189,189,Darshan Murthy,29,1,1,6,1
+190,190,Darshan Kumar,22,5,1,3,1
+191,191,Shobha Kumar,24,7,1,9,2
+192,192,Raghavendra,47,5,1,7,1
+193,193,Nagamma Naik,65,6,3,9,2
+194,194,Prakash Gowda,40,8,1,6,1
+195,195,Venkatesh Kumar,44,7,3,3,1
+196,196,Muniraju,69,2,2,10,1
+197,197,Mahesh Hegde,63,4,1,1,1
+198,198,Krishnappa Achar,25,1,5,4,1
+199,199,Savitha,62,2,2,8,2
+200,200,Nagamma Hegde,23,9,3,5,2
+201,201,Shivakumar,43,6,1,3,1
+202,202,Venkatesh Naik,21,5,1,9,1
+203,203,Srinivas Swamy,37,6,1,2,1
+204,204,Ramesh Naik,19,4,1,3,1
+205,205,Venkatesh Murthy,51,6,1,7,1
+206,206,Yogesh Kumar,70,4,1,6,1
+207,207,Geetha Hegde,44,8,1,9,2
+208,208,Kiran Poojari,69,7,1,2,1
+209,209,Asha Kumar,28,5,3,4,2
+210,210,Nagaraj,19,9,1,5,1
+211,211,Sunitha Patil,38,2,5,7,2
+212,212,Raghavendra Hegde,52,4,6,6,1
+213,213,Geetha Hegde,68,8,1,7,2
+214,214,Umesh Naik,24,6,1,2,1
+215,215,Darshan Reddy,24,2,1,3,1
+216,216,Venkatesh Naik,41,2,1,6,1
+217,217,Yogesh Poojari,40,4,1,6,1
+218,218,Harish Patil,20,10,1,2,1
+219,219,Deepa Patil,59,9,1,6,2
+220,220,Srinivas Patil,35,3,2,4,1
+221,221,Srinivas Rao,54,6,1,2,1
+222,222,Geetha Naik,25,1,1,5,2
+223,223,Rekha Swamy,66,8,1,8,2
+224,224,Sunitha Hegde,49,1,1,7,2
+225,225,Kiran,55,2,1,1,1
+226,226,Bhagya,55,2,2,5,2
+227,227,Manjula Gowda,35,8,1,6,2
+228,228,Asha Kumar,48,10,2,9,2
+229,229,Deepa,64,4,1,3,2
+230,230,Shwetha,61,4,2,4,2
+231,231,Padma Reddy,55,1,4,2,2
+232,232,Kiran,34,4,1,3,1
+233,233,Basavaraj Swamy,40,4,1,4,1
+234,234,Lokesh Shetty,36,1,1,4,1
+235,235,Krishnappa,68,2,6,8,1
+236,236,Divya Kumar,64,9,1,9,2
+237,237,Santosh,34,8,1,1,1
+238,238,Basavaraj Gowda,63,10,6,1,1
+239,239,Pallavi Murthy,67,7,2,6,2
+240,240,Shobha Achar,70,8,1,9,2
+241,241,Raghavendra Patil,44,6,2,7,1
+242,242,Prakash Rao,35,5,1,3,1
+243,243,Manjunath,26,10,2,2,1
+244,244,Manjunath Poojari,64,7,1,2,1
+245,245,Sunitha,48,8,3,10,2
+246,246,Pallavi Naik,41,5,7,9,2
+247,247,Krishnappa Murthy,66,7,1,9,1
+248,248,Ramesh Kumar,67,2,1,10,1
+249,249,Rathnamma Shetty,66,1,1,2,2
+250,250,Venkatesh Patil,22,10,1,4,1
+251,251,Basavaraj Naik,23,8,1,3,1
+252,252,Nagamma Murthy,45,2,1,4,2
+253,253,Ramesh Achar,63,2,2,3,1
+254,254,Anand Hegde,25,3,1,2,1
+255,255,Puneeth Hegde,40,7,1,3,1
+256,256,Savitha Hegde,62,2,1,1,2
+257,257,Mahesh Achar,43,6,1,3,1
+258,258,Deepa Murthy,33,7,1,3,2
+259,259,Kiran Rao,42,6,1,5,1
+260,260,Manjula Shetty,18,3,4,10,2
+261,261,Vani,35,3,1,10,2
+262,262,Savitha Hegde,54,4,2,7,2
+263,263,Harish,53,1,1,6,1
+264,264,Nagaraj Naik,25,5,1,3,1
+265,265,Basavaraj Shetty,54,6,1,6,1
+266,266,Vani,51,10,3,2,2
+267,267,Bhagya,46,6,1,10,2
+268,268,Rekha Hegde,59,2,3,6,2
+269,269,Pallavi Reddy,35,5,1,9,2
+270,270,Ramesh Achar,45,8,1,8,1
+271,271,Deepa Hegde,58,6,2,4,2
+272,272,Lakshmi,43,1,1,3,2
+273,273,Kiran Reddy,48,2,2,6,1
+274,274,Savitha,50,4,1,1,2
+275,275,Mahesh,32,6,2,9,1
+276,276,Girish Naik,31,7,1,2,1
+277,277,Yogesh Rao,32,10,1,7,1
+278,278,Venkatesh,44,1,1,10,1
+279,279,Asha,57,2,1,3,2
+280,280,Pallavi,39,3,3,5,2
+281,281,Padma Murthy,65,3,1,3,2
+282,282,Krishnappa Achar,56,9,1,7,1
+283,283,Darshan Patil,27,1,6,6,1
+284,284,Shwetha Poojari,56,8,1,9,2
+285,285,Suresh Hegde,47,6,1,3,1
+286,286,Nagaraj Achar,37,8,2,9,1
+287,287,Nagaraj Shetty,18,3,5,10,1
+288,288,Shobha Murthy,40,6,1,9,2
+289,289,Bhagya,18,9,1,6,2
+290,290,Prakash Poojari,34,1,1,9,1
+291,291,Pallavi Shetty,24,5,1,10,2
+292,292,Darshan Kumar,37,5,2,5,1
+293,293,Padma,62,2,1,4,2
+294,294,Shivakumar Murthy,34,9,2,7,1
+295,295,Kavitha,29,3,1,1,2
+296,296,Manjunath Gowda,59,8,1,10,1
+297,297,Girish Patil,41,3,1,3,1
+298,298,Padma Shetty,44,3,1,3,2
+299,299,Anand Swamy,48,6,1,4,1
+300,300,Padma Poojari,35,10,3,1,2
+301,301,Chandrashekar,68,4,2,3,1
+302,302,Muniraju Reddy,18,4,1,4,1
+303,303,Mahesh,40,7,1,5,1
+304,304,Raghavendra Kumar,47,8,1,7,1
+305,305,Krishnappa Patil,45,4,3,8,1
+306,306,Divya Hegde,54,7,1,3,2
+307,307,Shwetha Poojari,27,7,4,8,2
+308,308,Santosh Gowda,25,1,1,8,1
+309,309,Bhagya Reddy,44,3,1,7,2
+310,310,Srinivas Murthy,62,4,1,4,1
+311,311,Prakash Murthy,31,2,1,5,1
+312,312,Rekha Reddy,21,4,1,7,2
+313,313,Lokesh Kumar,29,9,1,1,1
+314,314,Raghavendra,36,2,1,8,1
+315,315,Raghavendra Poojari,43,5,2,4,1
+316,316,Darshan Rao,39,4,1,7,1
+317,317,Srinivas Shetty,55,8,2,9,1
+318,318,Srinivas Achar,49,2,1,2,1
+319,319,Manjunath Achar,29,6,1,9,1
+320,320,Umesh,58,4,1,5,1
+321,321,Mahesh Patil,59,7,3,5,1
+322,322,Pallavi Shetty,25,6,3,4,2
+323,323,Umesh Swamy,49,6,1,7,1
+324,324,Rathnamma Naik,52,6,4,2,2
+325,325,Harish Poojari,57,4,1,4,1
+326,326,Vani Reddy,45,2,1,6,2
+327,327,Manjunath Achar,21,5,2,3,1
+328,328,Venkatesh Naik,56,8,1,5,1
+329,329,Darshan Hegde,37,2,3,7,1
+330,330,Vani Reddy,56,3,2,9,2
+331,331,Muniraju Patil,64,6,1,3,1
+332,332,Srinivas Swamy,63,6,1,10,1
+333,333,Ramesh Hegde,41,2,1,8,1
+334,334,Kiran Hegde,24,1,1,1,1
+335,335,Asha Swamy,38,2,1,3,2
+336,336,Girish,63,8,1,6,1
+337,337,Chandrashekar Achar,57,8,1,1,1
+338,338,Lokesh Naik,43,1,1,2,1
+339,339,Umesh Naik,64,2,1,5,1
+340,340,Santosh Shetty,51,8,1,8,1
+341,341,Prakash Achar,51,5,1,3,1
+342,342,Pallavi Achar,56,8,1,2,2
+343,343,Mahesh Shetty,55,9,3,4,1
+344,344,Prakash Murthy,44,2,1,1,1
+345,345,Rathnamma Swamy,51,6,1,4,2
+346,346,Lakshmi,33,6,1,9,2
+347,347,Vani Rao,62,7,1,7,2
+348,348,Basavaraj Achar,25,2,1,10,1
+349,349,Padma Shetty,36,4,1,4,2
+350,350,Mahesh Achar,31,8,2,1,1
+351,351,Padma Shetty,69,7,1,2,2
+352,352,Pallavi Swamy,36,7,1,2,2
+353,353,Santosh Hegde,60,1,1,3,1
+354,354,Manjunath Kumar,35,2,1,3,1
+355,355,Kiran Kumar,68,2,1,10,1
+356,356,Sunitha,24,2,2,8,2
+357,357,Lakshmi Achar,24,3,1,9,2
+358,358,Harish Hegde,19,6,2,7,1
+359,359,Darshan Reddy,70,8,1,3,1
+360,360,Yogesh Hegde,57,6,1,6,1
+361,361,Asha Achar,57,7,3,3,2
+362,362,Vani Hegde,19,5,2,3,2
+363,363,Kiran,50,2,3,1,1
+364,364,Mahesh Rao,19,8,1,10,1
+365,365,Bhagya Hegde,63,9,1,7,2
+366,366,Bhagya Gowda,27,8,1,1,2
+367,367,Shobha,70,5,3,9,2
+368,368,Divya Patil,24,6,1,3,2
+369,369,Anand Poojari,47,9,2,1,1
+370,370,Divya Hegde,61,5,1,3,2
+371,371,Shivakumar Rao,23,6,3,3,1
+372,372,Shivakumar Gowda,30,5,2,10,1
+373,373,Manjunath Gowda,67,3,1,10,1
+374,374,Asha Shetty,50,2,4,2,2
+375,375,Muniraju Patil,27,5,3,4,1
+376,376,Krishnappa Gowda,23,5,1,8,1
+377,377,Muniraju Murthy,31,8,1,3,1
+378,378,Mahesh,34,5,4,8,1
+379,379,Chandrashekar,54,4,1,6,1
+380,380,Puneeth Patil,23,6,1,7,1
+381,381,Srinivas Shetty,47,6,1,5,1
+382,382,Nagaraj Kumar,40,5,1,7,1
+383,383,Deepa Hegde,45,8,1,2,2
+384,384,Nagamma Patil,24,2,1,2,2
+385,385,Padma Achar,43,2,2,8,2
+386,386,Muniraju Reddy,38,7,1,10,1
+387,387,Sunitha Gowda,31,4,1,9,2
+388,388,Deepa,40,5,2,4,2
+389,389,Puneeth Hegde,32,6,1,2,1
+390,390,Shivakumar,40,5,1,7,1
+391,391,Padma Murthy,44,2,1,7,2
+392,392,Deepa,53,2,1,8,2
+393,393,Darshan Shetty,64,6,1,8,1
+394,394,Girish Kumar,61,8,2,9,1
+395,395,Santosh Achar,56,3,3,1,1
+396,396,Darshan,40,4,2,1,1
+397,397,Yogesh Hegde,36,6,1,3,1
+398,398,Muniraju Swamy,30,1,1,4,1
+399,399,Anand Reddy,18,6,1,6,1
+400,400,Shivakumar Poojari,33,2,2,3,1
+401,401,Shobha,53,3,1,4,2
+402,402,Yogesh Kumar,41,3,1,2,1
+403,403,Manjula Hegde,19,4,1,3,2
+404,404,Manjunath Swamy,65,2,1,10,1
+405,405,Suresh Hegde,45,7,1,10,1
+406,406,Mahesh Murthy,46,2,1,7,1
+407,407,Lakshmi Patil,34,8,2,2,2
+408,408,Kiran Naik,68,7,1,5,1
+409,409,Raghavendra Kumar,28,2,1,1,1
+410,410,Sunitha Shetty,46,8,2,10,2
+411,411,Nagamma Swamy,19,8,1,2,2
+412,412,Manjunath Gowda,21,4,1,10,1
+413,413,Bhagya Rao,26,8,1,2,2
+414,414,Basavaraj,33,4,2,3,1
+415,415,Anand Reddy,64,6,1,8,1
+416,416,Sunitha Gowda,34,2,1,5,2
+417,417,Nagaraj Gowda,61,10,1,10,1
+418,418,Padma Reddy,44,5,1,6,2
+419,419,Venkatesh,28,4,1,2,1
+420,420,Sunitha Murthy,36,9,6,3,2
+421,421,Kavitha Kumar,42,9,1,9,2
+422,422,Kiran Gowda,60,9,1,10,1
+423,423,Nagaraj Hegde,70,9,1,3,1
+424,424,Suresh Swamy,70,1,2,6,1
+425,425,Lakshmi Achar,59,2,2,8,2
+426,426,Ramesh Patil,25,2,1,9,1
+427,427,Nagamma Kumar,21,4,2,10,2
+428,428,Krishnappa Patil,60,4,1,5,1
+429,429,Yogesh Patil,24,2,1,3,1
+430,430,Yogesh,31,9,1,5,1
+431,431,Srinivas,45,5,1,8,1
+432,432,Deepa Murthy,18,2,1,3,2
+433,433,Mahesh,44,2,1,9,1
+434,434,Suresh Rao,35,5,2,7,1
+435,435,Anand Poojari,41,1,1,3,1
+436,436,Suresh Rao,31,8,1,4,1
+437,437,Lokesh Patil,22,7,1,7,1
+438,438,Sunitha Rao,21,8,1,7,2
+439,439,Yogesh Naik,46,5,4,3,1
+440,440,Krishnappa,66,2,1,3,1
+441,441,Shivakumar Gowda,41,6,1,9,1
+442,442,Prakash Reddy,38,8,4,7,1
+443,443,Venkatesh Reddy,29,7,1,5,1
+444,444,Santosh Poojari,38,7,4,7,1
+445,445,Darshan Patil,27,8,1,10,1
+446,446,Shobha Poojari,63,1,1,3,2
+447,447,Padma Shetty,60,5,1,4,2
+448,448,Rekha Murthy,61,1,2,3,2
+449,449,Anand,56,4,1,8,1
+450,450,Bhagya Shetty,25,8,7,3,2
+451,451,Savitha Gowda,31,1,1,7,2
+452,452,Mahesh Shetty,56,6,1,8,1
+453,453,Darshan Kumar,38,2,2,4,1
+454,454,Chandrashekar Hegde,49,4,1,2,1
+455,455,Harish Poojari,52,1,1,9,1
+456,456,Padma,38,6,1,9,2
+457,457,Anand Achar,53,3,1,1,1
+458,458,Manjunath Patil,65,6,2,10,1
+459,459,Santosh Achar,18,8,1,10,1
+460,460,Santosh Hegde,25,2,1,10,1
+461,461,Santosh,42,8,1,8,1
+462,462,Bhagya Swamy,31,3,3,5,2
+463,463,Puneeth,20,4,1,10,1
+464,464,Lokesh Swamy,65,3,1,4,1
+465,465,Nagamma Patil,47,2,1,5,2
+466,466,Rekha Rao,18,2,3,4,2
+467,467,Lakshmi Gowda,24,5,1,10,2
+468,468,Asha Rao,68,9,1,6,2
+469,469,Raghavendra,62,3,1,2,1
+470,470,Puneeth Shetty,23,4,1,7,1
+471,471,Rathnamma Patil,33,6,1,1,2
+472,472,Prakash Poojari,23,3,1,9,1
+473,473,Sunitha,26,6,1,10,2
+474,474,Darshan Shetty,32,1,1,1,1
+475,475,Basavaraj,58,3,2,1,1
+476,476,Rathnamma Shetty,26,2,1,10,2
+477,477,Mahesh Achar,68,2,5,5,1
+478,478,Nagamma Rao,30,6,1,3,2
+479,479,Krishnappa Reddy,58,7,3,3,1
+480,480,Anand Murthy,50,2,1,3,1
+481,481,Suresh,42,6,2,9,1
+482,482,Pallavi,34,8,1,4,2
+483,483,Kavitha,49,4,2,3,2
+484,484,Raghavendra Reddy,46,2,1,1,1
+485,485,Rekha Poojari,51,8,7,8,2
+486,486,Raghavendra,19,6,4,10,1
+487,487,Muniraju Shetty,29,9,1,2,1
+488,488,Ramesh,31,7,1,4,1
+489,489,Divya Hegde,24,6,1,10,2
+490,490,Lakshmi Shetty,20,5,1,2,2
+491,491,Anand,53,3,2,10,1
+492,492,Rathnamma Naik,22,5,1,6,2
+493,493,Prakash,27,6,3,7,1
+494,494,Pallavi Poojari,33,6,1,6,2
+495,495,Kavitha Kumar,48,2,1,3,2
+496,496,Shivakumar Achar,18,7,1,7,1
+497,497,Ramesh Murthy,20,4,1,9,1
+498,498,Shobha Swamy,25,2,3,4,2
+499,499,Shwetha Achar,57,5,1,3,2
+500,500,Chandrashekar Kumar,64,6,1,1,1
+501,501,Girish Murthy,42,2,2,6,1
+502,502,Vani Gowda,39,8,1,4,2
+503,503,Vani Naik,37,6,1,9,2
+504,504,Rekha,50,8,1,10,2
+505,505,Deepa Naik,18,4,7,9,2
+506,506,Kavitha,67,6,2,3,2
+507,507,Manjula Reddy,44,5,1,10,2
+508,508,Nagamma Naik,44,6,1,3,2
+509,509,Muniraju Achar,46,10,1,6,1
+510,510,Umesh Kumar,22,9,4,10,1
+511,511,Rathnamma Gowda,19,1,1,5,2
+512,512,Srinivas Murthy,26,3,1,10,1
+513,513,Kiran Patil,34,2,1,4,1
+514,514,Ramesh,35,5,1,9,1
+515,515,Lokesh Rao,35,6,1,6,1
+516,516,Divya Poojari,18,2,1,10,2
+517,517,Sunitha,42,4,1,9,2
+518,518,Bhagya Murthy,33,5,1,8,2
+519,519,Manjula Swamy,58,4,2,10,2
+520,520,Sunitha Gowda,38,3,1,10,2
+521,521,Ramesh Rao,46,8,1,7,1
+522,522,Santosh Rao,46,5,1,7,1
+523,523,Manjula Poojari,34,2,1,2,2
+524,524,Savitha Shetty,33,6,1,2,2
+525,525,Darshan Achar,22,2,4,2,1
+526,526,Asha Shetty,58,3,2,1,2
+527,527,Nagaraj Achar,62,7,1,10,1
+528,528,Vani Murthy,62,10,3,3,2
+529,529,Bhagya Poojari,45,6,1,10,2
+530,530,Umesh,51,8,1,1,1
+531,531,Muniraju Hegde,64,1,1,9,1
+532,532,Girish,62,5,7,1,1
+533,533,Lokesh Hegde,57,4,4,5,1
+534,534,Deepa Naik,62,1,1,10,2
+535,535,Divya Rao,69,4,1,6,2
+536,536,Puneeth Kumar,61,2,1,10,1
+537,537,Muniraju Poojari,60,8,1,5,1
+538,538,Muniraju,35,2,1,9,1
+539,539,Chandrashekar Rao,34,4,1,5,1
+540,540,Manjunath Kumar,65,4,1,5,1
+541,541,Asha,24,2,2,5,2
+542,542,Manjunath Gowda,26,10,2,4,1
+543,543,Nagamma Reddy,47,3,1,6,2
+544,544,Bhagya Hegde,22,6,6,5,2
+545,545,Santosh Rao,33,4,1,7,1
+546,546,Lakshmi Shetty,45,8,1,4,2
+547,547,Rathnamma Kumar,33,2,2,3,2
+548,548,Girish Reddy,68,2,1,10,1
+549,549,Rathnamma Hegde,70,3,2,5,2
+550,550,Santosh Patil,23,2,1,7,1
+551,551,Girish Gowda,48,6,2,1,1
+552,552,Puneeth Rao,50,8,1,2,1
+553,553,Manjula Naik,32,2,6,4,2
+554,554,Rekha,20,2,1,7,2
+555,555,Kiran,70,1,1,8,1
+556,556,Suresh Reddy,63,2,3,4,1
+557,557,Pallavi Achar,56,2,1,6,2
+558,558,Geetha,18,1,1,7,2
+559,559,Geetha Naik,41,8,1,2,2
+560,560,Lokesh Rao,64,8,1,1,1
+561,561,Asha Murthy,67,1,2,3,2
+562,562,Ramesh Poojari,35,2,2,10,1
+563,563,Kiran,55,8,1,8,1
+564,564,Shivakumar Achar,26,8,1,2,1
+565,565,Basavaraj Swamy,33,2,1,8,1
+566,566,Kiran,33,4,2,2,1
+567,567,Shwetha Swamy,45,2,1,3,2
+568,568,Mahesh Kumar,40,6,1,7,1
+569,569,Basavaraj,41,1,1,3,1
+570,570,Savitha,44,7,2,7,2
+571,571,Anand Swamy,27,7,1,3,1
+572,572,Manjula Murthy,31,4,3,5,2
+573,573,Raghavendra Kumar,42,8,1,4,1
+574,574,Chandrashekar,42,4,2,7,1
+575,575,Basavaraj Naik,55,6,2,9,1
+576,576,Basavaraj Gowda,69,5,2,1,1
+577,577,Kavitha Shetty,30,3,1,4,2
+578,578,Padma Murthy,29,2,1,2,2
+579,579,Deepa,53,8,1,6,2
+580,580,Santosh Rao,55,8,7,8,1
+581,581,Nagaraj,18,2,1,1,1
+582,582,Vani Poojari,22,3,7,10,2
+583,583,Nagamma Swamy,19,7,1,8,2
+584,584,Girish Reddy,43,10,1,3,1
+585,585,Prakash,37,5,1,6,1
+586,586,Nagaraj,25,6,1,3,1
+587,587,Shobha Rao,39,6,1,7,2
+588,588,Savitha Hegde,19,7,2,6,2
+589,589,Santosh Gowda,60,2,1,5,1
+590,590,Manjula Achar,32,3,1,5,2
+591,591,Lakshmi Poojari,34,5,1,8,2
+592,592,Basavaraj,67,5,1,1,1
+593,593,Kavitha Naik,23,5,2,5,2
+594,594,Manjula Murthy,21,7,1,10,2
+595,595,Yogesh Kumar,65,7,1,8,1
+596,596,Manjunath Gowda,66,3,1,5,1
+597,597,Deepa Murthy,50,6,1,8,2
+598,598,Nagamma Hegde,42,8,1,8,2
+599,599,Manjula Rao,37,7,3,3,2
+600,600,Basavaraj Patil,61,6,1,7,1
+601,601,Rathnamma Swamy,21,8,1,8,2
+602,602,Darshan Rao,56,4,1,9,1
+603,603,Suresh Rao,62,6,1,8,1
+604,604,Geetha Murthy,52,4,1,5,2
+605,605,Nagaraj Hegde,59,9,3,7,1
+606,606,Geetha Swamy,68,3,1,5,2
+607,607,Santosh Reddy,61,6,1,3,1
+608,608,Manjunath Swamy,70,5,2,10,1
+609,609,Mahesh Naik,39,8,1,6,1
+610,610,Muniraju Reddy,47,6,3,1,1
+611,611,Vani Achar,51,3,3,5,2
+612,612,Shivakumar,42,8,1,2,1
+613,613,Venkatesh Gowda,30,7,1,5,1
+614,614,Asha Swamy,33,9,2,6,2
+615,615,Harish,31,6,1,10,1
+616,616,Asha Achar,66,6,2,2,2
+617,617,Nagamma Kumar,39,9,1,1,2
+618,618,Sunitha Gowda,30,3,1,2,2
+619,619,Darshan Hegde,39,8,2,1,1
+620,620,Darshan,41,5,2,4,1
+621,621,Krishnappa,63,4,2,5,1
+622,622,Chandrashekar,26,2,1,8,1
+623,623,Nagaraj Poojari,47,9,1,6,1
+624,624,Girish Hegde,58,8,1,3,1
+625,625,Puneeth Rao,60,7,3,2,1
+626,626,Rathnamma Patil,18,7,1,9,2
+627,627,Bhagya,54,4,1,4,2
+628,628,Nagamma,38,1,1,7,2
+629,629,Srinivas Achar,28,4,1,1,1
+630,630,Suresh Swamy,39,7,1,5,1
+631,631,Nagamma Kumar,48,6,1,7,2
+632,632,Suresh Patil,19,4,1,10,1
+633,633,Santosh Swamy,34,4,3,5,1
+634,634,Srinivas Murthy,55,7,2,8,1
+635,635,Pallavi Murthy,31,5,1,7,2
+636,636,Basavaraj Swamy,53,7,3,7,1
+637,637,Suresh Achar,47,8,1,8,1
+638,638,Venkatesh Swamy,26,9,2,3,1
+639,639,Krishnappa Kumar,50,3,1,5,1
+640,640,Umesh Swamy,48,6,1,7,1
+641,641,Mahesh,69,5,5,8,1
+642,642,Pallavi Gowda,27,8,3,4,2
+643,643,Raghavendra Poojari,58,6,1,10,1
+644,644,Srinivas Kumar,21,1,1,5,1
+645,645,Rekha Patil,21,4,2,10,2
+646,646,Umesh Kumar,64,6,1,7,1
+647,647,Anand Achar,44,2,1,1,1
+648,648,Suresh Gowda,68,4,4,5,1
+649,649,Krishnappa Achar,26,2,1,2,1
+650,650,Divya Poojari,50,1,1,6,2
+651,651,Bhagya Swamy,65,1,1,3,2
+652,652,Prakash Achar,58,4,1,1,1
+653,653,Deepa Reddy,36,6,6,8,2
+654,654,Girish,63,8,1,9,1
+655,655,Darshan Naik,21,6,1,5,1
+656,656,Shwetha,48,7,1,6,2
+657,657,Srinivas Gowda,63,8,1,4,1
+658,658,Santosh Naik,58,8,1,1,1
+659,659,Nagamma Hegde,38,5,1,10,2
+660,660,Rathnamma Kumar,69,2,4,3,2
+661,661,Savitha Reddy,20,1,1,7,2
+662,662,Suresh Gowda,48,9,2,3,1
+663,663,Krishnappa Kumar,46,4,3,6,1
+664,664,Anand Patil,24,6,1,7,1
+665,665,Kiran Naik,51,2,1,1,1
+666,666,Santosh Swamy,43,1,1,4,1
+667,667,Kiran,35,5,1,10,1
+668,668,Geetha,34,7,1,4,2
+669,669,Deepa,55,6,1,8,2
+670,670,Basavaraj Naik,56,2,1,10,1
+671,671,Girish,36,1,1,5,1
+672,672,Puneeth Murthy,66,4,1,1,1
+673,673,Deepa Naik,24,10,1,10,2
+674,674,Anand Swamy,24,4,1,6,1
+675,675,Darshan,29,4,1,1,1
+676,676,Deepa Swamy,33,6,1,6,2
+677,677,Sunitha Naik,68,5,1,10,2
+678,678,Ramesh Achar,63,5,1,8,1
+679,679,Chandrashekar Rao,22,5,1,10,1
+680,680,Yogesh Patil,45,2,1,9,1
+681,681,Lokesh,19,5,1,8,1
+682,682,Umesh Gowda,46,2,1,1,1
+683,683,Rathnamma Reddy,45,4,1,1,2
+684,684,Shivakumar Murthy,39,4,1,3,1
+685,685,Deepa Patil,63,5,1,7,2
+686,686,Nagaraj,46,10,2,4,1
+687,687,Harish Rao,42,8,2,4,1
+688,688,Suresh Patil,43,6,2,7,1
+689,689,Nagaraj Rao,61,1,2,4,1
+690,690,Basavaraj Hegde,62,6,1,2,1
+691,691,Manjula Swamy,27,4,2,1,2
+692,692,Venkatesh Patil,44,8,1,10,1
+693,693,Geetha Shetty,20,1,1,4,2
+694,694,Rekha Patil,67,1,1,9,2
+695,695,Bhagya Shetty,41,4,1,8,2
+696,696,Muniraju Kumar,52,5,2,2,1
+697,697,Lokesh Swamy,24,6,1,5,1
+698,698,Srinivas Shetty,57,8,1,10,1
+699,699,Darshan,32,8,2,7,1
+700,700,Santosh Gowda,54,6,1,4,1
+701,701,Sunitha Swamy,44,2,1,8,2
+702,702,Venkatesh Achar,29,4,3,7,1
+703,703,Vani Murthy,68,6,1,2,2
+704,704,Padma Poojari,62,1,1,3,2
+705,705,Chandrashekar,28,10,2,5,1
+706,706,Sunitha Gowda,50,10,1,9,2
+707,707,Muniraju Achar,48,2,4,8,1
+708,708,Divya,22,3,1,5,2
+709,709,Ramesh Swamy,53,6,1,2,1
+710,710,Nagamma Patil,62,8,1,5,2
+711,711,Pallavi Swamy,50,2,2,7,2
+712,712,Yogesh,68,7,1,2,1
+713,713,Manjunath Shetty,49,2,2,2,1
+714,714,Anand Murthy,70,6,1,3,1
+715,715,Muniraju Shetty,40,6,1,3,1
+716,716,Prakash Murthy,61,3,2,1,1
+717,717,Padma,37,5,1,4,2
+718,718,Shivakumar Achar,46,5,1,5,1
+719,719,Mahesh,67,9,7,8,1
+720,720,Deepa Gowda,68,6,1,10,2
+721,721,Manjunath Murthy,66,6,2,6,1
+722,722,Ramesh Patil,53,9,1,10,1
+723,723,Santosh Kumar,35,6,4,8,1
+724,724,Puneeth Patil,41,7,1,5,1
+725,725,Ramesh Shetty,52,4,3,4,1
+726,726,Kiran Poojari,46,8,4,3,1
+727,727,Raghavendra Patil,32,2,1,1,1
+728,728,Sunitha Shetty,52,9,1,3,2
+729,729,Basavaraj Patil,24,6,2,6,1
+730,730,Manjula Murthy,41,1,1,10,2
+731,731,Raghavendra Achar,66,4,3,8,1
+732,732,Rekha Hegde,65,4,2,4,2
+733,733,Lakshmi Achar,30,5,3,5,2
+734,734,Chandrashekar,66,5,1,8,1
+735,735,Rekha,24,6,1,4,2
+736,736,Venkatesh,52,4,2,7,1
+737,737,Puneeth Reddy,60,8,2,4,1
+738,738,Mahesh Gowda,60,1,7,4,1
+739,739,Umesh Gowda,59,1,1,2,1
+740,740,Manjunath Shetty,66,1,1,7,1
+741,741,Venkatesh Achar,35,1,1,10,1
+742,742,Krishnappa Poojari,43,4,2,5,1
+743,743,Prakash Hegde,21,3,1,6,1
+744,744,Deepa,48,6,1,5,2
+745,745,Kiran,40,8,1,5,1
+746,746,Mahesh Patil,43,4,1,7,1
+747,747,Darshan Kumar,37,3,1,5,1
+748,748,Padma Patil,45,9,1,3,2
+749,749,Deepa Kumar,63,2,3,9,2
+750,750,Mahesh Naik,39,5,2,10,1
+751,751,Rathnamma Hegde,54,5,1,8,2
+752,752,Krishnappa Naik,44,9,1,3,1
+753,753,Kiran Naik,61,2,1,7,1
+754,754,Pallavi Hegde,61,6,1,6,2
+755,755,Sunitha Rao,19,7,1,8,2
+756,756,Asha Murthy,51,1,3,1,2
+757,757,Kavitha Murthy,68,9,1,7,2
+758,758,Mahesh Rao,31,8,1,6,1
+759,759,Mahesh Hegde,56,6,1,5,1
+760,760,Santosh Swamy,36,6,1,5,1
+761,761,Rekha Naik,59,1,1,10,2
+762,762,Nagaraj Reddy,60,9,1,1,1
+763,763,Mahesh,26,6,3,2,1
+764,764,Pallavi Achar,26,6,1,5,2
+765,765,Geetha Shetty,31,5,1,5,2
+766,766,Venkatesh,67,10,1,8,1
+767,767,Anand,68,6,2,5,1
+768,768,Shivakumar Kumar,36,1,1,4,1
+769,769,Venkatesh Murthy,70,4,1,1,1
+770,770,Santosh Hegde,69,4,1,3,1
+771,771,Manjula Naik,50,4,3,9,2
+772,772,Umesh Hegde,30,8,2,3,1
+773,773,Padma,29,8,2,9,2
+774,774,Prakash,36,2,3,9,1
+775,775,Raghavendra Kumar,20,2,1,2,1
+776,776,Nagamma,68,2,2,4,2
+777,777,Suresh Rao,22,8,1,2,1
+778,778,Shivakumar Hegde,63,6,1,9,1
+779,779,Savitha Kumar,40,6,2,5,2
+780,780,Savitha Gowda,30,10,1,7,2
+781,781,Nagamma Kumar,33,8,2,10,2
+782,782,Manjula Achar,30,1,1,5,2
+783,783,Shivakumar Gowda,26,6,1,9,1
+784,784,Asha Naik,37,6,1,4,2
+785,785,Harish,65,6,1,4,1
+786,786,Yogesh Reddy,44,3,4,3,1
+787,787,Venkatesh Reddy,34,6,2,3,1
+788,788,Bhagya Poojari,25,4,1,6,2
+789,789,Kiran,20,2,1,9,1
+790,790,Suresh Poojari,38,8,1,6,1
+791,791,Padma Swamy,58,9,1,9,2
+792,792,Vani,64,9,2,4,2
+793,793,Kiran Murthy,47,6,1,8,1
+794,794,Nagamma Rao,24,6,1,6,2
+795,795,Pallavi,57,6,1,4,2
+796,796,Umesh Rao,53,9,2,1,1
+797,797,Suresh,19,3,1,2,1
+798,798,Padma Poojari,48,4,1,4,2
+799,799,Divya Swamy,38,2,1,3,2
+800,800,Pallavi Murthy,55,6,1,9,2
+801,801,Chandrashekar Kumar,34,9,1,7,1
+802,802,Darshan,65,5,1,3,1
+803,803,Shwetha Rao,19,9,2,6,2
+804,804,Geetha Reddy,44,2,1,10,2
+805,805,Ramesh Hegde,19,8,1,1,1
+806,806,Raghavendra,31,5,1,9,1
+807,807,Raghavendra Gowda,59,8,2,10,1
+808,808,Srinivas,26,4,1,7,1
+809,809,Padma,66,2,1,8,2
+810,810,Shwetha Naik,25,9,1,1,2
+811,811,Shivakumar,25,5,2,5,1
+812,812,Savitha Patil,50,6,1,6,2
+813,813,Bhagya,20,6,1,7,2
+814,814,Asha Reddy,50,4,1,10,2
+815,815,Puneeth Shetty,45,8,3,3,1
+816,816,Mahesh Reddy,70,8,1,7,1
+817,817,Manjunath,40,8,2,5,1
+818,818,Prakash Naik,26,6,1,5,1
+819,819,Krishnappa,39,8,1,7,1
+820,820,Vani Naik,55,1,1,2,2
+821,821,Nagaraj Kumar,56,4,1,8,1
+822,822,Umesh,56,3,1,3,1
+823,823,Rathnamma Shetty,70,3,7,5,2
+824,824,Ramesh,65,6,2,4,1
+825,825,Kiran Poojari,24,3,4,3,1
+826,826,Prakash Murthy,56,2,7,6,1
+827,827,Venkatesh Shetty,46,4,1,6,1
+828,828,Anand Swamy,37,9,1,4,1
+829,829,Puneeth Hegde,55,4,2,1,1
+830,830,Manjunath Rao,27,9,1,1,1
+831,831,Asha,49,4,1,1,2
+832,832,Rathnamma Kumar,54,7,1,3,2
+833,833,Pallavi Kumar,28,5,1,9,2
+834,834,Shobha Swamy,57,5,1,3,2
+835,835,Prakash Shetty,57,3,1,4,1
+836,836,Prakash Reddy,47,9,1,9,1
+837,837,Divya Naik,26,6,2,3,2
+838,838,Suresh Achar,54,3,1,6,1
+839,839,Shivakumar Patil,28,4,1,8,1
+840,840,Manjula Shetty,68,7,2,8,2
+841,841,Santosh Reddy,48,8,1,1,1
+842,842,Darshan,51,3,1,9,1
+843,843,Girish Murthy,30,2,1,6,1
+844,844,Umesh Rao,66,5,1,5,1
+845,845,Manjula Gowda,64,5,1,7,2
+846,846,Puneeth Gowda,24,2,1,1,1
+847,847,Mahesh Shetty,20,9,1,5,1
+848,848,Divya,31,4,1,8,2
+849,849,Manjula Gowda,23,5,1,3,2
+850,850,Divya,36,4,2,1,2
+851,851,Puneeth Murthy,38,4,1,9,1
+852,852,Pallavi Gowda,36,2,4,2,2
+853,853,Vani Patil,47,7,1,7,2
+854,854,Venkatesh Kumar,34,1,1,7,1
+855,855,Srinivas Gowda,28,2,2,6,1
+856,856,Ramesh,22,5,1,8,1
+857,857,Mahesh Hegde,48,3,1,6,1
+858,858,Muniraju Kumar,25,8,1,4,1
+859,859,Manjula Kumar,34,2,1,2,2
+860,860,Asha Shetty,67,6,1,2,2
+861,861,Divya Gowda,61,8,3,10,2
+862,862,Srinivas Patil,57,1,1,10,1
+863,863,Shivakumar,64,6,1,9,1
+864,864,Vani,43,1,3,9,2
+865,865,Shwetha Poojari,20,10,1,1,2
+866,866,Padma Achar,44,5,1,5,2
+867,867,Bhagya Poojari,21,3,2,5,2
+868,868,Chandrashekar Naik,27,2,4,6,1
+869,869,Asha Gowda,59,2,1,8,2
+870,870,Lokesh Kumar,46,5,1,9,1
+871,871,Geetha Murthy,65,3,1,6,2
+872,872,Divya Gowda,56,5,1,4,2
+873,873,Kavitha Swamy,65,8,1,2,2
+874,874,Shobha Shetty,50,7,1,7,2
+875,875,Lakshmi Rao,46,5,2,7,2
+876,876,Padma Kumar,31,1,1,1,2
+877,877,Venkatesh Poojari,35,4,1,2,1
+878,878,Ramesh Kumar,42,6,1,5,1
+879,879,Lakshmi,45,4,1,9,2
+880,880,Rathnamma Poojari,18,2,2,7,2
+881,881,Divya,40,7,1,4,2
+882,882,Basavaraj Achar,24,6,1,8,1
+883,883,Sunitha,52,6,1,5,2
+884,884,Girish,35,2,2,9,1
+885,885,Manjunath Achar,37,4,2,6,1
+886,886,Basavaraj Rao,66,1,1,9,1
+887,887,Umesh Naik,25,5,1,7,1
+888,888,Krishnappa Achar,27,8,1,10,1
+889,889,Lakshmi Rao,21,9,1,7,2
+890,890,Rathnamma Swamy,32,5,1,5,2
+891,891,Asha Swamy,18,3,2,3,2
+892,892,Ramesh Murthy,40,6,7,1,1
+893,893,Manjunath Patil,69,7,1,8,1
+894,894,Chandrashekar Murthy,24,2,2,2,1
+895,895,Muniraju Naik,39,9,1,7,1
+896,896,Basavaraj Reddy,64,8,2,6,1
+897,897,Shobha Gowda,48,10,7,9,2
+898,898,Darshan Kumar,69,2,1,3,1
+899,899,Lakshmi Shetty,65,4,2,5,2
+900,900,Rekha Kumar,19,7,1,8,2
+901,901,Kiran Poojari,37,4,1,7,1
+902,902,Yogesh Gowda,27,10,4,5,1
+903,903,Deepa Naik,49,5,1,7,2
+904,904,Lakshmi Swamy,50,1,2,6,2
+905,905,Lokesh Swamy,48,5,1,3,1
+906,906,Shivakumar Rao,67,2,1,9,1
+907,907,Padma Swamy,43,6,1,10,2
+908,908,Krishnappa,63,8,1,5,1
+909,909,Geetha Naik,26,4,1,8,2
+910,910,Vani Naik,18,7,1,3,2
+911,911,Nagamma,19,7,1,2,2
+912,912,Muniraju Kumar,28,5,1,2,1
+913,913,Raghavendra Naik,57,4,1,6,1
+914,914,Shivakumar Reddy,27,2,1,8,1
+915,915,Shwetha Reddy,26,2,1,1,2
+916,916,Lakshmi,66,1,1,5,2
+917,917,Yogesh Hegde,53,2,3,9,1
+918,918,Rekha Patil,51,9,1,10,2
+919,919,Basavaraj Murthy,66,7,1,1,1
+920,920,Asha Achar,33,2,1,9,2
+921,921,Pallavi Gowda,61,2,1,4,2
+922,922,Srinivas Achar,42,2,1,10,1
+923,923,Asha Patil,35,4,1,10,2
+924,924,Geetha,32,9,2,9,2
+925,925,Venkatesh Hegde,40,3,1,4,1
+926,926,Prakash Murthy,68,2,1,3,1
+927,927,Rathnamma Kumar,50,2,2,1,2
+928,928,Muniraju Murthy,57,6,1,4,1
+929,929,Shobha Hegde,20,9,1,1,2
+930,930,Basavaraj Patil,30,1,1,8,1
+931,931,Puneeth Patil,60,6,5,6,1
+932,932,Nagamma Swamy,59,4,1,6,2
+933,933,Manjunath Rao,43,1,3,4,1
+934,934,Muniraju Gowda,18,8,2,6,1
+935,935,Savitha Hegde,48,2,1,3,2
+936,936,Shwetha,63,2,1,1,2
+937,937,Shwetha Achar,42,3,2,5,2
+938,938,Chandrashekar Shetty,26,2,2,7,1
+939,939,Asha Swamy,45,7,2,2,2
+940,940,Ramesh,54,2,1,2,1
+941,941,Yogesh Reddy,23,6,3,1,1
+942,942,Mahesh,29,5,2,4,1
+943,943,Divya Patil,49,6,5,10,2
+944,944,Srinivas Gowda,29,8,1,10,1
+945,945,Geetha Kumar,70,9,1,3,2
+946,946,Lakshmi Gowda,38,8,3,6,2
+947,947,Rathnamma Naik,66,8,1,10,2
+948,948,Mahesh,48,2,1,6,1
+949,949,Umesh Hegde,63,4,7,9,1
+950,950,Harish Gowda,54,1,1,5,1
+951,951,Nagaraj Poojari,20,6,1,2,1
+952,952,Lokesh Kumar,48,1,1,7,1
+953,953,Ramesh Achar,60,3,1,9,1
+954,954,Anand Achar,46,3,1,8,1
+955,955,Lokesh,47,9,1,6,1
+956,956,Puneeth Hegde,61,5,1,1,1
+957,957,Umesh Rao,54,10,1,7,1
+958,958,Harish Rao,32,2,7,10,1
+959,959,Kavitha Shetty,31,5,3,4,2
+960,960,Yogesh Swamy,37,6,2,4,1
+961,961,Asha Reddy,65,3,1,9,2
+962,962,Basavaraj,23,8,1,1,1
+963,963,Santosh Rao,62,6,3,1,1
+964,964,Mahesh Shetty,29,3,3,1,1
+965,965,Krishnappa Poojari,42,8,1,1,1
+966,966,Anand Reddy,34,2,1,8,1
+967,967,Vani Kumar,49,2,1,3,2
+968,968,Umesh Reddy,65,1,1,1,1
+969,969,Sunitha Shetty,38,8,1,9,2
+970,970,Srinivas Naik,48,4,2,5,1
+971,971,Anand Poojari,67,1,1,8,1
+972,972,Muniraju,70,1,1,1,1
+973,973,Geetha Naik,48,2,2,10,2
+974,974,Srinivas,20,2,1,3,1
+975,975,Harish Naik,51,1,1,9,1
+976,976,Anand Swamy,35,4,1,1,1
+977,977,Prakash Naik,22,6,1,1,1
+978,978,Shivakumar Reddy,48,6,1,3,1
+979,979,Darshan Murthy,49,5,1,7,1
+980,980,Shobha Poojari,44,6,1,4,2
+981,981,Savitha Gowda,64,1,2,7,2
+982,982,Padma Gowda,49,7,1,2,2
+983,983,Kavitha Reddy,23,10,1,9,2
+984,984,Muniraju Shetty,55,6,1,8,1
+985,985,Rekha Achar,54,2,1,5,2
+986,986,Yogesh Naik,22,9,1,6,1
+987,987,Darshan Hegde,59,6,1,3,1
+988,988,Muniraju,54,2,1,3,1
+989,989,Lakshmi,20,2,1,5,2
+990,990,Nagamma Shetty,60,2,2,9,2
+991,991,Shobha Swamy,58,4,1,8,2
+992,992,Rathnamma Swamy,41,3,1,5,2
+993,993,Asha Shetty,52,6,4,9,2
+994,994,Kiran Kumar,46,1,4,7,1
+995,995,Nagamma Gowda,25,8,1,4,2
+996,996,Krishnappa Reddy,63,2,2,1,1
+997,997,Lokesh Swamy,27,8,1,1,1
+998,998,Anand Achar,45,2,1,5,1
+999,999,Mahesh Rao,52,7,1,9,1
+1000,1000,Krishnappa Patil,68,5,1,7,1
+1001,1001,Deepa Gowda,67,4,2,6,2
+1002,1002,Divya Patil,18,5,3,6,2
+1003,1003,Chandrashekar Gowda,46,1,1,7,1
+1004,1004,Yogesh Naik,58,1,1,6,1
+1005,1005,Mahesh Naik,69,8,1,2,1
+1006,1006,Shobha Reddy,25,2,1,10,2
+1007,1007,Puneeth Reddy,18,5,1,1,1
+1008,1008,Asha Hegde,21,6,1,9,2
+1009,1009,Yogesh Swamy,44,4,1,10,1
+1010,1010,Srinivas Murthy,63,9,1,5,1
+1011,1011,Krishnappa,58,5,2,8,1
+1012,1012,Mahesh Shetty,69,4,1,5,1
+1013,1013,Padma Swamy,60,2,1,2,2
+1014,1014,Prakash Shetty,69,1,2,7,1
+1015,1015,Basavaraj Shetty,61,8,1,7,1
+1016,1016,Bhagya Gowda,49,8,1,1,2
+1017,1017,Suresh Naik,61,8,1,10,1
+1018,1018,Manjunath Naik,22,5,1,5,1
+1019,1019,Pallavi Poojari,38,6,1,4,2
+1020,1020,Umesh,30,1,1,2,1
+1021,1021,Shwetha Swamy,26,8,1,8,2
+1022,1022,Muniraju Gowda,33,6,1,9,1
+1023,1023,Rekha Naik,21,8,1,9,2
+1024,1024,Sunitha,46,4,1,7,2
+1025,1025,Darshan,42,1,1,5,1
+1026,1026,Shivakumar Kumar,57,8,1,1,1
+1027,1027,Divya Reddy,18,6,1,1,2
+1028,1028,Muniraju,70,4,1,8,1
+1029,1029,Basavaraj Rao,51,4,1,3,1
+1030,1030,Vani Hegde,46,8,6,8,2
+1031,1031,Krishnappa Poojari,26,4,1,7,1
+1032,1032,Venkatesh Patil,53,4,1,6,1
+1033,1033,Lokesh,57,9,7,8,1
+1034,1034,Lokesh Gowda,67,3,1,5,1
+1035,1035,Santosh Shetty,69,3,4,2,1
+1036,1036,Manjunath Poojari,37,1,1,8,1
+1037,1037,Divya Swamy,45,7,1,8,2
+1038,1038,Krishnappa Hegde,67,6,1,8,1
+1039,1039,Sunitha Gowda,39,6,2,6,2
+1040,1040,Manjula Poojari,56,5,2,10,2
+1041,1041,Kavitha Patil,49,2,1,3,2
+1042,1042,Venkatesh Murthy,63,1,1,4,1
+1043,1043,Girish Gowda,45,4,1,8,1
+1044,1044,Bhagya Swamy,55,7,3,8,2
+1045,1045,Padma Poojari,26,3,1,3,2
+1046,1046,Muniraju Kumar,51,2,1,2,1
+1047,1047,Santosh Patil,46,8,1,10,1
+1048,1048,Muniraju Achar,44,1,1,10,1
+1049,1049,Shobha Rao,49,2,3,5,2
+1050,1050,Chandrashekar,27,4,1,4,1
+1051,1051,Lokesh Gowda,63,6,1,1,1
+1052,1052,Anand Poojari,25,4,1,4,1
+1053,1053,Geetha,38,4,1,6,2
+1054,1054,Umesh Swamy,38,5,5,9,1
+1055,1055,Deepa Kumar,59,4,1,5,2
+1056,1056,Chandrashekar Poojari,40,4,5,9,1
+1057,1057,Shivakumar Poojari,35,3,1,9,1
+1058,1058,Divya Rao,45,8,2,1,2
+1059,1059,Venkatesh Swamy,52,6,4,2,1
+1060,1060,Girish,52,4,2,7,1
+1061,1061,Pallavi Reddy,55,4,1,9,2
+1062,1062,Shobha Swamy,44,5,1,5,2
+1063,1063,Yogesh,52,7,1,6,1
+1064,1064,Rekha,62,4,2,6,2
+1065,1065,Raghavendra Kumar,35,1,1,3,1
+1066,1066,Shobha Gowda,66,4,1,2,2
+1067,1067,Krishnappa Shetty,43,6,1,5,1
+1068,1068,Muniraju Reddy,54,2,1,7,1
+1069,1069,Ramesh Shetty,32,6,2,1,1
+1070,1070,Mahesh Gowda,53,2,1,1,1
+1071,1071,Pallavi,32,2,2,2,2
+1072,1072,Lokesh Rao,25,3,1,6,1
+1073,1073,Geetha Rao,53,2,1,7,2
+1074,1074,Nagaraj Kumar,70,2,2,6,1
+1075,1075,Anand Patil,21,4,1,7,1
+1076,1076,Mahesh Achar,22,8,1,1,1
+1077,1077,Krishnappa Poojari,50,4,1,7,1
+1078,1078,Prakash Swamy,44,9,1,5,1
+1079,1079,Geetha,63,8,2,1,2
+1080,1080,Rekha Achar,58,6,1,8,2
+1081,1081,Muniraju Kumar,59,2,1,3,1
+1082,1082,Muniraju Hegde,40,1,1,1,1
+1083,1083,Pallavi Reddy,65,8,1,9,2
+1084,1084,Bhagya Gowda,63,5,2,7,2
+1085,1085,Manjunath,18,2,1,3,1
+1086,1086,Prakash Gowda,39,2,1,1,1
+1087,1087,Yogesh Swamy,20,6,2,9,1
+1088,1088,Girish,45,8,1,10,1
+1089,1089,Chandrashekar Kumar,20,2,2,6,1
+1090,1090,Asha Shetty,40,1,2,5,2
+1091,1091,Shobha Shetty,57,3,1,2,2
+1092,1092,Basavaraj Swamy,69,9,1,8,1
+1093,1093,Raghavendra Hegde,33,4,1,3,1
+1094,1094,Nagamma,62,5,1,5,2
+1095,1095,Anand Reddy,39,8,1,7,1
+1096,1096,Puneeth Swamy,58,2,1,7,1
+1097,1097,Santosh Poojari,29,8,4,9,1
+1098,1098,Krishnappa Murthy,64,9,2,2,1
+1099,1099,Girish,30,7,2,8,1
+1100,1100,Pallavi Naik,55,7,6,1,2
+1101,1101,Prakash Murthy,24,2,7,5,1
+1102,1102,Vani Gowda,57,4,1,5,2
+1103,1103,Geetha Swamy,43,5,1,5,2
+1104,1104,Anand,58,3,1,4,1
+1105,1105,Suresh Gowda,20,9,1,6,1
+1106,1106,Savitha Achar,30,6,1,3,2
+1107,1107,Krishnappa Swamy,69,10,1,9,1
+1108,1108,Lokesh Patil,29,2,2,8,1
+1109,1109,Anand Rao,27,2,1,3,1
+1110,1110,Nagaraj Reddy,36,4,2,3,1
+1111,1111,Raghavendra Gowda,46,6,2,10,1
+1112,1112,Shwetha Rao,61,3,3,10,2
+1113,1113,Manjula,70,8,1,5,2
+1114,1114,Basavaraj Murthy,33,6,1,9,1
+1115,1115,Prakash Swamy,29,5,1,7,1
+1116,1116,Kiran,54,4,1,7,1
+1117,1117,Bhagya,52,5,1,6,2
+1118,1118,Srinivas Gowda,47,4,1,9,1
+1119,1119,Shivakumar Shetty,31,4,1,5,1
+1120,1120,Girish Achar,65,7,1,7,1
+1121,1121,Rathnamma Gowda,36,5,3,6,2
+1122,1122,Rathnamma Reddy,49,4,1,3,2
+1123,1123,Umesh Hegde,33,1,1,3,1
+1124,1124,Umesh Murthy,26,6,2,4,1
+1125,1125,Sunitha Kumar,49,2,1,8,2
+1126,1126,Kiran,48,1,1,9,1
+1127,1127,Krishnappa Shetty,26,2,1,5,1
+1128,1128,Suresh Swamy,29,6,1,4,1
+1129,1129,Anand Shetty,54,9,1,5,1
+1130,1130,Ramesh Hegde,35,2,1,1,1
+1131,1131,Yogesh Patil,38,7,4,7,1
+1132,1132,Raghavendra,60,7,1,7,1
+1133,1133,Muniraju Swamy,62,10,1,7,1
+1134,1134,Santosh Murthy,58,2,1,4,1
+1135,1135,Yogesh Gowda,55,1,2,6,1
+1136,1136,Basavaraj Patil,50,2,1,5,1
+1137,1137,Krishnappa Achar,33,8,1,2,1
+1138,1138,Shwetha,18,7,1,6,2
+1139,1139,Nagamma,48,2,3,10,2
+1140,1140,Srinivas,25,10,1,6,1
+1141,1141,Manjunath Gowda,27,8,3,8,1
+1142,1142,Prakash,31,2,1,6,1
+1143,1143,Ramesh Hegde,25,5,3,1,1
+1144,1144,Suresh Murthy,36,2,1,8,1
+1145,1145,Anand Achar,33,7,1,4,1
+1146,1146,Ramesh Achar,52,6,1,1,1
+1147,1147,Asha,23,8,1,7,2
+1148,1148,Geetha Shetty,70,5,2,9,2
+1149,1149,Puneeth Murthy,67,4,1,8,1
+1150,1150,Manjunath Swamy,46,1,1,2,1
+1151,1151,Savitha,36,9,1,6,2
+1152,1152,Shivakumar Gowda,23,6,1,3,1
+1153,1153,Srinivas,64,6,2,8,1
+1154,1154,Manjunath Patil,53,3,1,10,1
+1155,1155,Shivakumar Naik,47,8,1,5,1
+1156,1156,Prakash,56,6,1,2,1
+1157,1157,Shwetha,28,3,1,4,2
+1158,1158,Raghavendra Reddy,45,4,3,1,1
+1159,1159,Puneeth,22,5,1,4,1
+1160,1160,Manjunath Rao,41,3,1,1,1
+1161,1161,Rekha Murthy,20,4,2,5,2
+1162,1162,Manjunath Hegde,19,6,1,8,1
+1163,1163,Muniraju,46,5,1,7,1
+1164,1164,Raghavendra Naik,70,2,1,4,1
+1165,1165,Mahesh Kumar,47,6,1,8,1
+1166,1166,Chandrashekar,39,7,2,1,1
+1167,1167,Vani Naik,29,5,2,6,2
+1168,1168,Nagamma Achar,39,1,3,5,2
+1169,1169,Savitha,37,6,1,10,2
+1170,1170,Shivakumar Patil,50,7,1,3,1
+1171,1171,Basavaraj Rao,68,9,2,4,1
+1172,1172,Chandrashekar Reddy,58,4,1,2,1
+1173,1173,Rathnamma Hegde,43,5,1,7,2
+1174,1174,Pallavi Murthy,30,8,2,2,2
+1175,1175,Puneeth Achar,43,2,2,8,1
+1176,1176,Padma Reddy,29,8,1,6,2
+1177,1177,Muniraju Swamy,50,6,1,1,1
+1178,1178,Deepa,65,9,1,7,2
+1179,1179,Rathnamma Reddy,30,6,1,8,2
+1180,1180,Krishnappa Hegde,47,6,2,7,1
+1181,1181,Girish Gowda,18,1,1,3,1
+1182,1182,Chandrashekar Kumar,63,4,2,3,1
+1183,1183,Nagamma Hegde,57,2,1,6,2
+1184,1184,Santosh Rao,63,2,1,9,1
+1185,1185,Shivakumar Hegde,65,2,2,4,1
+1186,1186,Prakash Murthy,67,7,1,1,1
+1187,1187,Darshan,36,4,1,10,1
+1188,1188,Shivakumar,54,3,1,7,1
+1189,1189,Yogesh Achar,55,6,1,2,1
+1190,1190,Rekha Reddy,20,8,1,8,2
+1191,1191,Muniraju Poojari,62,4,1,3,1
+1192,1192,Shwetha Poojari,58,7,1,5,2
+1193,1193,Umesh Rao,31,1,1,4,1
+1194,1194,Sunitha,61,9,1,2,2
+1195,1195,Lokesh Naik,53,8,1,9,1
+1196,1196,Lokesh Shetty,64,2,1,7,1
+1197,1197,Mahesh Poojari,62,4,1,6,1
+1198,1198,Bhagya Reddy,35,6,1,8,2
+1199,1199,Raghavendra Murthy,21,8,1,7,1
+1200,1200,Kavitha Hegde,40,9,1,4,2
+1201,1201,Srinivas Swamy,66,4,1,2,1
+1202,1202,Manjunath Poojari,40,1,1,1,1
+1203,1203,Savitha,41,4,1,5,2
+1204,1204,Venkatesh,54,8,1,4,1
+1205,1205,Shobha Gowda,57,8,1,2,2
+1206,1206,Prakash Poojari,58,1,1,10,1
+1207,1207,Savitha Shetty,60,2,1,3,2
+1208,1208,Rekha Patil,50,3,1,5,2
+1209,1209,Santosh Patil,49,6,2,1,1
+1210,1210,Prakash Rao,37,3,7,8,1
+1211,1211,Asha,40,2,1,2,2
+1212,1212,Ramesh Kumar,60,1,1,2,1
+1213,1213,Suresh,70,7,3,10,1
+1214,1214,Umesh Rao,63,1,1,3,1
+1215,1215,Chandrashekar Swamy,57,6,7,4,1
+1216,1216,Padma Poojari,62,2,1,5,2
+1217,1217,Geetha Shetty,24,8,1,9,2
+1218,1218,Chandrashekar,20,7,5,2,1
+1219,1219,Shivakumar Swamy,42,1,1,4,1
+1220,1220,Raghavendra Hegde,25,5,3,9,1
+1221,1221,Srinivas Gowda,31,6,7,3,1
+1222,1222,Suresh Poojari,40,1,1,4,1
+1223,1223,Yogesh Rao,26,4,1,10,1
+1224,1224,Santosh Swamy,31,2,1,3,1
+1225,1225,Nagamma Reddy,56,4,1,5,2
+1226,1226,Yogesh Shetty,31,2,1,4,1
+1227,1227,Kiran Rao,47,5,1,8,1
+1228,1228,Rekha Kumar,56,5,2,1,2
+1229,1229,Santosh Murthy,27,4,2,9,1
+1230,1230,Yogesh Shetty,32,8,1,6,1
+1231,1231,Anand Murthy,36,2,1,7,1
+1232,1232,Anand Reddy,66,10,2,8,1
+1233,1233,Vani Naik,26,2,1,8,2
+1234,1234,Mahesh Murthy,45,4,1,8,1
+1235,1235,Basavaraj,23,4,2,7,1
+1236,1236,Pallavi Shetty,37,6,3,5,2
+1237,1237,Muniraju,24,4,2,9,1
+1238,1238,Shwetha Murthy,62,2,1,10,2
+1239,1239,Muniraju Rao,24,6,1,7,1
+1240,1240,Shobha Naik,40,8,1,9,2
+1241,1241,Krishnappa,60,5,2,2,1
+1242,1242,Muniraju Naik,42,9,1,8,1
+1243,1243,Mahesh Rao,70,5,1,9,1
+1244,1244,Deepa,66,2,1,3,2
+1245,1245,Darshan Achar,41,2,2,4,1
+1246,1246,Ramesh Hegde,30,4,1,4,1
+1247,1247,Girish,37,4,2,10,1
+1248,1248,Umesh,30,6,1,2,1
+1249,1249,Manjunath Rao,22,6,1,9,1
+1250,1250,Kavitha Kumar,41,3,1,10,2
+1251,1251,Harish Naik,36,6,1,9,1
+1252,1252,Venkatesh Rao,37,4,1,5,1
+1253,1253,Manjunath Swamy,23,2,1,2,1
+1254,1254,Basavaraj Rao,66,8,1,5,1
+1255,1255,Manjula Shetty,40,9,1,9,2
+1256,1256,Kiran Hegde,56,6,1,4,1
+1257,1257,Asha Achar,49,1,1,6,2
+1258,1258,Savitha Poojari,54,5,1,7,2
+1259,1259,Nagaraj Shetty,65,4,2,1,1
+1260,1260,Krishnappa Swamy,61,5,1,8,1
+1261,1261,Rathnamma,32,2,1,6,2
+1262,1262,Basavaraj Shetty,43,7,7,8,1
+1263,1263,Divya Shetty,53,5,3,1,2
+1264,1264,Santosh Poojari,67,2,1,6,1
+1265,1265,Basavaraj Rao,20,2,5,8,1
+1266,1266,Sunitha Rao,36,2,1,7,2
+1267,1267,Girish Kumar,61,6,1,10,1
+1268,1268,Shobha Achar,33,2,2,2,2
+1269,1269,Srinivas Gowda,46,6,1,2,1
+1270,1270,Chandrashekar Achar,42,2,1,1,1
+1271,1271,Nagaraj,37,4,3,2,1
+1272,1272,Umesh Murthy,37,5,1,1,1
+1273,1273,Umesh Rao,67,6,1,6,1
+1274,1274,Kavitha,48,6,2,9,2
+1275,1275,Divya Reddy,50,2,3,10,2
+1276,1276,Lakshmi,35,6,7,1,2
+1277,1277,Krishnappa Reddy,28,3,1,6,1
+1278,1278,Kavitha Patil,26,6,2,6,2
+1279,1279,Pallavi,18,6,1,3,2
+1280,1280,Suresh Naik,29,8,1,9,1
+1281,1281,Lakshmi Achar,55,6,1,5,2
+1282,1282,Manjula,55,3,1,8,2
+1283,1283,Geetha Achar,27,6,1,10,2
+1284,1284,Mahesh,54,8,1,9,1
+1285,1285,Padma Naik,30,2,1,3,2
+1286,1286,Vani Kumar,64,6,1,10,2
+1287,1287,Prakash,41,8,1,8,1
+1288,1288,Asha Rao,54,4,1,6,2
+1289,1289,Suresh,48,4,1,4,1
+1290,1290,Yogesh,34,9,2,1,1
+1291,1291,Puneeth Shetty,25,3,2,10,1
+1292,1292,Nagaraj,62,2,1,2,1
+1293,1293,Lokesh Hegde,42,3,3,10,1
+1294,1294,Mahesh Shetty,21,6,2,2,1
+1295,1295,Chandrashekar Poojari,52,8,1,7,1
+1296,1296,Srinivas,37,5,1,7,1
+1297,1297,Deepa Swamy,60,2,4,8,2
+1298,1298,Manjunath Rao,44,2,5,6,1
+1299,1299,Venkatesh Gowda,40,8,1,9,1
+1300,1300,Umesh Shetty,41,6,1,10,1
+1301,1301,Raghavendra Hegde,38,10,1,7,1
+1302,1302,Savitha Hegde,29,6,2,7,2
+1303,1303,Kiran Poojari,66,4,1,1,1
+1304,1304,Asha Patil,67,6,1,2,2
+1305,1305,Harish Rao,49,5,1,4,1
+1306,1306,Anand Reddy,38,6,1,2,1
+1307,1307,Umesh Achar,58,2,3,8,1
+1308,1308,Divya,63,8,1,5,2
+1309,1309,Yogesh Hegde,30,1,1,3,1
+1310,1310,Chandrashekar Murthy,24,7,1,3,1
+1311,1311,Shobha Shetty,64,1,3,1,2
+1312,1312,Rekha Patil,65,8,1,1,2
+1313,1313,Kiran,37,2,1,10,1
+1314,1314,Ramesh Naik,66,4,1,4,1
+1315,1315,Divya Reddy,42,5,3,5,2
+1316,1316,Rekha Patil,67,9,6,3,2
+1317,1317,Rathnamma,28,6,1,8,2
+1318,1318,Sunitha Shetty,48,9,1,5,2
+1319,1319,Divya Patil,51,8,1,1,2
+1320,1320,Puneeth Reddy,52,2,2,2,1
+1321,1321,Chandrashekar Hegde,23,8,1,6,1
+1322,1322,Shobha Swamy,18,4,1,3,2
+1323,1323,Kiran Swamy,60,7,1,1,1
+1324,1324,Srinivas,34,2,1,2,1
+1325,1325,Umesh Poojari,58,1,1,2,1
+1326,1326,Manjula Murthy,70,3,1,8,2
+1327,1327,Kavitha Achar,33,6,1,5,2
+1328,1328,Krishnappa Achar,66,3,2,6,1
+1329,1329,Prakash Patil,65,3,1,4,1
+1330,1330,Raghavendra Hegde,40,6,7,2,1
+1331,1331,Nagaraj Poojari,52,6,1,8,1
+1332,1332,Pallavi Kumar,70,2,1,1,2
+1333,1333,Ramesh Gowda,37,5,1,8,1
+1334,1334,Ramesh Naik,51,1,1,6,1
+1335,1335,Lokesh Patil,42,5,1,6,1
+1336,1336,Basavaraj Reddy,29,2,1,4,1
+1337,1337,Shwetha,50,8,7,2,2
+1338,1338,Chandrashekar Patil,26,6,3,2,1
+1339,1339,Lokesh Hegde,57,8,1,3,1
+1340,1340,Asha,36,4,1,9,2
+1341,1341,Nagamma Swamy,51,2,1,1,2
+1342,1342,Krishnappa Patil,24,1,1,5,1
+1343,1343,Lakshmi Naik,32,5,1,2,2
+1344,1344,Srinivas Murthy,44,2,1,7,1
+1345,1345,Geetha Hegde,34,7,1,3,2
+1346,1346,Basavaraj Rao,41,4,2,4,1
+1347,1347,Venkatesh Hegde,61,2,1,5,1
+1348,1348,Sunitha Kumar,66,6,4,2,2
+1349,1349,Basavaraj Hegde,46,6,1,2,1
+1350,1350,Yogesh Poojari,28,2,1,9,1
+1351,1351,Girish Rao,63,9,1,2,1
+1352,1352,Umesh Poojari,39,5,2,8,1
+1353,1353,Anand Kumar,38,5,1,8,1
+1354,1354,Santosh,46,8,1,4,1
+1355,1355,Divya,27,7,1,2,2
+1356,1356,Darshan Achar,36,6,1,10,1
+1357,1357,Harish Rao,26,2,2,2,1
+1358,1358,Girish,28,4,1,5,1
+1359,1359,Umesh Poojari,28,8,1,2,1
+1360,1360,Srinivas Naik,38,5,1,3,1
+1361,1361,Nagamma Swamy,38,4,1,7,2
+1362,1362,Anand Hegde,60,1,1,3,1
+1363,1363,Lokesh,46,7,2,7,1
+1364,1364,Nagaraj Patil,63,3,1,9,1
+1365,1365,Yogesh Achar,29,5,1,10,1
+1366,1366,Ramesh Naik,19,1,1,1,1
+1367,1367,Girish Naik,40,3,1,5,1
+1368,1368,Manjula Rao,33,6,1,3,2
+1369,1369,Yogesh Poojari,25,8,1,6,1
+1370,1370,Puneeth Swamy,66,6,7,1,1
+1371,1371,Santosh Patil,36,4,1,10,1
+1372,1372,Deepa,23,9,1,3,2
+1373,1373,Suresh Patil,55,5,4,4,1
+1374,1374,Kavitha Patil,66,6,3,3,2
+1375,1375,Yogesh Poojari,35,2,1,9,1
+1376,1376,Anand Gowda,27,2,5,5,1
+1377,1377,Santosh Achar,53,9,4,8,1
+1378,1378,Srinivas Gowda,21,2,1,4,1
+1379,1379,Darshan Poojari,32,4,2,6,1
+1380,1380,Mahesh Rao,55,1,1,2,1
+1381,1381,Lokesh Murthy,66,7,1,9,1
+1382,1382,Rathnamma Patil,38,8,1,3,2
+1383,1383,Kavitha Reddy,32,10,1,4,2
+1384,1384,Mahesh Hegde,25,2,1,2,1
+1385,1385,Girish Patil,63,5,1,8,1
+1386,1386,Anand Patil,50,5,5,10,1
+1387,1387,Puneeth Patil,55,2,1,5,1
+1388,1388,Mahesh Rao,59,8,2,1,1
+1389,1389,Padma,59,7,1,2,2
+1390,1390,Lakshmi Murthy,51,4,7,1,2
+1391,1391,Rekha Achar,28,6,1,3,2
+1392,1392,Girish Shetty,23,6,1,7,1
+1393,1393,Shwetha,51,2,1,7,2
+1394,1394,Divya Kumar,48,8,1,6,2
+1395,1395,Sunitha Swamy,33,2,1,1,2
+1396,1396,Santosh,23,7,4,7,1
+1397,1397,Raghavendra Rao,61,7,1,7,1
+1398,1398,Umesh Kumar,19,7,2,2,1
+1399,1399,Rathnamma Hegde,53,6,1,9,2
+1400,1400,Sunitha,58,2,1,8,2
+1401,1401,Savitha Kumar,21,2,1,2,2
+1402,1402,Raghavendra Kumar,55,2,1,8,1
+1403,1403,Asha Rao,26,6,1,1,2
+1404,1404,Rekha Shetty,66,9,4,1,2
+1405,1405,Kiran,25,6,1,6,1
+1406,1406,Chandrashekar Reddy,43,6,1,3,1
+1407,1407,Puneeth Shetty,62,8,1,5,1
+1408,1408,Nagamma Reddy,50,2,1,1,2
+1409,1409,Divya,69,8,3,2,2
+1410,1410,Basavaraj Reddy,32,6,1,9,1
+1411,1411,Deepa Swamy,59,2,1,6,2
+1412,1412,Bhagya Naik,50,7,1,8,2
+1413,1413,Puneeth,29,2,1,7,1
+1414,1414,Manjunath,63,9,2,6,1
+1415,1415,Shwetha Kumar,56,4,2,5,2
+1416,1416,Umesh Reddy,55,2,3,7,1
+1417,1417,Geetha Reddy,53,2,1,2,2
+1418,1418,Yogesh Kumar,69,8,1,9,1
+1419,1419,Girish Hegde,44,8,1,8,1
+1420,1420,Lakshmi Achar,23,6,1,10,2
+1421,1421,Suresh Reddy,66,6,1,10,1
+1422,1422,Srinivas Murthy,33,9,1,1,1
+1423,1423,Pallavi Rao,53,7,2,7,2
+1424,1424,Rathnamma Poojari,33,8,1,2,2
+1425,1425,Umesh Kumar,45,8,1,10,1
+1426,1426,Vani,42,9,1,9,2
+1427,1427,Raghavendra Murthy,51,1,2,6,1
+1428,1428,Umesh Patil,48,7,1,5,1
+1429,1429,Darshan Reddy,57,1,2,1,1
+1430,1430,Krishnappa,36,10,1,10,1
+1431,1431,Divya Hegde,65,2,1,10,2
+1432,1432,Krishnappa Poojari,51,4,1,9,1
+1433,1433,Mahesh Murthy,39,6,7,6,1
+1434,1434,Rekha,29,8,1,5,2
+1435,1435,Pallavi Patil,51,7,1,5,2
+1436,1436,Chandrashekar Gowda,53,7,1,5,1
+1437,1437,Rekha Murthy,35,8,4,3,2
+1438,1438,Muniraju Patil,26,4,1,1,1
+1439,1439,Puneeth Rao,26,4,1,2,1
+1440,1440,Shivakumar Murthy,39,8,1,5,1
+1441,1441,Anand Kumar,34,2,1,5,1
+1442,1442,Savitha Patil,43,2,1,10,2
+1443,1443,Manjula Poojari,53,5,1,1,2
+1444,1444,Krishnappa Naik,64,2,1,1,1
+1445,1445,Shwetha Hegde,58,5,2,10,2
+1446,1446,Padma Murthy,26,8,1,5,2
+1447,1447,Suresh Patil,40,1,3,6,1
+1448,1448,Suresh Reddy,52,2,1,1,1
+1449,1449,Mahesh Hegde,20,8,1,10,1
+1450,1450,Anand Rao,56,5,1,8,1
+1451,1451,Kavitha Poojari,65,2,1,7,2
+1452,1452,Kiran Naik,63,3,2,4,1
+1453,1453,Krishnappa Rao,26,2,1,1,1
+1454,1454,Divya Kumar,50,8,1,10,2
+1455,1455,Savitha Murthy,67,2,1,1,2
+1456,1456,Suresh Murthy,28,2,1,2,1
+1457,1457,Shwetha,20,2,1,9,2
+1458,1458,Nagamma Hegde,48,7,1,10,2
+1459,1459,Chandrashekar Poojari,58,4,2,8,1
+1460,1460,Vani Reddy,24,3,2,6,2
+1461,1461,Shwetha,22,8,3,8,2
+1462,1462,Srinivas Hegde,28,2,1,2,1
+1463,1463,Padma,23,6,1,10,2
+1464,1464,Bhagya,61,1,7,3,2
+1465,1465,Sunitha Kumar,40,8,1,3,2
+1466,1466,Manjula Achar,61,10,2,4,2
+1467,1467,Savitha Hegde,60,9,1,6,2
+1468,1468,Krishnappa,70,4,1,7,1
+1469,1469,Lakshmi Rao,37,4,1,5,2
+1470,1470,Chandrashekar Poojari,18,4,1,3,1
+1471,1471,Prakash Poojari,44,4,1,7,1
+1472,1472,Srinivas Hegde,33,9,1,10,1
+1473,1473,Srinivas Reddy,53,1,1,6,1
+1474,1474,Lokesh Hegde,45,9,2,5,1
+1475,1475,Padma Shetty,40,8,1,7,2
+1476,1476,Yogesh,22,2,2,10,1
+1477,1477,Nagaraj Swamy,40,9,1,7,1
+1478,1478,Chandrashekar Murthy,24,2,2,5,1
+1479,1479,Rekha Shetty,60,2,1,10,2
+1480,1480,Lakshmi Swamy,20,8,1,8,2
+1481,1481,Prakash,61,1,1,9,1
+1482,1482,Deepa Murthy,34,2,3,9,2
+1483,1483,Kiran,62,9,1,8,1
+1484,1484,Divya Poojari,44,2,1,4,2
+1485,1485,Shwetha Murthy,61,9,4,3,2
+1486,1486,Kiran Swamy,42,4,1,9,1
+1487,1487,Lokesh Hegde,24,2,1,8,1
+1488,1488,Lakshmi Gowda,62,6,1,3,2
+1489,1489,Krishnappa Shetty,64,9,2,4,1
+1490,1490,Geetha Achar,54,4,1,9,2
+1491,1491,Padma Achar,47,2,7,3,2
+1492,1492,Rekha,70,1,1,3,2
+1493,1493,Vani Rao,57,7,1,8,2
+1494,1494,Suresh Hegde,52,7,1,10,1
+1495,1495,Bhagya Swamy,50,8,7,5,2
+1496,1496,Basavaraj Reddy,23,4,3,6,1
+1497,1497,Umesh,70,4,1,6,1
+1498,1498,Yogesh Rao,22,5,1,4,1
+1499,1499,Umesh Kumar,29,2,1,10,1
+1500,1500,Kavitha,39,6,1,5,2
+1501,1501,Muniraju Shetty,37,10,1,10,1
+1502,1502,Shwetha,34,10,1,9,2
+1503,1503,Mahesh Murthy,40,7,1,9,1
+1504,1504,Shobha Rao,31,2,2,3,2
+1505,1505,Savitha Patil,43,6,2,8,2
+1506,1506,Shivakumar Naik,19,2,1,3,1
+1507,1507,Asha,33,6,1,6,2
+1508,1508,Basavaraj Hegde,58,5,4,5,1
+1509,1509,Puneeth Poojari,33,6,1,6,1
+1510,1510,Mahesh Achar,24,3,1,8,1
+1511,1511,Geetha Gowda,38,4,1,3,2
+1512,1512,Umesh Shetty,68,8,3,9,1
+1513,1513,Rathnamma Naik,25,6,1,4,2
+1514,1514,Raghavendra Swamy,34,8,1,8,1
+1515,1515,Geetha Achar,26,2,1,9,2
+1516,1516,Venkatesh,57,9,2,1,1
+1517,1517,Puneeth,25,5,3,3,1
+1518,1518,Deepa Swamy,36,2,1,9,2
+1519,1519,Muniraju Achar,50,4,1,9,1
+1520,1520,Deepa Hegde,37,2,1,9,2
+1521,1521,Rathnamma,18,1,2,6,2
+1522,1522,Savitha Shetty,56,5,1,10,2
+1523,1523,Mahesh Achar,18,4,1,6,1
+1524,1524,Kiran Hegde,65,1,1,4,1
+1525,1525,Savitha Murthy,57,2,1,1,2
+1526,1526,Rekha Shetty,65,4,1,9,2
+1527,1527,Chandrashekar,53,6,4,2,1
+1528,1528,Bhagya Gowda,22,2,1,9,2
+1529,1529,Rekha Rao,48,6,1,1,2
+1530,1530,Deepa Reddy,21,8,2,2,2
+1531,1531,Kiran Naik,66,6,1,10,1
+1532,1532,Manjunath Naik,24,2,2,8,1
+1533,1533,Ramesh,69,8,2,6,1
+1534,1534,Chandrashekar Hegde,65,7,1,4,1
+1535,1535,Shwetha Hegde,61,4,2,9,2
+1536,1536,Chandrashekar Reddy,51,7,3,4,1
+1537,1537,Umesh Kumar,64,6,1,10,1
+1538,1538,Shobha Rao,70,5,1,7,2
+1539,1539,Umesh Patil,22,2,1,3,1
+1540,1540,Shwetha Poojari,31,4,1,5,2
+1541,1541,Asha Shetty,55,6,4,6,2
+1542,1542,Chandrashekar Poojari,18,8,2,7,1
+1543,1543,Darshan Poojari,38,10,1,2,1
+1544,1544,Pallavi Swamy,25,7,1,9,2
+1545,1545,Krishnappa Naik,28,6,1,4,1
+1546,1546,Muniraju Poojari,32,2,2,4,1
+1547,1547,Nagamma Murthy,46,6,2,4,2
+1548,1548,Girish Shetty,67,6,2,6,1
+1549,1549,Harish Gowda,57,6,1,5,1
+1550,1550,Pallavi Murthy,43,2,1,3,2
+1551,1551,Suresh Poojari,18,1,1,4,1
+1552,1552,Suresh,23,1,5,8,1
+1553,1553,Kiran Hegde,30,1,2,5,1
+1554,1554,Rathnamma Naik,65,1,1,8,2
+1555,1555,Shobha,36,8,1,7,2
+1556,1556,Lakshmi Naik,63,2,1,5,2
+1557,1557,Srinivas,58,9,1,3,1
+1558,1558,Santosh Shetty,22,6,1,6,1
+1559,1559,Suresh Kumar,30,1,1,5,1
+1560,1560,Chandrashekar Hegde,35,8,1,10,1
+1561,1561,Girish Kumar,70,5,1,7,1
+1562,1562,Geetha Achar,34,6,7,1,2
+1563,1563,Raghavendra,50,2,1,5,1
+1564,1564,Bhagya Gowda,68,7,2,1,2
+1565,1565,Prakash Naik,45,9,1,5,1
+1566,1566,Chandrashekar Reddy,64,5,1,3,1
+1567,1567,Muniraju Shetty,50,2,2,2,1
+1568,1568,Umesh Poojari,68,1,3,4,1
+1569,1569,Vani Reddy,22,5,1,2,2
+1570,1570,Muniraju Kumar,43,3,1,8,1
+1571,1571,Kavitha Poojari,45,2,1,2,2
+1572,1572,Srinivas,40,4,2,1,1
+1573,1573,Rathnamma Hegde,30,7,2,10,2
+1574,1574,Geetha Murthy,38,10,1,3,2
+1575,1575,Harish Rao,65,8,1,4,1
+1576,1576,Santosh Kumar,68,9,1,4,1
+1577,1577,Lakshmi Poojari,69,2,1,3,2
+1578,1578,Darshan Murthy,43,4,1,8,1
+1579,1579,Harish Poojari,44,7,2,9,1
+1580,1580,Umesh,70,2,1,2,1
+1581,1581,Venkatesh,30,3,1,10,1
+1582,1582,Savitha Reddy,60,2,1,7,2
+1583,1583,Padma,19,4,2,1,2
+1584,1584,Kiran Murthy,38,1,7,7,1
+1585,1585,Shobha,61,4,1,6,2
+1586,1586,Bhagya Naik,39,2,1,5,2
+1587,1587,Deepa,62,4,3,5,2
+1588,1588,Shivakumar Naik,22,3,1,7,1
+1589,1589,Santosh Murthy,68,8,1,2,1
+1590,1590,Umesh,63,6,2,6,1
+1591,1591,Harish Kumar,60,6,1,9,1
+1592,1592,Anand Naik,59,2,4,5,1
+1593,1593,Krishnappa Kumar,54,4,1,9,1
+1594,1594,Shobha Kumar,18,5,1,8,2
+1595,1595,Nagaraj Reddy,27,1,1,2,1
+1596,1596,Chandrashekar Kumar,28,6,1,8,1
+1597,1597,Asha Rao,68,1,1,5,2
+1598,1598,Basavaraj,40,2,1,5,1
+1599,1599,Raghavendra Reddy,66,7,1,2,1
+1600,1600,Padma Kumar,35,7,1,5,2
+1601,1601,Chandrashekar Poojari,28,2,1,5,1
+1602,1602,Kavitha Swamy,43,7,2,2,2
+1603,1603,Manjula Patil,40,9,1,3,2
+1604,1604,Yogesh Kumar,19,3,1,9,1
+1605,1605,Deepa Rao,43,7,1,7,2
+1606,1606,Puneeth Gowda,20,2,1,5,1
+1607,1607,Vani,34,2,1,7,2
+1608,1608,Pallavi,18,7,1,8,2
+1609,1609,Geetha Kumar,31,8,1,3,2
+1610,1610,Lokesh Gowda,57,2,2,8,1
+1611,1611,Ramesh,24,4,3,9,1
+1612,1612,Anand Hegde,46,3,3,2,1
+1613,1613,Nagaraj Poojari,25,1,1,10,1
+1614,1614,Darshan,51,8,1,8,1
+1615,1615,Harish Patil,44,4,1,10,1
+1616,1616,Puneeth Shetty,40,2,1,6,1
+1617,1617,Venkatesh Poojari,55,1,2,2,1
+1618,1618,Manjula Achar,30,8,1,8,2
+1619,1619,Harish Rao,43,3,2,3,1
+1620,1620,Ramesh Naik,47,4,1,5,1
+1621,1621,Umesh,19,8,1,5,1
+1622,1622,Padma Gowda,61,5,2,8,2
+1623,1623,Chandrashekar Kumar,25,9,1,7,1
+1624,1624,Rekha Shetty,49,6,1,2,2
+1625,1625,Kiran Hegde,19,5,1,1,1
+1626,1626,Kavitha Poojari,31,2,1,1,2
+1627,1627,Ramesh,51,6,1,10,1
+1628,1628,Anand Patil,32,8,1,3,1
+1629,1629,Puneeth,19,10,1,5,1
+1630,1630,Ramesh,69,4,1,8,1
+1631,1631,Suresh,59,5,1,2,1
+1632,1632,Vani Swamy,34,6,2,7,2
+1633,1633,Nagaraj Gowda,62,3,1,3,1
+1634,1634,Kiran Rao,37,5,1,2,1
+1635,1635,Venkatesh Naik,22,2,1,5,1
+1636,1636,Shwetha,64,6,2,1,2
+1637,1637,Krishnappa Gowda,27,6,1,7,1
+1638,1638,Kiran Gowda,18,5,1,1,1
+1639,1639,Kiran Reddy,28,5,2,8,1
+1640,1640,Chandrashekar Naik,21,2,1,3,1
+1641,1641,Nagamma Naik,51,6,1,7,2
+1642,1642,Pallavi Hegde,65,6,1,7,2
+1643,1643,Divya Poojari,19,6,1,3,2
+1644,1644,Nagaraj Kumar,49,6,1,6,1
+1645,1645,Basavaraj,26,4,2,7,1
+1646,1646,Anand Achar,34,3,1,10,1
+1647,1647,Shobha Naik,54,8,1,4,2
+1648,1648,Umesh Patil,29,2,2,7,1
+1649,1649,Yogesh,19,3,1,1,1
+1650,1650,Lokesh Hegde,69,2,1,10,1
+1651,1651,Nagaraj Shetty,59,5,1,10,1
+1652,1652,Shobha Rao,42,5,1,10,2
+1653,1653,Manjula Patil,67,1,1,5,2
+1654,1654,Kiran Murthy,21,6,1,1,1
+1655,1655,Harish Hegde,55,5,1,5,1
+1656,1656,Darshan Rao,70,6,1,5,1
+1657,1657,Yogesh Rao,39,6,7,10,1
+1658,1658,Srinivas Naik,26,6,1,7,1
+1659,1659,Savitha,55,4,1,9,2
+1660,1660,Anand Swamy,53,4,1,8,1
+1661,1661,Chandrashekar Reddy,58,8,1,1,1
+1662,1662,Girish Naik,51,5,3,3,1
+1663,1663,Yogesh Swamy,44,6,1,10,1
+1664,1664,Venkatesh Patil,30,5,1,6,1
+1665,1665,Basavaraj Gowda,60,4,2,7,1
+1666,1666,Nagamma Kumar,29,2,1,8,2
+1667,1667,Manjunath Patil,50,1,1,8,1
+1668,1668,Srinivas Naik,50,1,1,8,1
+1669,1669,Suresh Achar,45,5,1,7,1
+1670,1670,Harish,25,3,1,9,1
+1671,1671,Deepa Swamy,69,1,5,3,2
+1672,1672,Shivakumar Rao,27,5,1,10,1
+1673,1673,Prakash,23,4,1,7,1
+1674,1674,Shwetha Swamy,51,4,2,2,2
+1675,1675,Kavitha Shetty,32,2,1,5,2
+1676,1676,Pallavi Reddy,25,8,2,8,2
+1677,1677,Krishnappa,41,2,4,2,1
+1678,1678,Lakshmi Achar,63,5,1,2,2
+1679,1679,Manjunath,33,8,1,1,1
+1680,1680,Geetha Rao,33,5,1,4,2
+1681,1681,Basavaraj Achar,51,5,1,5,1
+1682,1682,Nagamma Murthy,23,8,1,10,2
+1683,1683,Vani Hegde,41,4,1,8,2
+1684,1684,Manjula Swamy,28,4,1,9,2
+1685,1685,Muniraju Shetty,27,6,7,1,1
+1686,1686,Lokesh,25,8,3,9,1
+1687,1687,Rekha Swamy,52,2,2,1,2
+1688,1688,Kiran Naik,52,9,1,1,1
+1689,1689,Geetha Patil,59,1,2,3,2
+1690,1690,Rathnamma Murthy,23,4,1,9,2
+1691,1691,Kiran Hegde,37,5,3,4,1
+1692,1692,Rathnamma Achar,65,2,1,6,2
+1693,1693,Nagamma Gowda,47,7,1,1,2
+1694,1694,Umesh Gowda,32,8,1,3,1
+1695,1695,Rathnamma Murthy,45,2,1,7,2
+1696,1696,Girish Reddy,35,8,3,8,1
+1697,1697,Kavitha,37,8,1,5,2
+1698,1698,Asha Rao,69,8,2,9,2
+1699,1699,Bhagya Naik,68,5,1,10,2
+1700,1700,Ramesh Gowda,28,3,1,9,1
+1701,1701,Anand Kumar,40,5,1,1,1
+1702,1702,Santosh,20,1,1,8,1
+1703,1703,Anand Naik,22,7,1,6,1
+1704,1704,Lakshmi Kumar,26,1,1,3,2
+1705,1705,Girish Reddy,20,2,1,2,1
+1706,1706,Asha Reddy,60,5,1,6,2
+1707,1707,Geetha Hegde,41,4,1,6,2
+1708,1708,Shwetha Murthy,31,7,1,2,2
+1709,1709,Nagamma Murthy,48,2,2,8,2
+1710,1710,Kiran Gowda,64,3,2,6,1
+1711,1711,Yogesh Poojari,46,8,1,3,1
+1712,1712,Nagaraj Hegde,28,4,1,8,1
+1713,1713,Srinivas Achar,70,8,1,3,1
+1714,1714,Sunitha Swamy,67,4,1,9,2
+1715,1715,Shwetha Gowda,37,1,2,8,2
+1716,1716,Kavitha Reddy,61,4,7,1,2
+1717,1717,Ramesh,43,2,1,9,1
+1718,1718,Yogesh Rao,18,6,1,9,1
+1719,1719,Muniraju Naik,32,6,1,4,1
+1720,1720,Geetha,58,1,1,3,2
+1721,1721,Harish Achar,52,2,1,7,1
+1722,1722,Kiran,45,2,1,2,1
+1723,1723,Puneeth Shetty,43,4,1,6,1
+1724,1724,Shobha Naik,34,5,1,10,2
+1725,1725,Darshan,44,5,1,4,1
+1726,1726,Geetha Swamy,51,1,1,5,2
+1727,1727,Prakash Patil,32,6,1,6,1
+1728,1728,Shivakumar Naik,54,4,1,10,1
+1729,1729,Manjula Poojari,40,3,1,8,2
+1730,1730,Rekha Reddy,21,3,5,2,2
+1731,1731,Ramesh,68,8,1,5,1
+1732,1732,Lakshmi Achar,57,4,1,6,2
+1733,1733,Geetha,56,7,1,2,2
+1734,1734,Harish,63,3,1,10,1
+1735,1735,Nagamma Kumar,45,2,1,1,2
+1736,1736,Yogesh,28,8,1,3,1
+1737,1737,Shwetha Shetty,26,7,1,2,2
+1738,1738,Shwetha Poojari,64,8,1,3,2
+1739,1739,Shwetha Shetty,46,5,1,1,2
+1740,1740,Yogesh,65,4,1,5,1
+1741,1741,Shobha,21,2,6,4,2
+1742,1742,Muniraju Rao,32,2,1,5,1
+1743,1743,Deepa Achar,30,6,1,6,2
+1744,1744,Vani Rao,51,8,1,6,2
+1745,1745,Manjunath,28,4,2,10,1
+1746,1746,Srinivas Achar,49,2,3,8,1
+1747,1747,Basavaraj Swamy,38,2,1,9,1
+1748,1748,Ramesh Shetty,54,2,1,3,1
+1749,1749,Asha Kumar,30,8,1,8,2
+1750,1750,Lakshmi,68,4,1,5,2
+1751,1751,Darshan Rao,25,2,1,3,1
+1752,1752,Raghavendra,53,2,1,9,1
+1753,1753,Srinivas Achar,30,8,6,8,1
+1754,1754,Divya Hegde,37,6,1,10,2
+1755,1755,Santosh Gowda,25,8,2,1,1
+1756,1756,Harish Murthy,46,7,3,2,1
+1757,1757,Venkatesh Patil,35,7,1,2,1
+1758,1758,Asha Poojari,52,4,1,1,2
+1759,1759,Umesh Naik,41,3,1,6,1
+1760,1760,Chandrashekar Hegde,19,2,1,10,1
+1761,1761,Rekha Rao,34,8,1,10,2
+1762,1762,Girish,58,5,1,7,1
+1763,1763,Umesh Poojari,59,5,1,8,1
+1764,1764,Prakash Poojari,32,6,3,10,1
+1765,1765,Savitha Reddy,52,4,1,4,2
+1766,1766,Umesh Shetty,23,5,2,4,1
+1767,1767,Mahesh Gowda,57,5,3,6,1
+1768,1768,Deepa Achar,27,10,1,4,2
+1769,1769,Asha,33,2,1,6,2
+1770,1770,Manjunath Hegde,69,10,1,4,1
+1771,1771,Shobha,42,2,2,6,2
+1772,1772,Geetha,25,6,2,10,2
+1773,1773,Prakash Rao,61,3,3,9,1
+1774,1774,Bhagya Swamy,53,4,2,2,2
+1775,1775,Sunitha,47,2,1,2,2
+1776,1776,Manjula,62,6,6,7,2
+1777,1777,Chandrashekar Kumar,21,2,2,4,1
+1778,1778,Ramesh Kumar,39,4,1,10,1
+1779,1779,Raghavendra Hegde,39,8,1,6,1
+1780,1780,Lokesh Swamy,41,8,1,1,1
+1781,1781,Harish Achar,69,2,2,5,1
+1782,1782,Divya Gowda,18,9,1,3,2
+1783,1783,Manjunath Naik,57,6,1,3,1
+1784,1784,Krishnappa Reddy,49,6,1,3,1
+1785,1785,Umesh Gowda,24,4,1,10,1
+1786,1786,Sunitha Swamy,70,3,7,9,2
+1787,1787,Kavitha Gowda,54,2,1,9,2
+1788,1788,Sunitha Poojari,39,7,1,10,2
+1789,1789,Nagaraj Gowda,21,2,1,8,1
+1790,1790,Harish,26,2,1,9,1
+1791,1791,Sunitha Poojari,49,7,6,4,2
+1792,1792,Manjunath,31,4,1,4,1
+1793,1793,Sunitha Murthy,33,8,1,9,2
+1794,1794,Venkatesh Swamy,38,6,4,6,1
+1795,1795,Manjunath Reddy,21,6,1,7,1
+1796,1796,Sunitha,49,6,1,1,2
+1797,1797,Mahesh Kumar,23,8,1,1,1
+1798,1798,Shwetha Patil,28,8,1,5,2
+1799,1799,Prakash,61,1,7,8,1
+1800,1800,Chandrashekar Naik,54,5,1,5,1
+1801,1801,Chandrashekar,55,2,1,3,1
+1802,1802,Shivakumar Hegde,49,8,1,6,1
+1803,1803,Santosh Poojari,56,4,1,8,1
+1804,1804,Manjula,18,6,2,1,2
+1805,1805,Kiran Reddy,28,5,1,10,1
+1806,1806,Shobha Murthy,35,7,1,3,2
+1807,1807,Lokesh Rao,49,4,7,3,1
+1808,1808,Rekha Achar,57,9,1,6,2
+1809,1809,Lokesh,35,2,4,8,1
+1810,1810,Santosh,33,2,1,2,1
+1811,1811,Harish Rao,65,5,1,7,1
+1812,1812,Shwetha Rao,38,2,1,2,2
+1813,1813,Manjula Kumar,29,8,1,1,2
+1814,1814,Suresh Gowda,69,10,1,3,1
+1815,1815,Suresh Gowda,54,9,2,3,1
+1816,1816,Nagaraj Shetty,63,5,1,6,1
+1817,1817,Darshan Naik,40,1,2,1,1
+1818,1818,Harish Kumar,53,3,2,9,1
+1819,1819,Girish,70,9,2,3,1
+1820,1820,Nagamma Shetty,40,10,1,9,2
+1821,1821,Raghavendra Patil,29,4,1,3,1
+1822,1822,Suresh Hegde,47,5,5,1,1
+1823,1823,Savitha Achar,19,2,2,2,2
+1824,1824,Suresh Kumar,27,8,1,8,1
+1825,1825,Sunitha Murthy,30,4,1,6,2
+1826,1826,Harish Hegde,59,3,2,8,1
+1827,1827,Manjula Reddy,27,5,1,7,2
+1828,1828,Pallavi,59,6,1,8,2
+1829,1829,Umesh,21,8,1,10,1
+1830,1830,Manjula Swamy,57,4,2,7,2
+1831,1831,Shivakumar,24,5,5,6,1
+1832,1832,Manjula Naik,57,2,1,8,2
+1833,1833,Bhagya Naik,19,3,3,5,2
+1834,1834,Geetha Achar,51,7,1,3,2
+1835,1835,Krishnappa Gowda,19,7,3,3,1
+1836,1836,Kiran,63,2,1,3,1
+1837,1837,Santosh Shetty,53,7,1,2,1
+1838,1838,Santosh Rao,62,6,2,2,1
+1839,1839,Sunitha Murthy,49,4,1,7,2
+1840,1840,Deepa Kumar,43,1,1,9,2
+1841,1841,Anand Reddy,42,2,1,2,1
+1842,1842,Manjunath Kumar,63,2,1,6,1
+1843,1843,Girish Achar,39,8,1,1,1
+1844,1844,Rekha,70,2,2,6,2
+1845,1845,Santosh,34,6,1,4,1
+1846,1846,Raghavendra Murthy,56,6,1,7,1
+1847,1847,Prakash,22,2,1,4,1
+1848,1848,Muniraju Rao,62,7,1,7,1
+1849,1849,Suresh Reddy,37,6,2,10,1
+1850,1850,Shobha,55,2,1,9,2
+1851,1851,Girish,55,4,7,3,1
+1852,1852,Krishnappa Rao,25,8,1,7,1
+1853,1853,Anand Naik,37,2,1,2,1
+1854,1854,Lokesh Poojari,22,2,1,7,1
+1855,1855,Shobha Shetty,45,6,1,4,2
+1856,1856,Padma Poojari,27,9,1,7,2
+1857,1857,Harish,43,4,3,5,1
+1858,1858,Lokesh,32,4,3,6,1
+1859,1859,Kiran Reddy,56,8,2,9,1
+1860,1860,Geetha Reddy,54,5,1,4,2
+1861,1861,Anand,29,8,1,1,1
+1862,1862,Rekha,63,2,1,1,2
+1863,1863,Krishnappa Poojari,63,6,2,6,1
+1864,1864,Lokesh,28,8,3,1,1
+1865,1865,Srinivas Gowda,34,8,1,5,1
+1866,1866,Kavitha Murthy,69,8,2,7,2
+1867,1867,Suresh Hegde,48,8,1,10,1
+1868,1868,Deepa Kumar,56,5,2,8,2
+1869,1869,Asha Achar,57,2,1,10,2
+1870,1870,Mahesh Poojari,34,4,1,3,1
+1871,1871,Ramesh Reddy,33,9,1,3,1
+1872,1872,Bhagya Gowda,57,2,1,2,2
+1873,1873,Mahesh Achar,40,2,3,1,1
+1874,1874,Kiran Poojari,38,2,1,3,1
+1875,1875,Manjula,66,2,1,1,2
+1876,1876,Manjunath Patil,49,8,1,1,1
+1877,1877,Suresh Swamy,45,6,3,5,1
+1878,1878,Divya Hegde,39,5,1,2,2
+1879,1879,Ramesh Shetty,49,4,1,3,1
+1880,1880,Nagaraj Gowda,27,1,1,6,1
+1881,1881,Yogesh Achar,24,2,7,3,1
+1882,1882,Puneeth,23,8,3,10,1
+1883,1883,Manjunath Gowda,48,3,4,4,1
+1884,1884,Manjula Kumar,25,9,4,10,2
+1885,1885,Geetha Rao,33,8,3,3,2
+1886,1886,Krishnappa Murthy,37,1,1,2,1
+1887,1887,Yogesh,69,4,1,4,1
+1888,1888,Geetha Hegde,47,6,1,2,2
+1889,1889,Darshan Poojari,56,2,1,3,1
+1890,1890,Muniraju,38,5,1,6,1
+1891,1891,Mahesh Murthy,19,9,6,2,1
+1892,1892,Suresh Naik,43,1,2,4,1
+1893,1893,Savitha Hegde,62,2,1,5,2
+1894,1894,Bhagya,35,6,1,8,2
+1895,1895,Rekha,37,1,1,9,2
+1896,1896,Kavitha Swamy,31,4,1,1,2
+1897,1897,Shivakumar Hegde,37,5,1,4,1
+1898,1898,Suresh Patil,25,2,2,1,1
+1899,1899,Asha,18,5,1,8,2
+1900,1900,Harish,26,9,1,4,1
+1901,1901,Shwetha,18,2,3,2,2
+1902,1902,Nagamma,27,2,1,9,2
+1903,1903,Krishnappa,44,6,4,7,1
+1904,1904,Darshan,56,5,1,9,1
+1905,1905,Harish Patil,28,8,2,10,1
+1906,1906,Shivakumar Poojari,62,9,1,6,1
+1907,1907,Raghavendra Kumar,38,6,1,7,1
+1908,1908,Sunitha,63,4,1,2,2
+1909,1909,Manjula Kumar,59,3,1,8,2
+1910,1910,Pallavi Hegde,42,8,1,6,2
+1911,1911,Manjunath Hegde,28,8,2,9,1
+1912,1912,Geetha Kumar,68,2,1,4,2
+1913,1913,Prakash Poojari,65,1,2,6,1
+1914,1914,Puneeth Kumar,33,5,1,7,1
+1915,1915,Rathnamma Naik,54,1,1,9,2
+1916,1916,Nagamma Patil,48,9,1,9,2
+1917,1917,Darshan Achar,51,8,3,3,1
+1918,1918,Deepa,36,6,1,1,2
+1919,1919,Kiran Hegde,42,1,1,8,1
+1920,1920,Shobha Poojari,63,5,1,3,2
+1921,1921,Mahesh Patil,23,2,1,2,1
+1922,1922,Shobha Naik,59,7,1,8,2
+1923,1923,Yogesh Poojari,39,5,1,9,1
+1924,1924,Venkatesh Poojari,67,2,1,10,1
+1925,1925,Nagaraj,56,8,3,1,1
+1926,1926,Shobha Shetty,41,8,5,6,2
+1927,1927,Nagaraj Naik,27,8,1,7,1
+1928,1928,Basavaraj Patil,38,6,1,8,1
+1929,1929,Kiran Gowda,33,7,1,10,1
+1930,1930,Puneeth,41,6,1,3,1
+1931,1931,Pallavi Kumar,27,6,2,8,2
+1932,1932,Venkatesh,26,3,1,3,1
+1933,1933,Raghavendra Poojari,36,5,1,3,1
+1934,1934,Savitha Shetty,30,9,2,7,2
+1935,1935,Prakash Reddy,51,4,1,5,1
+1936,1936,Suresh Kumar,63,1,1,5,1
+1937,1937,Venkatesh Rao,18,2,1,6,1
+1938,1938,Lakshmi Kumar,48,6,1,2,2
+1939,1939,Rekha Hegde,34,5,1,9,2
+1940,1940,Mahesh Rao,25,3,2,7,1
+1941,1941,Suresh Poojari,30,2,1,8,1
+1942,1942,Kavitha Patil,20,4,3,5,2
+1943,1943,Padma Reddy,61,7,3,10,2
+1944,1944,Yogesh Naik,22,2,4,4,1
+1945,1945,Suresh,39,5,1,4,1
+1946,1946,Kavitha,49,2,1,7,2
+1947,1947,Girish Naik,31,6,1,10,1
+1948,1948,Lakshmi Poojari,63,2,1,7,2
+1949,1949,Nagamma Poojari,37,6,3,5,2
+1950,1950,Rekha Naik,61,9,1,5,2
+1951,1951,Pallavi Achar,47,7,2,10,2
+1952,1952,Muniraju Shetty,67,5,2,5,1
+1953,1953,Vani Shetty,21,9,3,6,2
+1954,1954,Deepa Patil,59,8,1,9,2
+1955,1955,Umesh Achar,68,8,1,10,1
+1956,1956,Chandrashekar Kumar,54,1,1,1,1
+1957,1957,Krishnappa Murthy,22,1,3,4,1
+1958,1958,Prakash Poojari,57,6,1,8,1
+1959,1959,Padma Achar,62,3,1,3,2
+1960,1960,Pallavi Poojari,48,5,1,3,2
+1961,1961,Savitha Murthy,67,4,2,2,2
+1962,1962,Yogesh,31,2,1,10,1
+1963,1963,Muniraju Kumar,65,6,2,6,1
+1964,1964,Chandrashekar Murthy,61,5,1,9,1
+1965,1965,Raghavendra Naik,69,5,3,9,1
+1966,1966,Rekha Reddy,29,6,1,6,2
+1967,1967,Ramesh Rao,60,4,1,6,1
+1968,1968,Mahesh Achar,63,7,1,8,1
+1969,1969,Padma,47,9,6,3,2
+1970,1970,Umesh,32,6,1,2,1
+1971,1971,Sunitha Reddy,66,2,1,7,2
+1972,1972,Basavaraj Kumar,65,3,1,4,1
+1973,1973,Umesh Gowda,31,3,2,4,1
+1974,1974,Lokesh Rao,51,7,1,9,1
+1975,1975,Padma Murthy,66,7,1,9,2
+1976,1976,Santosh Reddy,21,2,1,10,1
+1977,1977,Chandrashekar Naik,57,2,2,6,1
+1978,1978,Yogesh Shetty,58,9,3,5,1
+1979,1979,Umesh,54,10,1,8,1
+1980,1980,Deepa Rao,67,3,1,10,2
+1981,1981,Mahesh Reddy,22,4,1,10,1
+1982,1982,Nagamma Gowda,34,4,2,3,2
+1983,1983,Nagamma Patil,18,2,1,10,2
+1984,1984,Chandrashekar Poojari,55,4,1,3,1
+1985,1985,Padma Murthy,51,6,1,4,2
+1986,1986,Nagamma Shetty,63,2,1,10,2
+1987,1987,Shobha,38,3,1,7,2
+1988,1988,Rathnamma Hegde,38,2,2,4,2
+1989,1989,Girish Hegde,60,8,1,6,1
+1990,1990,Kiran Poojari,68,3,1,2,1
+1991,1991,Anand Naik,22,3,1,10,1
+1992,1992,Ramesh Poojari,20,6,1,8,1
+1993,1993,Mahesh Murthy,38,3,2,5,1
+1994,1994,Bhagya Murthy,33,6,4,6,2
+1995,1995,Savitha Hegde,29,5,1,6,2
+1996,1996,Shwetha Patil,47,5,1,6,2
+1997,1997,Umesh Achar,25,6,1,1,1
+1998,1998,Puneeth Patil,69,9,1,6,1
+1999,1999,Krishnappa Murthy,52,6,1,3,1
+2000,2000,Basavaraj Poojari,41,4,2,2,1
+2001,2001,Harish Gowda,48,6,2,2,1
+2002,2002,Manjula Reddy,19,2,2,2,2
+2003,2003,Sunitha Patil,45,6,1,2,2
+2004,2004,Pallavi,46,6,3,5,2
+2005,2005,Nagaraj Murthy,49,3,4,8,1
+2006,2006,Santosh Poojari,66,2,1,9,1
+2007,2007,Girish Achar,41,5,2,6,1
+2008,2008,Prakash Rao,70,4,2,4,1
+2009,2009,Pallavi Rao,21,5,1,4,2
+2010,2010,Nagamma Naik,51,8,1,10,2
+2011,2011,Anand,38,2,1,4,1
+2012,2012,Shwetha,44,8,1,3,2
+2013,2013,Manjula Shetty,50,4,1,2,2
+2014,2014,Basavaraj Shetty,44,7,2,7,1
+2015,2015,Bhagya,36,2,2,6,2
+2016,2016,Harish Naik,37,2,1,6,1
+2017,2017,Mahesh Achar,23,2,2,1,1
+2018,2018,Bhagya Achar,30,8,1,8,2
+2019,2019,Harish Naik,65,3,2,1,1
+2020,2020,Santosh Swamy,62,4,1,2,1
+2021,2021,Srinivas,45,8,1,7,1
+2022,2022,Nagamma Hegde,35,2,1,5,2
+2023,2023,Krishnappa Reddy,43,4,5,10,1
+2024,2024,Nagamma Rao,53,7,7,10,2
+2025,2025,Girish Reddy,57,5,1,5,1
+2026,2026,Suresh Poojari,57,4,7,8,1
+2027,2027,Krishnappa Kumar,31,2,6,7,1
+2028,2028,Basavaraj Poojari,34,5,4,8,1
+2029,2029,Chandrashekar Gowda,34,2,1,10,1
+2030,2030,Lakshmi Rao,67,6,2,1,2
+2031,2031,Sunitha,51,8,1,1,2
+2032,2032,Santosh Naik,32,5,7,3,1
+2033,2033,Rathnamma Swamy,58,2,1,1,2
+2034,2034,Manjunath Kumar,69,7,2,5,1
+2035,2035,Raghavendra Gowda,34,4,1,1,1
+2036,2036,Rathnamma Shetty,23,7,2,1,2
+2037,2037,Krishnappa Swamy,42,2,1,10,1
+2038,2038,Srinivas Patil,70,3,1,5,1
+2039,2039,Sunitha Shetty,22,2,1,5,2
+2040,2040,Deepa Reddy,70,7,1,1,2
+2041,2041,Umesh Murthy,48,9,2,8,1
+2042,2042,Basavaraj,51,6,1,6,1
+2043,2043,Geetha,46,4,1,7,2
+2044,2044,Nagamma Kumar,70,8,1,7,2
+2045,2045,Ramesh Rao,43,8,1,8,1
+2046,2046,Yogesh Shetty,69,2,1,9,1
+2047,2047,Sunitha Reddy,34,3,1,2,2
+2048,2048,Savitha Shetty,18,5,1,9,2
+2049,2049,Raghavendra Patil,40,6,2,10,1
+2050,2050,Sunitha,55,5,1,7,2
+2051,2051,Nagaraj Patil,49,6,1,9,1
+2052,2052,Nagaraj Swamy,40,2,1,10,1
+2053,2053,Lokesh,64,6,2,10,1
+2054,2054,Asha Patil,66,6,1,5,2
+2055,2055,Divya,29,8,1,3,2
+2056,2056,Kavitha Poojari,50,1,1,8,2
+2057,2057,Shivakumar,58,6,1,9,1
+2058,2058,Kavitha Swamy,46,3,1,4,2
+2059,2059,Puneeth,55,8,1,2,1
+2060,2060,Prakash Naik,24,5,1,8,1
+2061,2061,Yogesh,57,6,1,4,1
+2062,2062,Divya Kumar,18,8,1,10,2
+2063,2063,Venkatesh Naik,67,10,2,5,1
+2064,2064,Nagamma Swamy,68,5,2,1,2
+2065,2065,Santosh Naik,50,1,1,6,1
+2066,2066,Vani Murthy,26,1,1,7,2
+2067,2067,Basavaraj Achar,48,5,1,5,1
+2068,2068,Umesh Naik,30,5,1,9,1
+2069,2069,Nagaraj Murthy,45,8,2,8,1
+2070,2070,Kavitha Reddy,42,8,1,2,2
+2071,2071,Rathnamma Patil,55,3,1,6,2
+2072,2072,Harish Poojari,38,6,2,9,1
+2073,2073,Prakash Rao,43,2,1,8,1
+2074,2074,Asha Shetty,62,2,1,3,2
+2075,2075,Mahesh Naik,63,1,1,2,1
+2076,2076,Anand,63,10,2,1,1
+2077,2077,Girish,19,1,7,3,1
+2078,2078,Prakash Reddy,21,9,1,3,1
+2079,2079,Lokesh Naik,32,8,3,9,1
+2080,2080,Suresh Rao,65,5,1,4,1
+2081,2081,Nagamma Shetty,52,3,1,10,2
+2082,2082,Mahesh Swamy,27,6,1,9,1
+2083,2083,Kavitha,28,4,1,5,2
+2084,2084,Geetha Kumar,35,6,1,5,2
+2085,2085,Shobha Achar,43,8,1,10,2
+2086,2086,Santosh Hegde,21,6,2,1,1
+2087,2087,Venkatesh Rao,68,5,7,10,1
+2088,2088,Rathnamma Shetty,40,4,1,5,2
+2089,2089,Rekha Hegde,52,7,1,4,2
+2090,2090,Santosh Patil,34,9,1,5,1
+2091,2091,Nagamma Hegde,30,7,1,6,2
+2092,2092,Suresh,25,2,1,9,1
+2093,2093,Venkatesh Reddy,68,8,3,2,1
+2094,2094,Shivakumar Kumar,55,8,1,8,1
+2095,2095,Rathnamma Poojari,53,4,1,3,2
+2096,2096,Venkatesh Poojari,64,6,1,3,1
+2097,2097,Darshan Reddy,21,2,1,1,1
+2098,2098,Shivakumar Achar,51,6,2,8,1
+2099,2099,Savitha Gowda,65,9,2,2,2
+2100,2100,Pallavi Poojari,20,6,1,2,2
+2101,2101,Mahesh Kumar,37,8,1,6,1
+2102,2102,Shivakumar Rao,68,6,2,10,1
+2103,2103,Shobha,41,8,1,9,2
+2104,2104,Manjula,49,1,1,1,2
+2105,2105,Shivakumar Rao,32,8,1,3,1
+2106,2106,Kiran Gowda,67,6,3,2,1
+2107,2107,Manjula Achar,56,2,1,4,2
+2108,2108,Chandrashekar Achar,60,9,1,4,1
+2109,2109,Rekha Naik,24,2,6,2,2
+2110,2110,Chandrashekar Achar,66,5,1,7,1
+2111,2111,Krishnappa Poojari,59,5,2,10,1
+2112,2112,Yogesh,64,6,2,6,1
+2113,2113,Asha Hegde,45,2,1,2,2
+2114,2114,Mahesh Swamy,39,2,1,9,1
+2115,2115,Shobha Swamy,36,6,4,7,2
+2116,2116,Sunitha Rao,64,1,1,1,2
+2117,2117,Santosh Poojari,64,4,1,6,1
+2118,2118,Prakash Rao,67,1,1,10,1
+2119,2119,Shivakumar Rao,70,5,1,9,1
+2120,2120,Suresh,41,3,1,10,1
+2121,2121,Vani Reddy,25,8,1,8,2
+2122,2122,Shivakumar,21,9,1,2,1
+2123,2123,Shobha Poojari,55,3,1,9,2
+2124,2124,Kavitha Rao,57,5,1,10,2
+2125,2125,Nagaraj Poojari,49,3,1,9,1
+2126,2126,Sunitha Swamy,67,2,1,6,2
+2127,2127,Rekha Shetty,40,6,1,4,2
+2128,2128,Mahesh Murthy,67,1,2,6,1
+2129,2129,Yogesh Naik,31,2,2,2,1
+2130,2130,Shwetha Kumar,66,3,1,1,2
+2131,2131,Manjunath Gowda,30,4,1,2,1
+2132,2132,Manjula Achar,48,2,1,2,2
+2133,2133,Suresh Reddy,45,4,1,2,1
+2134,2134,Asha Kumar,62,7,2,1,2
+2135,2135,Basavaraj Rao,59,5,3,2,1
+2136,2136,Srinivas Gowda,19,7,4,3,1
+2137,2137,Puneeth Rao,39,2,1,3,1
+2138,2138,Srinivas Reddy,31,3,1,7,1
+2139,2139,Bhagya Patil,38,7,3,5,2
+2140,2140,Lakshmi Naik,61,8,1,6,2
+2141,2141,Srinivas Patil,27,4,1,3,1
+2142,2142,Shobha Reddy,68,7,1,1,2
+2143,2143,Mahesh Kumar,29,3,3,6,1
+2144,2144,Deepa,50,1,1,2,2
+2145,2145,Puneeth Murthy,57,6,3,6,1
+2146,2146,Chandrashekar Naik,66,4,1,7,1
+2147,2147,Santosh Reddy,58,8,1,4,1
+2148,2148,Raghavendra Murthy,57,1,1,4,1
+2149,2149,Krishnappa Gowda,59,5,1,10,1
+2150,2150,Kiran Shetty,23,8,1,9,1
+2151,2151,Girish,38,6,1,5,1
+2152,2152,Chandrashekar Shetty,36,7,1,2,1
+2153,2153,Srinivas Swamy,53,1,1,10,1
+2154,2154,Vani,62,5,1,5,2
+2155,2155,Lakshmi,27,5,1,3,2
+2156,2156,Prakash Kumar,28,2,1,6,1
+2157,2157,Asha Rao,34,2,1,10,2
+2158,2158,Harish Rao,26,9,1,7,1
+2159,2159,Prakash Naik,19,6,1,1,1
+2160,2160,Srinivas Poojari,66,4,2,2,1
+2161,2161,Raghavendra Poojari,66,5,1,7,1
+2162,2162,Krishnappa,66,3,1,1,1
+2163,2163,Divya Achar,37,8,1,7,2
+2164,2164,Padma Achar,32,8,1,1,2
+2165,2165,Krishnappa Swamy,27,2,1,5,1
+2166,2166,Nagamma Naik,64,8,3,4,2
+2167,2167,Padma Hegde,35,6,1,7,2
+2168,2168,Manjunath,51,8,1,9,1
+2169,2169,Umesh Gowda,41,2,2,10,1
+2170,2170,Padma Reddy,54,2,1,6,2
+2171,2171,Padma Shetty,69,5,1,2,2
+2172,2172,Savitha Kumar,34,2,1,9,2
+2173,2173,Kiran Gowda,58,2,1,9,1
+2174,2174,Kiran,46,4,2,7,1
+2175,2175,Yogesh,30,5,1,7,1
+2176,2176,Harish Murthy,32,1,1,7,1
+2177,2177,Anand Hegde,40,4,2,7,1
+2178,2178,Chandrashekar,55,7,1,1,1
+2179,2179,Savitha Naik,41,4,1,7,2
+2180,2180,Vani Achar,26,2,1,9,2
+2181,2181,Manjunath Naik,70,4,1,4,1
+2182,2182,Lakshmi Swamy,44,3,1,5,2
+2183,2183,Anand,61,4,1,7,1
+2184,2184,Krishnappa Rao,43,4,2,9,1
+2185,2185,Geetha,28,4,4,6,2
+2186,2186,Girish Reddy,63,9,2,6,1
+2187,2187,Krishnappa Achar,44,2,1,3,1
+2188,2188,Shivakumar Rao,68,4,2,9,1
+2189,2189,Mahesh Hegde,58,10,4,1,1
+2190,2190,Lakshmi Shetty,40,5,4,1,2
+2191,2191,Puneeth Gowda,33,3,2,10,1
+2192,2192,Harish Patil,43,4,6,10,1
+2193,2193,Vani Achar,35,9,1,6,2
+2194,2194,Asha Gowda,24,6,2,7,2
+2195,2195,Muniraju Gowda,48,6,1,7,1
+2196,2196,Kiran Hegde,49,9,1,9,1
+2197,2197,Manjunath Naik,37,3,1,5,1
+2198,2198,Raghavendra Murthy,39,8,1,5,1
+2199,2199,Venkatesh Gowda,51,6,3,2,1
+2200,2200,Vani Shetty,43,8,1,4,2
+2201,2201,Chandrashekar Reddy,22,2,1,8,1
+2202,2202,Suresh Shetty,69,1,1,3,1
+2203,2203,Puneeth Gowda,40,1,1,7,1
+2204,2204,Bhagya Reddy,46,6,3,7,2
+2205,2205,Muniraju,39,1,1,8,1
+2206,2206,Sunitha,18,9,1,5,2
+2207,2207,Ramesh Naik,39,8,2,6,1
+2208,2208,Prakash Poojari,63,1,5,8,1
+2209,2209,Mahesh Rao,32,3,2,5,1
+2210,2210,Shobha Hegde,48,2,1,10,2
+2211,2211,Shwetha Gowda,34,5,1,4,2
+2212,2212,Basavaraj,50,5,1,7,1
+2213,2213,Muniraju Rao,47,5,1,10,1
+2214,2214,Yogesh Shetty,54,2,3,4,1
+2215,2215,Geetha,24,6,1,4,2
+2216,2216,Asha Gowda,35,5,3,8,2
+2217,2217,Venkatesh Naik,69,2,1,10,1
+2218,2218,Girish Rao,36,3,1,5,1
+2219,2219,Harish Kumar,27,4,1,5,1
+2220,2220,Darshan Swamy,37,6,1,8,1
+2221,2221,Muniraju Kumar,33,2,1,7,1
+2222,2222,Puneeth Achar,53,5,1,9,1
+2223,2223,Vani Reddy,38,5,2,7,2
+2224,2224,Kavitha Patil,44,7,5,5,2
+2225,2225,Mahesh Murthy,66,7,1,5,1
+2226,2226,Srinivas,27,8,2,10,1
+2227,2227,Basavaraj Hegde,70,4,1,7,1
+2228,2228,Manjula Shetty,45,5,1,1,2
+2229,2229,Santosh Kumar,60,8,1,6,1
+2230,2230,Girish,58,4,1,6,1
+2231,2231,Srinivas Shetty,57,1,1,6,1
+2232,2232,Shwetha Swamy,36,5,2,7,2
+2233,2233,Deepa Naik,31,6,2,5,2
+2234,2234,Nagaraj Patil,64,7,1,6,1
+2235,2235,Manjula Achar,45,4,4,10,2
+2236,2236,Venkatesh,50,2,1,7,1
+2237,2237,Lokesh,56,5,1,7,1
+2238,2238,Yogesh,43,6,1,3,1
+2239,2239,Prakash Swamy,69,6,2,10,1
+2240,2240,Santosh,32,2,1,5,1
+2241,2241,Darshan,38,1,1,9,1
+2242,2242,Vani,23,7,4,1,2
+2243,2243,Asha Shetty,64,2,7,3,2
+2244,2244,Krishnappa Naik,69,3,1,3,1
+2245,2245,Umesh Poojari,27,6,1,8,1
+2246,2246,Manjunath Gowda,58,6,3,3,1
+2247,2247,Basavaraj Rao,54,4,1,7,1
+2248,2248,Pallavi Shetty,32,1,3,9,2
+2249,2249,Savitha Naik,32,4,1,2,2
+2250,2250,Nagamma Hegde,65,8,3,8,2
+2251,2251,Nagaraj Swamy,65,5,2,5,1
+2252,2252,Nagamma Gowda,21,3,1,2,2
+2253,2253,Sunitha,70,1,1,7,2
+2254,2254,Umesh Swamy,28,4,1,2,1
+2255,2255,Basavaraj,38,8,1,5,1
+2256,2256,Rekha Murthy,57,2,1,10,2
+2257,2257,Venkatesh Kumar,26,8,1,9,1
+2258,2258,Lokesh Gowda,55,2,1,3,1
+2259,2259,Geetha Murthy,36,7,2,7,2
+2260,2260,Srinivas Swamy,34,5,1,4,1
+2261,2261,Nagaraj,35,1,2,9,1
+2262,2262,Yogesh Reddy,52,6,1,9,1
+2263,2263,Kiran,65,2,1,6,1
+2264,2264,Geetha Shetty,53,7,1,4,2
+2265,2265,Deepa Kumar,20,1,3,5,2
+2266,2266,Kiran Gowda,34,5,3,10,1
+2267,2267,Muniraju Patil,38,6,1,7,1
+2268,2268,Puneeth Gowda,43,5,2,5,1
+2269,2269,Raghavendra Poojari,53,2,1,4,1
+2270,2270,Puneeth Rao,26,8,1,8,1
+2271,2271,Deepa Shetty,54,4,1,8,2
+2272,2272,Puneeth Patil,58,2,1,3,1
+2273,2273,Suresh Poojari,57,6,7,7,1
+2274,2274,Prakash Poojari,34,5,1,2,1
+2275,2275,Mahesh Murthy,68,6,1,3,1
+2276,2276,Divya,64,3,1,9,2
+2277,2277,Basavaraj Kumar,26,2,1,8,1
+2278,2278,Venkatesh Swamy,66,6,1,4,1
+2279,2279,Mahesh Reddy,19,9,1,8,1
+2280,2280,Muniraju Rao,25,4,1,8,1
+2281,2281,Asha Achar,62,4,1,5,2
+2282,2282,Divya Reddy,53,1,2,6,2
+2283,2283,Puneeth Hegde,65,4,1,6,1
+2284,2284,Lokesh Gowda,62,2,1,1,1
+2285,2285,Geetha Shetty,41,6,1,1,2
+2286,2286,Manjula Murthy,60,2,3,6,2
+2287,2287,Nagamma Poojari,66,2,1,2,2
+2288,2288,Manjula Gowda,35,5,4,9,2
+2289,2289,Girish Swamy,26,8,2,8,1
+2290,2290,Umesh Reddy,70,8,2,1,1
+2291,2291,Basavaraj Reddy,39,6,1,8,1
+2292,2292,Vani,62,8,1,1,2
+2293,2293,Bhagya Murthy,42,2,2,2,2
+2294,2294,Venkatesh,68,6,1,7,1
+2295,2295,Lakshmi Shetty,70,7,1,3,2
+2296,2296,Lakshmi,35,2,2,4,2
+2297,2297,Manjula Reddy,45,7,3,8,2
+2298,2298,Lokesh Swamy,27,5,3,10,1
+2299,2299,Girish Shetty,21,4,2,1,1
+2300,2300,Manjunath Naik,33,6,1,3,1
+2301,2301,Santosh Rao,44,8,1,1,1
+2302,2302,Vani Reddy,27,2,3,7,2
+2303,2303,Divya Rao,68,3,1,6,2
+2304,2304,Lokesh Gowda,58,6,2,4,1
+2305,2305,Chandrashekar Rao,62,1,1,7,1
+2306,2306,Pallavi Naik,21,6,4,2,2
+2307,2307,Umesh Reddy,69,8,1,9,1
+2308,2308,Pallavi Rao,48,1,1,8,2
+2309,2309,Rathnamma Murthy,37,2,1,6,2
+2310,2310,Manjunath Poojari,55,9,1,2,1
+2311,2311,Rathnamma Patil,58,2,4,7,2
+2312,2312,Basavaraj Shetty,46,9,1,10,1
+2313,2313,Savitha,70,8,1,9,2
+2314,2314,Rathnamma,24,5,1,3,2
+2315,2315,Divya Shetty,30,2,3,6,2
+2316,2316,Sunitha Patil,37,4,1,9,2
+2317,2317,Mahesh,29,1,1,7,1
+2318,2318,Sunitha Naik,61,4,2,2,2
+2319,2319,Nagaraj Gowda,30,2,2,2,1
+2320,2320,Asha Swamy,56,2,1,7,2
+2321,2321,Manjunath Shetty,25,6,1,10,1
+2322,2322,Divya Naik,43,2,3,4,2
+2323,2323,Krishnappa Kumar,38,2,1,9,1
+2324,2324,Anand Achar,56,5,1,3,1
+2325,2325,Bhagya Rao,32,5,1,9,2
+2326,2326,Venkatesh Poojari,20,6,1,9,1
+2327,2327,Santosh Achar,50,2,1,2,1
+2328,2328,Suresh Patil,41,1,1,8,1
+2329,2329,Srinivas Reddy,31,3,1,10,1
+2330,2330,Manjula Gowda,52,4,1,1,2
+2331,2331,Srinivas Poojari,45,2,1,3,1
+2332,2332,Shobha Swamy,41,2,1,5,2
+2333,2333,Vani Patil,48,8,1,8,2
+2334,2334,Nagamma Gowda,18,3,1,8,2
+2335,2335,Basavaraj Gowda,55,5,1,7,1
+2336,2336,Puneeth Naik,39,1,2,8,1
+2337,2337,Harish Kumar,50,2,6,4,1
+2338,2338,Santosh Hegde,60,6,1,9,1
+2339,2339,Yogesh Reddy,29,2,2,1,1
+2340,2340,Shobha,40,8,1,5,2
+2341,2341,Geetha Murthy,67,8,7,6,2
+2342,2342,Anand Poojari,38,8,1,4,1
+2343,2343,Divya Murthy,48,8,1,6,2
+2344,2344,Raghavendra Rao,22,1,1,7,1
+2345,2345,Shobha,18,1,3,2,2
+2346,2346,Harish,25,8,1,6,1
+2347,2347,Manjula,69,6,2,8,2
+2348,2348,Padma Rao,51,2,1,4,2
+2349,2349,Krishnappa Murthy,34,6,1,6,1
+2350,2350,Bhagya Patil,63,3,2,1,2
+2351,2351,Krishnappa Murthy,41,1,1,8,1
+2352,2352,Darshan,27,2,2,3,1
+2353,2353,Manjula Shetty,55,6,1,5,2
+2354,2354,Savitha Kumar,51,7,1,7,2
+2355,2355,Anand,24,8,1,4,1
+2356,2356,Vani Reddy,57,2,2,8,2
+2357,2357,Geetha,48,2,1,9,2
+2358,2358,Sunitha,65,2,1,10,2
+2359,2359,Girish,29,10,1,8,1
+2360,2360,Lakshmi Achar,52,4,1,7,2
+2361,2361,Nagaraj Swamy,57,2,1,3,1
+2362,2362,Prakash Shetty,57,1,1,9,1
+2363,2363,Santosh Kumar,27,4,1,6,1
+2364,2364,Santosh Shetty,60,6,2,2,1
+2365,2365,Manjunath Murthy,27,2,1,1,1
+2366,2366,Padma Achar,28,6,1,1,2
+2367,2367,Raghavendra Shetty,69,4,1,1,1
+2368,2368,Lakshmi Poojari,32,3,1,3,2
+2369,2369,Mahesh Patil,69,6,1,2,1
+2370,2370,Rathnamma Rao,64,4,1,9,2
+2371,2371,Nagaraj Patil,20,2,3,1,1
+2372,2372,Yogesh,67,6,3,4,1
+2373,2373,Lakshmi Swamy,29,2,2,1,2
+2374,2374,Basavaraj Gowda,32,6,1,2,1
+2375,2375,Venkatesh Hegde,21,2,2,5,1
+2376,2376,Nagaraj Achar,58,4,1,1,1
+2377,2377,Manjula Hegde,43,6,7,4,2
+2378,2378,Muniraju Gowda,35,4,1,10,1
+2379,2379,Shivakumar Patil,68,4,1,3,1
+2380,2380,Krishnappa Gowda,19,6,6,9,1
+2381,2381,Santosh Naik,57,9,1,5,1
+2382,2382,Darshan Naik,51,7,1,2,1
+2383,2383,Vani Naik,25,2,2,9,2
+2384,2384,Savitha Murthy,34,4,1,8,2
+2385,2385,Girish,63,4,1,8,1
+2386,2386,Lokesh Achar,53,3,3,3,1
+2387,2387,Srinivas Murthy,23,4,4,3,1
+2388,2388,Rekha Patil,20,5,3,7,2
+2389,2389,Manjunath Murthy,62,4,2,6,1
+2390,2390,Rathnamma Swamy,66,2,2,9,2
+2391,2391,Divya Patil,43,7,1,9,2
+2392,2392,Chandrashekar Shetty,44,7,1,9,1
+2393,2393,Prakash Murthy,54,3,3,7,1
+2394,2394,Pallavi,26,3,1,8,2
+2395,2395,Yogesh Hegde,58,2,1,9,1
+2396,2396,Manjunath Rao,35,7,1,5,1
+2397,2397,Deepa Achar,20,10,1,4,2
+2398,2398,Umesh Reddy,31,2,1,9,1
+2399,2399,Lakshmi Naik,33,8,1,8,2
+2400,2400,Prakash Hegde,42,3,1,1,1
+2401,2401,Pallavi,46,7,1,10,2
+2402,2402,Lokesh Murthy,39,8,1,6,1
+2403,2403,Rathnamma Shetty,66,5,1,9,2
+2404,2404,Lakshmi Swamy,40,8,1,2,2
+2405,2405,Puneeth Poojari,65,5,1,2,1
+2406,2406,Sunitha Rao,53,6,1,2,2
+2407,2407,Srinivas Naik,66,1,1,4,1
+2408,2408,Nagaraj Reddy,37,6,2,8,1
+2409,2409,Raghavendra Patil,37,4,1,8,1
+2410,2410,Vani Naik,41,8,2,1,2
+2411,2411,Umesh Murthy,25,6,1,4,1
+2412,2412,Shivakumar Shetty,64,2,3,7,1
+2413,2413,Mahesh Patil,43,8,1,2,1
+2414,2414,Basavaraj Rao,49,3,1,1,1
+2415,2415,Anand Reddy,53,10,1,4,1
+2416,2416,Nagaraj Gowda,65,8,1,4,1
+2417,2417,Geetha Shetty,32,4,2,7,2
+2418,2418,Muniraju Achar,32,1,7,8,1
+2419,2419,Divya Reddy,45,4,1,3,2
+2420,2420,Basavaraj Naik,65,5,2,3,1
+2421,2421,Padma Naik,34,3,1,9,2
+2422,2422,Nagaraj,37,6,1,10,1
+2423,2423,Kavitha Kumar,47,7,1,3,2
+2424,2424,Lokesh Shetty,39,2,1,2,1
+2425,2425,Puneeth Shetty,58,6,1,3,1
+2426,2426,Shobha Naik,57,6,1,2,2
+2427,2427,Srinivas Patil,70,4,2,9,1
+2428,2428,Darshan,25,3,3,6,1
+2429,2429,Sunitha,52,4,1,1,2
+2430,2430,Manjula Swamy,48,1,1,1,2
+2431,2431,Sunitha Shetty,26,1,1,1,2
+2432,2432,Krishnappa Shetty,41,2,1,5,1
+2433,2433,Lokesh Reddy,34,5,1,7,1
+2434,2434,Harish Rao,52,2,1,9,1
+2435,2435,Manjula,69,2,1,3,2
+2436,2436,Rekha Kumar,59,8,1,2,2
+2437,2437,Lakshmi,30,9,1,3,2
+2438,2438,Krishnappa,61,8,1,4,1
+2439,2439,Girish Shetty,40,5,1,5,1
+2440,2440,Padma Patil,67,8,7,1,2
+2441,2441,Kiran Patil,50,6,1,6,1
+2442,2442,Shwetha,65,7,1,4,2
+2443,2443,Girish Naik,53,8,4,6,1
+2444,2444,Basavaraj Kumar,57,9,1,5,1
+2445,2445,Divya Achar,35,4,2,9,2
+2446,2446,Geetha,49,2,3,3,2
+2447,2447,Geetha Poojari,22,9,2,10,2
+2448,2448,Manjula,32,7,3,6,2
+2449,2449,Padma Kumar,32,3,2,8,2
+2450,2450,Suresh Gowda,68,2,1,4,1
+2451,2451,Asha Shetty,49,4,1,6,2
+2452,2452,Rathnamma Achar,22,6,1,4,2
+2453,2453,Geetha Poojari,61,6,1,4,2
+2454,2454,Mahesh,56,6,1,4,1
+2455,2455,Lakshmi Naik,31,4,1,3,2
+2456,2456,Girish Shetty,30,2,1,10,1
+2457,2457,Kavitha Gowda,39,6,1,9,2
+2458,2458,Ramesh Hegde,56,5,1,2,1
+2459,2459,Rekha,29,3,2,9,2
+2460,2460,Nagaraj Kumar,49,2,1,10,1
+2461,2461,Rathnamma Patil,41,7,2,7,2
+2462,2462,Rekha Reddy,22,2,1,4,2
+2463,2463,Sunitha Murthy,51,6,1,8,2
+2464,2464,Girish Gowda,57,2,1,4,1
+2465,2465,Chandrashekar,21,3,1,3,1
+2466,2466,Sunitha Murthy,39,2,3,5,2
+2467,2467,Harish Gowda,59,3,1,4,1
+2468,2468,Rathnamma,49,1,1,3,2
+2469,2469,Rathnamma,28,2,1,10,2
+2470,2470,Shobha Poojari,18,4,1,6,2
+2471,2471,Rekha Patil,47,9,1,3,2
+2472,2472,Lokesh Gowda,19,1,1,7,1
+2473,2473,Santosh Rao,47,1,2,6,1
+2474,2474,Kiran Hegde,70,4,1,5,1
+2475,2475,Girish Kumar,27,1,1,7,1
+2476,2476,Harish Rao,44,2,1,8,1
+2477,2477,Manjunath Achar,53,2,1,8,1
+2478,2478,Muniraju Achar,18,7,1,4,1
+2479,2479,Chandrashekar Patil,25,5,1,2,1
+2480,2480,Harish,30,8,7,6,1
+2481,2481,Basavaraj Patil,30,4,1,9,1
+2482,2482,Girish Shetty,25,6,2,5,1
+2483,2483,Darshan Murthy,41,2,1,10,1
+2484,2484,Girish,62,2,4,2,1
+2485,2485,Nagamma Kumar,31,4,1,10,2
+2486,2486,Srinivas Naik,22,9,3,10,1
+2487,2487,Deepa Poojari,35,2,3,3,2
+2488,2488,Vani,41,2,1,6,2
+2489,2489,Santosh Gowda,49,5,1,6,1
+2490,2490,Manjula Murthy,69,10,1,6,2
+2491,2491,Pallavi Rao,63,8,1,7,2
+2492,2492,Vani Reddy,49,5,3,7,2
+2493,2493,Shobha Patil,37,4,1,4,2
+2494,2494,Umesh Shetty,24,2,1,7,1
+2495,2495,Sunitha Gowda,54,6,7,3,2
+2496,2496,Venkatesh Patil,37,2,1,4,1
+2497,2497,Muniraju Rao,34,8,1,6,1
+2498,2498,Nagaraj Swamy,63,4,1,10,1
+2499,2499,Manjula Gowda,27,2,1,9,2
+2500,2500,Manjula Kumar,25,7,1,3,2
+2501,2501,Manjunath,25,4,3,5,1
+2502,2502,Prakash Shetty,42,3,1,6,1
+2503,2503,Yogesh Murthy,27,9,1,9,1
+2504,2504,Suresh Gowda,60,1,1,7,1
+2505,2505,Anand Murthy,31,1,2,6,1
+2506,2506,Nagaraj,23,3,3,8,1
+2507,2507,Divya Swamy,48,10,1,8,2
+2508,2508,Kavitha Swamy,42,8,1,10,2
+2509,2509,Basavaraj,22,6,1,2,1
+2510,2510,Divya Achar,42,6,2,9,2
+2511,2511,Lakshmi Poojari,67,6,1,8,2
+2512,2512,Yogesh,42,6,1,7,1
+2513,2513,Manjula Patil,43,8,1,4,2
+2514,2514,Girish Shetty,41,9,1,5,1
+2515,2515,Kiran,61,9,1,5,1
+2516,2516,Manjula Swamy,43,2,1,5,2
+2517,2517,Shwetha,46,6,1,8,2
+2518,2518,Umesh Murthy,38,5,1,5,1
+2519,2519,Rathnamma Murthy,58,4,3,1,2
+2520,2520,Sunitha Poojari,24,2,1,8,2
+2521,2521,Darshan Hegde,40,6,1,10,1
+2522,2522,Manjunath Poojari,30,6,1,5,1
+2523,2523,Harish Poojari,51,8,1,1,1
+2524,2524,Srinivas,64,8,1,4,1
+2525,2525,Santosh Achar,48,1,2,8,1
+2526,2526,Nagaraj Kumar,67,8,1,4,1
+2527,2527,Ramesh,58,2,4,1,1
+2528,2528,Yogesh Reddy,29,2,1,2,1
+2529,2529,Chandrashekar Murthy,43,2,1,3,1
+2530,2530,Lakshmi Hegde,23,2,1,2,2
+2531,2531,Asha Murthy,27,7,1,2,2
+2532,2532,Nagamma,44,8,1,7,2
+2533,2533,Vani Murthy,26,4,1,3,2
+2534,2534,Rathnamma Shetty,40,2,1,9,2
+2535,2535,Ramesh Shetty,33,2,1,4,1
+2536,2536,Kavitha Gowda,39,2,3,8,2
+2537,2537,Lakshmi,27,7,2,7,2
+2538,2538,Asha Rao,42,4,3,6,2
+2539,2539,Geetha Patil,37,6,1,9,2
+2540,2540,Nagaraj,54,2,2,10,1
+2541,2541,Nagaraj Rao,61,2,1,4,1
+2542,2542,Geetha,35,5,2,9,2
+2543,2543,Muniraju,38,6,1,3,1
+2544,2544,Chandrashekar Swamy,33,8,1,7,1
+2545,2545,Yogesh Kumar,37,10,1,4,1
+2546,2546,Srinivas Patil,43,2,3,1,1
+2547,2547,Basavaraj Shetty,57,1,1,9,1
+2548,2548,Asha Gowda,57,8,1,6,2
+2549,2549,Umesh Naik,34,7,1,3,1
+2550,2550,Srinivas Achar,21,8,1,8,1
+2551,2551,Puneeth Poojari,62,4,1,3,1
+2552,2552,Shwetha Hegde,25,1,1,3,2
+2553,2553,Harish Achar,28,5,1,10,1
+2554,2554,Basavaraj Kumar,56,6,1,7,1
+2555,2555,Kavitha Poojari,68,7,1,6,2
+2556,2556,Basavaraj Shetty,59,2,1,6,1
+2557,2557,Yogesh Murthy,20,5,2,4,1
+2558,2558,Manjula Naik,30,6,1,10,2
+2559,2559,Manjula Naik,43,6,1,3,2
+2560,2560,Deepa Patil,33,1,1,4,2
+2561,2561,Kavitha Hegde,29,2,1,7,2
+2562,2562,Krishnappa,61,3,1,3,1
+2563,2563,Ramesh Patil,63,5,1,10,1
+2564,2564,Krishnappa Swamy,23,5,1,8,1
+2565,2565,Asha,21,3,1,8,2
+2566,2566,Asha Rao,18,6,2,4,2
+2567,2567,Shobha Hegde,52,5,1,5,2
+2568,2568,Asha,48,7,1,7,2
+2569,2569,Shivakumar Patil,69,4,2,7,1
+2570,2570,Shwetha Kumar,40,6,4,6,2
+2571,2571,Rekha Murthy,59,2,2,2,2
+2572,2572,Kiran,66,5,2,4,1
+2573,2573,Venkatesh Patil,59,9,1,6,1
+2574,2574,Manjunath,42,7,1,7,1
+2575,2575,Nagamma Patil,43,3,1,3,2
+2576,2576,Anand Murthy,60,5,1,6,1
+2577,2577,Manjula Naik,27,1,1,4,2
+2578,2578,Girish Naik,50,7,1,9,1
+2579,2579,Deepa Swamy,40,2,1,1,2
+2580,2580,Shivakumar Achar,47,4,5,5,1
+2581,2581,Lokesh,54,1,1,5,1
+2582,2582,Asha Gowda,33,1,2,6,2
+2583,2583,Harish Achar,29,6,1,10,1
+2584,2584,Vani Poojari,52,5,1,2,2
+2585,2585,Anand Poojari,65,8,1,8,1
+2586,2586,Suresh Kumar,23,4,1,2,1
+2587,2587,Lakshmi,34,5,1,7,2
+2588,2588,Prakash Achar,22,3,1,10,1
+2589,2589,Chandrashekar Hegde,55,3,1,2,1
+2590,2590,Shobha Swamy,43,4,2,2,2
+2591,2591,Rathnamma Naik,56,4,1,5,2
+2592,2592,Darshan,58,5,1,6,1
+2593,2593,Shwetha,59,6,1,6,2
+2594,2594,Santosh Swamy,25,7,1,3,1
+2595,2595,Harish Swamy,18,3,7,8,1
+2596,2596,Manjula Patil,60,7,1,8,2
+2597,2597,Padma Murthy,57,8,1,10,2
+2598,2598,Puneeth Patil,44,7,3,10,1
+2599,2599,Yogesh Patil,57,1,2,5,1
+2600,2600,Harish Swamy,52,4,1,9,1
+2601,2601,Sunitha Naik,51,9,1,5,2
+2602,2602,Nagaraj Murthy,41,3,1,6,1
+2603,2603,Bhagya Achar,43,8,1,2,2
+2604,2604,Rekha Shetty,63,5,1,8,2
+2605,2605,Darshan Patil,18,2,1,7,1
+2606,2606,Shobha Kumar,51,4,1,5,2
+2607,2607,Vani,24,2,1,5,2
+2608,2608,Suresh,66,2,1,10,1
+2609,2609,Darshan Patil,56,6,1,8,1
+2610,2610,Deepa Murthy,50,7,2,5,2
+2611,2611,Santosh Achar,58,2,1,9,1
+2612,2612,Shivakumar Naik,68,6,1,9,1
+2613,2613,Anand Shetty,20,8,2,6,1
+2614,2614,Shivakumar Patil,65,4,1,5,1
+2615,2615,Srinivas,63,4,3,8,1
+2616,2616,Manjula Achar,27,6,2,2,2
+2617,2617,Chandrashekar Reddy,53,8,1,8,1
+2618,2618,Mahesh Naik,37,2,1,4,1
+2619,2619,Muniraju,32,7,1,6,1
+2620,2620,Rekha Naik,49,2,1,7,2
+2621,2621,Santosh Hegde,49,4,1,6,1
+2622,2622,Nagamma Reddy,59,5,1,6,2
+2623,2623,Basavaraj Gowda,34,2,2,8,1
+2624,2624,Prakash Murthy,59,6,3,2,1
+2625,2625,Santosh,69,6,1,9,1
+2626,2626,Manjunath Poojari,40,1,1,8,1
+2627,2627,Asha Achar,57,5,1,3,2
+2628,2628,Shivakumar Patil,55,5,2,9,1
+2629,2629,Darshan Murthy,63,6,1,9,1
+2630,2630,Puneeth Reddy,29,2,1,2,1
+2631,2631,Shivakumar Reddy,31,2,1,10,1
+2632,2632,Bhagya Patil,43,6,3,3,2
+2633,2633,Girish Reddy,23,2,6,9,1
+2634,2634,Shobha Reddy,25,1,1,1,2
+2635,2635,Srinivas Rao,55,1,1,9,1
+2636,2636,Manjunath Swamy,69,4,1,1,1
+2637,2637,Kiran Gowda,31,5,3,7,1
+2638,2638,Savitha Naik,37,5,1,9,2
+2639,2639,Anand,36,8,1,9,1
+2640,2640,Padma Rao,37,2,7,7,2
+2641,2641,Bhagya Kumar,47,1,1,4,2
+2642,2642,Sunitha Reddy,35,2,1,5,2
+2643,2643,Lokesh Patil,22,2,2,10,1
+2644,2644,Prakash,55,7,2,6,1
+2645,2645,Venkatesh Naik,37,1,2,2,1
+2646,2646,Muniraju Murthy,34,6,2,3,1
+2647,2647,Vani Murthy,70,4,1,7,2
+2648,2648,Shwetha Rao,68,10,6,6,2
+2649,2649,Nagamma Achar,36,9,1,5,2
+2650,2650,Ramesh Shetty,63,8,2,1,1
+2651,2651,Shobha Naik,52,8,1,10,2
+2652,2652,Manjunath Shetty,67,6,4,2,1
+2653,2653,Pallavi Rao,27,2,1,1,2
+2654,2654,Prakash Achar,63,3,1,7,1
+2655,2655,Divya,28,5,1,8,2
+2656,2656,Santosh,60,2,1,3,1
+2657,2657,Lakshmi Naik,51,4,2,1,2
+2658,2658,Anand Shetty,44,8,5,8,1
+2659,2659,Deepa Poojari,50,5,2,9,2
+2660,2660,Basavaraj,37,4,1,7,1
+2661,2661,Anand,36,2,1,4,1
+2662,2662,Bhagya,54,5,1,5,2
+2663,2663,Nagamma Rao,59,1,6,3,2
+2664,2664,Prakash Swamy,41,6,2,10,1
+2665,2665,Shivakumar Swamy,42,6,1,3,1
+2666,2666,Rathnamma Reddy,28,1,3,2,2
+2667,2667,Shwetha Patil,43,2,1,4,2
+2668,2668,Kiran Achar,42,8,3,9,1
+2669,2669,Venkatesh Patil,23,1,1,8,1
+2670,2670,Vani Hegde,18,9,1,8,2
+2671,2671,Santosh Rao,31,4,4,5,1
+2672,2672,Rekha,56,7,1,7,2
+2673,2673,Krishnappa,19,9,1,5,1
+2674,2674,Venkatesh,65,7,5,6,1
+2675,2675,Shivakumar Swamy,48,4,1,1,1
+2676,2676,Rathnamma Kumar,47,3,1,2,2
+2677,2677,Darshan Achar,50,2,1,9,1
+2678,2678,Srinivas Naik,35,2,2,5,1
+2679,2679,Lakshmi Hegde,58,5,2,7,2
+2680,2680,Chandrashekar Poojari,40,2,1,2,1
+2681,2681,Lokesh Murthy,25,6,1,4,1
+2682,2682,Venkatesh,21,6,3,10,1
+2683,2683,Raghavendra Naik,28,3,1,4,1
+2684,2684,Kiran Gowda,70,7,1,9,1
+2685,2685,Shwetha Kumar,36,3,1,8,2
+2686,2686,Muniraju Patil,62,9,1,10,1
+2687,2687,Geetha Swamy,40,5,2,9,2
+2688,2688,Kiran Murthy,28,3,7,7,1
+2689,2689,Bhagya Achar,51,6,1,8,2
+2690,2690,Puneeth Poojari,29,7,7,8,1
+2691,2691,Prakash Reddy,37,6,1,7,1
+2692,2692,Shobha Naik,26,9,1,9,2
+2693,2693,Manjula Swamy,31,9,1,4,2
+2694,2694,Shivakumar,65,6,1,5,1
+2695,2695,Basavaraj,42,2,2,8,1
+2696,2696,Raghavendra,57,7,2,3,1
+2697,2697,Pallavi Swamy,62,3,1,1,2
+2698,2698,Raghavendra Naik,23,6,1,7,1
+2699,2699,Umesh Naik,54,7,1,2,1
+2700,2700,Rathnamma Hegde,34,2,2,6,2
+2701,2701,Kavitha Kumar,40,2,3,1,2
+2702,2702,Rekha Naik,48,4,1,8,2
+2703,2703,Chandrashekar Achar,50,8,2,4,1
+2704,2704,Ramesh Rao,40,4,1,5,1
+2705,2705,Raghavendra Shetty,44,6,4,4,1
+2706,2706,Rekha Patil,63,2,1,3,2
+2707,2707,Lakshmi Murthy,52,6,1,6,2
+2708,2708,Santosh Shetty,69,2,1,1,1
+2709,2709,Shivakumar Gowda,57,7,1,8,1
+2710,2710,Nagaraj Patil,30,2,1,3,1
+2711,2711,Rekha,48,5,1,1,2
+2712,2712,Srinivas Poojari,70,3,1,1,1
+2713,2713,Sunitha Murthy,61,4,1,4,2
+2714,2714,Mahesh,35,4,1,4,1
+2715,2715,Muniraju Shetty,54,3,1,3,1
+2716,2716,Girish Naik,34,2,1,10,1
+2717,2717,Umesh Swamy,70,2,4,7,1
+2718,2718,Padma Naik,63,2,1,7,2
+2719,2719,Darshan Patil,49,8,3,8,1
+2720,2720,Pallavi,68,1,1,9,2
+2721,2721,Padma,49,2,1,10,2
+2722,2722,Lokesh,19,5,1,9,1
+2723,2723,Anand Achar,34,1,1,8,1
+2724,2724,Basavaraj Rao,70,5,2,4,1
+2725,2725,Divya Reddy,25,4,1,3,2
+2726,2726,Anand Reddy,20,6,1,5,1
+2727,2727,Lakshmi Patil,24,3,1,1,2
+2728,2728,Manjunath,51,5,1,6,1
+2729,2729,Kavitha Murthy,51,5,1,7,2
+2730,2730,Suresh Rao,57,4,1,7,1
+2731,2731,Girish Achar,48,6,7,3,1
+2732,2732,Umesh Swamy,65,3,3,10,1
+2733,2733,Nagamma Naik,56,4,1,8,2
+2734,2734,Muniraju Patil,22,6,3,3,1
+2735,2735,Shivakumar Reddy,24,5,4,4,1
+2736,2736,Raghavendra Rao,38,4,2,2,1
+2737,2737,Divya,62,3,3,5,2
+2738,2738,Prakash Shetty,66,3,1,2,1
+2739,2739,Yogesh Achar,39,9,1,4,1
+2740,2740,Pallavi Reddy,60,2,1,9,2
+2741,2741,Savitha Swamy,56,4,1,1,2
+2742,2742,Asha Achar,70,2,2,5,2
+2743,2743,Puneeth,29,2,1,3,1
+2744,2744,Divya,24,2,1,4,2
+2745,2745,Nagaraj Hegde,53,7,1,3,1
+2746,2746,Chandrashekar Reddy,54,3,7,9,1
+2747,2747,Suresh Achar,50,5,3,8,1
+2748,2748,Shivakumar Poojari,52,3,1,5,1
+2749,2749,Shwetha Reddy,35,2,2,8,2
+2750,2750,Krishnappa Kumar,20,4,1,1,1
+2751,2751,Sunitha Rao,29,4,1,5,2
+2752,2752,Manjula,18,3,1,4,2
+2753,2753,Lakshmi Shetty,70,2,1,6,2
+2754,2754,Darshan Achar,38,4,3,4,1
+2755,2755,Mahesh Naik,59,4,1,8,1
+2756,2756,Mahesh Gowda,24,6,1,9,1
+2757,2757,Venkatesh,63,2,2,6,1
+2758,2758,Nagamma Hegde,30,2,1,10,2
+2759,2759,Anand Gowda,54,4,1,7,1
+2760,2760,Umesh Hegde,50,2,1,9,1
+2761,2761,Vani,49,7,1,4,2
+2762,2762,Venkatesh,35,9,1,7,1
+2763,2763,Deepa Gowda,33,1,4,2,2
+2764,2764,Asha Shetty,67,4,1,3,2
+2765,2765,Shivakumar Hegde,48,3,1,7,1
+2766,2766,Suresh Rao,54,2,4,7,1
+2767,2767,Puneeth Rao,57,3,1,3,1
+2768,2768,Padma Swamy,49,8,1,9,2
+2769,2769,Santosh Achar,63,5,1,2,1
+2770,2770,Suresh Patil,66,8,3,2,1
+2771,2771,Geetha Rao,32,2,1,8,2
+2772,2772,Prakash Hegde,70,4,1,10,1
+2773,2773,Prakash Patil,58,1,1,5,1
+2774,2774,Prakash Achar,58,3,1,9,1
+2775,2775,Pallavi Hegde,44,2,1,4,2
+2776,2776,Yogesh Naik,53,7,1,1,1
+2777,2777,Bhagya Shetty,43,4,1,5,2
+2778,2778,Prakash Shetty,47,3,1,9,1
+2779,2779,Ramesh Achar,40,2,1,3,1
+2780,2780,Raghavendra Kumar,62,6,1,2,1
+2781,2781,Raghavendra,56,6,3,9,1
+2782,2782,Shobha Poojari,31,4,1,6,2
+2783,2783,Sunitha Reddy,55,1,1,5,2
+2784,2784,Santosh,39,4,3,7,1
+2785,2785,Chandrashekar Swamy,27,3,3,1,1
+2786,2786,Umesh Gowda,19,4,1,5,1
+2787,2787,Pallavi,18,1,1,8,2
+2788,2788,Rekha Patil,32,6,1,5,2
+2789,2789,Yogesh Poojari,43,2,1,4,1
+2790,2790,Puneeth Murthy,42,8,4,7,1
+2791,2791,Kiran Gowda,18,1,1,6,1
+2792,2792,Savitha Poojari,21,6,7,4,2
+2793,2793,Basavaraj,40,2,1,8,1
+2794,2794,Manjunath Poojari,67,2,3,8,1
+2795,2795,Geetha Hegde,66,1,1,9,2
+2796,2796,Darshan Gowda,41,8,1,6,1
+2797,2797,Pallavi Naik,59,6,1,6,2
+2798,2798,Padma,43,5,1,2,2
+2799,2799,Vani Hegde,58,8,1,10,2
+2800,2800,Bhagya Murthy,67,5,1,9,2
+2801,2801,Shobha Rao,57,5,1,4,2
+2802,2802,Shobha Shetty,20,3,1,5,2
+2803,2803,Kiran Swamy,28,2,1,7,1
+2804,2804,Divya Patil,41,4,1,6,2
+2805,2805,Kiran Naik,62,2,1,5,1
+2806,2806,Divya Kumar,29,9,1,8,2
+2807,2807,Padma,70,2,1,10,2
+2808,2808,Suresh Patil,37,2,1,6,1
+2809,2809,Manjula Swamy,25,8,1,3,2
+2810,2810,Venkatesh Rao,33,2,1,1,1
+2811,2811,Raghavendra Naik,44,6,3,3,1
+2812,2812,Muniraju Rao,56,2,1,2,1
+2813,2813,Nagaraj Naik,69,2,1,3,1
+2814,2814,Srinivas Gowda,18,5,1,4,1
+2815,2815,Girish,27,4,1,4,1
+2816,2816,Mahesh,38,9,1,6,1
+2817,2817,Kiran,56,6,1,1,1
+2818,2818,Sunitha Patil,39,3,1,4,2
+2819,2819,Nagamma,19,4,2,1,2
+2820,2820,Rekha Poojari,43,2,1,10,2
+2821,2821,Prakash,34,1,5,5,1
+2822,2822,Anand Rao,35,2,3,3,1
+2823,2823,Raghavendra Achar,30,5,1,3,1
+2824,2824,Pallavi Hegde,50,2,3,6,2
+2825,2825,Padma,55,9,1,8,2
+2826,2826,Anand Rao,57,2,2,10,1
+2827,2827,Sunitha Reddy,67,10,1,10,2
+2828,2828,Asha Hegde,55,6,1,2,2
+2829,2829,Anand Reddy,43,3,2,1,1
+2830,2830,Suresh Hegde,19,4,2,7,1
+2831,2831,Basavaraj,53,5,1,10,1
+2832,2832,Prakash,47,9,3,2,1
+2833,2833,Girish Reddy,32,6,1,2,1
+2834,2834,Geetha,28,9,2,9,2
+2835,2835,Kavitha Shetty,22,4,1,9,2
+2836,2836,Lakshmi,24,6,1,8,2
+2837,2837,Sunitha Naik,27,7,1,2,2
+2838,2838,Divya Naik,19,4,1,5,2
+2839,2839,Geetha Rao,50,2,1,10,2
+2840,2840,Geetha Shetty,19,3,1,9,2
+2841,2841,Nagamma Hegde,26,6,2,6,2
+2842,2842,Anand Kumar,31,4,1,10,1
+2843,2843,Savitha Patil,50,2,2,4,2
+2844,2844,Suresh Gowda,26,3,1,8,1
+2845,2845,Rekha Shetty,48,7,1,4,2
+2846,2846,Savitha Poojari,34,6,2,4,2
+2847,2847,Nagamma,25,3,1,8,2
+2848,2848,Manjunath Swamy,44,7,3,5,1
+2849,2849,Rathnamma Naik,35,7,3,5,2
+2850,2850,Prakash,37,1,1,1,1
+2851,2851,Santosh Hegde,53,8,1,8,1
+2852,2852,Lakshmi,51,1,1,7,2
+2853,2853,Savitha Murthy,18,4,1,5,2
+2854,2854,Venkatesh Kumar,27,5,1,5,1
+2855,2855,Lokesh Achar,36,7,1,10,1
+2856,2856,Sunitha Rao,49,6,1,8,2
+2857,2857,Mahesh Hegde,50,8,1,2,1
+2858,2858,Savitha Gowda,65,6,2,2,2
+2859,2859,Asha,23,6,1,8,2
+2860,2860,Anand Swamy,23,3,1,6,1
+2861,2861,Venkatesh Kumar,48,2,1,6,1
+2862,2862,Srinivas Rao,21,8,2,3,1
+2863,2863,Rathnamma Poojari,35,8,1,6,2
+2864,2864,Nagaraj Hegde,19,1,7,10,1
+2865,2865,Suresh Swamy,55,6,2,1,1
+2866,2866,Yogesh Poojari,54,9,1,2,1
+2867,2867,Krishnappa Naik,43,6,1,2,1
+2868,2868,Srinivas Patil,52,8,1,1,1
+2869,2869,Asha Hegde,37,4,1,3,2
+2870,2870,Lokesh,64,9,1,1,1
+2871,2871,Ramesh Murthy,28,1,1,6,1
+2872,2872,Geetha Reddy,67,2,2,7,2
+2873,2873,Divya Swamy,29,5,7,8,2
+2874,2874,Mahesh Murthy,69,2,1,8,1
+2875,2875,Santosh Poojari,24,4,1,9,1
+2876,2876,Manjula,42,6,1,1,2
+2877,2877,Bhagya Patil,45,3,1,5,2
+2878,2878,Srinivas Swamy,55,8,1,1,1
+2879,2879,Anand Reddy,67,4,1,3,1
+2880,2880,Geetha Rao,20,2,3,2,2
+2881,2881,Asha Naik,56,2,1,10,2
+2882,2882,Yogesh Shetty,65,8,2,5,1
+2883,2883,Nagamma,62,4,1,5,2
+2884,2884,Kavitha Patil,38,3,2,4,2
+2885,2885,Kiran Naik,56,2,1,5,1
+2886,2886,Rathnamma Achar,51,10,1,3,2
+2887,2887,Darshan,50,2,1,7,1
+2888,2888,Lokesh Poojari,63,8,1,7,1
+2889,2889,Girish Murthy,65,2,2,3,1
+2890,2890,Pallavi Naik,18,2,3,4,2
+2891,2891,Srinivas Gowda,20,2,1,6,1
+2892,2892,Puneeth,48,4,4,9,1
+2893,2893,Puneeth Shetty,38,2,1,6,1
+2894,2894,Krishnappa Reddy,19,8,1,5,1
+2895,2895,Savitha Reddy,53,5,1,3,2
+2896,2896,Srinivas,70,4,1,7,1
+2897,2897,Nagamma,28,5,4,3,2
+2898,2898,Puneeth Kumar,27,6,1,1,1
+2899,2899,Manjunath Murthy,41,2,1,10,1
+2900,2900,Pallavi Achar,27,7,2,6,2
+2901,2901,Kavitha Patil,30,2,1,6,2
+2902,2902,Santosh Hegde,69,6,1,2,1
+2903,2903,Raghavendra Rao,54,1,1,10,1
+2904,2904,Kavitha Achar,45,5,1,8,2
+2905,2905,Geetha Gowda,44,7,1,2,2
+2906,2906,Anand Reddy,37,1,2,9,1
+2907,2907,Krishnappa,68,6,1,10,1
+2908,2908,Padma Murthy,39,6,3,2,2
+2909,2909,Venkatesh Swamy,70,8,7,8,1
+2910,2910,Krishnappa,23,7,2,10,1
+2911,2911,Shivakumar Achar,39,5,3,4,1
+2912,2912,Basavaraj Achar,52,8,1,6,1
+2913,2913,Shwetha Reddy,69,9,3,1,2
+2914,2914,Raghavendra Poojari,48,9,1,2,1
+2915,2915,Muniraju Naik,49,9,2,2,1
+2916,2916,Pallavi Rao,36,7,1,6,2
+2917,2917,Girish Rao,54,3,2,3,1
+2918,2918,Kiran Murthy,54,6,3,10,1
+2919,2919,Anand Poojari,55,6,1,5,1
+2920,2920,Umesh Patil,39,6,2,7,1
+2921,2921,Geetha Kumar,56,7,2,3,2
+2922,2922,Divya Shetty,18,8,1,1,2
+2923,2923,Umesh Reddy,63,2,1,3,1
+2924,2924,Divya,65,6,2,8,2
+2925,2925,Geetha Gowda,54,8,2,7,2
+2926,2926,Deepa,40,3,1,9,2
+2927,2927,Shwetha Gowda,23,6,1,5,2
+2928,2928,Geetha Rao,39,8,1,6,2
+2929,2929,Chandrashekar Poojari,24,8,1,9,1
+2930,2930,Shobha,52,7,2,5,2
+2931,2931,Chandrashekar Murthy,40,2,1,2,1
+2932,2932,Manjula Hegde,21,9,3,2,2
+2933,2933,Girish Shetty,44,3,2,10,1
+2934,2934,Nagaraj Patil,21,2,6,8,1
+2935,2935,Umesh Shetty,25,1,2,8,1
+2936,2936,Srinivas,43,2,1,7,1
+2937,2937,Santosh Kumar,32,7,1,7,1
+2938,2938,Sunitha,23,5,1,1,2
+2939,2939,Manjunath Shetty,51,2,1,6,1
+2940,2940,Kavitha Hegde,53,6,2,8,2
+2941,2941,Anand,52,1,1,1,1
+2942,2942,Prakash,52,1,1,10,1
+2943,2943,Shivakumar Achar,49,7,1,10,1
+2944,2944,Vani,45,9,1,6,2
+2945,2945,Girish Hegde,19,6,3,9,1
+2946,2946,Mahesh Achar,33,3,2,1,1
+2947,2947,Padma Reddy,50,6,2,10,2
+2948,2948,Chandrashekar Shetty,20,8,1,4,1
+2949,2949,Yogesh Gowda,35,6,2,8,1
+2950,2950,Padma,63,9,1,2,2
+2951,2951,Nagaraj Patil,41,8,1,5,1
+2952,2952,Prakash,37,6,2,1,1
+2953,2953,Nagaraj Naik,18,2,1,3,1
+2954,2954,Nagamma Poojari,21,6,3,6,2
+2955,2955,Basavaraj Gowda,25,6,2,1,1
+2956,2956,Lakshmi,50,2,1,8,2
+2957,2957,Venkatesh Hegde,39,4,2,1,1
+2958,2958,Lakshmi Hegde,59,6,1,3,2
+2959,2959,Srinivas,61,1,1,5,1
+2960,2960,Mahesh Poojari,44,1,1,3,1
+2961,2961,Yogesh Poojari,20,2,1,1,1
+2962,2962,Suresh Poojari,67,2,2,1,1
+2963,2963,Nagaraj Achar,63,1,1,10,1
+2964,2964,Darshan Gowda,50,7,1,6,1
+2965,2965,Kavitha,62,2,1,8,2
+2966,2966,Puneeth,32,6,1,7,1
+2967,2967,Umesh Shetty,18,4,1,3,1
+2968,2968,Girish Swamy,26,2,1,2,1
+2969,2969,Harish Reddy,37,1,1,2,1
+2970,2970,Nagaraj Rao,40,8,1,9,1
+2971,2971,Basavaraj Poojari,55,6,1,10,1
+2972,2972,Bhagya Achar,39,3,1,5,2
+2973,2973,Krishnappa Reddy,45,1,1,1,1
+2974,2974,Raghavendra Kumar,69,1,1,6,1
+2975,2975,Raghavendra Rao,41,6,1,5,1
+2976,2976,Nagamma Reddy,56,7,1,4,2
+2977,2977,Lokesh Reddy,18,1,1,8,1
+2978,2978,Lakshmi Gowda,52,9,1,2,2
+2979,2979,Harish Rao,33,6,4,8,1
+2980,2980,Sunitha,68,3,1,1,2
+2981,2981,Umesh Poojari,34,8,1,5,1
+2982,2982,Nagamma Reddy,21,8,1,2,2
+2983,2983,Girish,38,4,1,7,1
+2984,2984,Pallavi Hegde,19,8,1,4,2
+2985,2985,Ramesh Poojari,19,6,1,10,1
+2986,2986,Vani,21,2,1,10,2
+2987,2987,Bhagya,61,7,2,5,2
+2988,2988,Shivakumar Patil,61,2,1,7,1
+2989,2989,Manjunath Gowda,51,8,2,8,1
+2990,2990,Santosh Swamy,62,8,4,8,1
+2991,2991,Krishnappa Swamy,63,6,1,9,1
+2992,2992,Puneeth Shetty,23,7,2,1,1
+2993,2993,Suresh,28,3,1,9,1
+2994,2994,Asha Patil,33,1,1,9,2
+2995,2995,Lakshmi,25,7,1,10,2
+2996,2996,Bhagya Kumar,54,2,1,4,2
+2997,2997,Darshan,50,1,1,1,1
+2998,2998,Lakshmi Hegde,58,10,1,9,2
+2999,2999,Chandrashekar Murthy,36,3,1,3,1
+3000,3000,Nagaraj,42,9,2,10,1
+3001,3001,Basavaraj Rao,62,8,1,2,1
+3002,3002,Krishnappa Swamy,63,4,1,5,1
+3003,3003,Anand Gowda,34,6,1,10,1
+3004,3004,Bhagya,36,5,1,5,2
+3005,3005,Shobha Swamy,38,10,1,2,2
+3006,3006,Shivakumar Hegde,57,7,3,6,1
+3007,3007,Pallavi Achar,19,2,1,3,2
+3008,3008,Chandrashekar,67,5,7,1,1
+3009,3009,Shobha Kumar,59,4,1,10,2
+3010,3010,Shwetha Kumar,58,5,1,9,2
+3011,3011,Shobha Patil,60,3,1,8,2
+3012,3012,Puneeth,41,8,1,2,1
+3013,3013,Pallavi Poojari,37,7,1,2,2
+3014,3014,Kavitha Hegde,68,1,2,2,2
+3015,3015,Savitha Hegde,19,6,3,5,2
+3016,3016,Padma Gowda,37,2,2,8,2
+3017,3017,Raghavendra Rao,67,9,1,2,1
+3018,3018,Girish Gowda,68,2,1,1,1
+3019,3019,Vani Patil,40,7,1,8,2
+3020,3020,Muniraju Achar,19,8,2,8,1
+3021,3021,Suresh Rao,38,2,6,9,1
+3022,3022,Savitha Reddy,56,2,1,8,2
+3023,3023,Lokesh,34,5,1,4,1
+3024,3024,Rekha,64,2,3,3,2
+3025,3025,Bhagya Gowda,55,6,1,4,2
+3026,3026,Umesh Achar,64,3,3,5,1
+3027,3027,Umesh,54,7,1,8,1
+3028,3028,Darshan Swamy,54,6,2,2,1
+3029,3029,Puneeth Patil,39,7,1,10,1
+3030,3030,Anand Rao,36,5,2,6,1
+3031,3031,Shobha Kumar,23,1,2,9,2
+3032,3032,Anand Patil,41,3,1,9,1
+3033,3033,Padma Reddy,70,8,1,5,2
+3034,3034,Krishnappa Poojari,55,2,1,4,1
+3035,3035,Nagaraj,23,8,1,9,1
+3036,3036,Kavitha,61,5,1,9,2
+3037,3037,Shwetha Shetty,19,8,1,3,2
+3038,3038,Geetha Shetty,27,6,1,1,2
+3039,3039,Raghavendra,48,1,3,4,1
+3040,3040,Raghavendra Achar,49,1,1,7,1
+3041,3041,Lakshmi Murthy,18,6,3,6,2
+3042,3042,Vani,26,5,2,7,2
+3043,3043,Anand Patil,38,5,1,3,1
+3044,3044,Umesh Shetty,34,1,1,6,1
+3045,3045,Lokesh Patil,41,1,2,10,1
+3046,3046,Harish Patil,66,1,1,2,1
+3047,3047,Rathnamma,35,6,1,2,2
+3048,3048,Umesh Achar,32,9,4,10,1
+3049,3049,Asha Naik,48,3,1,9,2
+3050,3050,Darshan,35,2,1,10,1
+3051,3051,Kavitha Murthy,35,8,4,7,2
+3052,3052,Chandrashekar Kumar,40,7,1,9,1
+3053,3053,Santosh Rao,37,1,1,3,1
+3054,3054,Mahesh Hegde,18,4,1,9,1
+3055,3055,Kiran Shetty,62,6,1,9,1
+3056,3056,Basavaraj Achar,34,4,2,8,1
+3057,3057,Prakash,18,6,2,6,1
+3058,3058,Darshan Shetty,58,4,7,5,1
+3059,3059,Suresh Patil,32,5,1,6,1
+3060,3060,Srinivas Naik,67,2,1,8,1
+3061,3061,Harish Hegde,45,4,1,6,1
+3062,3062,Venkatesh Shetty,70,5,1,9,1
+3063,3063,Santosh Poojari,52,9,5,8,1
+3064,3064,Anand Naik,62,5,1,6,1
+3065,3065,Yogesh Patil,65,2,3,2,1
+3066,3066,Kavitha Patil,53,6,1,8,2
+3067,3067,Vani,70,7,2,8,2
+3068,3068,Umesh Achar,24,4,1,7,1
+3069,3069,Kavitha Murthy,48,4,1,7,2
+3070,3070,Shwetha Poojari,62,7,2,10,2
+3071,3071,Vani Gowda,51,3,1,5,2
+3072,3072,Deepa Gowda,70,2,1,2,2
+3073,3073,Muniraju Hegde,58,4,1,10,1
+3074,3074,Chandrashekar Naik,50,2,2,8,1
+3075,3075,Harish Reddy,42,8,1,3,1
+3076,3076,Lakshmi Poojari,60,8,3,8,2
+3077,3077,Suresh Patil,19,4,1,10,1
+3078,3078,Umesh Gowda,21,6,1,4,1
+3079,3079,Shivakumar Naik,36,5,7,2,1
+3080,3080,Yogesh Hegde,62,5,2,2,1
+3081,3081,Mahesh Murthy,20,4,1,1,1
+3082,3082,Yogesh Hegde,70,4,1,2,1
+3083,3083,Kiran Hegde,67,8,1,7,1
+3084,3084,Anand Hegde,31,2,1,9,1
+3085,3085,Nagaraj Murthy,59,8,3,4,1
+3086,3086,Nagamma Shetty,22,5,3,3,2
+3087,3087,Basavaraj Kumar,30,2,1,6,1
+3088,3088,Deepa,57,3,1,1,2
+3089,3089,Shwetha Patil,28,8,1,2,2
+3090,3090,Shobha Achar,70,4,2,2,2
+3091,3091,Shwetha Swamy,51,4,1,4,2
+3092,3092,Krishnappa Poojari,20,6,1,3,1
+3093,3093,Manjula,34,1,1,3,2
+3094,3094,Krishnappa Naik,63,7,1,9,1
+3095,3095,Shivakumar,46,5,1,8,1
+3096,3096,Venkatesh Naik,43,5,1,9,1
+3097,3097,Venkatesh Patil,35,2,1,6,1
+3098,3098,Vani Murthy,56,3,1,3,2
+3099,3099,Shobha Kumar,54,3,2,3,2
+3100,3100,Lakshmi Shetty,19,4,1,1,2
+3101,3101,Harish,45,6,1,5,1
+3102,3102,Vani Gowda,30,2,1,7,2
+3103,3103,Prakash Reddy,32,4,1,8,1
+3104,3104,Anand Achar,24,8,1,6,1
+3105,3105,Vani,56,6,3,2,2
+3106,3106,Anand Kumar,33,6,1,10,1
+3107,3107,Rathnamma,22,5,1,1,2
+3108,3108,Santosh Achar,50,6,1,3,1
+3109,3109,Rathnamma Naik,52,2,1,3,2
+3110,3110,Divya,41,2,1,9,2
+3111,3111,Santosh Rao,61,1,1,6,1
+3112,3112,Kiran Gowda,45,2,1,6,1
+3113,3113,Srinivas Reddy,25,8,1,7,1
+3114,3114,Nagaraj Poojari,65,2,1,9,1
+3115,3115,Raghavendra Kumar,38,5,4,4,1
+3116,3116,Padma Naik,56,3,1,9,2
+3117,3117,Savitha Swamy,38,6,3,8,2
+3118,3118,Kiran Swamy,43,6,5,5,1
+3119,3119,Asha Gowda,50,6,2,9,2
+3120,3120,Bhagya Gowda,23,10,1,4,2
+3121,3121,Puneeth Swamy,64,1,1,5,1
+3122,3122,Bhagya,31,6,1,1,2
+3123,3123,Lokesh Swamy,43,2,2,3,1
+3124,3124,Harish Kumar,59,2,1,2,1
+3125,3125,Padma Reddy,52,2,1,1,2
+3126,3126,Kiran,25,7,2,8,1
+3127,3127,Raghavendra Naik,29,6,1,10,1
+3128,3128,Rathnamma Patil,43,1,6,2,2
+3129,3129,Prakash Rao,29,2,1,5,1
+3130,3130,Shwetha Patil,27,2,1,8,2
+3131,3131,Girish Rao,59,2,2,7,1
+3132,3132,Yogesh Hegde,23,6,2,6,1
+3133,3133,Divya,29,7,1,8,2
+3134,3134,Basavaraj,40,2,1,2,1
+3135,3135,Yogesh Murthy,46,6,2,6,1
+3136,3136,Girish,47,4,4,6,1
+3137,3137,Shobha Murthy,43,2,1,6,2
+3138,3138,Savitha Naik,49,5,1,8,2
+3139,3139,Asha,70,2,1,10,2
+3140,3140,Krishnappa Hegde,27,3,1,9,1
+3141,3141,Nagamma Achar,61,2,1,10,2
+3142,3142,Venkatesh Gowda,22,2,1,3,1
+3143,3143,Geetha Murthy,68,9,1,2,2
+3144,3144,Shobha Hegde,24,5,1,7,2
+3145,3145,Puneeth,28,8,3,3,1
+3146,3146,Shwetha Shetty,70,1,7,7,2
+3147,3147,Deepa Naik,55,2,1,5,2
+3148,3148,Suresh Shetty,67,5,2,9,1
+3149,3149,Manjunath Gowda,32,2,3,10,1
+3150,3150,Manjunath,32,6,1,7,1
+3151,3151,Girish,59,7,3,4,1
+3152,3152,Nagaraj,68,8,1,6,1
+3153,3153,Lokesh Rao,61,10,5,10,1
+3154,3154,Srinivas Hegde,58,3,1,5,1
+3155,3155,Pallavi Hegde,69,4,1,10,2
+3156,3156,Anand Swamy,20,2,3,1,1
+3157,3157,Geetha Patil,45,7,2,9,2
+3158,3158,Lokesh Hegde,26,2,1,1,1
+3159,3159,Asha Rao,63,1,1,4,2
+3160,3160,Venkatesh,34,1,1,6,1
+3161,3161,Venkatesh Shetty,42,8,1,4,1
+3162,3162,Shobha Swamy,41,2,1,6,2
+3163,3163,Rekha Shetty,29,4,2,5,2
+3164,3164,Raghavendra Poojari,26,6,7,5,1
+3165,3165,Bhagya,41,2,1,1,2
+3166,3166,Rekha,64,9,1,2,2
+3167,3167,Muniraju,52,9,1,9,1
+3168,3168,Yogesh Achar,40,6,1,5,1
+3169,3169,Venkatesh Shetty,57,6,1,4,1
+3170,3170,Suresh Reddy,27,5,1,4,1
+3171,3171,Raghavendra Poojari,47,7,4,5,1
+3172,3172,Raghavendra Swamy,53,7,1,10,1
+3173,3173,Manjula Rao,48,9,1,2,2
+3174,3174,Srinivas Patil,28,8,1,6,1
+3175,3175,Chandrashekar Rao,32,5,2,2,1
+3176,3176,Santosh Murthy,22,2,2,6,1
+3177,3177,Raghavendra Poojari,24,4,1,1,1
+3178,3178,Venkatesh Reddy,64,7,1,2,1
+3179,3179,Nagamma Hegde,41,6,1,10,2
+3180,3180,Geetha,29,7,1,7,2
+3181,3181,Krishnappa Naik,46,2,1,4,1
+3182,3182,Harish Shetty,33,3,1,1,1
+3183,3183,Manjunath Achar,39,9,1,6,1
+3184,3184,Savitha Naik,52,1,1,5,2
+3185,3185,Suresh Reddy,35,7,1,1,1
+3186,3186,Rathnamma Patil,41,8,2,5,2
+3187,3187,Manjula,30,2,2,9,2
+3188,3188,Srinivas Patil,61,8,1,7,1
+3189,3189,Anand Kumar,30,5,3,5,1
+3190,3190,Darshan,43,7,1,4,1
+3191,3191,Girish Patil,55,2,3,2,1
+3192,3192,Asha,69,4,1,5,2
+3193,3193,Bhagya Achar,45,2,1,6,2
+3194,3194,Girish Swamy,47,6,1,5,1
+3195,3195,Padma Shetty,21,6,1,8,2
+3196,3196,Srinivas Achar,25,1,1,4,1
+3197,3197,Yogesh,45,3,2,2,1
+3198,3198,Bhagya Reddy,32,8,1,2,2
+3199,3199,Shwetha Naik,30,6,2,2,2
+3200,3200,Asha Murthy,29,6,1,3,2
+3201,3201,Suresh Poojari,41,8,1,7,1
+3202,3202,Venkatesh Murthy,34,4,1,3,1
+3203,3203,Suresh,49,5,1,7,1
+3204,3204,Divya Rao,26,4,1,1,2
+3205,3205,Girish Naik,55,2,1,4,1
+3206,3206,Divya Naik,33,6,1,10,2
+3207,3207,Rathnamma Gowda,68,6,1,8,2
+3208,3208,Kavitha Hegde,46,2,2,3,2
+3209,3209,Raghavendra Rao,56,6,2,2,1
+3210,3210,Divya Kumar,21,2,2,9,2
+3211,3211,Girish Rao,65,7,2,7,1
+3212,3212,Shobha Swamy,21,2,1,6,2
+3213,3213,Manjula,43,5,1,3,2
+3214,3214,Umesh Reddy,62,8,1,7,1
+3215,3215,Geetha,69,6,1,1,2
+3216,3216,Venkatesh,46,2,1,10,1
+3217,3217,Venkatesh Kumar,30,5,1,1,1
+3218,3218,Nagaraj Gowda,23,6,1,7,1
+3219,3219,Harish,48,6,1,2,1
+3220,3220,Basavaraj Gowda,31,7,1,5,1
+3221,3221,Kavitha Reddy,62,6,2,7,2
+3222,3222,Basavaraj Achar,34,2,1,3,1
+3223,3223,Padma Gowda,52,5,2,2,2
+3224,3224,Nagaraj Gowda,63,2,2,5,1
+3225,3225,Srinivas Murthy,69,6,2,6,1
+3226,3226,Nagamma Naik,47,5,1,5,2
+3227,3227,Lokesh Patil,35,8,1,1,1
+3228,3228,Vani Murthy,29,4,1,2,2
+3229,3229,Geetha Gowda,30,4,1,1,2
+3230,3230,Raghavendra Poojari,30,6,1,5,1
+3231,3231,Krishnappa Achar,50,2,1,10,1
+3232,3232,Basavaraj,41,6,6,7,1
+3233,3233,Lokesh Reddy,62,3,1,3,1
+3234,3234,Vani Poojari,26,5,1,9,2
+3235,3235,Shivakumar,29,4,1,9,1
+3236,3236,Harish Patil,28,5,3,8,1
+3237,3237,Chandrashekar Gowda,26,2,1,2,1
+3238,3238,Asha Naik,38,6,3,10,2
+3239,3239,Raghavendra,25,7,3,5,1
+3240,3240,Vani Patil,62,6,1,4,2
+3241,3241,Savitha Poojari,65,6,1,8,2
+3242,3242,Shivakumar Achar,49,4,1,1,1
+3243,3243,Venkatesh Swamy,62,2,1,4,1
+3244,3244,Ramesh Murthy,29,8,2,2,1
+3245,3245,Mahesh,48,6,1,2,1
+3246,3246,Kiran Hegde,32,4,2,2,1
+3247,3247,Krishnappa Hegde,26,2,1,5,1
+3248,3248,Raghavendra,21,6,4,1,1
+3249,3249,Puneeth Shetty,65,5,2,3,1
+3250,3250,Vani,35,8,1,9,2
+3251,3251,Chandrashekar Reddy,48,8,1,2,1
+3252,3252,Rathnamma Kumar,23,9,2,6,2
+3253,3253,Shwetha Poojari,50,4,3,10,2
+3254,3254,Puneeth Swamy,42,5,1,9,1
+3255,3255,Anand Gowda,39,2,1,7,1
+3256,3256,Venkatesh Kumar,63,2,2,1,1
+3257,3257,Darshan,58,3,1,5,1
+3258,3258,Venkatesh,28,5,1,8,1
+3259,3259,Rekha Gowda,29,1,1,1,2
+3260,3260,Rekha Swamy,21,2,1,9,2
+3261,3261,Bhagya,67,9,3,3,2
+3262,3262,Mahesh Hegde,41,2,1,1,1
+3263,3263,Santosh Naik,44,4,1,5,1
+3264,3264,Santosh Shetty,66,2,1,8,1
+3265,3265,Krishnappa Naik,20,2,2,7,1
+3266,3266,Krishnappa,28,4,1,6,1
+3267,3267,Pallavi Murthy,62,5,1,2,2
+3268,3268,Savitha Achar,40,7,1,4,2
+3269,3269,Asha Patil,48,2,1,10,2
+3270,3270,Ramesh Achar,52,8,3,5,1
+3271,3271,Rekha Swamy,67,5,1,5,2
+3272,3272,Yogesh Gowda,40,2,1,5,1
+3273,3273,Divya Shetty,46,2,1,8,2
+3274,3274,Asha Reddy,30,6,1,5,2
+3275,3275,Suresh Naik,46,6,1,4,1
+3276,3276,Shivakumar,37,5,4,9,1
+3277,3277,Asha Patil,21,8,1,5,2
+3278,3278,Basavaraj Patil,67,2,2,6,1
+3279,3279,Sunitha Gowda,62,2,2,3,2
+3280,3280,Sunitha Shetty,64,2,1,1,2
+3281,3281,Savitha Kumar,26,7,1,9,2
+3282,3282,Mahesh Rao,31,2,1,3,1
+3283,3283,Harish Hegde,56,6,2,10,1
+3284,3284,Venkatesh Murthy,33,6,1,9,1
+3285,3285,Manjula Hegde,54,9,1,7,2
+3286,3286,Rekha Hegde,49,2,1,3,2
+3287,3287,Chandrashekar Swamy,30,6,1,4,1
+3288,3288,Kavitha Reddy,34,4,1,5,2
+3289,3289,Asha,69,4,1,7,2
+3290,3290,Divya Gowda,52,1,1,9,2
+3291,3291,Geetha Rao,54,7,1,6,2
+3292,3292,Girish,47,4,1,10,1
+3293,3293,Harish Kumar,23,6,1,9,1
+3294,3294,Harish Patil,36,2,1,6,1
+3295,3295,Rathnamma Naik,66,8,1,9,2
+3296,3296,Kavitha,62,6,1,2,2
+3297,3297,Lakshmi Naik,40,1,2,4,2
+3298,3298,Muniraju,43,2,1,1,1
+3299,3299,Pallavi Poojari,39,2,1,5,2
+3300,3300,Anand Swamy,67,2,4,5,1
+3301,3301,Yogesh Murthy,36,8,2,3,1
+3302,3302,Manjunath Rao,27,1,1,6,1
+3303,3303,Sunitha Rao,57,6,1,3,2
+3304,3304,Umesh Murthy,56,8,2,2,1
+3305,3305,Geetha Swamy,18,1,1,5,2
+3306,3306,Rathnamma Murthy,33,8,3,6,2
+3307,3307,Raghavendra Naik,32,2,1,3,1
+3308,3308,Harish Shetty,42,1,1,6,1
+3309,3309,Nagamma Poojari,47,6,1,2,2
+3310,3310,Kavitha,49,4,2,7,2
+3311,3311,Yogesh Swamy,18,2,1,5,1
+3312,3312,Lokesh,31,5,1,8,1
+3313,3313,Umesh,28,6,1,5,1
+3314,3314,Kiran Kumar,69,3,1,1,1
+3315,3315,Shivakumar Gowda,39,5,2,2,1
+3316,3316,Yogesh Hegde,19,2,1,4,1
+3317,3317,Umesh Gowda,45,2,1,8,1
+3318,3318,Pallavi Kumar,65,5,1,6,2
+3319,3319,Sunitha,59,2,1,10,2
+3320,3320,Muniraju Naik,45,3,1,6,1
+3321,3321,Puneeth Naik,46,2,3,1,1
+3322,3322,Harish Poojari,59,5,1,10,1
+3323,3323,Asha Gowda,52,4,3,4,2
+3324,3324,Vani Rao,60,10,1,6,2
+3325,3325,Lakshmi Murthy,51,1,1,7,2
+3326,3326,Shivakumar Rao,27,2,1,9,1
+3327,3327,Nagaraj Naik,38,2,1,2,1
+3328,3328,Vani Kumar,62,2,1,6,2
+3329,3329,Mahesh,62,5,1,6,1
+3330,3330,Darshan Gowda,33,9,2,10,1
+3331,3331,Shivakumar Reddy,61,4,1,2,1
+3332,3332,Anand Kumar,70,4,1,3,1
+3333,3333,Basavaraj Naik,63,3,2,4,1
+3334,3334,Darshan Naik,44,4,1,5,1
+3335,3335,Mahesh Poojari,44,2,1,2,1
+3336,3336,Savitha Hegde,33,7,1,8,2
+3337,3337,Krishnappa,21,5,3,9,1
+3338,3338,Basavaraj,51,9,1,5,1
+3339,3339,Mahesh Achar,35,4,2,9,1
+3340,3340,Yogesh Achar,19,8,2,8,1
+3341,3341,Rekha,64,9,1,9,2
+3342,3342,Deepa Rao,61,7,1,7,2
+3343,3343,Manjula Hegde,68,10,1,4,2
+3344,3344,Lakshmi Hegde,24,2,1,7,2
+3345,3345,Girish Patil,19,2,1,7,1
+3346,3346,Darshan Shetty,48,6,6,5,1
+3347,3347,Lokesh Shetty,52,8,3,1,1
+3348,3348,Darshan Naik,66,1,3,1,1
+3349,3349,Asha,27,6,1,10,2
+3350,3350,Yogesh Shetty,22,8,1,7,1
+3351,3351,Lokesh Kumar,35,3,2,1,1
+3352,3352,Nagaraj,51,10,2,1,1
+3353,3353,Ramesh Naik,56,8,1,7,1
+3354,3354,Geetha,18,3,1,9,2
+3355,3355,Shivakumar Patil,22,7,1,5,1
+3356,3356,Geetha,19,1,1,6,2
+3357,3357,Nagamma,46,7,1,6,2
+3358,3358,Darshan,48,4,1,4,1
+3359,3359,Rathnamma Achar,40,2,1,9,2
+3360,3360,Santosh,53,2,1,9,1
+3361,3361,Prakash Kumar,51,2,7,3,1
+3362,3362,Savitha Patil,54,4,2,3,2
+3363,3363,Pallavi Shetty,40,1,1,3,2
+3364,3364,Kavitha,65,1,1,1,2
+3365,3365,Shwetha,24,5,5,5,2
+3366,3366,Lakshmi,50,2,7,9,2
+3367,3367,Manjunath,67,6,1,4,1
+3368,3368,Deepa Shetty,45,8,1,10,2
+3369,3369,Kavitha Naik,22,1,1,4,2
+3370,3370,Yogesh Naik,20,5,1,9,1
+3371,3371,Vani,55,7,1,4,2
+3372,3372,Sunitha Naik,50,5,1,1,2
+3373,3373,Basavaraj Murthy,65,4,1,9,1
+3374,3374,Suresh Rao,48,2,4,4,1
+3375,3375,Nagamma Shetty,42,4,1,8,2
+3376,3376,Santosh,50,4,2,9,1
+3377,3377,Manjula Hegde,34,3,1,1,2
+3378,3378,Krishnappa Hegde,60,4,1,1,1
+3379,3379,Lokesh Patil,58,6,1,3,1
+3380,3380,Chandrashekar Poojari,63,9,1,7,1
+3381,3381,Divya Kumar,29,8,1,10,2
+3382,3382,Manjunath,29,2,1,2,1
+3383,3383,Kiran,20,1,2,8,1
+3384,3384,Divya Patil,54,9,2,7,2
+3385,3385,Rekha Murthy,30,3,2,8,2
+3386,3386,Nagamma Patil,45,3,4,8,2
+3387,3387,Rekha Rao,22,5,3,10,2
+3388,3388,Darshan Kumar,39,6,1,7,1
+3389,3389,Chandrashekar Gowda,25,2,2,1,1
+3390,3390,Manjula Gowda,22,9,3,2,2
+3391,3391,Basavaraj Kumar,47,2,3,4,1
+3392,3392,Padma,64,4,1,9,2
+3393,3393,Pallavi Poojari,37,5,1,8,2
+3394,3394,Santosh,70,2,5,4,1
+3395,3395,Deepa Achar,22,4,2,1,2
+3396,3396,Manjula Kumar,28,3,1,5,2
+3397,3397,Chandrashekar Patil,25,2,2,7,1
+3398,3398,Ramesh,19,5,1,9,1
+3399,3399,Rathnamma Rao,57,4,1,10,2
+3400,3400,Prakash Gowda,37,3,1,4,1
+3401,3401,Santosh,42,5,1,8,1
+3402,3402,Shwetha,69,4,3,5,2
+3403,3403,Suresh Kumar,40,1,4,9,1
+3404,3404,Girish,26,6,1,5,1
+3405,3405,Vani,49,1,1,3,2
+3406,3406,Bhagya Patil,65,8,1,4,2
+3407,3407,Krishnappa Achar,38,8,1,9,1
+3408,3408,Shivakumar,48,8,1,2,1
+3409,3409,Prakash Kumar,61,7,2,5,1
+3410,3410,Suresh Naik,65,2,3,3,1
+3411,3411,Harish Kumar,33,9,1,10,1
+3412,3412,Kiran Kumar,42,2,1,5,1
+3413,3413,Puneeth Kumar,65,4,3,5,1
+3414,3414,Yogesh Naik,42,2,1,3,1
+3415,3415,Deepa Reddy,33,6,1,9,2
+3416,3416,Nagamma Naik,34,4,1,1,2
+3417,3417,Chandrashekar Swamy,28,8,1,2,1
+3418,3418,Vani,25,2,3,7,2
+3419,3419,Bhagya,41,6,2,4,2
+3420,3420,Harish Naik,48,1,1,4,1
+3421,3421,Deepa Shetty,23,7,1,2,2
+3422,3422,Srinivas Gowda,29,9,2,5,1
+3423,3423,Savitha Gowda,59,1,1,4,2
+3424,3424,Nagamma Hegde,25,2,1,4,2
+3425,3425,Harish Kumar,64,4,1,1,1
+3426,3426,Lakshmi Naik,26,8,2,6,2
+3427,3427,Krishnappa Achar,39,4,1,7,1
+3428,3428,Lokesh Kumar,39,3,1,8,1
+3429,3429,Sunitha,59,2,1,10,2
+3430,3430,Vani Kumar,64,4,1,5,2
+3431,3431,Chandrashekar Shetty,64,4,1,6,1
+3432,3432,Srinivas Rao,70,10,2,9,1
+3433,3433,Shivakumar,47,7,2,2,1
+3434,3434,Prakash,44,2,2,10,1
+3435,3435,Harish Poojari,61,6,1,7,1
+3436,3436,Puneeth Naik,19,9,1,8,1
+3437,3437,Basavaraj Naik,27,8,1,1,1
+3438,3438,Lokesh Patil,62,2,3,5,1
+3439,3439,Rathnamma Achar,60,5,4,7,2
+3440,3440,Krishnappa,29,1,2,10,1
+3441,3441,Raghavendra Achar,35,3,1,3,1
+3442,3442,Rekha,54,5,1,4,2
+3443,3443,Manjula Naik,26,5,3,6,2
+3444,3444,Shivakumar Shetty,42,6,1,7,1
+3445,3445,Prakash,19,5,1,9,1
+3446,3446,Venkatesh,35,3,1,1,1
+3447,3447,Geetha Naik,37,9,1,2,2
+3448,3448,Savitha,36,7,1,6,2
+3449,3449,Darshan,30,8,1,1,1
+3450,3450,Venkatesh Swamy,49,9,2,6,1
+3451,3451,Yogesh Murthy,26,2,3,2,1
+3452,3452,Yogesh Murthy,51,2,3,5,1
+3453,3453,Shobha Reddy,28,2,1,7,2
+3454,3454,Lakshmi Gowda,44,7,1,2,2
+3455,3455,Harish,65,3,1,10,1
+3456,3456,Anand Shetty,66,6,2,6,1
+3457,3457,Darshan,34,6,1,10,1
+3458,3458,Manjunath Achar,37,3,1,3,1
+3459,3459,Anand Kumar,40,6,1,8,1
+3460,3460,Yogesh Hegde,20,8,1,6,1
+3461,3461,Rekha,64,6,1,9,2
+3462,3462,Umesh Hegde,58,2,4,5,1
+3463,3463,Rekha,65,5,3,8,2
+3464,3464,Shobha Reddy,63,5,1,4,2
+3465,3465,Chandrashekar Swamy,64,9,1,5,1
+3466,3466,Shwetha Poojari,26,10,1,5,2
+3467,3467,Lakshmi,29,10,4,3,2
+3468,3468,Prakash Poojari,34,2,1,7,1
+3469,3469,Shivakumar Patil,68,5,2,3,1
+3470,3470,Divya Swamy,57,1,2,6,2
+3471,3471,Kavitha Swamy,59,7,1,5,2
+3472,3472,Deepa Hegde,22,5,1,2,2
+3473,3473,Umesh Reddy,68,6,1,9,1
+3474,3474,Prakash Hegde,56,10,2,9,1
+3475,3475,Prakash,66,3,1,5,1
+3476,3476,Rekha Kumar,57,6,1,5,2
+3477,3477,Harish Gowda,23,6,1,1,1
+3478,3478,Chandrashekar,19,7,1,5,1
+3479,3479,Lokesh Achar,56,4,1,2,1
+3480,3480,Suresh Achar,31,2,1,9,1
+3481,3481,Harish Swamy,22,2,1,4,1
+3482,3482,Nagamma,59,2,1,1,2
+3483,3483,Muniraju Rao,34,2,1,2,1
+3484,3484,Shobha Reddy,33,8,1,4,2
+3485,3485,Bhagya Rao,60,4,2,7,2
+3486,3486,Lakshmi Naik,46,5,1,2,2
+3487,3487,Venkatesh Kumar,45,2,1,5,1
+3488,3488,Divya Patil,26,8,1,5,2
+3489,3489,Venkatesh Poojari,58,2,4,8,1
+3490,3490,Asha Patil,24,6,1,6,2
+3491,3491,Santosh,66,3,7,4,1
+3492,3492,Srinivas Swamy,38,8,1,2,1
+3493,3493,Kiran Hegde,40,1,1,5,1
+3494,3494,Shivakumar Shetty,63,6,1,5,1
+3495,3495,Raghavendra Kumar,63,2,1,1,1
+3496,3496,Lokesh,47,5,2,4,1
+3497,3497,Pallavi Gowda,44,2,1,9,2
+3498,3498,Venkatesh,18,2,1,4,1
+3499,3499,Deepa,54,4,1,8,2
+3500,3500,Ramesh Gowda,65,8,1,10,1
+3501,3501,Krishnappa Shetty,36,5,1,10,1
+3502,3502,Geetha,21,5,1,3,2
+3503,3503,Darshan Rao,35,5,1,6,1
+3504,3504,Shwetha Poojari,33,2,3,6,2
+3505,3505,Manjunath Hegde,59,8,3,1,1
+3506,3506,Santosh,53,6,1,5,1
+3507,3507,Mahesh,42,4,1,7,1
+3508,3508,Manjunath,46,8,2,8,1
+3509,3509,Mahesh Achar,39,6,1,7,1
+3510,3510,Lokesh Murthy,51,8,3,1,1
+3511,3511,Bhagya,34,7,3,10,2
+3512,3512,Padma Swamy,56,4,1,5,2
+3513,3513,Muniraju Swamy,19,5,1,3,1
+3514,3514,Nagaraj,45,9,1,8,1
+3515,3515,Vani Achar,27,6,1,7,2
+3516,3516,Pallavi,63,4,4,9,2
+3517,3517,Krishnappa Naik,47,2,1,10,1
+3518,3518,Kiran Achar,25,2,1,7,1
+3519,3519,Nagamma,41,6,1,9,2
+3520,3520,Umesh Reddy,68,2,1,9,1
+3521,3521,Asha Achar,21,9,4,3,2
+3522,3522,Kiran Gowda,28,10,1,3,1
+3523,3523,Shwetha Reddy,35,1,1,8,2
+3524,3524,Umesh Hegde,68,7,1,1,1
+3525,3525,Padma Poojari,61,5,1,1,2
+3526,3526,Shwetha Hegde,52,1,7,7,2
+3527,3527,Santosh Poojari,18,8,1,10,1
+3528,3528,Geetha Gowda,33,8,1,1,2
+3529,3529,Sunitha Hegde,63,4,1,7,2
+3530,3530,Bhagya Shetty,18,7,2,10,2
+3531,3531,Anand Rao,65,7,1,2,1
+3532,3532,Shobha Murthy,60,6,1,2,2
+3533,3533,Srinivas Gowda,68,5,1,3,1
+3534,3534,Rekha Murthy,47,3,1,4,2
+3535,3535,Anand Gowda,40,6,1,1,1
+3536,3536,Basavaraj Poojari,47,3,1,4,1
+3537,3537,Shivakumar Reddy,53,7,1,8,1
+3538,3538,Raghavendra Naik,45,2,1,7,1
+3539,3539,Pallavi,61,3,1,9,2
+3540,3540,Manjula Achar,19,8,1,9,2
+3541,3541,Prakash Gowda,36,4,3,7,1
+3542,3542,Umesh,41,2,3,2,1
+3543,3543,Shobha,19,5,1,4,2
+3544,3544,Suresh Swamy,29,1,3,5,1
+3545,3545,Geetha Rao,43,10,2,2,2
+3546,3546,Ramesh Gowda,25,3,1,2,1
+3547,3547,Basavaraj Achar,30,6,1,8,1
+3548,3548,Deepa Reddy,32,5,1,3,2
+3549,3549,Padma Achar,23,1,1,4,2
+3550,3550,Harish Patil,48,9,1,3,1
+3551,3551,Chandrashekar Hegde,38,5,1,3,1
+3552,3552,Prakash Patil,69,4,1,5,1
+3553,3553,Umesh Reddy,67,7,1,4,1
+3554,3554,Padma Reddy,36,3,1,5,2
+3555,3555,Lakshmi Swamy,29,5,1,7,2
+3556,3556,Divya Poojari,51,3,1,5,2
+3557,3557,Divya Kumar,39,2,6,5,2
+3558,3558,Rekha Patil,33,6,1,9,2
+3559,3559,Krishnappa Achar,26,2,1,6,1
+3560,3560,Basavaraj Poojari,22,5,2,1,1
+3561,3561,Suresh Naik,19,2,1,1,1
+3562,3562,Yogesh Kumar,27,8,1,4,1
+3563,3563,Shivakumar Poojari,64,6,1,8,1
+3564,3564,Muniraju Swamy,62,3,1,8,1
+3565,3565,Venkatesh Murthy,27,8,1,9,1
+3566,3566,Deepa Swamy,48,5,1,1,2
+3567,3567,Deepa Achar,38,8,1,1,2
+3568,3568,Suresh,36,4,1,10,1
+3569,3569,Bhagya Hegde,21,9,1,8,2
+3570,3570,Shivakumar Patil,25,7,4,7,1
+3571,3571,Harish Reddy,53,8,1,1,1
+3572,3572,Lakshmi,39,9,1,10,2
+3573,3573,Kavitha Gowda,54,2,1,8,2
+3574,3574,Asha,37,5,1,1,2
+3575,3575,Nagaraj Shetty,69,4,1,2,1
+3576,3576,Lakshmi Naik,20,5,3,3,2
+3577,3577,Manjunath,26,4,1,8,1
+3578,3578,Savitha Kumar,44,2,1,4,2
+3579,3579,Vani Naik,37,6,2,8,2
+3580,3580,Muniraju Murthy,26,8,1,7,1
+3581,3581,Umesh Reddy,24,5,1,8,1
+3582,3582,Venkatesh Murthy,22,7,2,4,1
+3583,3583,Krishnappa,57,5,1,8,1
+3584,3584,Shwetha Achar,66,7,1,8,2
+3585,3585,Lokesh Patil,24,4,1,2,1
+3586,3586,Chandrashekar Swamy,70,9,1,2,1
+3587,3587,Vani Murthy,52,3,1,1,2
+3588,3588,Bhagya Swamy,69,9,2,10,2
+3589,3589,Rekha Naik,55,4,1,3,2
+3590,3590,Santosh,37,2,1,2,1
+3591,3591,Geetha,27,3,1,1,2
+3592,3592,Basavaraj,43,4,2,7,1
+3593,3593,Vani Swamy,49,1,2,7,2
+3594,3594,Muniraju Kumar,20,2,1,8,1
+3595,3595,Krishnappa Poojari,40,5,1,6,1
+3596,3596,Bhagya Gowda,37,6,1,5,2
+3597,3597,Darshan Achar,34,6,3,1,1
+3598,3598,Muniraju Poojari,26,6,2,3,1
+3599,3599,Padma,54,8,1,1,2
+3600,3600,Deepa Kumar,46,4,1,10,2
+3601,3601,Mahesh Murthy,43,4,1,6,1
+3602,3602,Prakash Kumar,61,2,1,5,1
+3603,3603,Harish,44,1,3,5,1
+3604,3604,Prakash Patil,25,2,1,1,1
+3605,3605,Geetha,58,4,1,4,2
+3606,3606,Divya,70,1,1,6,2
+3607,3607,Chandrashekar Rao,64,10,3,5,1
+3608,3608,Shwetha,52,8,1,4,2
+3609,3609,Manjula Naik,28,8,1,9,2
+3610,3610,Divya Murthy,63,8,4,6,2
+3611,3611,Lakshmi,47,4,1,5,2
+3612,3612,Shwetha Naik,64,6,2,2,2
+3613,3613,Sunitha Poojari,53,6,1,3,2
+3614,3614,Venkatesh Naik,20,9,2,6,1
+3615,3615,Shwetha Swamy,36,8,3,1,2
+3616,3616,Ramesh Achar,48,8,1,3,1
+3617,3617,Yogesh Patil,44,6,1,5,1
+3618,3618,Rathnamma Murthy,40,7,1,7,2
+3619,3619,Deepa Gowda,28,2,3,4,2
+3620,3620,Chandrashekar Patil,55,3,1,7,1
+3621,3621,Sunitha Hegde,34,8,1,6,2
+3622,3622,Shobha Swamy,61,7,1,7,2
+3623,3623,Raghavendra Rao,45,2,1,3,1
+3624,3624,Lakshmi Rao,64,6,1,9,2
+3625,3625,Manjula Hegde,21,8,1,3,2
+3626,3626,Puneeth Shetty,47,2,1,10,1
+3627,3627,Bhagya Murthy,33,7,3,8,2
+3628,3628,Rathnamma,31,5,1,3,2
+3629,3629,Savitha Shetty,29,9,1,4,2
+3630,3630,Basavaraj,36,6,1,9,1
+3631,3631,Shivakumar,63,8,3,2,1
+3632,3632,Srinivas Patil,43,3,1,1,1
+3633,3633,Geetha Kumar,36,2,1,2,2
+3634,3634,Sunitha Hegde,26,8,7,5,2
+3635,3635,Yogesh Shetty,57,1,2,2,1
+3636,3636,Savitha Patil,26,6,3,7,2
+3637,3637,Suresh Poojari,62,6,3,3,1
+3638,3638,Kavitha Shetty,25,5,4,2,2
+3639,3639,Basavaraj Murthy,67,7,1,2,1
+3640,3640,Yogesh Gowda,57,8,1,1,1
+3641,3641,Santosh Naik,56,3,1,3,1
+3642,3642,Raghavendra Hegde,56,7,1,5,1
+3643,3643,Venkatesh Kumar,69,4,1,9,1
+3644,3644,Geetha Gowda,57,6,1,10,2
+3645,3645,Chandrashekar Hegde,24,3,1,1,1
+3646,3646,Lokesh Hegde,42,6,2,6,1
+3647,3647,Yogesh Kumar,55,8,1,3,1
+3648,3648,Vani Patil,29,5,2,5,2
+3649,3649,Girish Swamy,51,9,6,3,1
+3650,3650,Girish Patil,50,1,5,7,1
+3651,3651,Anand Patil,40,4,1,10,1
+3652,3652,Sunitha Shetty,58,2,1,3,2
+3653,3653,Deepa Shetty,19,1,1,6,2
+3654,3654,Deepa Poojari,41,3,1,10,2
+3655,3655,Nagaraj Gowda,51,2,1,1,1
+3656,3656,Venkatesh,70,3,1,2,1
+3657,3657,Sunitha Achar,41,6,1,10,2
+3658,3658,Manjunath Achar,27,5,3,6,1
+3659,3659,Padma,24,2,1,7,2
+3660,3660,Yogesh Gowda,36,6,2,4,1
+3661,3661,Lakshmi Swamy,70,2,1,1,2
+3662,3662,Manjunath Hegde,50,5,1,2,1
+3663,3663,Ramesh Poojari,50,6,2,9,1
+3664,3664,Santosh Reddy,24,2,1,7,1
+3665,3665,Manjula Reddy,28,5,1,2,2
+3666,3666,Kavitha,59,4,1,10,2
+3667,3667,Harish Hegde,23,6,1,6,1
+3668,3668,Manjula Reddy,53,4,1,3,2
+3669,3669,Deepa Naik,48,3,1,2,2
+3670,3670,Geetha Hegde,39,7,1,3,2
+3671,3671,Savitha,20,6,1,7,2
+3672,3672,Darshan Kumar,27,8,1,2,1
+3673,3673,Krishnappa Poojari,38,4,1,6,1
+3674,3674,Chandrashekar Achar,29,4,1,5,1
+3675,3675,Shwetha Reddy,64,4,1,7,2
+3676,3676,Harish Swamy,49,8,1,9,1
+3677,3677,Rekha Gowda,30,4,1,7,2
+3678,3678,Shwetha,37,3,1,1,2
+3679,3679,Rathnamma Achar,30,2,1,8,2
+3680,3680,Deepa Patil,33,4,1,2,2
+3681,3681,Pallavi Poojari,23,1,2,4,2
+3682,3682,Prakash Gowda,58,3,1,5,1
+3683,3683,Srinivas Achar,63,2,1,4,1
+3684,3684,Krishnappa Achar,54,8,1,2,1
+3685,3685,Chandrashekar Reddy,28,5,1,4,1
+3686,3686,Raghavendra Murthy,40,6,1,5,1
+3687,3687,Krishnappa Gowda,66,4,1,3,1
+3688,3688,Vani Hegde,20,5,1,6,2
+3689,3689,Muniraju Shetty,66,1,1,9,1
+3690,3690,Kavitha Hegde,38,9,1,9,2
+3691,3691,Manjula Reddy,50,4,2,6,2
+3692,3692,Raghavendra,61,2,1,6,1
+3693,3693,Pallavi Rao,31,5,3,4,2
+3694,3694,Puneeth Murthy,62,5,1,8,1
+3695,3695,Savitha Naik,67,2,1,2,2
+3696,3696,Venkatesh Rao,57,6,3,7,1
+3697,3697,Savitha Rao,67,2,7,7,2
+3698,3698,Venkatesh Patil,24,5,2,6,1
+3699,3699,Kiran Shetty,25,8,3,4,1
+3700,3700,Sunitha Poojari,19,2,2,2,2
+3701,3701,Venkatesh Rao,58,4,2,4,1
+3702,3702,Shobha,45,6,2,2,2
+3703,3703,Savitha Poojari,51,3,2,8,2
+3704,3704,Manjula,37,1,2,7,2
+3705,3705,Nagaraj Rao,53,9,3,6,1
+3706,3706,Shivakumar Hegde,48,5,2,8,1
+3707,3707,Srinivas Hegde,32,6,1,1,1
+3708,3708,Lokesh Murthy,40,5,1,5,1
+3709,3709,Shobha Shetty,33,10,1,10,2
+3710,3710,Manjunath Achar,70,2,1,6,1
+3711,3711,Pallavi Swamy,35,2,4,4,2
+3712,3712,Venkatesh Hegde,21,9,1,10,1
+3713,3713,Savitha Murthy,63,3,1,6,2
+3714,3714,Lokesh Gowda,41,9,1,2,1
+3715,3715,Manjula Kumar,34,6,1,3,2
+3716,3716,Manjunath Naik,48,6,1,4,1
+3717,3717,Santosh Rao,38,3,1,4,1
+3718,3718,Krishnappa Naik,50,3,3,2,1
+3719,3719,Sunitha Shetty,27,6,3,9,2
+3720,3720,Lokesh,45,8,1,9,1
+3721,3721,Vani,64,7,2,10,2
+3722,3722,Rathnamma Hegde,38,6,1,9,2
+3723,3723,Manjunath,35,6,1,7,1
+3724,3724,Shwetha,29,6,3,5,2
+3725,3725,Darshan Shetty,41,2,2,6,1
+3726,3726,Ramesh Gowda,49,6,1,2,1
+3727,3727,Chandrashekar Murthy,52,2,1,3,1
+3728,3728,Anand Poojari,47,3,1,6,1
+3729,3729,Muniraju Rao,29,4,2,3,1
+3730,3730,Darshan Achar,60,2,1,7,1
+3731,3731,Shwetha Rao,54,1,1,5,2
+3732,3732,Muniraju Kumar,47,8,2,10,1
+3733,3733,Bhagya Achar,21,6,1,9,2
+3734,3734,Umesh Hegde,37,1,1,8,1
+3735,3735,Mahesh Hegde,53,8,1,2,1
+3736,3736,Mahesh Gowda,39,9,2,8,1
+3737,3737,Srinivas Rao,21,5,1,1,1
+3738,3738,Prakash Kumar,48,3,1,8,1
+3739,3739,Manjunath,57,8,1,7,1
+3740,3740,Darshan,58,8,1,7,1
+3741,3741,Krishnappa,55,4,3,5,1
+3742,3742,Chandrashekar Naik,24,8,1,4,1
+3743,3743,Vani Patil,22,4,1,2,2
+3744,3744,Nagamma,54,2,1,1,2
+3745,3745,Lokesh Naik,35,7,1,7,1
+3746,3746,Basavaraj Patil,26,3,1,7,1
+3747,3747,Lokesh Patil,45,5,3,10,1
+3748,3748,Lakshmi Poojari,29,6,1,1,2
+3749,3749,Nagaraj Reddy,47,1,1,9,1
+3750,3750,Mahesh Murthy,23,5,1,8,1
+3751,3751,Lakshmi Poojari,33,2,1,8,2
+3752,3752,Asha Naik,37,2,1,7,2
+3753,3753,Rathnamma Reddy,55,5,1,1,2
+3754,3754,Rekha,43,6,2,9,2
+3755,3755,Deepa,47,2,2,5,2
+3756,3756,Santosh Gowda,37,2,1,5,1
+3757,3757,Basavaraj Murthy,26,8,1,9,1
+3758,3758,Pallavi Naik,68,1,1,3,2
+3759,3759,Chandrashekar Patil,50,1,2,8,1
+3760,3760,Yogesh Hegde,68,8,2,6,1
+3761,3761,Srinivas,60,3,1,9,1
+3762,3762,Lakshmi,54,4,1,1,2
+3763,3763,Girish Naik,40,6,1,7,1
+3764,3764,Lakshmi Hegde,35,8,1,5,2
+3765,3765,Girish Patil,40,2,1,7,1
+3766,3766,Kavitha Achar,20,1,1,10,2
+3767,3767,Shivakumar,59,4,3,10,1
+3768,3768,Yogesh Rao,41,7,1,7,1
+3769,3769,Lakshmi Rao,21,2,1,2,2
+3770,3770,Nagamma Gowda,56,5,1,8,2
+3771,3771,Mahesh Gowda,19,9,1,8,1
+3772,3772,Manjula,42,8,2,4,2
+3773,3773,Basavaraj Murthy,41,1,1,3,1
+3774,3774,Ramesh Gowda,50,1,3,4,1
+3775,3775,Basavaraj Kumar,24,3,3,5,1
+3776,3776,Nagamma Naik,30,3,1,9,2
+3777,3777,Shwetha Patil,28,10,1,10,2
+3778,3778,Anand Gowda,57,1,1,2,1
+3779,3779,Kiran Hegde,34,6,1,2,1
+3780,3780,Deepa Hegde,55,2,1,8,2
+3781,3781,Manjula Poojari,36,2,1,6,2
+3782,3782,Shobha Rao,27,9,1,2,2
+3783,3783,Chandrashekar Naik,68,7,1,8,1
+3784,3784,Lakshmi,68,10,2,10,2
+3785,3785,Nagaraj Naik,56,2,7,6,1
+3786,3786,Shobha Gowda,58,6,1,2,2
+3787,3787,Harish Rao,28,3,4,2,1
+3788,3788,Muniraju Reddy,47,7,1,4,1
+3789,3789,Puneeth Gowda,33,3,1,10,1
+3790,3790,Lokesh Murthy,19,4,1,5,1
+3791,3791,Prakash Shetty,40,5,1,6,1
+3792,3792,Anand,57,7,1,9,1
+3793,3793,Nagamma Gowda,52,7,1,10,2
+3794,3794,Muniraju Kumar,37,2,1,10,1
+3795,3795,Mahesh Achar,31,9,1,9,1
+3796,3796,Basavaraj,68,7,1,9,1
+3797,3797,Shobha,45,3,1,5,2
+3798,3798,Girish Naik,28,6,1,1,1
+3799,3799,Kavitha Shetty,56,5,1,9,2
+3800,3800,Kavitha Kumar,54,4,3,5,2
+3801,3801,Suresh Rao,35,9,1,7,1
+3802,3802,Nagamma Patil,42,1,3,6,2
+3803,3803,Lakshmi,25,7,7,6,2
+3804,3804,Sunitha Poojari,18,8,1,2,2
+3805,3805,Mahesh Gowda,38,6,1,1,1
+3806,3806,Vani Patil,21,8,5,7,2
+3807,3807,Padma Murthy,58,6,3,9,2
+3808,3808,Krishnappa,24,6,1,1,1
+3809,3809,Shwetha Achar,51,5,1,5,2
+3810,3810,Kiran Naik,18,8,2,10,1
+3811,3811,Savitha Murthy,47,5,1,6,2
+3812,3812,Prakash Gowda,19,6,1,1,1
+3813,3813,Kavitha Patil,31,5,1,8,2
+3814,3814,Padma Shetty,66,2,2,1,2
+3815,3815,Nagaraj Rao,23,6,1,5,1
+3816,3816,Manjula,26,4,1,10,2
+3817,3817,Lokesh Hegde,64,5,1,3,1
+3818,3818,Sunitha,38,8,1,5,2
+3819,3819,Savitha Rao,20,8,2,6,2
+3820,3820,Santosh Patil,66,4,1,4,1
+3821,3821,Padma Achar,66,3,1,1,2
+3822,3822,Shwetha Naik,24,5,2,3,2
+3823,3823,Nagaraj Hegde,36,2,1,2,1
+3824,3824,Darshan Naik,48,2,1,1,1
+3825,3825,Venkatesh Achar,46,2,2,3,1
+3826,3826,Shivakumar,60,4,1,2,1
+3827,3827,Rathnamma Patil,20,6,2,5,2
+3828,3828,Girish Patil,50,8,1,9,1
+3829,3829,Sunitha Swamy,36,5,1,7,2
+3830,3830,Ramesh Rao,68,3,2,4,1
+3831,3831,Mahesh Patil,41,3,1,9,1
+3832,3832,Santosh Patil,22,1,2,9,1
+3833,3833,Srinivas Hegde,63,5,1,3,1
+3834,3834,Darshan Achar,52,5,1,10,1
+3835,3835,Srinivas Kumar,67,2,2,6,1
+3836,3836,Manjula Gowda,22,1,1,3,2
+3837,3837,Girish,52,7,1,9,1
+3838,3838,Sunitha Poojari,33,8,1,9,2
+3839,3839,Mahesh,51,2,4,6,1
+3840,3840,Kiran,37,6,2,1,1
+3841,3841,Harish Murthy,37,4,1,10,1
+3842,3842,Shivakumar Poojari,59,6,2,3,1
+3843,3843,Harish Achar,61,5,2,2,1
+3844,3844,Asha Poojari,20,4,1,10,2
+3845,3845,Pallavi Gowda,39,8,1,9,2
+3846,3846,Raghavendra Shetty,40,1,1,8,1
+3847,3847,Lokesh Hegde,32,2,1,4,1
+3848,3848,Harish Murthy,43,4,4,5,1
+3849,3849,Darshan Murthy,69,8,1,1,1
+3850,3850,Vani Swamy,47,7,1,5,2
+3851,3851,Umesh Swamy,44,1,1,1,1
+3852,3852,Raghavendra Patil,30,4,2,2,1
+3853,3853,Chandrashekar Hegde,66,2,1,10,1
+3854,3854,Shivakumar Swamy,63,5,1,3,1
+3855,3855,Shivakumar Swamy,26,7,1,2,1
+3856,3856,Manjula Poojari,28,5,1,7,2
+3857,3857,Yogesh Shetty,59,7,1,9,1
+3858,3858,Suresh Achar,56,2,1,10,1
+3859,3859,Harish Reddy,51,2,2,3,1
+3860,3860,Girish Patil,29,8,1,10,1
+3861,3861,Basavaraj Murthy,25,2,1,3,1
+3862,3862,Pallavi Poojari,65,1,1,3,2
+3863,3863,Rekha Poojari,23,6,1,9,2
+3864,3864,Lokesh,66,2,1,10,1
+3865,3865,Yogesh Naik,68,4,3,9,1
+3866,3866,Padma Reddy,65,9,1,6,2
+3867,3867,Pallavi Reddy,40,4,1,8,2
+3868,3868,Lokesh Achar,37,4,1,10,1
+3869,3869,Shivakumar Hegde,39,2,1,4,1
+3870,3870,Yogesh,62,3,1,10,1
+3871,3871,Anand Shetty,36,7,1,10,1
+3872,3872,Yogesh Rao,70,8,2,1,1
+3873,3873,Manjula Swamy,66,6,3,3,2
+3874,3874,Manjula Shetty,29,6,1,7,2
+3875,3875,Chandrashekar Murthy,68,2,2,8,1
+3876,3876,Padma,33,2,1,1,2
+3877,3877,Asha Rao,41,4,1,7,2
+3878,3878,Shobha Achar,47,4,1,1,2
+3879,3879,Girish Achar,57,2,1,1,1
+3880,3880,Nagamma Shetty,30,4,2,6,2
+3881,3881,Girish Reddy,30,5,1,6,1
+3882,3882,Puneeth Shetty,40,5,2,7,1
+3883,3883,Venkatesh Poojari,19,9,1,10,1
+3884,3884,Manjula Poojari,59,8,1,3,2
+3885,3885,Asha,28,4,2,7,2
+3886,3886,Rathnamma,33,2,2,1,2
+3887,3887,Rekha Reddy,62,6,1,1,2
+3888,3888,Santosh Reddy,34,8,6,5,1
+3889,3889,Padma,23,1,2,7,2
+3890,3890,Muniraju Reddy,65,2,1,7,1
+3891,3891,Rekha Rao,63,10,1,4,2
+3892,3892,Muniraju Shetty,30,8,1,4,1
+3893,3893,Lakshmi Kumar,58,2,1,1,2
+3894,3894,Pallavi Patil,32,8,2,4,2
+3895,3895,Geetha Achar,35,4,1,2,2
+3896,3896,Vani Naik,46,6,1,7,2
+3897,3897,Mahesh,22,6,2,9,1
+3898,3898,Deepa Naik,25,8,1,8,2
+3899,3899,Manjunath Murthy,67,5,1,10,1
+3900,3900,Anand Rao,19,9,1,6,1
+3901,3901,Pallavi Achar,31,6,1,6,2
+3902,3902,Lakshmi Naik,56,8,1,3,2
+3903,3903,Nagamma Hegde,51,3,2,10,2
+3904,3904,Basavaraj,66,8,1,6,1
+3905,3905,Manjunath,28,2,2,10,1
+3906,3906,Lokesh,31,8,7,9,1
+3907,3907,Lakshmi Murthy,57,5,6,8,2
+3908,3908,Ramesh Patil,68,7,2,3,1
+3909,3909,Krishnappa Swamy,63,3,1,4,1
+3910,3910,Shobha Patil,51,1,1,7,2
+3911,3911,Puneeth Kumar,24,2,1,4,1
+3912,3912,Lokesh Rao,38,5,1,9,1
+3913,3913,Srinivas,63,8,1,7,1
+3914,3914,Pallavi Rao,66,2,3,9,2
+3915,3915,Asha,55,4,1,9,2
+3916,3916,Rekha,56,3,1,8,2
+3917,3917,Harish Gowda,20,8,1,7,1
+3918,3918,Pallavi,21,2,2,5,2
+3919,3919,Kavitha Poojari,25,4,3,9,2
+3920,3920,Prakash Kumar,53,5,1,10,1
+3921,3921,Yogesh Reddy,33,8,2,10,1
+3922,3922,Kiran,25,5,3,5,1
+3923,3923,Srinivas Naik,62,4,1,4,1
+3924,3924,Bhagya Kumar,33,8,6,8,2
+3925,3925,Asha Achar,46,6,1,3,2
+3926,3926,Kiran Murthy,67,7,2,1,1
+3927,3927,Mahesh Naik,36,1,2,3,1
+3928,3928,Rekha Naik,52,4,1,5,2
+3929,3929,Ramesh Naik,49,1,3,10,1
+3930,3930,Manjunath Poojari,54,8,1,8,1
+3931,3931,Bhagya Shetty,60,2,1,2,2
+3932,3932,Puneeth Swamy,27,6,1,9,1
+3933,3933,Santosh Shetty,39,3,1,6,1
+3934,3934,Mahesh Shetty,70,8,1,3,1
+3935,3935,Raghavendra,53,6,2,3,1
+3936,3936,Divya Hegde,68,1,1,1,2
+3937,3937,Chandrashekar Patil,45,5,1,10,1
+3938,3938,Chandrashekar Kumar,39,4,2,9,1
+3939,3939,Girish Swamy,18,4,1,1,1
+3940,3940,Girish Reddy,21,6,1,4,1
+3941,3941,Santosh,18,4,2,2,1
+3942,3942,Geetha Achar,33,5,2,2,2
+3943,3943,Manjunath Gowda,63,8,1,9,1
+3944,3944,Harish,30,5,1,6,1
+3945,3945,Yogesh Patil,55,9,7,2,1
+3946,3946,Lokesh Rao,34,8,1,10,1
+3947,3947,Padma Naik,33,2,2,7,2
+3948,3948,Prakash Hegde,41,4,2,3,1
+3949,3949,Anand,29,1,1,5,1
+3950,3950,Suresh Reddy,39,6,2,10,1
+3951,3951,Chandrashekar Achar,32,8,2,2,1
+3952,3952,Mahesh Naik,25,2,1,1,1
+3953,3953,Pallavi Gowda,52,6,2,2,2
+3954,3954,Kiran,31,2,1,7,1
+3955,3955,Puneeth,21,1,1,5,1
+3956,3956,Kiran Reddy,29,8,4,10,1
+3957,3957,Santosh Reddy,27,2,1,3,1
+3958,3958,Lokesh Swamy,36,8,1,10,1
+3959,3959,Venkatesh,29,5,1,4,1
+3960,3960,Lakshmi,35,4,7,9,2
+3961,3961,Bhagya Kumar,60,6,1,3,2
+3962,3962,Harish Murthy,56,8,1,2,1
+3963,3963,Yogesh Achar,56,1,3,10,1
+3964,3964,Basavaraj Achar,56,6,1,5,1
+3965,3965,Manjunath Kumar,23,6,3,3,1
+3966,3966,Pallavi Murthy,68,4,3,7,2
+3967,3967,Umesh Achar,29,8,3,2,1
+3968,3968,Padma Poojari,27,6,2,4,2
+3969,3969,Mahesh,62,2,2,10,1
+3970,3970,Sunitha Naik,24,5,1,10,2
+3971,3971,Prakash Poojari,70,1,1,7,1
+3972,3972,Lokesh Poojari,38,9,1,9,1
+3973,3973,Nagamma,42,9,1,5,2
+3974,3974,Muniraju Swamy,52,6,2,7,1
+3975,3975,Anand,41,3,1,5,1
+3976,3976,Kiran Gowda,32,7,1,2,1
+3977,3977,Nagamma Gowda,66,5,1,10,2
+3978,3978,Ramesh Achar,23,6,2,10,1
+3979,3979,Mahesh,53,6,1,7,1
+3980,3980,Puneeth Rao,48,9,1,1,1
+3981,3981,Harish Hegde,30,7,3,9,1
+3982,3982,Sunitha Reddy,53,5,1,5,2
+3983,3983,Bhagya,19,10,4,3,2
+3984,3984,Girish Hegde,68,5,1,10,1
+3985,3985,Divya,25,2,1,1,2
+3986,3986,Chandrashekar Poojari,60,8,1,3,1
+3987,3987,Anand,63,6,1,7,1
+3988,3988,Kavitha,22,5,1,6,2
+3989,3989,Asha Patil,52,8,2,5,2
+3990,3990,Pallavi Achar,67,7,1,5,2
+3991,3991,Girish Gowda,31,4,2,3,1
+3992,3992,Nagamma,67,5,1,7,2
+3993,3993,Asha Rao,47,8,1,3,2
+3994,3994,Krishnappa Swamy,23,7,2,6,1
+3995,3995,Sunitha Hegde,38,2,1,8,2
+3996,3996,Bhagya Reddy,29,10,1,2,2
+3997,3997,Shivakumar Gowda,32,7,1,5,1
+3998,3998,Darshan,25,3,3,10,1
+3999,3999,Lokesh,22,7,1,7,1
+4000,4000,Vani Poojari,45,4,1,9,2
+4001,4001,Raghavendra Swamy,45,8,1,7,1
+4002,4002,Pallavi Gowda,62,6,2,7,2
+4003,4003,Geetha Poojari,51,2,1,10,2
+4004,4004,Savitha,27,3,2,1,2
+4005,4005,Lokesh Swamy,21,2,1,6,1
+4006,4006,Darshan Gowda,45,2,2,10,1
+4007,4007,Venkatesh Kumar,44,3,1,7,1
+4008,4008,Shwetha Swamy,68,3,2,3,2
+4009,4009,Manjula Murthy,70,4,1,6,2
+4010,4010,Padma Poojari,70,6,7,4,2
+4011,4011,Girish Patil,69,3,1,3,1
+4012,4012,Girish,23,4,2,5,1
+4013,4013,Harish Kumar,64,4,1,3,1
+4014,4014,Anand,52,6,1,7,1
+4015,4015,Ramesh Rao,38,8,1,3,1
+4016,4016,Lokesh Hegde,38,4,1,8,1
+4017,4017,Shivakumar Achar,53,9,2,4,1
+4018,4018,Anand,19,4,1,1,1
+4019,4019,Kiran Kumar,41,4,2,3,1
+4020,4020,Divya Naik,46,6,1,10,2
+4021,4021,Bhagya Shetty,28,4,1,7,2
+4022,4022,Prakash Murthy,45,6,1,7,1
+4023,4023,Nagaraj Poojari,68,8,2,10,1
+4024,4024,Geetha,59,7,2,3,2
+4025,4025,Lokesh Rao,20,6,1,2,1
+4026,4026,Umesh,44,6,1,7,1
+4027,4027,Divya,49,3,4,5,2
+4028,4028,Prakash Murthy,41,6,3,10,1
+4029,4029,Asha Reddy,69,4,1,7,2
+4030,4030,Anand Achar,30,4,1,10,1
+4031,4031,Venkatesh Achar,63,8,1,2,1
+4032,4032,Manjula,23,6,1,2,2
+4033,4033,Venkatesh Reddy,39,2,1,10,1
+4034,4034,Harish Shetty,19,5,1,7,1
+4035,4035,Pallavi,51,7,1,1,2
+4036,4036,Girish,37,2,1,8,1
+4037,4037,Geetha Shetty,34,2,2,8,2
+4038,4038,Venkatesh Murthy,38,2,1,7,1
+4039,4039,Rathnamma Swamy,31,1,1,7,2
+4040,4040,Muniraju Swamy,57,1,1,10,1
+4041,4041,Sunitha Patil,61,8,1,8,2
+4042,4042,Muniraju Gowda,27,6,1,1,1
+4043,4043,Darshan Shetty,37,8,2,4,1
+4044,4044,Geetha Shetty,69,5,1,7,2
+4045,4045,Sunitha,32,4,1,7,2
+4046,4046,Savitha Shetty,65,8,1,1,2
+4047,4047,Santosh Murthy,61,9,1,5,1
+4048,4048,Lakshmi Swamy,57,4,2,7,2
+4049,4049,Chandrashekar Shetty,68,2,1,5,1
+4050,4050,Rathnamma Hegde,67,7,2,6,2
+4051,4051,Kiran Shetty,62,6,2,5,1
+4052,4052,Santosh,40,9,1,1,1
+4053,4053,Pallavi,55,4,3,4,2
+4054,4054,Nagaraj,42,1,1,4,1
+4055,4055,Geetha Poojari,66,1,1,1,2
+4056,4056,Geetha,18,5,1,9,2
+4057,4057,Anand Shetty,27,1,1,1,1
+4058,4058,Savitha Achar,52,6,1,4,2
+4059,4059,Yogesh Naik,54,2,2,4,1
+4060,4060,Raghavendra,24,4,3,3,1
+4061,4061,Padma,24,3,2,10,2
+4062,4062,Manjula Patil,66,4,1,1,2
+4063,4063,Nagaraj Swamy,22,2,1,3,1
+4064,4064,Umesh,50,2,3,1,1
+4065,4065,Nagaraj Murthy,62,7,1,4,1
+4066,4066,Suresh,23,7,1,3,1
+4067,4067,Yogesh Swamy,44,6,4,4,1
+4068,4068,Rathnamma Naik,29,2,2,10,2
+4069,4069,Basavaraj Poojari,22,4,1,9,1
+4070,4070,Manjula Poojari,42,1,1,7,2
+4071,4071,Krishnappa Kumar,18,4,1,9,1
+4072,4072,Bhagya,57,6,1,7,2
+4073,4073,Nagaraj Achar,24,4,1,5,1
+4074,4074,Geetha Swamy,52,2,1,8,2
+4075,4075,Manjunath Reddy,49,2,1,9,1
+4076,4076,Darshan Poojari,67,2,3,1,1
+4077,4077,Ramesh Rao,32,2,1,1,1
+4078,4078,Rekha Shetty,31,8,1,7,2
+4079,4079,Deepa Naik,47,7,1,7,2
+4080,4080,Nagamma Shetty,44,8,1,8,2
+4081,4081,Kiran Poojari,34,2,1,4,1
+4082,4082,Lakshmi Patil,51,8,2,4,2
+4083,4083,Puneeth Reddy,25,5,2,2,1
+4084,4084,Lokesh Hegde,48,6,2,3,1
+4085,4085,Manjula,25,6,1,2,2
+4086,4086,Kavitha Reddy,46,3,1,7,2
+4087,4087,Harish Patil,59,2,1,9,1
+4088,4088,Shwetha Kumar,66,5,2,4,2
+4089,4089,Shwetha Achar,39,2,5,3,2
+4090,4090,Lakshmi Murthy,45,9,1,4,2
+4091,4091,Ramesh Achar,29,10,6,10,1
+4092,4092,Venkatesh Poojari,58,4,1,6,1
+4093,4093,Kiran Shetty,51,5,1,8,1
+4094,4094,Shivakumar Poojari,51,1,1,2,1
+4095,4095,Kiran Murthy,30,1,1,7,1
+4096,4096,Sunitha Murthy,18,9,1,4,2
+4097,4097,Muniraju Poojari,45,3,2,9,1
+4098,4098,Chandrashekar Patil,59,4,1,7,1
+4099,4099,Krishnappa,52,6,1,2,1
+4100,4100,Nagaraj Poojari,23,2,1,1,1
+4101,4101,Manjunath Rao,22,2,1,4,1
+4102,4102,Rathnamma Naik,65,3,1,5,2
+4103,4103,Rathnamma Achar,24,2,1,7,2
+4104,4104,Mahesh Rao,69,5,1,8,1
+4105,4105,Mahesh Hegde,27,5,1,2,1
+4106,4106,Mahesh Patil,33,8,1,1,1
+4107,4107,Divya Patil,45,1,7,6,2
+4108,4108,Deepa,59,8,1,5,2
+4109,4109,Darshan Kumar,53,5,1,8,1
+4110,4110,Pallavi Patil,69,2,1,7,2
+4111,4111,Umesh Gowda,56,1,1,6,1
+4112,4112,Puneeth Gowda,35,1,1,1,1
+4113,4113,Girish Achar,18,6,1,7,1
+4114,4114,Padma Gowda,37,7,1,5,2
+4115,4115,Umesh,62,1,1,6,1
+4116,4116,Asha Reddy,37,8,1,1,2
+4117,4117,Kiran Rao,23,4,2,5,1
+4118,4118,Darshan Rao,48,10,2,1,1
+4119,4119,Girish Poojari,64,8,2,4,1
+4120,4120,Vani Murthy,20,6,1,10,2
+4121,4121,Srinivas Naik,35,4,1,1,1
+4122,4122,Mahesh Rao,65,6,1,5,1
+4123,4123,Rathnamma Poojari,41,1,3,8,2
+4124,4124,Anand Hegde,60,4,2,8,1
+4125,4125,Rekha Murthy,36,9,1,1,2
+4126,4126,Shwetha,67,8,1,7,2
+4127,4127,Kiran,38,2,1,3,1
+4128,4128,Darshan Rao,50,8,1,9,1
+4129,4129,Rekha Rao,60,5,1,10,2
+4130,4130,Shwetha Gowda,21,9,2,4,2
+4131,4131,Harish,21,5,1,7,1
+4132,4132,Geetha Hegde,36,7,1,8,2
+4133,4133,Vani,65,6,1,8,2
+4134,4134,Harish Kumar,39,2,1,2,1
+4135,4135,Kiran Hegde,40,2,1,2,1
+4136,4136,Suresh Murthy,52,8,1,10,1
+4137,4137,Deepa Naik,19,8,1,8,2
+4138,4138,Chandrashekar Murthy,53,10,1,1,1
+4139,4139,Savitha Patil,40,5,1,8,2
+4140,4140,Venkatesh Naik,37,1,1,1,1
+4141,4141,Girish Gowda,31,2,2,8,1
+4142,4142,Lokesh,21,6,1,9,1
+4143,4143,Asha,23,3,4,10,2
+4144,4144,Chandrashekar Shetty,43,2,1,7,1
+4145,4145,Srinivas Swamy,35,6,1,4,1
+4146,4146,Sunitha,18,8,2,8,2
+4147,4147,Divya Rao,70,1,1,7,2
+4148,4148,Nagamma Hegde,28,2,1,1,2
+4149,4149,Lakshmi Achar,33,2,1,6,2
+4150,4150,Sunitha,46,5,7,8,2
+4151,4151,Umesh Patil,23,4,1,10,1
+4152,4152,Sunitha Rao,24,6,1,9,2
+4153,4153,Shwetha Achar,64,2,2,8,2
+4154,4154,Chandrashekar Murthy,60,8,1,5,1
+4155,4155,Pallavi Patil,41,2,1,10,2
+4156,4156,Suresh Achar,18,3,1,7,1
+4157,4157,Yogesh Swamy,32,3,1,10,1
+4158,4158,Pallavi Patil,22,4,3,6,2
+4159,4159,Manjula Rao,55,2,1,8,2
+4160,4160,Ramesh Swamy,33,3,1,5,1
+4161,4161,Pallavi Poojari,67,2,1,7,2
+4162,4162,Raghavendra,25,2,3,2,1
+4163,4163,Srinivas Gowda,43,7,1,5,1
+4164,4164,Padma,53,8,3,8,2
+4165,4165,Santosh Gowda,20,9,1,5,1
+4166,4166,Deepa Shetty,57,6,2,4,2
+4167,4167,Shivakumar Shetty,19,1,1,7,1
+4168,4168,Rathnamma Naik,62,3,1,7,2
+4169,4169,Muniraju,56,9,1,7,1
+4170,4170,Manjunath,30,5,1,5,1
+4171,4171,Darshan Hegde,21,9,1,7,1
+4172,4172,Anand,37,8,1,6,1
+4173,4173,Anand Kumar,25,1,1,10,1
+4174,4174,Raghavendra Gowda,32,1,1,10,1
+4175,4175,Prakash Kumar,20,6,1,6,1
+4176,4176,Venkatesh Poojari,40,1,7,1,1
+4177,4177,Nagaraj Shetty,33,2,1,9,1
+4178,4178,Harish Poojari,28,3,1,3,1
+4179,4179,Santosh,21,9,1,1,1
+4180,4180,Muniraju,53,10,1,1,1
+4181,4181,Umesh Rao,41,3,1,10,1
+4182,4182,Chandrashekar Swamy,61,2,1,7,1
+4183,4183,Santosh Hegde,19,6,1,3,1
+4184,4184,Puneeth Reddy,58,6,1,8,1
+4185,4185,Shwetha Shetty,66,2,3,8,2
+4186,4186,Krishnappa Patil,53,2,1,2,1
+4187,4187,Lakshmi Kumar,50,2,4,6,2
+4188,4188,Bhagya Gowda,47,3,1,3,2
+4189,4189,Raghavendra Gowda,68,1,1,5,1
+4190,4190,Geetha Shetty,38,9,1,5,2
+4191,4191,Ramesh Achar,43,1,1,5,1
+4192,4192,Vani Rao,44,7,1,1,2
+4193,4193,Basavaraj Hegde,61,2,1,9,1
+4194,4194,Anand Patil,22,3,1,8,1
+4195,4195,Anand Achar,59,5,1,9,1
+4196,4196,Puneeth,29,9,1,4,1
+4197,4197,Anand Patil,65,7,1,3,1
+4198,4198,Raghavendra Shetty,48,3,2,10,1
+4199,4199,Puneeth Patil,48,6,1,1,1
+4200,4200,Darshan Gowda,26,9,7,2,1
+4201,4201,Srinivas Rao,57,7,6,10,1
+4202,4202,Sunitha Rao,56,8,1,6,2
+4203,4203,Harish Poojari,47,5,1,9,1
+4204,4204,Padma,64,3,1,2,2
+4205,4205,Anand Murthy,32,5,1,2,1
+4206,4206,Lokesh Murthy,45,8,2,3,1
+4207,4207,Darshan Achar,56,7,1,10,1
+4208,4208,Puneeth Gowda,28,7,3,1,1
+4209,4209,Manjula Gowda,19,8,1,8,2
+4210,4210,Prakash Achar,44,8,1,10,1
+4211,4211,Muniraju Patil,41,3,1,10,1
+4212,4212,Deepa Murthy,69,7,2,9,2
+4213,4213,Harish Hegde,66,2,1,4,1
+4214,4214,Rathnamma Naik,54,8,2,8,2
+4215,4215,Puneeth Achar,59,4,1,8,1
+4216,4216,Shobha,24,1,4,6,2
+4217,4217,Ramesh Swamy,58,3,4,6,1
+4218,4218,Savitha Reddy,51,6,1,2,2
+4219,4219,Krishnappa Hegde,40,1,3,2,1
+4220,4220,Shwetha Murthy,60,3,2,3,2
+4221,4221,Ramesh Rao,36,8,1,3,1
+4222,4222,Bhagya Patil,39,7,3,6,2
+4223,4223,Manjula,47,6,1,8,2
+4224,4224,Shivakumar Kumar,47,8,1,1,1
+4225,4225,Rathnamma Naik,27,2,1,10,2
+4226,4226,Pallavi Patil,64,4,1,9,2
+4227,4227,Muniraju Kumar,69,8,1,4,1
+4228,4228,Vani,25,2,1,5,2
+4229,4229,Manjula,60,2,1,10,2
+4230,4230,Asha Achar,57,8,3,1,2
+4231,4231,Girish Rao,49,8,1,4,1
+4232,4232,Manjula,34,4,2,1,2
+4233,4233,Muniraju Poojari,45,5,1,1,1
+4234,4234,Srinivas Reddy,69,3,1,2,1
+4235,4235,Srinivas Kumar,62,5,1,4,1
+4236,4236,Nagamma Gowda,31,2,2,10,2
+4237,4237,Pallavi Naik,59,1,1,4,2
+4238,4238,Shivakumar Rao,20,8,1,5,1
+4239,4239,Suresh Hegde,67,4,1,6,1
+4240,4240,Kiran Swamy,69,8,1,5,1
+4241,4241,Santosh Achar,55,8,1,8,1
+4242,4242,Raghavendra,23,8,1,10,1
+4243,4243,Chandrashekar Reddy,29,8,2,10,1
+4244,4244,Muniraju,32,6,3,3,1
+4245,4245,Ramesh Swamy,23,6,1,6,1
+4246,4246,Padma Swamy,34,1,1,10,2
+4247,4247,Manjula Naik,29,5,1,9,2
+4248,4248,Mahesh Reddy,28,3,1,7,1
+4249,4249,Harish Reddy,43,2,4,8,1
+4250,4250,Umesh Achar,60,4,1,3,1
+4251,4251,Padma Kumar,68,3,1,4,2
+4252,4252,Asha Patil,23,2,3,5,2
+4253,4253,Muniraju,34,8,2,4,1
+4254,4254,Mahesh Swamy,54,8,1,5,1
+4255,4255,Sunitha Gowda,61,6,1,5,2
+4256,4256,Lakshmi Kumar,50,3,1,5,2
+4257,4257,Deepa,35,8,2,1,2
+4258,4258,Harish Shetty,59,5,1,10,1
+4259,4259,Shwetha,31,4,2,7,2
+4260,4260,Sunitha Shetty,25,9,5,2,2
+4261,4261,Chandrashekar Reddy,58,6,1,2,1
+4262,4262,Shobha Shetty,61,5,1,4,2
+4263,4263,Kiran Hegde,20,1,3,3,1
+4264,4264,Deepa,70,6,1,6,2
+4265,4265,Harish Shetty,23,7,1,5,1
+4266,4266,Geetha Murthy,33,6,1,5,2
+4267,4267,Prakash Murthy,37,7,1,6,1
+4268,4268,Raghavendra,56,6,3,7,1
+4269,4269,Anand Rao,65,3,1,8,1
+4270,4270,Rekha Rao,65,7,2,7,2
+4271,4271,Basavaraj Kumar,67,8,1,9,1
+4272,4272,Asha Shetty,39,1,1,3,2
+4273,4273,Kiran Hegde,19,2,1,4,1
+4274,4274,Anand,44,4,1,1,1
+4275,4275,Anand,56,4,6,5,1
+4276,4276,Rathnamma,20,5,1,7,2
+4277,4277,Lakshmi,35,7,1,2,2
+4278,4278,Savitha Murthy,38,9,1,10,2
+4279,4279,Shwetha Hegde,63,3,1,6,2
+4280,4280,Bhagya Gowda,33,2,1,2,2
+4281,4281,Girish Achar,25,4,1,10,1
+4282,4282,Manjula Gowda,30,2,3,1,2
+4283,4283,Deepa Shetty,57,4,1,8,2
+4284,4284,Rathnamma Patil,41,8,2,7,2
+4285,4285,Venkatesh Gowda,40,4,1,5,1
+4286,4286,Padma,41,9,1,2,2
+4287,4287,Nagamma Naik,55,4,4,4,2
+4288,4288,Padma Achar,66,8,2,9,2
+4289,4289,Girish Patil,70,1,1,6,1
+4290,4290,Kavitha Shetty,70,2,1,7,2
+4291,4291,Girish Patil,35,5,1,9,1
+4292,4292,Raghavendra Patil,69,10,1,10,1
+4293,4293,Manjunath,26,9,1,10,1
+4294,4294,Anand Patil,44,8,7,1,1
+4295,4295,Girish Gowda,58,1,3,10,1
+4296,4296,Santosh Achar,58,8,1,8,1
+4297,4297,Rathnamma,45,9,1,10,2
+4298,4298,Ramesh,19,2,1,5,1
+4299,4299,Puneeth Naik,36,2,2,8,1
+4300,4300,Srinivas Reddy,27,5,1,2,1
+4301,4301,Umesh,53,1,1,4,1
+4302,4302,Shwetha Rao,70,4,3,2,2
+4303,4303,Kiran Kumar,51,4,1,1,1
+4304,4304,Shivakumar Rao,40,2,3,9,1
+4305,4305,Girish Patil,20,5,5,6,1
+4306,4306,Kiran Poojari,24,1,3,9,1
+4307,4307,Nagaraj Naik,18,8,1,4,1
+4308,4308,Sunitha Gowda,48,7,1,2,2
+4309,4309,Venkatesh Hegde,48,4,1,5,1
+4310,4310,Savitha Kumar,66,6,1,4,2
+4311,4311,Divya Poojari,55,8,1,10,2
+4312,4312,Nagaraj,40,4,1,6,1
+4313,4313,Shobha Achar,21,6,1,7,2
+4314,4314,Kiran Poojari,61,7,1,5,1
+4315,4315,Prakash Reddy,30,3,1,5,1
+4316,4316,Girish,44,4,1,9,1
+4317,4317,Chandrashekar Rao,29,6,1,8,1
+4318,4318,Srinivas,49,2,1,8,1
+4319,4319,Vani Murthy,22,5,1,1,2
+4320,4320,Umesh,44,1,1,6,1
+4321,4321,Srinivas,64,6,1,7,1
+4322,4322,Nagamma Naik,50,8,1,5,2
+4323,4323,Mahesh Poojari,41,2,1,5,1
+4324,4324,Umesh Swamy,26,2,1,6,1
+4325,4325,Pallavi,65,2,1,2,2
+4326,4326,Mahesh Naik,59,9,1,2,1
+4327,4327,Anand Gowda,46,3,1,9,1
+4328,4328,Srinivas Rao,54,8,1,2,1
+4329,4329,Yogesh,37,8,2,8,1
+4330,4330,Chandrashekar,20,5,1,7,1
+4331,4331,Kiran Hegde,32,8,1,8,1
+4332,4332,Mahesh,52,2,2,1,1
+4333,4333,Puneeth,32,1,4,7,1
+4334,4334,Girish Naik,24,5,1,7,1
+4335,4335,Sunitha,41,2,1,10,2
+4336,4336,Puneeth,24,2,1,10,1
+4337,4337,Venkatesh Murthy,33,7,1,9,1
+4338,4338,Lakshmi Murthy,70,2,1,10,2
+4339,4339,Ramesh Murthy,24,2,1,10,1
+4340,4340,Manjunath,37,8,1,5,1
+4341,4341,Darshan Hegde,56,1,4,2,1
+4342,4342,Raghavendra,51,9,1,3,1
+4343,4343,Basavaraj Rao,51,8,1,1,1
+4344,4344,Srinivas Kumar,68,2,1,1,1
+4345,4345,Lakshmi Poojari,34,5,1,4,2
+4346,4346,Santosh Hegde,27,8,1,9,1
+4347,4347,Shivakumar Shetty,38,5,1,4,1
+4348,4348,Divya Reddy,68,6,1,1,2
+4349,4349,Rathnamma Poojari,54,8,1,10,2
+4350,4350,Divya Hegde,41,3,1,1,2
+4351,4351,Prakash Swamy,44,9,1,6,1
+4352,4352,Girish Rao,58,4,2,5,1
+4353,4353,Prakash Murthy,55,5,1,7,1
+4354,4354,Manjula Shetty,40,3,1,5,2
+4355,4355,Suresh Hegde,27,5,2,3,1
+4356,4356,Prakash Rao,20,2,1,10,1
+4357,4357,Suresh Gowda,19,8,3,3,1
+4358,4358,Lakshmi,70,6,1,5,2
+4359,4359,Nagamma Shetty,53,7,1,6,2
+4360,4360,Santosh Murthy,25,2,1,10,1
+4361,4361,Darshan Kumar,60,9,3,2,1
+4362,4362,Rathnamma Patil,44,8,1,8,2
+4363,4363,Kiran Achar,63,1,1,8,1
+4364,4364,Lokesh Gowda,42,3,7,9,1
+4365,4365,Sunitha Achar,56,2,1,9,2
+4366,4366,Manjunath Patil,24,3,1,7,1
+4367,4367,Harish Poojari,39,9,2,2,1
+4368,4368,Suresh Rao,48,9,2,2,1
+4369,4369,Harish Shetty,65,4,7,1,1
+4370,4370,Mahesh Naik,46,4,4,5,1
+4371,4371,Umesh Hegde,43,3,7,10,1
+4372,4372,Harish Achar,20,3,1,6,1
+4373,4373,Padma Reddy,59,8,1,2,2
+4374,4374,Girish,25,7,1,2,1
+4375,4375,Anand Shetty,52,5,4,3,1
+4376,4376,Girish Shetty,40,7,2,10,1
+4377,4377,Shobha,52,10,1,3,2
+4378,4378,Padma Poojari,45,1,4,10,2
+4379,4379,Nagaraj,47,8,1,5,1
+4380,4380,Rathnamma Patil,63,2,1,4,2
+4381,4381,Suresh Poojari,49,4,1,6,1
+4382,4382,Geetha Naik,32,2,1,7,2
+4383,4383,Kavitha Naik,35,6,1,6,2
+4384,4384,Ramesh Reddy,70,3,4,4,1
+4385,4385,Shivakumar Patil,32,4,1,4,1
+4386,4386,Prakash,58,8,1,6,1
+4387,4387,Lakshmi Shetty,20,5,1,8,2
+4388,4388,Rekha Swamy,43,2,1,1,2
+4389,4389,Darshan Shetty,49,6,1,9,1
+4390,4390,Pallavi Patil,55,9,1,4,2
+4391,4391,Raghavendra Rao,47,4,1,8,1
+4392,4392,Bhagya Shetty,46,4,2,10,2
+4393,4393,Umesh Reddy,53,5,2,10,1
+4394,4394,Divya,52,6,1,1,2
+4395,4395,Yogesh Achar,31,6,1,9,1
+4396,4396,Basavaraj Rao,52,2,2,8,1
+4397,4397,Vani Poojari,30,4,1,1,2
+4398,4398,Santosh Kumar,21,1,1,7,1
+4399,4399,Anand Hegde,42,1,1,4,1
+4400,4400,Rathnamma Achar,29,5,1,8,2
+4401,4401,Sunitha,60,9,2,9,2
+4402,4402,Nagaraj Swamy,29,8,1,7,1
+4403,4403,Harish Reddy,33,6,1,5,1
+4404,4404,Nagamma Patil,35,2,2,3,2
+4405,4405,Rathnamma Murthy,41,4,1,6,2
+4406,4406,Manjunath Poojari,48,2,1,2,1
+4407,4407,Rathnamma Achar,66,8,1,5,2
+4408,4408,Puneeth Patil,65,8,1,1,1
+4409,4409,Vani Shetty,32,4,1,9,2
+4410,4410,Krishnappa,19,6,1,8,1
+4411,4411,Asha,29,8,5,3,2
+4412,4412,Sunitha,48,2,1,1,2
+4413,4413,Savitha Swamy,61,2,2,10,2
+4414,4414,Rathnamma,64,2,1,4,2
+4415,4415,Deepa Achar,49,2,1,7,2
+4416,4416,Pallavi,48,6,1,8,2
+4417,4417,Manjunath Achar,60,5,1,5,1
+4418,4418,Krishnappa Achar,65,2,1,3,1
+4419,4419,Srinivas Achar,57,6,2,1,1
+4420,4420,Manjula Poojari,48,9,1,2,2
+4421,4421,Raghavendra Poojari,69,6,1,6,1
+4422,4422,Kiran Swamy,52,2,2,4,1
+4423,4423,Suresh Gowda,40,6,1,6,1
+4424,4424,Darshan Murthy,50,7,1,7,1
+4425,4425,Padma,60,6,1,2,2
+4426,4426,Manjunath Gowda,18,2,1,7,1
+4427,4427,Suresh,33,10,1,8,1
+4428,4428,Puneeth Swamy,25,6,1,5,1
+4429,4429,Kavitha Achar,43,2,1,3,2
+4430,4430,Geetha,47,4,1,3,2
+4431,4431,Nagaraj Achar,21,2,3,9,1
+4432,4432,Srinivas Swamy,55,2,1,8,1
+4433,4433,Asha,35,7,1,2,2
+4434,4434,Manjunath Murthy,49,8,7,7,1
+4435,4435,Pallavi,48,2,3,10,2
+4436,4436,Mahesh,57,2,1,7,1
+4437,4437,Raghavendra,50,5,4,2,1
+4438,4438,Umesh,62,5,1,1,1
+4439,4439,Muniraju Rao,27,1,1,1,1
+4440,4440,Manjula,29,6,3,5,2
+4441,4441,Chandrashekar Kumar,34,2,1,1,1
+4442,4442,Srinivas,24,8,1,8,1
+4443,4443,Ramesh Shetty,33,3,2,1,1
+4444,4444,Darshan Reddy,28,1,3,1,1
+4445,4445,Puneeth Kumar,32,5,1,9,1
+4446,4446,Divya Reddy,20,8,1,5,2
+4447,4447,Nagamma Rao,70,2,1,3,2
+4448,4448,Bhagya Shetty,41,10,3,4,2
+4449,4449,Deepa Patil,55,2,2,5,2
+4450,4450,Rathnamma Kumar,36,7,1,8,2
+4451,4451,Shivakumar Rao,66,3,1,8,1
+4452,4452,Bhagya,69,8,1,8,2
+4453,4453,Prakash Achar,48,3,2,3,1
+4454,4454,Shivakumar Poojari,58,3,2,6,1
+4455,4455,Santosh Hegde,40,2,1,5,1
+4456,4456,Rathnamma,60,4,4,4,2
+4457,4457,Umesh Hegde,48,4,3,10,1
+4458,4458,Kiran,35,9,2,9,1
+4459,4459,Nagaraj Rao,20,3,1,9,1
+4460,4460,Vani,35,2,1,2,2
+4461,4461,Yogesh Hegde,54,8,1,2,1
+4462,4462,Padma Achar,49,5,2,4,2
+4463,4463,Sunitha,45,4,2,5,2
+4464,4464,Manjula Murthy,29,9,1,7,2
+4465,4465,Vani Naik,18,6,3,8,2
+4466,4466,Divya Shetty,59,2,1,9,2
+4467,4467,Nagaraj Patil,30,2,1,10,1
+4468,4468,Muniraju Shetty,38,4,1,2,1
+4469,4469,Mahesh Kumar,60,6,1,9,1
+4470,4470,Girish Shetty,32,6,1,5,1
+4471,4471,Divya Naik,70,6,1,4,2
+4472,4472,Kavitha Rao,44,7,1,4,2
+4473,4473,Ramesh,35,6,2,9,1
+4474,4474,Manjunath Reddy,39,5,1,1,1
+4475,4475,Bhagya Reddy,54,1,1,2,2
+4476,4476,Rekha Achar,35,8,1,6,2
+4477,4477,Shivakumar Gowda,35,1,1,4,1
+4478,4478,Bhagya Achar,50,2,4,8,2
+4479,4479,Bhagya Murthy,57,8,1,3,2
+4480,4480,Asha Murthy,60,5,1,6,2
+4481,4481,Suresh Poojari,24,4,3,8,1
+4482,4482,Divya Naik,59,5,1,6,2
+4483,4483,Yogesh Murthy,40,4,1,3,1
+4484,4484,Harish,22,7,1,3,1
+4485,4485,Manjunath Kumar,26,4,1,3,1
+4486,4486,Shwetha Kumar,23,4,1,1,2
+4487,4487,Srinivas Shetty,37,5,1,6,1
+4488,4488,Kavitha Shetty,27,8,1,2,2
+4489,4489,Girish Poojari,43,4,1,2,1
+4490,4490,Harish Patil,70,8,1,8,1
+4491,4491,Rekha Murthy,26,7,1,10,2
+4492,4492,Savitha Reddy,29,9,1,10,2
+4493,4493,Kiran Rao,65,4,1,4,1
+4494,4494,Suresh Gowda,57,1,1,2,1
+4495,4495,Geetha Rao,57,6,1,9,2
+4496,4496,Kavitha Kumar,26,2,1,2,2
+4497,4497,Venkatesh Rao,50,4,1,1,1
+4498,4498,Ramesh Shetty,60,7,2,5,1
+4499,4499,Shobha Patil,20,1,1,2,2
+4500,4500,Venkatesh Shetty,19,9,1,9,1
+4501,4501,Padma Hegde,51,5,1,3,2
+4502,4502,Muniraju Patil,18,8,1,4,1
+4503,4503,Sunitha Kumar,41,1,4,1,2
+4504,4504,Divya Murthy,67,7,1,5,2
+4505,4505,Darshan Patil,51,6,1,6,1
+4506,4506,Shwetha Kumar,63,2,1,8,2
+4507,4507,Lakshmi,70,8,2,10,2
+4508,4508,Venkatesh Poojari,23,2,1,1,1
+4509,4509,Ramesh Gowda,39,5,1,1,1
+4510,4510,Bhagya Gowda,68,9,1,5,2
+4511,4511,Santosh Kumar,55,4,2,6,1
+4512,4512,Kiran Patil,59,2,1,2,1
+4513,4513,Manjula Naik,61,4,1,10,2
+4514,4514,Prakash Patil,68,2,3,1,1
+4515,4515,Nagaraj Gowda,46,1,1,6,1
+4516,4516,Raghavendra Poojari,47,2,1,5,1
+4517,4517,Darshan Patil,53,7,1,2,1
+4518,4518,Krishnappa Achar,62,8,1,1,1
+4519,4519,Yogesh Gowda,34,8,1,4,1
+4520,4520,Yogesh Murthy,56,6,1,10,1
+4521,4521,Shwetha Hegde,52,2,1,4,2
+4522,4522,Ramesh Swamy,48,2,1,6,1
+4523,4523,Krishnappa Kumar,22,2,1,8,1
+4524,4524,Anand Gowda,32,2,1,4,1
+4525,4525,Basavaraj Shetty,43,2,3,5,1
+4526,4526,Bhagya Gowda,21,6,1,8,2
+4527,4527,Divya Hegde,53,7,1,2,2
+4528,4528,Manjula Poojari,24,6,1,9,2
+4529,4529,Bhagya Shetty,67,8,1,6,2
+4530,4530,Anand Rao,56,9,1,1,1
+4531,4531,Kiran Achar,36,6,2,4,1
+4532,4532,Pallavi Gowda,41,3,2,5,2
+4533,4533,Darshan Hegde,48,8,1,2,1
+4534,4534,Shobha Hegde,67,4,1,5,2
+4535,4535,Umesh Kumar,33,4,1,6,1
+4536,4536,Mahesh Kumar,22,6,1,6,1
+4537,4537,Santosh Achar,27,4,1,9,1
+4538,4538,Manjunath Murthy,28,3,1,2,1
+4539,4539,Yogesh Gowda,32,4,1,6,1
+4540,4540,Asha Achar,50,1,1,10,2
+4541,4541,Shobha,66,5,1,4,2
+4542,4542,Sunitha Gowda,23,8,1,9,2
+4543,4543,Geetha Murthy,58,6,1,3,2
+4544,4544,Anand Gowda,26,6,1,8,1
+4545,4545,Chandrashekar Reddy,27,2,1,8,1
+4546,4546,Raghavendra Achar,60,4,1,6,1
+4547,4547,Savitha Naik,59,4,1,7,2
+4548,4548,Vani,45,6,3,7,2
+4549,4549,Savitha Murthy,65,4,1,4,2
+4550,4550,Suresh Shetty,62,1,1,6,1
+4551,4551,Anand Achar,54,9,3,8,1
+4552,4552,Manjunath,26,2,2,2,1
+4553,4553,Shwetha Murthy,20,7,1,8,2
+4554,4554,Girish Reddy,57,3,1,1,1
+4555,4555,Umesh Achar,36,2,2,1,1
+4556,4556,Umesh Murthy,63,2,1,8,1
+4557,4557,Savitha Rao,40,4,3,3,2
+4558,4558,Chandrashekar,23,4,4,5,1
+4559,4559,Girish Kumar,66,1,3,10,1
+4560,4560,Nagamma,46,9,1,2,2
+4561,4561,Manjula Naik,24,3,3,6,2
+4562,4562,Darshan Poojari,58,2,1,7,1
+4563,4563,Krishnappa Poojari,38,2,3,9,1
+4564,4564,Manjula Shetty,68,8,2,9,2
+4565,4565,Srinivas,47,7,1,2,1
+4566,4566,Raghavendra Swamy,28,8,2,6,1
+4567,4567,Vani Rao,60,8,1,3,2
+4568,4568,Harish Shetty,43,7,1,8,1
+4569,4569,Krishnappa Poojari,34,8,1,2,1
+4570,4570,Kiran Hegde,28,1,2,9,1
+4571,4571,Manjula Poojari,63,4,2,7,2
+4572,4572,Shobha,27,2,2,6,2
+4573,4573,Mahesh Achar,34,6,2,8,1
+4574,4574,Geetha,63,1,2,9,2
+4575,4575,Santosh Reddy,42,4,5,6,1
+4576,4576,Shwetha Achar,32,2,3,6,2
+4577,4577,Bhagya Poojari,25,9,3,7,2
+4578,4578,Harish Rao,53,3,1,4,1
+4579,4579,Rathnamma Naik,65,7,1,2,2
+4580,4580,Savitha Swamy,19,6,4,3,2
+4581,4581,Shobha Poojari,62,8,1,9,2
+4582,4582,Rathnamma Patil,22,3,1,8,2
+4583,4583,Shivakumar Naik,22,8,1,2,1
+4584,4584,Geetha Reddy,62,4,1,1,2
+4585,4585,Rathnamma Poojari,36,6,4,9,2
+4586,4586,Rekha Poojari,56,8,1,7,2
+4587,4587,Shwetha Murthy,68,6,3,7,2
+4588,4588,Shivakumar,20,10,1,10,1
+4589,4589,Kavitha Naik,29,6,1,2,2
+4590,4590,Nagaraj Kumar,52,2,3,4,1
+4591,4591,Lakshmi Rao,45,6,3,5,2
+4592,4592,Ramesh,20,2,1,1,1
+4593,4593,Girish Gowda,69,2,1,10,1
+4594,4594,Prakash Kumar,29,4,3,8,1
+4595,4595,Venkatesh,65,2,1,5,1
+4596,4596,Asha Rao,54,6,1,3,2
+4597,4597,Muniraju Rao,33,7,1,6,1
+4598,4598,Lakshmi,56,1,1,4,2
+4599,4599,Vani Reddy,43,6,2,4,2
+4600,4600,Manjunath,49,4,7,1,1
+4601,4601,Shobha Achar,51,6,2,10,2
+4602,4602,Srinivas Naik,23,1,1,7,1
+4603,4603,Manjunath Rao,69,6,1,1,1
+4604,4604,Muniraju Swamy,21,7,1,9,1
+4605,4605,Manjula Reddy,44,5,1,10,2
+4606,4606,Shivakumar Shetty,49,2,1,4,1
+4607,4607,Lakshmi Swamy,37,2,1,7,2
+4608,4608,Girish Reddy,39,8,1,8,1
+4609,4609,Manjula,62,8,1,7,2
+4610,4610,Prakash,20,9,7,1,1
+4611,4611,Divya,50,10,1,5,2
+4612,4612,Harish Poojari,23,8,2,1,1
+4613,4613,Puneeth,20,5,1,6,1
+4614,4614,Chandrashekar Poojari,28,8,1,5,1
+4615,4615,Srinivas Poojari,59,3,1,8,1
+4616,4616,Puneeth Gowda,32,2,1,1,1
+4617,4617,Shwetha Reddy,26,6,1,7,2
+4618,4618,Umesh Poojari,53,5,3,3,1
+4619,4619,Padma,44,1,3,3,2
+4620,4620,Pallavi Hegde,32,7,1,10,2
+4621,4621,Umesh Kumar,61,5,1,8,1
+4622,4622,Shivakumar,67,7,1,4,1
+4623,4623,Asha Reddy,23,7,1,3,2
+4624,4624,Manjunath Kumar,48,8,2,9,1
+4625,4625,Srinivas Rao,70,5,1,5,1
+4626,4626,Shobha Rao,66,4,1,4,2
+4627,4627,Ramesh Gowda,45,4,1,4,1
+4628,4628,Kavitha Murthy,48,8,1,10,2
+4629,4629,Girish Murthy,57,1,1,4,1
+4630,4630,Puneeth Patil,34,2,1,7,1
+4631,4631,Geetha Patil,53,8,1,4,2
+4632,4632,Santosh Shetty,60,5,4,9,1
+4633,4633,Yogesh Achar,61,2,1,3,1
+4634,4634,Divya Patil,20,2,1,10,2
+4635,4635,Rathnamma,48,6,1,10,2
+4636,4636,Nagamma Swamy,23,7,3,10,2
+4637,4637,Anand Hegde,62,2,2,5,1
+4638,4638,Santosh Gowda,70,2,1,9,1
+4639,4639,Vani Achar,49,5,1,2,2
+4640,4640,Venkatesh Hegde,66,1,4,3,1
+4641,4641,Asha Achar,62,3,2,5,2
+4642,4642,Manjula,52,8,1,1,2
+4643,4643,Chandrashekar Achar,41,5,1,6,1
+4644,4644,Shivakumar Shetty,37,4,1,1,1
+4645,4645,Shivakumar Naik,25,6,1,8,1
+4646,4646,Lokesh Rao,49,4,1,1,1
+4647,4647,Asha,60,4,2,5,2
+4648,4648,Kavitha,54,6,1,2,2
+4649,4649,Manjunath Hegde,65,8,1,5,1
+4650,4650,Bhagya Rao,52,4,1,5,2
+4651,4651,Krishnappa Reddy,47,6,1,2,1
+4652,4652,Vani,69,2,3,6,2
+4653,4653,Suresh Murthy,67,1,2,3,1
+4654,4654,Padma Murthy,30,3,1,5,2
+4655,4655,Lokesh Kumar,62,4,1,10,1
+4656,4656,Prakash,54,4,1,4,1
+4657,4657,Raghavendra,57,5,3,4,1
+4658,4658,Chandrashekar,19,2,1,5,1
+4659,4659,Rathnamma,64,8,1,4,2
+4660,4660,Anand Naik,41,6,1,3,1
+4661,4661,Anand Kumar,44,2,1,9,1
+4662,4662,Raghavendra,24,6,1,3,1
+4663,4663,Chandrashekar Rao,33,8,1,2,1
+4664,4664,Asha,32,7,4,7,2
+4665,4665,Deepa,36,5,1,7,2
+4666,4666,Harish Patil,35,9,1,9,1
+4667,4667,Umesh Swamy,64,6,1,10,1
+4668,4668,Raghavendra,58,4,1,4,1
+4669,4669,Basavaraj,27,2,1,6,1
+4670,4670,Kiran Hegde,42,1,1,5,1
+4671,4671,Srinivas Shetty,52,8,1,2,1
+4672,4672,Savitha Poojari,30,6,1,9,2
+4673,4673,Shwetha,67,6,1,1,2
+4674,4674,Bhagya Achar,57,2,1,9,2
+4675,4675,Kavitha Shetty,23,4,1,6,2
+4676,4676,Nagamma Kumar,59,7,1,8,2
+4677,4677,Krishnappa Kumar,47,4,2,8,1
+4678,4678,Muniraju,53,1,1,1,1
+4679,4679,Suresh Shetty,66,6,4,2,1
+4680,4680,Savitha Poojari,38,10,1,3,2
+4681,4681,Anand,65,7,1,6,1
+4682,4682,Nagamma Swamy,19,5,3,4,2
+4683,4683,Srinivas,65,8,1,3,1
+4684,4684,Harish Shetty,41,2,1,9,1
+4685,4685,Vani Murthy,60,8,1,2,2
+4686,4686,Padma Shetty,35,5,1,8,2
+4687,4687,Harish Murthy,24,6,1,5,1
+4688,4688,Geetha,59,2,1,9,2
+4689,4689,Padma Murthy,35,1,1,4,2
+4690,4690,Puneeth Murthy,67,6,4,6,1
+4691,4691,Padma Naik,57,6,2,9,2
+4692,4692,Kiran Hegde,70,2,1,2,1
+4693,4693,Girish Swamy,40,4,1,7,1
+4694,4694,Darshan Achar,47,2,1,8,1
+4695,4695,Shwetha Swamy,24,5,1,10,2
+4696,4696,Krishnappa Murthy,33,2,2,8,1
+4697,4697,Basavaraj Poojari,50,8,1,9,1
+4698,4698,Pallavi,64,4,1,1,2
+4699,4699,Sunitha,51,7,1,3,2
+4700,4700,Raghavendra Patil,48,2,1,2,1
+4701,4701,Lokesh Patil,30,6,1,8,1
+4702,4702,Manjunath,44,1,7,7,1
+4703,4703,Prakash Patil,55,4,1,5,1
+4704,4704,Krishnappa Hegde,35,2,1,5,1
+4705,4705,Kavitha,30,6,1,3,2
+4706,4706,Muniraju,47,1,1,9,1
+4707,4707,Venkatesh,45,8,1,3,1
+4708,4708,Raghavendra,32,6,7,5,1
+4709,4709,Deepa Achar,26,2,1,5,2
+4710,4710,Padma Kumar,19,3,1,5,2
+4711,4711,Rekha Naik,58,6,1,5,2
+4712,4712,Rekha Achar,50,8,7,4,2
+4713,4713,Shobha Naik,50,9,1,4,2
+4714,4714,Asha,45,2,1,4,2
+4715,4715,Srinivas Hegde,30,1,1,3,1
+4716,4716,Chandrashekar Kumar,40,7,2,3,1
+4717,4717,Chandrashekar Shetty,39,2,1,6,1
+4718,4718,Darshan Murthy,51,5,1,8,1
+4719,4719,Puneeth Kumar,53,7,3,4,1
+4720,4720,Sunitha Gowda,25,8,1,9,2
+4721,4721,Harish,27,5,1,9,1
+4722,4722,Manjunath,34,9,1,7,1
+4723,4723,Rathnamma Naik,51,4,1,6,2
+4724,4724,Pallavi Hegde,58,4,1,5,2
+4725,4725,Harish,20,6,3,8,1
+4726,4726,Yogesh Hegde,65,2,1,6,1
+4727,4727,Puneeth,20,4,1,2,1
+4728,4728,Mahesh Achar,23,2,2,8,1
+4729,4729,Manjunath Rao,25,1,1,5,1
+4730,4730,Vani,37,1,2,4,2
+4731,4731,Anand Gowda,63,6,1,1,1
+4732,4732,Santosh Gowda,20,8,3,1,1
+4733,4733,Manjunath Kumar,33,2,1,6,1
+4734,4734,Venkatesh Swamy,61,4,1,1,1
+4735,4735,Sunitha,45,2,2,3,2
+4736,4736,Harish Poojari,70,1,1,6,1
+4737,4737,Venkatesh Poojari,23,2,1,7,1
+4738,4738,Puneeth Patil,39,8,1,1,1
+4739,4739,Manjula Swamy,55,1,1,10,2
+4740,4740,Harish,54,8,1,2,1
+4741,4741,Bhagya,25,3,2,10,2
+4742,4742,Srinivas Naik,64,2,3,9,1
+4743,4743,Srinivas Rao,44,1,1,5,1
+4744,4744,Deepa Gowda,42,4,7,6,2
+4745,4745,Krishnappa Hegde,62,5,1,1,1
+4746,4746,Asha,39,6,4,2,2
+4747,4747,Rathnamma Reddy,44,2,1,5,2
+4748,4748,Darshan Gowda,48,4,1,5,1
+4749,4749,Pallavi Patil,21,1,1,10,2
+4750,4750,Rekha Patil,34,7,1,10,2
+4751,4751,Nagaraj Gowda,44,7,1,9,1
+4752,4752,Darshan Hegde,21,7,1,1,1
+4753,4753,Shobha Rao,65,2,1,3,2
+4754,4754,Shobha Poojari,43,2,1,1,2
+4755,4755,Raghavendra Achar,44,4,3,4,1
+4756,4756,Prakash Hegde,53,3,1,4,1
+4757,4757,Puneeth,23,3,1,1,1
+4758,4758,Nagaraj,35,2,1,6,1
+4759,4759,Krishnappa,46,6,1,4,1
+4760,4760,Bhagya Naik,42,5,1,5,2
+4761,4761,Sunitha Reddy,26,5,2,9,2
+4762,4762,Umesh Shetty,28,6,1,2,1
+4763,4763,Anand Murthy,69,8,1,5,1
+4764,4764,Savitha Gowda,68,2,2,5,2
+4765,4765,Pallavi,34,3,1,4,2
+4766,4766,Manjula Naik,42,6,1,7,2
+4767,4767,Krishnappa Shetty,39,4,1,10,1
+4768,4768,Padma Hegde,45,5,1,1,2
+4769,4769,Ramesh Rao,62,3,5,4,1
+4770,4770,Savitha Gowda,63,4,1,9,2
+4771,4771,Manjunath,65,6,1,7,1
+4772,4772,Bhagya Reddy,63,3,1,2,2
+4773,4773,Venkatesh,30,7,1,3,1
+4774,4774,Prakash Patil,26,2,1,1,1
+4775,4775,Umesh Rao,69,4,2,9,1
+4776,4776,Geetha Rao,26,8,1,3,2
+4777,4777,Shivakumar Naik,30,5,1,5,1
+4778,4778,Suresh,51,8,2,8,1
+4779,4779,Sunitha Murthy,28,6,2,7,2
+4780,4780,Santosh,30,5,1,9,1
+4781,4781,Girish Hegde,26,4,1,3,1
+4782,4782,Padma Kumar,29,2,1,4,2
+4783,4783,Lakshmi,55,10,1,6,2
+4784,4784,Mahesh,39,7,1,1,1
+4785,4785,Raghavendra Poojari,66,6,1,8,1
+4786,4786,Nagaraj Murthy,66,5,4,10,1
+4787,4787,Bhagya,44,6,1,9,2
+4788,4788,Srinivas Hegde,38,3,1,7,1
+4789,4789,Basavaraj,33,2,2,3,1
+4790,4790,Manjula Naik,62,6,1,7,2
+4791,4791,Savitha Swamy,24,7,1,4,2
+4792,4792,Prakash,36,3,1,5,1
+4793,4793,Vani Hegde,58,8,1,10,2
+4794,4794,Divya Achar,39,6,3,8,2
+4795,4795,Padma Hegde,18,2,1,7,2
+4796,4796,Darshan Rao,49,5,1,5,1
+4797,4797,Manjula Kumar,36,6,1,5,2
+4798,4798,Shobha Swamy,57,3,2,6,2
+4799,4799,Shivakumar Patil,21,1,1,1,1
+4800,4800,Basavaraj Shetty,58,4,2,1,1
+4801,4801,Lokesh,59,6,1,1,1
+4802,4802,Shivakumar Hegde,63,3,7,6,1
+4803,4803,Shwetha Hegde,41,8,1,1,2
+4804,4804,Bhagya,23,6,1,5,2
+4805,4805,Shivakumar Naik,66,2,2,5,1
+4806,4806,Padma Hegde,23,6,3,9,2
+4807,4807,Nagamma,53,5,1,8,2
+4808,4808,Venkatesh,33,8,1,5,1
+4809,4809,Harish Gowda,48,9,1,1,1
+4810,4810,Lakshmi Kumar,34,9,1,1,2
+4811,4811,Manjunath,22,6,1,2,1
+4812,4812,Manjunath Rao,61,5,2,2,1
+4813,4813,Manjula Shetty,50,1,3,1,2
+4814,4814,Girish Swamy,20,5,1,3,1
+4815,4815,Ramesh Kumar,33,1,3,2,1
+4816,4816,Girish Rao,22,2,2,3,1
+4817,4817,Shivakumar Naik,27,6,3,8,1
+4818,4818,Lakshmi Gowda,25,2,7,9,2
+4819,4819,Raghavendra Kumar,33,3,1,1,1
+4820,4820,Manjunath Naik,67,4,1,8,1
+4821,4821,Manjula Shetty,50,4,1,3,2
+4822,4822,Puneeth Naik,40,7,1,8,1
+4823,4823,Lokesh Achar,49,6,4,7,1
+4824,4824,Suresh Swamy,65,6,1,1,1
+4825,4825,Suresh,26,6,2,7,1
+4826,4826,Krishnappa,68,7,2,1,1
+4827,4827,Santosh Gowda,37,2,2,10,1
+4828,4828,Ramesh Gowda,60,6,2,5,1
+4829,4829,Krishnappa Naik,58,6,1,7,1
+4830,4830,Srinivas Gowda,38,1,1,7,1
+4831,4831,Suresh,56,2,1,10,1
+4832,4832,Manjunath Reddy,41,1,1,7,1
+4833,4833,Harish Gowda,39,3,1,6,1
+4834,4834,Manjula,28,8,1,1,2
+4835,4835,Manjunath,18,5,1,9,1
+4836,4836,Harish Patil,70,6,1,2,1
+4837,4837,Rathnamma,31,2,1,10,2
+4838,4838,Manjunath Achar,30,4,1,7,1
+4839,4839,Srinivas Reddy,61,1,1,6,1
+4840,4840,Geetha,36,2,2,4,2
+4841,4841,Santosh Achar,42,2,1,7,1
+4842,4842,Lakshmi Kumar,51,5,1,2,2
+4843,4843,Mahesh Poojari,41,6,1,4,1
+4844,4844,Yogesh Achar,35,10,1,7,1
+4845,4845,Bhagya Swamy,49,5,1,9,2
+4846,4846,Puneeth Murthy,64,9,7,8,1
+4847,4847,Rekha Poojari,42,2,1,9,2
+4848,4848,Asha,36,6,4,10,2
+4849,4849,Chandrashekar Reddy,46,8,1,1,1
+4850,4850,Nagamma Gowda,50,5,2,6,2
+4851,4851,Nagaraj Naik,40,10,1,8,1
+4852,4852,Muniraju Achar,29,6,1,2,1
+4853,4853,Pallavi Hegde,42,4,6,3,2
+4854,4854,Manjula Naik,18,8,1,1,2
+4855,4855,Padma Rao,50,8,2,10,2
+4856,4856,Geetha Murthy,64,2,1,10,2
+4857,4857,Puneeth Kumar,48,5,4,10,1
+4858,4858,Basavaraj Swamy,43,2,3,4,1
+4859,4859,Mahesh Gowda,49,1,4,4,1
+4860,4860,Darshan Swamy,24,5,1,5,1
+4861,4861,Vani Murthy,45,7,1,9,2
+4862,4862,Savitha Rao,60,2,1,2,2
+4863,4863,Raghavendra Gowda,35,6,1,9,1
+4864,4864,Vani Gowda,31,7,2,3,2
+4865,4865,Basavaraj Kumar,29,8,3,2,1
+4866,4866,Ramesh Achar,33,4,2,10,1
+4867,4867,Raghavendra Kumar,20,3,2,1,1
+4868,4868,Puneeth,24,2,1,9,1
+4869,4869,Umesh Swamy,47,3,1,3,1
+4870,4870,Nagaraj Hegde,61,4,1,1,1
+4871,4871,Nagaraj Naik,57,3,1,7,1
+4872,4872,Savitha Patil,29,9,1,1,2
+4873,4873,Divya Gowda,49,10,4,8,2
+4874,4874,Padma Patil,21,1,1,1,2
+4875,4875,Shwetha Shetty,68,5,2,2,2
+4876,4876,Girish Hegde,46,7,1,8,1
+4877,4877,Rathnamma,20,3,3,1,2
+4878,4878,Anand Swamy,21,10,2,7,1
+4879,4879,Vani Swamy,62,2,1,10,2
+4880,4880,Shobha,61,6,1,6,2
+4881,4881,Nagamma,38,9,1,10,2
+4882,4882,Deepa,30,1,1,6,2
+4883,4883,Nagamma Achar,51,6,1,10,2
+4884,4884,Harish Achar,50,4,1,2,1
+4885,4885,Pallavi,62,4,2,7,2
+4886,4886,Ramesh Shetty,65,3,1,4,1
+4887,4887,Yogesh,33,2,1,9,1
+4888,4888,Srinivas Reddy,67,10,1,5,1
+4889,4889,Manjula Poojari,20,3,2,8,2
+4890,4890,Muniraju Patil,22,9,3,9,1
+4891,4891,Muniraju Achar,58,1,5,1,1
+4892,4892,Shivakumar Achar,25,6,1,5,1
+4893,4893,Asha Reddy,59,8,2,3,2
+4894,4894,Srinivas Shetty,67,7,1,4,1
+4895,4895,Asha,31,6,2,8,2
+4896,4896,Srinivas Poojari,47,5,2,5,1
+4897,4897,Santosh,29,2,3,10,1
+4898,4898,Nagamma Rao,36,4,2,10,2
+4899,4899,Chandrashekar Patil,30,1,1,1,1
+4900,4900,Shwetha Gowda,31,8,1,3,2
+4901,4901,Ramesh,22,6,5,9,1
+4902,4902,Shivakumar,63,6,1,7,1
+4903,4903,Mahesh Reddy,58,4,2,10,1
+4904,4904,Divya Shetty,48,2,1,1,2
+4905,4905,Rekha Naik,20,4,2,4,2
+4906,4906,Anand Hegde,25,6,2,1,1
+4907,4907,Srinivas Reddy,41,2,1,1,1
+4908,4908,Deepa Poojari,30,5,1,6,2
+4909,4909,Bhagya Kumar,34,8,2,8,2
+4910,4910,Manjula Poojari,19,1,1,5,2
+4911,4911,Harish Patil,58,4,1,7,1
+4912,4912,Divya Murthy,28,6,1,1,2
+4913,4913,Lakshmi Achar,49,4,1,8,2
+4914,4914,Harish Patil,60,4,1,5,1
+4915,4915,Yogesh,29,4,1,3,1
+4916,4916,Yogesh,37,10,3,7,1
+4917,4917,Muniraju Kumar,43,3,4,2,1
+4918,4918,Savitha Kumar,50,4,2,4,2
+4919,4919,Prakash Rao,19,6,1,9,1
+4920,4920,Muniraju Patil,36,9,1,7,1
+4921,4921,Shivakumar,46,3,3,1,1
+4922,4922,Savitha Hegde,36,2,1,3,2
+4923,4923,Chandrashekar Poojari,35,2,5,5,1
+4924,4924,Kavitha Murthy,29,2,1,3,2
+4925,4925,Shwetha Kumar,45,6,1,4,2
+4926,4926,Muniraju Reddy,54,2,3,3,1
+4927,4927,Umesh Swamy,29,4,1,8,1
+4928,4928,Harish Hegde,42,5,2,5,1
+4929,4929,Shivakumar Patil,20,1,3,8,1
+4930,4930,Darshan Murthy,23,8,1,5,1
+4931,4931,Manjula Naik,64,1,3,2,2
+4932,4932,Lokesh Kumar,60,2,3,7,1
+4933,4933,Prakash Kumar,70,6,1,8,1
+4934,4934,Muniraju Naik,36,7,1,10,1
+4935,4935,Prakash Patil,37,3,1,9,1
+4936,4936,Savitha,57,8,1,3,2
+4937,4937,Shwetha Patil,56,6,2,2,2
+4938,4938,Srinivas Reddy,35,6,1,2,1
+4939,4939,Sunitha Rao,29,2,1,5,2
+4940,4940,Vani Naik,61,6,1,3,2
+4941,4941,Harish Naik,53,8,1,1,1
+4942,4942,Savitha Shetty,19,5,1,10,2
+4943,4943,Nagaraj Murthy,37,7,1,8,1
+4944,4944,Darshan,57,8,1,3,1
+4945,4945,Krishnappa Reddy,35,8,3,8,1
+4946,4946,Umesh Kumar,60,2,2,8,1
+4947,4947,Deepa Swamy,24,5,7,4,2
+4948,4948,Prakash Naik,18,8,1,1,1
+4949,4949,Bhagya Naik,43,2,2,7,2
+4950,4950,Manjula Reddy,39,7,3,6,2
+4951,4951,Lokesh Hegde,70,2,1,6,1
+4952,4952,Ramesh Gowda,68,6,3,1,1
+4953,4953,Bhagya Kumar,67,5,1,7,2
+4954,4954,Rathnamma Achar,20,6,1,4,2
+4955,4955,Muniraju Swamy,57,6,1,4,1
+4956,4956,Girish Naik,27,3,1,5,1
+4957,4957,Mahesh,25,4,1,10,1
+4958,4958,Chandrashekar Gowda,45,7,1,9,1
+4959,4959,Umesh Rao,44,8,1,9,1
+4960,4960,Rekha Hegde,66,5,1,5,2
+4961,4961,Basavaraj Achar,62,3,4,10,1
+4962,4962,Chandrashekar Kumar,51,6,1,4,1
+4963,4963,Krishnappa Hegde,51,6,1,5,1
+4964,4964,Santosh Gowda,31,6,1,3,1
+4965,4965,Asha Patil,55,6,1,9,2
+4966,4966,Chandrashekar Shetty,44,1,1,5,1
+4967,4967,Asha Kumar,48,1,1,3,2
+4968,4968,Puneeth Murthy,59,2,2,10,1
+4969,4969,Puneeth Poojari,51,7,2,3,1
+4970,4970,Rekha Swamy,69,2,1,10,2
+4971,4971,Padma,69,8,3,7,2
+4972,4972,Shwetha Gowda,69,5,2,10,2
+4973,4973,Shivakumar Gowda,32,8,1,1,1
+4974,4974,Rathnamma,30,9,1,2,2
+4975,4975,Rathnamma,29,4,3,10,2
+4976,4976,Girish Murthy,59,3,1,9,1
+4977,4977,Shobha Patil,64,4,1,7,2
+4978,4978,Yogesh Kumar,21,8,1,7,1
+4979,4979,Sunitha Rao,44,3,1,1,2
+4980,4980,Kavitha,21,6,1,8,2
+4981,4981,Darshan Swamy,47,2,1,4,1
+4982,4982,Girish Gowda,24,10,2,6,1
+4983,4983,Deepa Murthy,67,9,1,10,2
+4984,4984,Suresh,27,6,1,4,1
+4985,4985,Shwetha Hegde,65,7,1,10,2
+4986,4986,Pallavi Shetty,22,7,1,10,2
+4987,4987,Nagamma Shetty,55,9,3,3,2
+4988,4988,Shivakumar Reddy,23,9,1,10,1
+4989,4989,Lakshmi,65,8,2,4,2
+4990,4990,Rekha Murthy,37,4,1,1,2
+4991,4991,Srinivas Patil,47,2,1,10,1
+4992,4992,Raghavendra Reddy,24,6,2,4,1
+4993,4993,Manjunath Reddy,36,1,1,3,1
+4994,4994,Shwetha Gowda,57,2,1,5,2
+4995,4995,Basavaraj,61,9,1,7,1
+4996,4996,Nagamma Gowda,33,9,3,3,2
+4997,4997,Pallavi Shetty,69,1,1,9,2
+4998,4998,Vani Shetty,23,8,1,3,2
+4999,4999,Pallavi Murthy,56,1,1,5,2
+5000,5000,Manjunath Patil,34,8,2,9,1

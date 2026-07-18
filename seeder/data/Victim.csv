@@ -1,0 +1,1966 @@
+VictimMasterID,CaseMasterID,VictimName,AgeYear,GenderID,VictimPolice
+1,13,Padma Hegde,59,2,0
+2,14,Bhagya,22,2,0
+3,15,Pallavi Hegde,20,2,0
+4,16,Shwetha Rao,18,2,0
+5,17,Vani Rao,56,2,0
+6,18,Padma Achar,34,2,0
+7,19,Shwetha Poojari,42,2,0
+8,20,Rekha Swamy,55,2,0
+9,21,Kavitha Patil,31,2,0
+10,22,Nagamma Poojari,34,2,0
+11,23,Shwetha Rao,57,2,0
+12,24,Shwetha Naik,31,2,0
+13,25,Shwetha Reddy,59,2,0
+14,26,Lakshmi Murthy,37,2,0
+15,27,Nagamma Kumar,60,2,0
+16,34,Vani Swamy,66,2,0
+17,36,Manjula Achar,54,2,0
+18,38,Rathnamma Poojari,48,2,0
+19,40,Pallavi Swamy,36,2,0
+20,41,Shwetha Kumar,61,2,0
+21,42,Vani Shetty,55,2,0
+22,44,Manjula Swamy,39,2,0
+23,45,Lokesh Hegde,62,1,0
+24,47,Kiran Swamy,63,1,0
+25,52,Kavitha Patil,72,2,0
+26,54,Bhagya Shetty,26,2,0
+27,57,Shobha,33,2,0
+28,62,Srinivas Poojari,56,1,0
+29,64,Manjunath,18,1,0
+30,65,Kavitha Achar,54,2,0
+31,68,Shobha Reddy,45,2,0
+32,74,Anand,60,1,0
+33,76,Kiran Achar,20,1,0
+34,84,Bhagya Reddy,67,2,0
+35,87,Umesh Patil,24,1,0
+36,88,Rathnamma,74,2,0
+37,92,Pallavi Swamy,29,2,0
+38,93,Harish Naik,36,1,0
+39,94,Padma Poojari,59,2,0
+40,95,Pallavi Gowda,62,2,0
+41,100,Girish Swamy,33,1,0
+42,105,Shwetha Poojari,67,2,1
+43,107,Vani Kumar,18,2,0
+44,112,Vani Achar,66,2,0
+45,115,Divya,53,2,0
+46,120,Asha Kumar,19,2,0
+47,122,Rekha Hegde,20,2,0
+48,125,Rekha,66,2,0
+49,128,Sunitha,29,2,0
+50,131,Deepa Rao,26,2,0
+51,132,Manjula Achar,63,2,0
+52,142,Sunitha Naik,23,2,0
+53,146,Manjula Gowda,46,2,0
+54,147,Savitha Shetty,47,2,0
+55,149,Lakshmi Hegde,18,2,0
+56,151,Rathnamma Gowda,21,2,0
+57,153,Harish Achar,57,1,0
+58,155,Sunitha Reddy,70,2,0
+59,157,Nagamma Reddy,19,2,0
+60,158,Chandrashekar Shetty,47,1,0
+61,159,Vani Patil,52,2,0
+62,160,Kavitha,29,2,0
+63,161,Padma Naik,64,2,0
+64,165,Bhagya Gowda,41,2,0
+65,166,Savitha,67,2,0
+66,168,Harish Naik,74,1,1
+67,169,Padma Rao,45,2,0
+68,174,Manjula,41,2,0
+69,176,Srinivas Rao,25,1,0
+70,179,Rathnamma Poojari,36,2,0
+71,180,Girish Kumar,70,1,0
+72,181,Harish Gowda,74,1,0
+73,183,Lakshmi Gowda,33,2,0
+74,186,Chandrashekar Swamy,54,1,0
+75,187,Rathnamma Reddy,49,2,0
+76,188,Rekha Swamy,63,2,0
+77,189,Suresh Shetty,52,1,0
+78,190,Deepa Reddy,32,2,0
+79,195,Harish Swamy,33,1,0
+80,199,Shivakumar Patil,64,1,0
+81,200,Umesh,55,1,0
+82,203,Kavitha,47,2,0
+83,208,Bhagya Shetty,75,2,0
+84,210,Rekha Reddy,25,2,0
+85,216,Sunitha Naik,21,2,0
+86,220,Mahesh,34,1,0
+87,222,Manjunath Poojari,22,1,0
+88,224,Padma Murthy,21,2,0
+89,226,Umesh Poojari,28,1,0
+90,227,Kiran Achar,46,1,0
+91,228,Kavitha,55,2,0
+92,229,Nagamma Poojari,70,2,0
+93,233,Suresh Gowda,65,1,0
+94,239,Girish,53,1,0
+95,240,Umesh Swamy,53,1,0
+96,241,Shwetha Murthy,24,2,0
+97,244,Divya Achar,29,2,0
+98,245,Vani Swamy,31,2,0
+99,248,Geetha Swamy,35,2,0
+100,250,Padma Murthy,22,2,0
+101,251,Harish,16,1,0
+102,253,Umesh,70,1,0
+103,265,Krishnappa Achar,72,1,0
+104,266,Vani Rao,72,2,0
+105,269,Suresh Patil,52,1,0
+106,272,Kavitha Gowda,68,2,0
+107,277,Shwetha Gowda,33,2,0
+108,279,Bhagya Murthy,45,2,0
+109,284,Savitha Achar,22,2,0
+110,289,Manjunath Achar,20,1,0
+111,290,Savitha Swamy,39,2,0
+112,293,Bhagya Shetty,40,2,0
+113,294,Asha Poojari,34,2,0
+114,295,Rathnamma Shetty,34,2,0
+115,296,Asha Swamy,55,2,0
+116,299,Srinivas Shetty,74,1,0
+117,303,Asha,26,2,0
+118,307,Bhagya Achar,72,2,0
+119,313,Manjula,72,2,0
+120,314,Divya Kumar,39,2,0
+121,315,Vani Murthy,64,2,0
+122,319,Nagamma Poojari,32,2,0
+123,321,Divya Achar,36,2,0
+124,329,Rathnamma Rao,39,2,0
+125,331,Manjunath Achar,40,1,0
+126,339,Divya Murthy,51,2,0
+127,341,Shwetha Poojari,51,2,0
+128,344,Geetha Kumar,53,2,0
+129,345,Nagaraj Kumar,38,1,0
+130,346,Pallavi Swamy,75,2,0
+131,347,Geetha Kumar,46,2,0
+132,348,Divya Murthy,56,2,0
+133,350,Girish Rao,40,1,0
+134,351,Pallavi Shetty,55,2,0
+135,352,Divya,25,2,0
+136,358,Padma Shetty,68,2,0
+137,360,Lakshmi Achar,68,2,0
+138,363,Harish,30,1,1
+139,367,Rekha Poojari,59,2,0
+140,370,Raghavendra Gowda,60,1,0
+141,371,Shwetha Shetty,74,2,0
+142,376,Rekha Naik,61,2,0
+143,379,Rekha Naik,56,2,0
+144,380,Yogesh Shetty,62,1,0
+145,382,Sunitha Naik,70,2,0
+146,383,Deepa Achar,59,2,0
+147,384,Savitha Patil,21,2,0
+148,386,Puneeth Rao,57,1,0
+149,389,Geetha Hegde,43,2,0
+150,391,Santosh Shetty,31,1,0
+151,395,Vani Shetty,70,2,0
+152,396,Deepa Shetty,61,2,0
+153,399,Yogesh Achar,23,1,0
+154,401,Puneeth Poojari,64,1,0
+155,407,Pallavi Achar,66,2,0
+156,408,Santosh,74,1,0
+157,409,Savitha Poojari,75,2,0
+158,412,Yogesh Gowda,41,1,0
+159,413,Divya Rao,27,2,0
+160,415,Rekha Murthy,60,2,0
+161,417,Shobha,69,2,0
+162,421,Manjula Kumar,29,2,0
+163,425,Shobha Hegde,24,2,0
+164,428,Savitha Hegde,36,2,0
+165,432,Pallavi Shetty,45,2,0
+166,437,Nagamma,68,2,0
+167,438,Divya Patil,62,2,0
+168,442,Padma Gowda,25,2,0
+169,446,Rekha Swamy,65,2,0
+170,447,Prakash Swamy,50,1,0
+171,448,Rathnamma Kumar,39,2,0
+172,452,Bhagya Kumar,51,2,0
+173,453,Santosh Gowda,47,1,0
+174,458,Manjula,24,2,0
+175,459,Rekha,22,2,0
+176,460,Muniraju Poojari,36,1,0
+177,461,Raghavendra Hegde,66,1,0
+178,465,Manjula Gowda,19,2,0
+179,467,Lakshmi Gowda,67,2,0
+180,468,Sunitha Reddy,57,2,0
+181,469,Rathnamma Gowda,24,2,0
+182,470,Pallavi,68,2,0
+183,471,Prakash Rao,23,1,0
+184,472,Nagamma Murthy,32,2,0
+185,473,Lakshmi Shetty,73,2,0
+186,476,Vani,50,2,0
+187,478,Shobha,17,2,0
+188,479,Nagamma Swamy,61,2,0
+189,482,Geetha Achar,50,2,0
+190,483,Shwetha Poojari,68,2,0
+191,487,Manjunath,45,1,0
+192,489,Shobha Shetty,45,2,0
+193,490,Darshan Gowda,26,1,0
+194,493,Lokesh,65,1,0
+195,494,Puneeth Shetty,63,1,0
+196,496,Rekha,60,2,0
+197,498,Geetha Gowda,57,2,0
+198,501,Vani Rao,73,2,0
+199,514,Sunitha,30,2,0
+200,516,Manjula,40,2,0
+201,517,Divya Hegde,51,2,0
+202,519,Ramesh,29,1,0
+203,520,Asha,37,2,0
+204,522,Nagamma Naik,22,2,0
+205,527,Manjula Rao,54,2,0
+206,528,Padma,53,2,0
+207,529,Padma,59,2,0
+208,530,Manjula Kumar,40,2,0
+209,532,Bhagya Patil,56,2,0
+210,534,Srinivas Swamy,74,1,0
+211,539,Basavaraj,65,1,0
+212,545,Geetha Poojari,28,2,0
+213,548,Bhagya,71,2,0
+214,549,Shwetha,73,2,0
+215,550,Padma Murthy,56,2,0
+216,557,Geetha Achar,56,2,0
+217,558,Vani Poojari,54,2,0
+218,559,Shobha Hegde,58,2,0
+219,565,Shwetha Reddy,54,2,0
+220,566,Asha,38,2,0
+221,570,Shwetha Shetty,54,2,0
+222,571,Puneeth Murthy,61,1,0
+223,572,Vani,74,2,0
+224,575,Rekha Rao,26,2,0
+225,577,Raghavendra Murthy,58,1,0
+226,584,Lokesh Rao,53,1,0
+227,585,Savitha Gowda,61,2,0
+228,586,Savitha Gowda,66,2,0
+229,587,Divya Poojari,58,2,0
+230,589,Santosh Naik,72,1,0
+231,597,Shwetha Shetty,18,2,0
+232,598,Vani Patil,21,2,0
+233,599,Vani Naik,62,2,0
+234,601,Shwetha,34,2,0
+235,603,Darshan Hegde,63,1,0
+236,605,Rathnamma Poojari,20,2,0
+237,606,Divya,70,2,0
+238,608,Darshan,30,1,0
+239,609,Anand Swamy,73,1,0
+240,613,Padma Swamy,54,2,0
+241,615,Savitha,18,2,0
+242,616,Manjula Achar,60,2,0
+243,617,Mahesh Murthy,26,1,0
+244,618,Lakshmi,73,2,0
+245,622,Nagamma,56,2,0
+246,625,Nagaraj Poojari,17,1,0
+247,626,Pallavi Kumar,68,2,0
+248,629,Pallavi,32,2,0
+249,631,Lakshmi Patil,51,2,0
+250,638,Mahesh Swamy,58,1,0
+251,639,Shwetha Reddy,32,2,0
+252,641,Basavaraj Rao,24,1,0
+253,644,Deepa Swamy,56,2,0
+254,645,Asha,46,2,0
+255,651,Rathnamma Swamy,59,2,0
+256,653,Deepa Rao,60,2,0
+257,655,Savitha,22,2,0
+258,657,Geetha Kumar,55,2,0
+259,659,Savitha Rao,25,2,0
+260,662,Krishnappa Swamy,51,1,0
+261,663,Shwetha,22,2,0
+262,668,Lakshmi Kumar,21,2,0
+263,672,Lakshmi Shetty,75,2,0
+264,680,Asha Murthy,70,2,0
+265,682,Sunitha Murthy,57,2,0
+266,687,Sunitha Patil,22,2,0
+267,688,Sunitha Kumar,56,2,0
+268,689,Savitha Patil,57,2,0
+269,690,Deepa Shetty,32,2,0
+270,693,Asha Achar,18,2,0
+271,695,Shwetha Patil,51,2,0
+272,696,Rathnamma Rao,46,2,0
+273,697,Kiran Naik,30,1,0
+274,701,Ramesh Hegde,70,1,0
+275,702,Divya Poojari,45,2,0
+276,703,Vani Poojari,67,2,0
+277,705,Deepa,18,2,0
+278,709,Muniraju Gowda,30,1,0
+279,712,Muniraju Reddy,68,1,0
+280,714,Umesh,71,1,0
+281,716,Shwetha,74,2,0
+282,718,Pallavi Rao,16,2,0
+283,719,Deepa Reddy,33,2,0
+284,726,Nagamma Gowda,70,2,0
+285,728,Pallavi Naik,45,2,0
+286,729,Geetha Patil,42,2,0
+287,730,Pallavi Hegde,64,2,0
+288,731,Padma Achar,59,2,0
+289,735,Manjula Gowda,49,2,0
+290,740,Chandrashekar Reddy,41,1,0
+291,741,Kiran Achar,38,1,0
+292,746,Anand Shetty,50,1,0
+293,747,Nagaraj Reddy,54,1,0
+294,748,Shwetha,34,2,0
+295,750,Prakash Poojari,58,1,0
+296,751,Pallavi Patil,46,2,0
+297,760,Sunitha Patil,27,2,0
+298,768,Shobha Murthy,29,2,0
+299,775,Nagamma Hegde,48,2,0
+300,777,Asha Poojari,48,2,0
+301,778,Nagaraj,74,1,0
+302,779,Sunitha Murthy,37,2,0
+303,784,Manjunath Murthy,37,1,0
+304,786,Rekha Rao,69,2,0
+305,791,Vani Murthy,41,2,0
+306,792,Rekha Naik,51,2,0
+307,793,Harish Patil,39,1,1
+308,794,Geetha,63,2,0
+309,796,Venkatesh Reddy,48,1,0
+310,798,Anand Achar,30,1,0
+311,799,Savitha Hegde,73,2,0
+312,801,Sunitha,34,2,0
+313,802,Kavitha Kumar,69,2,0
+314,803,Padma Kumar,24,2,0
+315,806,Asha Swamy,67,2,0
+316,807,Shobha Swamy,56,2,0
+317,808,Kavitha Murthy,17,2,0
+318,810,Divya Achar,51,2,0
+319,815,Savitha,65,2,0
+320,818,Nagamma Kumar,45,2,0
+321,819,Bhagya,36,2,0
+322,823,Vani Murthy,27,2,0
+323,824,Chandrashekar Gowda,70,1,0
+324,826,Puneeth Murthy,66,1,0
+325,830,Rekha Achar,70,2,0
+326,837,Rathnamma Shetty,39,2,0
+327,838,Padma Swamy,70,2,0
+328,839,Krishnappa Shetty,51,1,0
+329,841,Venkatesh Swamy,29,1,0
+330,842,Asha Rao,24,2,0
+331,843,Umesh Naik,41,1,0
+332,844,Asha Shetty,53,2,0
+333,847,Mahesh,33,1,0
+334,848,Asha Murthy,56,2,0
+335,850,Srinivas Patil,67,1,0
+336,853,Deepa Kumar,35,2,0
+337,855,Pallavi Achar,29,2,0
+338,857,Rekha Murthy,48,2,0
+339,858,Vani Naik,27,2,0
+340,862,Lakshmi,30,2,0
+341,863,Ramesh,61,1,0
+342,864,Divya,43,2,0
+343,868,Sunitha,58,2,0
+344,870,Divya Achar,24,2,0
+345,871,Raghavendra Patil,62,1,0
+346,880,Rekha Hegde,18,2,0
+347,882,Lakshmi Gowda,28,2,0
+348,887,Shwetha Gowda,47,2,0
+349,888,Padma,42,2,0
+350,889,Savitha Gowda,34,2,0
+351,890,Vani Rao,72,2,0
+352,893,Manjula,53,2,0
+353,895,Yogesh Shetty,22,1,0
+354,899,Deepa Naik,65,2,0
+355,903,Chandrashekar,66,1,0
+356,904,Rekha Rao,26,2,0
+357,908,Pallavi Reddy,21,2,0
+358,910,Darshan,30,1,0
+359,912,Nagamma Gowda,27,2,0
+360,914,Deepa Hegde,40,2,0
+361,915,Bhagya Naik,28,2,0
+362,917,Savitha Poojari,58,2,0
+363,918,Divya,25,2,0
+364,920,Umesh,59,1,0
+365,922,Padma Reddy,47,2,0
+366,923,Pallavi Achar,66,2,0
+367,925,Umesh Murthy,25,1,0
+368,927,Shobha Kumar,57,2,0
+369,928,Manjula Reddy,38,2,0
+370,933,Santosh Shetty,16,1,0
+371,934,Deepa,67,2,0
+372,935,Muniraju Patil,71,1,0
+373,939,Lakshmi Patil,50,2,0
+374,941,Rathnamma Shetty,63,2,0
+375,945,Savitha Poojari,16,2,0
+376,946,Pallavi Poojari,24,2,0
+377,947,Manjula Murthy,43,2,0
+378,951,Chandrashekar Reddy,26,1,0
+379,954,Vani Murthy,41,2,0
+380,955,Lakshmi Murthy,21,2,0
+381,958,Mahesh Achar,34,1,0
+382,959,Divya Swamy,29,2,0
+383,961,Savitha Shetty,17,2,0
+384,963,Yogesh Hegde,70,1,0
+385,965,Kavitha Rao,62,2,0
+386,968,Raghavendra Patil,68,1,0
+387,971,Asha Gowda,40,2,0
+388,973,Venkatesh Swamy,36,1,0
+389,975,Nagaraj Naik,72,1,0
+390,976,Divya,20,2,0
+391,977,Vani Murthy,43,2,0
+392,982,Rathnamma Hegde,68,2,0
+393,985,Sunitha Reddy,24,2,0
+394,987,Rathnamma Swamy,29,2,0
+395,991,Savitha Hegde,59,2,0
+396,992,Nagamma Kumar,70,2,0
+397,994,Anand Patil,33,1,0
+398,995,Deepa,25,2,0
+399,996,Mahesh,44,1,0
+400,999,Prakash Reddy,36,1,0
+401,1002,Chandrashekar Shetty,50,1,0
+402,1005,Shivakumar Kumar,70,1,0
+403,1007,Manjunath Patil,54,1,0
+404,1008,Umesh Murthy,69,1,0
+405,1011,Ramesh Shetty,72,1,1
+406,1014,Rathnamma Rao,62,2,0
+407,1017,Santosh Kumar,41,1,0
+408,1019,Lakshmi Gowda,50,2,0
+409,1022,Shivakumar Poojari,48,1,0
+410,1024,Darshan,57,1,0
+411,1026,Bhagya Hegde,70,2,0
+412,1032,Deepa,57,2,0
+413,1034,Mahesh Achar,57,1,0
+414,1035,Deepa Hegde,48,2,0
+415,1038,Sunitha Hegde,31,2,0
+416,1040,Pallavi Rao,41,2,0
+417,1041,Kavitha,73,2,0
+418,1042,Yogesh Gowda,20,1,0
+419,1048,Nagamma Swamy,59,2,0
+420,1050,Prakash,75,1,0
+421,1052,Nagamma,31,2,0
+422,1054,Lakshmi,26,2,0
+423,1056,Mahesh Kumar,57,1,0
+424,1058,Geetha Hegde,60,2,0
+425,1059,Suresh Murthy,60,1,0
+426,1060,Kavitha Poojari,46,2,0
+427,1062,Yogesh Rao,65,1,0
+428,1065,Savitha,26,2,0
+429,1072,Divya,67,2,0
+430,1073,Nagamma Gowda,51,2,0
+431,1077,Vani Gowda,65,2,0
+432,1079,Pallavi Reddy,26,2,0
+433,1081,Bhagya Murthy,23,2,0
+434,1086,Rekha Murthy,40,2,0
+435,1087,Deepa Hegde,30,2,0
+436,1089,Shivakumar Swamy,51,1,0
+437,1091,Kavitha Poojari,72,2,0
+438,1092,Rathnamma Hegde,32,2,1
+439,1094,Shobha Gowda,24,2,0
+440,1098,Prakash Shetty,37,1,0
+441,1103,Santosh,64,1,0
+442,1106,Geetha Patil,67,2,0
+443,1111,Rathnamma Patil,26,2,0
+444,1112,Savitha Patil,23,2,0
+445,1113,Savitha Gowda,25,2,0
+446,1117,Sunitha Naik,41,2,0
+447,1124,Pallavi Naik,25,2,0
+448,1125,Shivakumar,25,1,0
+449,1127,Nagamma Swamy,22,2,0
+450,1128,Lakshmi Poojari,63,2,0
+451,1129,Bhagya,51,2,0
+452,1134,Shobha Reddy,35,2,0
+453,1135,Geetha Achar,70,2,0
+454,1136,Nagamma Patil,60,2,0
+455,1138,Deepa Achar,72,2,0
+456,1148,Padma Kumar,70,2,0
+457,1152,Shwetha Achar,42,2,0
+458,1153,Raghavendra Rao,45,1,0
+459,1156,Divya Naik,34,2,0
+460,1157,Lakshmi,47,2,0
+461,1158,Geetha,50,2,0
+462,1166,Lakshmi Patil,19,2,0
+463,1168,Mahesh Swamy,65,1,0
+464,1169,Vani Kumar,71,2,0
+465,1174,Vani Patil,35,2,0
+466,1175,Pallavi Hegde,67,2,0
+467,1178,Rathnamma Achar,53,2,0
+468,1180,Lokesh Gowda,27,1,0
+469,1187,Savitha,40,2,0
+470,1188,Basavaraj Murthy,56,1,0
+471,1189,Rekha,74,2,0
+472,1192,Bhagya,52,2,0
+473,1196,Anand Reddy,73,1,0
+474,1197,Geetha Poojari,50,2,0
+475,1202,Krishnappa Reddy,52,1,0
+476,1207,Shobha,67,2,0
+477,1208,Padma Patil,26,2,0
+478,1211,Nagamma Hegde,50,2,0
+479,1216,Padma Gowda,55,2,0
+480,1221,Deepa Hegde,52,2,0
+481,1231,Bhagya Reddy,35,2,0
+482,1234,Geetha,28,2,0
+483,1243,Divya Swamy,68,2,0
+484,1244,Shobha Naik,19,2,0
+485,1245,Rathnamma Murthy,26,2,0
+486,1246,Rathnamma Murthy,63,2,0
+487,1254,Shobha Shetty,43,2,0
+488,1255,Krishnappa Achar,26,1,0
+489,1256,Kavitha Kumar,49,2,0
+490,1258,Manjula,44,2,0
+491,1259,Nagamma Shetty,70,2,0
+492,1260,Vani,65,2,0
+493,1262,Manjunath Patil,71,1,0
+494,1263,Shwetha Hegde,48,2,0
+495,1264,Srinivas Murthy,61,1,0
+496,1268,Rekha Kumar,47,2,0
+497,1269,Umesh Shetty,28,1,0
+498,1274,Puneeth,26,1,0
+499,1275,Rekha Rao,39,2,0
+500,1279,Suresh Achar,68,1,0
+501,1281,Kavitha,23,2,0
+502,1282,Savitha Gowda,45,2,0
+503,1285,Rathnamma Rao,17,2,0
+504,1286,Mahesh,45,1,0
+505,1290,Srinivas,51,1,0
+506,1295,Nagamma Patil,46,2,0
+507,1296,Asha Hegde,21,2,0
+508,1297,Basavaraj,55,1,0
+509,1298,Vani Shetty,20,2,0
+510,1306,Sunitha Naik,65,2,0
+511,1307,Rekha Achar,45,2,0
+512,1309,Prakash Shetty,48,1,0
+513,1311,Rathnamma Swamy,16,2,0
+514,1314,Deepa Murthy,30,2,0
+515,1315,Divya Kumar,46,2,0
+516,1316,Manjunath,23,1,0
+517,1318,Kavitha Swamy,60,2,0
+518,1319,Manjula Shetty,48,2,0
+519,1320,Kiran Patil,74,1,0
+520,1325,Puneeth Poojari,64,1,0
+521,1326,Deepa Gowda,74,2,0
+522,1327,Rekha Poojari,67,2,0
+523,1328,Manjunath Shetty,24,1,0
+524,1329,Venkatesh Naik,30,1,0
+525,1332,Bhagya,33,2,0
+526,1338,Umesh Poojari,29,1,0
+527,1340,Basavaraj Reddy,25,1,0
+528,1341,Rekha Shetty,26,2,0
+529,1344,Kavitha Swamy,64,2,0
+530,1348,Savitha Murthy,23,2,0
+531,1352,Pallavi Achar,37,2,0
+532,1353,Rathnamma,23,2,0
+533,1354,Shwetha Swamy,46,2,0
+534,1356,Rekha Shetty,75,2,0
+535,1359,Bhagya,25,2,0
+536,1361,Shobha Naik,30,2,0
+537,1365,Darshan Swamy,70,1,0
+538,1366,Shobha Achar,21,2,0
+539,1367,Pallavi,42,2,0
+540,1368,Shobha Patil,56,2,0
+541,1373,Padma Swamy,65,2,0
+542,1376,Rathnamma Kumar,21,2,0
+543,1378,Vani Rao,65,2,0
+544,1381,Lakshmi,17,2,0
+545,1382,Manjula Murthy,56,2,0
+546,1386,Asha Achar,56,2,0
+547,1388,Sunitha Swamy,35,2,0
+548,1390,Kiran Kumar,23,1,0
+549,1393,Shobha Patil,46,2,0
+550,1396,Vani Gowda,39,2,0
+551,1401,Rathnamma,66,2,0
+552,1402,Lakshmi Reddy,26,2,0
+553,1403,Kiran Shetty,16,1,0
+554,1405,Vani,40,2,0
+555,1409,Deepa Shetty,74,2,0
+556,1410,Rekha Poojari,44,2,0
+557,1411,Puneeth Hegde,32,1,0
+558,1412,Divya Naik,39,2,0
+559,1418,Darshan Hegde,32,1,0
+560,1422,Shobha Hegde,47,2,0
+561,1425,Umesh Kumar,71,1,0
+562,1427,Srinivas,39,1,0
+563,1428,Manjunath Gowda,48,1,0
+564,1433,Geetha Patil,64,2,0
+565,1434,Bhagya Naik,22,2,0
+566,1435,Umesh,47,1,0
+567,1440,Sunitha Patil,17,2,0
+568,1443,Kavitha Kumar,25,2,0
+569,1444,Asha Swamy,58,2,0
+570,1447,Srinivas,29,1,0
+571,1448,Padma Shetty,51,2,0
+572,1451,Manjula Shetty,28,2,0
+573,1457,Nagamma Poojari,67,2,0
+574,1459,Rekha Patil,33,2,0
+575,1461,Rathnamma Kumar,67,2,0
+576,1464,Lakshmi,20,2,0
+577,1466,Shwetha Patil,31,2,0
+578,1468,Harish Naik,32,1,0
+579,1470,Savitha Patil,37,2,0
+580,1475,Basavaraj Naik,63,1,0
+581,1476,Manjula Swamy,57,2,0
+582,1478,Divya,32,2,0
+583,1481,Sunitha Kumar,29,2,0
+584,1484,Basavaraj Hegde,52,1,0
+585,1486,Pallavi,51,2,0
+586,1488,Asha Rao,59,2,0
+587,1490,Harish Kumar,31,1,0
+588,1496,Rathnamma Naik,73,2,0
+589,1498,Savitha Reddy,19,2,0
+590,1499,Sunitha Reddy,45,2,0
+591,1500,Lokesh Kumar,33,1,0
+592,1511,Rekha,33,2,0
+593,1512,Savitha Poojari,25,2,0
+594,1513,Pallavi Gowda,54,2,0
+595,1514,Rathnamma,45,2,0
+596,1516,Vani,38,2,0
+597,1517,Shobha Achar,29,2,0
+598,1519,Geetha Reddy,51,2,0
+599,1522,Shobha Poojari,66,2,0
+600,1527,Shivakumar Reddy,24,1,0
+601,1528,Bhagya Gowda,49,2,0
+602,1529,Rekha,30,2,0
+603,1533,Chandrashekar Poojari,65,1,0
+604,1534,Basavaraj,44,1,0
+605,1538,Prakash Naik,22,1,0
+606,1539,Divya Murthy,70,2,0
+607,1540,Padma Shetty,34,2,0
+608,1544,Shwetha Rao,73,2,0
+609,1546,Shwetha,32,2,0
+610,1553,Venkatesh,29,1,0
+611,1559,Kavitha Murthy,50,2,0
+612,1563,Geetha,37,2,0
+613,1564,Rekha,23,2,0
+614,1565,Yogesh Rao,33,1,0
+615,1567,Darshan Swamy,64,1,0
+616,1571,Nagaraj,36,1,0
+617,1572,Pallavi Reddy,37,2,0
+618,1574,Puneeth Rao,23,1,0
+619,1577,Deepa Murthy,22,2,0
+620,1578,Deepa Poojari,20,2,0
+621,1581,Shobha Rao,18,2,0
+622,1582,Divya Reddy,19,2,0
+623,1583,Bhagya Kumar,35,2,0
+624,1585,Kavitha Reddy,26,2,0
+625,1590,Pallavi,39,2,0
+626,1594,Darshan Achar,39,1,0
+627,1597,Yogesh Reddy,58,1,0
+628,1600,Vani,39,2,0
+629,1602,Nagaraj Hegde,46,1,0
+630,1605,Padma Poojari,40,2,0
+631,1606,Shwetha,19,2,0
+632,1611,Lakshmi Rao,65,2,0
+633,1612,Deepa Reddy,36,2,0
+634,1616,Deepa Hegde,75,2,0
+635,1618,Venkatesh Naik,63,1,0
+636,1623,Nagaraj,51,1,0
+637,1628,Rekha Reddy,39,2,0
+638,1632,Bhagya Patil,20,2,0
+639,1634,Lakshmi,39,2,0
+640,1638,Sunitha Reddy,26,2,0
+641,1639,Shivakumar Patil,64,1,0
+642,1645,Mahesh Shetty,53,1,0
+643,1647,Sunitha,58,2,0
+644,1649,Deepa Naik,74,2,0
+645,1652,Pallavi Murthy,37,2,0
+646,1655,Nagamma,51,2,0
+647,1659,Lokesh Reddy,75,1,0
+648,1661,Divya Shetty,25,2,0
+649,1662,Pallavi Shetty,27,2,0
+650,1663,Kavitha Murthy,23,2,0
+651,1664,Divya Rao,70,2,0
+652,1668,Savitha,70,2,0
+653,1670,Divya Poojari,51,2,0
+654,1673,Nagamma Reddy,21,2,0
+655,1680,Shobha Gowda,38,2,0
+656,1683,Sunitha,67,2,0
+657,1686,Sunitha Rao,61,2,0
+658,1689,Rekha Shetty,30,2,0
+659,1690,Kavitha Swamy,40,2,0
+660,1692,Sunitha Poojari,42,2,0
+661,1694,Srinivas,29,1,0
+662,1695,Nagamma Patil,35,2,0
+663,1703,Pallavi,26,2,0
+664,1705,Rekha Gowda,64,2,0
+665,1707,Rekha Reddy,72,2,0
+666,1708,Asha Hegde,27,2,0
+667,1712,Geetha Murthy,62,2,0
+668,1714,Anand Patil,28,1,0
+669,1716,Kavitha Poojari,37,2,0
+670,1720,Bhagya Poojari,32,2,0
+671,1722,Shwetha Achar,58,2,0
+672,1726,Rekha Gowda,65,2,0
+673,1728,Chandrashekar Shetty,30,1,0
+674,1737,Bhagya Shetty,65,2,0
+675,1738,Raghavendra Swamy,19,1,0
+676,1741,Nagamma Hegde,37,2,0
+677,1744,Deepa,53,2,0
+678,1747,Lakshmi Swamy,57,2,0
+679,1749,Krishnappa Reddy,51,1,0
+680,1751,Sunitha,38,2,0
+681,1752,Muniraju Murthy,69,1,0
+682,1753,Manjunath Kumar,26,1,0
+683,1756,Pallavi Kumar,47,2,0
+684,1758,Anand Shetty,38,1,0
+685,1759,Divya Murthy,62,2,0
+686,1764,Shwetha Murthy,53,2,0
+687,1766,Krishnappa Swamy,36,1,0
+688,1770,Nagamma Kumar,46,2,0
+689,1776,Basavaraj Poojari,52,1,0
+690,1779,Manjunath Rao,28,1,0
+691,1794,Manjunath Hegde,35,1,0
+692,1800,Deepa Achar,23,2,0
+693,1801,Geetha Poojari,71,2,0
+694,1802,Deepa Patil,30,2,0
+695,1804,Asha Poojari,69,2,0
+696,1805,Srinivas Patil,38,1,0
+697,1806,Rekha Gowda,49,2,0
+698,1807,Shobha Swamy,34,2,0
+699,1808,Rathnamma Naik,57,2,0
+700,1809,Rekha Swamy,45,2,0
+701,1812,Girish Poojari,33,1,0
+702,1816,Bhagya Rao,32,2,0
+703,1821,Pallavi Swamy,43,2,0
+704,1822,Yogesh Patil,22,1,0
+705,1823,Padma,56,2,0
+706,1825,Vani Patil,31,2,0
+707,1827,Darshan Kumar,68,1,0
+708,1829,Shwetha Rao,61,2,0
+709,1830,Yogesh,55,1,0
+710,1834,Muniraju Gowda,50,1,0
+711,1836,Shivakumar Achar,20,1,0
+712,1838,Anand Gowda,55,1,0
+713,1839,Divya,28,2,0
+714,1841,Ramesh,37,1,0
+715,1842,Venkatesh Rao,50,1,0
+716,1843,Umesh Poojari,32,1,0
+717,1846,Kiran Poojari,63,1,0
+718,1849,Savitha Murthy,57,2,0
+719,1851,Bhagya Murthy,49,2,0
+720,1853,Raghavendra Hegde,47,1,0
+721,1857,Pallavi Murthy,16,2,0
+722,1858,Geetha Hegde,31,2,0
+723,1863,Shobha Shetty,34,2,0
+724,1865,Shobha,47,2,0
+725,1866,Asha Achar,36,2,0
+726,1868,Kavitha Poojari,64,2,0
+727,1869,Sunitha Gowda,33,2,0
+728,1873,Krishnappa Murthy,29,1,0
+729,1875,Pallavi Achar,56,2,0
+730,1876,Lakshmi Shetty,48,2,0
+731,1883,Nagamma,59,2,0
+732,1885,Rathnamma Patil,57,2,0
+733,1887,Deepa Reddy,73,2,0
+734,1888,Nagamma Patil,55,2,0
+735,1889,Pallavi Gowda,65,2,0
+736,1890,Sunitha,20,2,0
+737,1892,Chandrashekar Poojari,67,1,0
+738,1893,Mahesh Achar,56,1,0
+739,1896,Bhagya Rao,66,2,0
+740,1900,Anand Murthy,37,1,0
+741,1907,Basavaraj Hegde,41,1,0
+742,1908,Shwetha Naik,51,2,0
+743,1909,Pallavi Poojari,26,2,0
+744,1910,Nagamma Naik,68,2,0
+745,1911,Rekha Reddy,71,2,0
+746,1913,Shwetha Kumar,57,2,0
+747,1914,Geetha Kumar,54,2,0
+748,1915,Bhagya Kumar,36,2,0
+749,1916,Padma Shetty,20,2,0
+750,1917,Muniraju,44,1,0
+751,1922,Rathnamma Shetty,39,2,0
+752,1923,Shobha Swamy,27,2,0
+753,1927,Savitha Rao,70,2,0
+754,1930,Nagamma Kumar,44,2,0
+755,1932,Asha Naik,19,2,0
+756,1933,Pallavi,71,2,0
+757,1934,Anand,60,1,0
+758,1935,Sunitha Naik,20,2,0
+759,1941,Divya Shetty,69,2,0
+760,1942,Rekha Hegde,55,2,0
+761,1944,Geetha Rao,29,2,0
+762,1950,Asha,61,2,0
+763,1955,Asha Rao,69,2,0
+764,1958,Manjula Patil,52,2,0
+765,1960,Padma,47,2,0
+766,1961,Pallavi Patil,22,2,0
+767,1962,Deepa Swamy,32,2,0
+768,1963,Asha Murthy,69,2,0
+769,1964,Manjunath,25,1,0
+770,1965,Kavitha Murthy,66,2,0
+771,1970,Manjula Reddy,55,2,0
+772,1972,Padma Hegde,60,2,0
+773,1974,Puneeth Kumar,18,1,0
+774,1976,Bhagya Hegde,38,2,0
+775,1984,Deepa Reddy,49,2,0
+776,1991,Srinivas Swamy,57,1,0
+777,1995,Mahesh,52,1,0
+778,1997,Prakash,45,1,0
+779,1998,Muniraju Kumar,60,1,0
+780,2007,Manjula Patil,61,2,0
+781,2012,Kavitha Achar,22,2,0
+782,2015,Pallavi Swamy,24,2,0
+783,2017,Yogesh Poojari,21,1,0
+784,2018,Nagamma Swamy,31,2,0
+785,2020,Deepa Gowda,43,2,0
+786,2021,Girish Rao,18,1,0
+787,2022,Girish,58,1,0
+788,2028,Vani Reddy,16,2,0
+789,2031,Deepa Naik,16,2,0
+790,2032,Deepa Murthy,54,2,0
+791,2040,Chandrashekar Achar,24,1,0
+792,2045,Bhagya Hegde,36,2,0
+793,2057,Lokesh Shetty,47,1,0
+794,2065,Savitha,24,2,0
+795,2067,Raghavendra Murthy,72,1,0
+796,2083,Shwetha Naik,51,2,0
+797,2084,Krishnappa Poojari,74,1,0
+798,2086,Nagaraj Swamy,62,1,0
+799,2089,Yogesh,27,1,0
+800,2091,Kiran,30,1,0
+801,2094,Rekha,74,2,0
+802,2095,Rathnamma Swamy,57,2,0
+803,2096,Rathnamma Poojari,52,2,0
+804,2097,Deepa Swamy,56,2,0
+805,2101,Sunitha Murthy,37,2,0
+806,2103,Deepa Kumar,40,2,0
+807,2104,Suresh Patil,66,1,0
+808,2107,Deepa,43,2,0
+809,2109,Geetha Swamy,69,2,0
+810,2110,Shivakumar Patil,69,1,0
+811,2112,Asha Achar,62,2,0
+812,2113,Ramesh Hegde,32,1,0
+813,2117,Lakshmi Naik,69,2,0
+814,2122,Pallavi Patil,29,2,0
+815,2124,Kavitha Gowda,23,2,0
+816,2125,Deepa Swamy,69,2,0
+817,2129,Ramesh Gowda,24,1,0
+818,2130,Rekha Achar,21,2,0
+819,2134,Krishnappa Rao,73,1,0
+820,2135,Rekha Patil,52,2,0
+821,2137,Savitha,50,2,0
+822,2138,Savitha Patil,58,2,0
+823,2148,Divya Rao,37,2,0
+824,2150,Savitha Kumar,36,2,0
+825,2156,Rekha,72,2,0
+826,2159,Shobha Hegde,40,2,0
+827,2160,Shwetha Hegde,64,2,0
+828,2162,Mahesh,53,1,0
+829,2166,Divya Shetty,23,2,0
+830,2168,Savitha Rao,58,2,0
+831,2171,Chandrashekar,62,1,0
+832,2172,Padma Naik,58,2,0
+833,2177,Divya Gowda,23,2,0
+834,2180,Savitha Naik,64,2,0
+835,2181,Asha Poojari,58,2,0
+836,2183,Deepa,29,2,0
+837,2184,Rekha Murthy,27,2,0
+838,2186,Nagamma Achar,36,2,0
+839,2187,Asha Reddy,50,2,0
+840,2189,Krishnappa Kumar,66,1,0
+841,2193,Srinivas Reddy,40,1,0
+842,2199,Umesh Reddy,43,1,0
+843,2200,Venkatesh,45,1,0
+844,2204,Rathnamma,37,2,0
+845,2205,Sunitha Reddy,70,2,0
+846,2209,Ramesh Murthy,65,1,0
+847,2210,Bhagya,73,2,0
+848,2213,Anand Kumar,53,1,0
+849,2214,Manjula Poojari,20,2,1
+850,2216,Shivakumar,64,1,0
+851,2227,Asha Naik,36,2,0
+852,2233,Santosh,58,1,0
+853,2235,Geetha,25,2,0
+854,2236,Venkatesh Murthy,16,1,0
+855,2243,Deepa Reddy,16,2,0
+856,2244,Nagaraj,37,1,0
+857,2247,Girish Murthy,33,1,0
+858,2251,Geetha Reddy,46,2,0
+859,2252,Rathnamma Hegde,49,2,0
+860,2255,Pallavi Gowda,46,2,0
+861,2257,Ramesh Poojari,38,1,0
+862,2258,Kavitha Gowda,46,2,0
+863,2259,Shobha Rao,18,2,0
+864,2260,Puneeth Poojari,70,1,0
+865,2263,Ramesh,38,1,0
+866,2266,Sunitha Achar,23,2,0
+867,2267,Anand Achar,37,1,0
+868,2270,Vani Naik,30,2,1
+869,2271,Shivakumar Shetty,28,1,0
+870,2272,Deepa Achar,28,2,0
+871,2273,Geetha Murthy,25,2,0
+872,2277,Bhagya Gowda,43,2,0
+873,2280,Deepa Gowda,48,2,0
+874,2281,Lakshmi Swamy,63,2,0
+875,2282,Lakshmi Hegde,48,2,0
+876,2283,Yogesh Naik,44,1,0
+877,2284,Manjula,27,2,0
+878,2285,Geetha,52,2,0
+879,2291,Umesh Rao,73,1,0
+880,2292,Kavitha Rao,54,2,0
+881,2294,Pallavi,33,2,1
+882,2295,Asha,55,2,0
+883,2300,Asha Achar,43,2,1
+884,2301,Geetha Kumar,58,2,0
+885,2302,Deepa Reddy,74,2,0
+886,2303,Lokesh Patil,23,1,0
+887,2304,Deepa Achar,32,2,0
+888,2305,Sunitha Shetty,19,2,0
+889,2307,Asha Poojari,44,2,0
+890,2311,Manjunath Murthy,22,1,0
+891,2314,Kavitha Naik,34,2,0
+892,2315,Vani Reddy,23,2,0
+893,2317,Kiran Swamy,55,1,0
+894,2323,Savitha Murthy,41,2,0
+895,2324,Rekha Poojari,32,2,0
+896,2328,Savitha Shetty,73,2,0
+897,2329,Sunitha,47,2,0
+898,2330,Asha Achar,53,2,0
+899,2331,Nagamma Naik,63,2,0
+900,2334,Savitha Poojari,52,2,0
+901,2335,Asha,71,2,0
+902,2336,Suresh,41,1,0
+903,2337,Kavitha,49,2,0
+904,2343,Shobha Murthy,19,2,0
+905,2345,Santosh Murthy,66,1,0
+906,2350,Rekha Achar,53,2,0
+907,2351,Rekha,18,2,0
+908,2352,Muniraju Murthy,31,1,0
+909,2354,Divya,33,2,0
+910,2355,Muniraju,17,1,0
+911,2357,Pallavi Naik,24,2,0
+912,2358,Raghavendra Achar,61,1,0
+913,2360,Deepa Shetty,50,2,0
+914,2362,Anand Shetty,23,1,0
+915,2364,Padma Kumar,38,2,0
+916,2367,Geetha,28,2,0
+917,2368,Yogesh Achar,36,1,0
+918,2369,Shobha Rao,30,2,0
+919,2371,Rekha Poojari,74,2,0
+920,2372,Girish Reddy,74,1,0
+921,2375,Bhagya Reddy,50,2,0
+922,2376,Geetha Reddy,42,2,0
+923,2377,Kavitha,68,2,0
+924,2378,Shivakumar Naik,66,1,0
+925,2381,Shivakumar Murthy,45,1,0
+926,2382,Mahesh Rao,31,1,0
+927,2386,Anand Gowda,33,1,0
+928,2388,Divya Achar,21,2,0
+929,2389,Divya Gowda,55,2,0
+930,2392,Shivakumar Achar,34,1,0
+931,2396,Deepa Rao,41,2,0
+932,2397,Shobha Murthy,65,2,0
+933,2399,Nagamma Gowda,17,2,0
+934,2401,Raghavendra,46,1,0
+935,2414,Darshan Reddy,33,1,0
+936,2415,Ramesh Murthy,29,1,0
+937,2418,Shwetha Murthy,21,2,0
+938,2420,Muniraju Swamy,49,1,0
+939,2423,Umesh Patil,17,1,0
+940,2425,Puneeth Naik,16,1,0
+941,2427,Lakshmi Achar,69,2,0
+942,2431,Rathnamma Swamy,44,2,0
+943,2432,Divya Rao,38,2,0
+944,2434,Geetha,65,2,0
+945,2438,Santosh Patil,29,1,0
+946,2439,Rathnamma Kumar,72,2,0
+947,2442,Shobha,20,2,0
+948,2443,Shobha Reddy,55,2,0
+949,2449,Savitha Rao,19,2,0
+950,2450,Girish Swamy,40,1,0
+951,2452,Bhagya,21,2,0
+952,2455,Asha Patil,60,2,0
+953,2457,Rekha Kumar,37,2,0
+954,2458,Rekha Naik,56,2,0
+955,2462,Geetha,35,2,0
+956,2465,Padma Poojari,18,2,0
+957,2466,Manjula Swamy,69,2,0
+958,2468,Shobha Shetty,58,2,0
+959,2470,Divya Rao,62,2,0
+960,2473,Pallavi Naik,36,2,0
+961,2475,Venkatesh Murthy,52,1,0
+962,2476,Shobha Hegde,31,2,0
+963,2477,Lakshmi,18,2,0
+964,2479,Divya,67,2,0
+965,2481,Savitha Reddy,54,2,0
+966,2483,Manjula Patil,69,2,0
+967,2485,Shobha Poojari,51,2,0
+968,2486,Krishnappa Patil,50,1,0
+969,2489,Rathnamma Reddy,41,2,0
+970,2490,Asha Hegde,62,2,0
+971,2492,Suresh Kumar,61,1,0
+972,2495,Santosh Achar,37,1,0
+973,2499,Deepa,55,2,0
+974,2502,Asha Gowda,42,2,0
+975,2503,Padma Reddy,62,2,0
+976,2506,Nagaraj,30,1,0
+977,2508,Santosh Hegde,33,1,0
+978,2509,Shobha Rao,51,2,0
+979,2513,Nagamma Rao,27,2,0
+980,2514,Prakash Murthy,36,1,0
+981,2516,Shivakumar Shetty,45,1,0
+982,2518,Rathnamma Patil,50,2,0
+983,2522,Girish Shetty,69,1,0
+984,2525,Rekha Reddy,57,2,0
+985,2528,Asha Murthy,41,2,0
+986,2530,Nagamma,23,2,0
+987,2532,Divya Patil,29,2,0
+988,2534,Venkatesh Rao,16,1,0
+989,2537,Manjula Rao,56,2,0
+990,2538,Vani,21,2,0
+991,2540,Basavaraj,27,1,0
+992,2541,Umesh,46,1,0
+993,2542,Manjula Hegde,48,2,0
+994,2543,Manjunath Gowda,60,1,0
+995,2547,Geetha,70,2,0
+996,2549,Nagaraj Murthy,53,1,0
+997,2550,Nagaraj,59,1,0
+998,2552,Rathnamma Achar,26,2,0
+999,2553,Pallavi Rao,54,2,0
+1000,2554,Padma Swamy,43,2,0
+1001,2556,Krishnappa Kumar,56,1,0
+1002,2559,Vani Poojari,57,2,0
+1003,2560,Rathnamma Murthy,23,2,0
+1004,2562,Lakshmi Murthy,51,2,0
+1005,2563,Shwetha Hegde,54,2,0
+1006,2564,Savitha,18,2,0
+1007,2569,Lakshmi Achar,51,2,0
+1008,2572,Shobha Poojari,74,2,0
+1009,2574,Divya Patil,70,2,0
+1010,2575,Suresh,74,1,0
+1011,2579,Muniraju Rao,19,1,0
+1012,2580,Vani Reddy,58,2,0
+1013,2582,Asha,24,2,0
+1014,2587,Rekha Kumar,62,2,0
+1015,2590,Sunitha Poojari,63,2,0
+1016,2594,Padma Rao,20,2,0
+1017,2597,Rathnamma Kumar,52,2,0
+1018,2602,Asha Hegde,35,2,0
+1019,2610,Divya,52,2,0
+1020,2611,Raghavendra Naik,48,1,0
+1021,2612,Deepa Gowda,26,2,0
+1022,2618,Srinivas Shetty,34,1,0
+1023,2623,Rathnamma Swamy,73,2,0
+1024,2624,Padma Hegde,63,2,0
+1025,2628,Geetha Gowda,52,2,0
+1026,2629,Kiran Poojari,72,1,0
+1027,2632,Pallavi Kumar,42,2,0
+1028,2633,Nagaraj Naik,75,1,0
+1029,2634,Shivakumar,40,1,0
+1030,2635,Manjunath Hegde,48,1,0
+1031,2637,Asha Shetty,38,2,0
+1032,2639,Kiran Gowda,38,1,0
+1033,2640,Vani,39,2,0
+1034,2641,Rathnamma,21,2,0
+1035,2642,Raghavendra Naik,22,1,0
+1036,2644,Kavitha Poojari,50,2,0
+1037,2645,Vani Murthy,72,2,0
+1038,2648,Lakshmi Swamy,19,2,0
+1039,2655,Shivakumar,33,1,0
+1040,2657,Sunitha Reddy,19,2,0
+1041,2658,Nagamma Naik,53,2,0
+1042,2660,Rathnamma,53,2,0
+1043,2664,Sunitha Rao,64,2,0
+1044,2666,Vani Achar,44,2,0
+1045,2667,Pallavi Rao,63,2,0
+1046,2668,Umesh Swamy,20,1,0
+1047,2670,Venkatesh Swamy,68,1,0
+1048,2672,Sunitha Gowda,17,2,0
+1049,2674,Venkatesh Achar,56,1,0
+1050,2675,Nagaraj Rao,74,1,0
+1051,2677,Lokesh Naik,56,1,0
+1052,2679,Lakshmi Naik,66,2,0
+1053,2680,Manjunath Patil,19,1,0
+1054,2682,Shobha,59,2,0
+1055,2686,Nagamma Swamy,72,2,0
+1056,2690,Vani Swamy,45,2,0
+1057,2692,Geetha Gowda,53,2,0
+1058,2693,Mahesh,59,1,0
+1059,2694,Muniraju Rao,75,1,0
+1060,2698,Kavitha Achar,67,2,0
+1061,2700,Muniraju Gowda,37,1,0
+1062,2701,Padma Kumar,61,2,0
+1063,2702,Deepa,64,2,0
+1064,2705,Vani,52,2,0
+1065,2711,Nagamma Patil,63,2,0
+1066,2714,Srinivas Patil,28,1,0
+1067,2716,Vani Patil,43,2,0
+1068,2717,Ramesh,57,1,0
+1069,2719,Basavaraj Gowda,62,1,0
+1070,2722,Savitha Patil,57,2,0
+1071,2725,Savitha Shetty,53,2,0
+1072,2727,Nagamma Gowda,32,2,0
+1073,2733,Divya,50,2,0
+1074,2736,Asha Kumar,48,2,0
+1075,2738,Shwetha Reddy,70,2,0
+1076,2740,Vani Poojari,54,2,0
+1077,2743,Shwetha Poojari,68,2,0
+1078,2748,Pallavi,33,2,0
+1079,2750,Geetha,38,2,0
+1080,2751,Savitha Shetty,16,2,0
+1081,2752,Sunitha Swamy,67,2,0
+1082,2753,Srinivas Patil,51,1,0
+1083,2754,Sunitha Swamy,43,2,0
+1084,2756,Geetha Achar,33,2,0
+1085,2758,Rathnamma Kumar,54,2,0
+1086,2760,Umesh Murthy,34,1,0
+1087,2762,Pallavi Kumar,31,2,0
+1088,2763,Girish,20,1,0
+1089,2769,Savitha,63,2,0
+1090,2772,Sunitha,73,2,0
+1091,2773,Anand Rao,28,1,0
+1092,2775,Kavitha Kumar,50,2,0
+1093,2778,Suresh,62,1,0
+1094,2781,Pallavi Reddy,51,2,0
+1095,2783,Asha Shetty,65,2,0
+1096,2789,Kavitha Shetty,63,2,0
+1097,2793,Vani Murthy,21,2,0
+1098,2795,Shwetha Patil,34,2,0
+1099,2796,Mahesh Shetty,33,1,0
+1100,2797,Vani Naik,18,2,0
+1101,2802,Geetha Gowda,24,2,0
+1102,2803,Yogesh Hegde,70,1,0
+1103,2807,Geetha Murthy,30,2,0
+1104,2809,Lakshmi Poojari,40,2,0
+1105,2810,Darshan,46,1,0
+1106,2813,Manjula Hegde,50,2,0
+1107,2814,Manjula Swamy,24,2,0
+1108,2823,Padma Shetty,37,2,0
+1109,2825,Lakshmi,53,2,0
+1110,2827,Savitha Naik,60,2,0
+1111,2830,Geetha Kumar,31,2,0
+1112,2836,Raghavendra Swamy,45,1,0
+1113,2837,Shwetha Poojari,47,2,0
+1114,2842,Rathnamma Achar,63,2,0
+1115,2843,Vani,69,2,0
+1116,2845,Kavitha Hegde,29,2,0
+1117,2846,Harish Murthy,19,1,0
+1118,2854,Shobha,38,2,1
+1119,2855,Vani Gowda,32,2,0
+1120,2856,Padma,50,2,0
+1121,2857,Umesh Swamy,53,1,0
+1122,2858,Asha Swamy,36,2,0
+1123,2860,Pallavi Achar,70,2,0
+1124,2861,Nagamma Shetty,57,2,0
+1125,2863,Harish Shetty,56,1,0
+1126,2864,Pallavi Achar,59,2,0
+1127,2869,Rekha,20,2,0
+1128,2871,Pallavi Patil,25,2,0
+1129,2873,Manjula,74,2,0
+1130,2874,Shobha,50,2,0
+1131,2875,Asha Achar,64,2,0
+1132,2876,Padma Rao,72,2,0
+1133,2877,Rathnamma,62,2,0
+1134,2878,Anand Poojari,54,1,0
+1135,2881,Savitha Poojari,47,2,0
+1136,2884,Shwetha Reddy,58,2,0
+1137,2885,Puneeth Reddy,69,1,0
+1138,2893,Deepa Naik,34,2,0
+1139,2897,Rathnamma Hegde,18,2,0
+1140,2898,Rathnamma Swamy,29,2,0
+1141,2899,Asha Rao,16,2,0
+1142,2900,Rekha Naik,44,2,0
+1143,2908,Geetha Hegde,38,2,0
+1144,2911,Lakshmi Murthy,46,2,0
+1145,2912,Divya Patil,59,2,0
+1146,2913,Umesh Rao,19,1,0
+1147,2914,Nagaraj Poojari,29,1,0
+1148,2915,Deepa,43,2,0
+1149,2916,Padma Swamy,35,2,0
+1150,2918,Puneeth Hegde,24,1,0
+1151,2919,Manjula Shetty,21,2,0
+1152,2923,Manjula,57,2,0
+1153,2924,Santosh Patil,16,1,0
+1154,2925,Darshan Naik,74,1,0
+1155,2926,Kiran Kumar,71,1,0
+1156,2929,Bhagya Reddy,38,2,0
+1157,2931,Prakash Kumar,58,1,0
+1158,2933,Basavaraj Achar,48,1,0
+1159,2935,Raghavendra,42,1,0
+1160,2938,Srinivas Rao,67,1,0
+1161,2947,Rathnamma Poojari,53,2,0
+1162,2948,Kiran,29,1,0
+1163,2949,Asha Gowda,49,2,0
+1164,2954,Deepa Poojari,27,2,0
+1165,2956,Shobha Shetty,46,2,0
+1166,2957,Shobha Kumar,55,2,0
+1167,2959,Raghavendra Patil,24,1,0
+1168,2966,Harish Swamy,35,1,0
+1169,2967,Divya,65,2,0
+1170,2973,Deepa,46,2,0
+1171,2978,Rathnamma Rao,44,2,0
+1172,2979,Savitha Poojari,60,2,0
+1173,2986,Manjula Naik,54,2,0
+1174,2987,Deepa Poojari,27,2,0
+1175,2990,Deepa Achar,26,2,0
+1176,2991,Krishnappa Patil,44,1,0
+1177,2994,Shobha Swamy,39,2,0
+1178,2996,Muniraju,72,1,0
+1179,2999,Srinivas Naik,47,1,0
+1180,3000,Manjula Poojari,65,2,0
+1181,3001,Rathnamma Shetty,38,2,0
+1182,3006,Chandrashekar Poojari,26,1,0
+1183,3008,Nagamma Shetty,40,2,0
+1184,3009,Shobha Gowda,44,2,0
+1185,3011,Savitha Reddy,36,2,0
+1186,3014,Shwetha Swamy,32,2,0
+1187,3015,Vani Gowda,20,2,0
+1188,3016,Raghavendra Achar,31,1,0
+1189,3018,Geetha Kumar,74,2,0
+1190,3019,Pallavi Poojari,74,2,0
+1191,3028,Kavitha Reddy,70,2,0
+1192,3032,Rekha Hegde,62,2,0
+1193,3036,Girish Poojari,31,1,0
+1194,3037,Divya Shetty,26,2,0
+1195,3038,Geetha Naik,69,2,0
+1196,3040,Savitha,69,2,0
+1197,3041,Nagamma Gowda,52,2,0
+1198,3045,Suresh Hegde,66,1,0
+1199,3046,Vani Shetty,56,2,0
+1200,3047,Vani Naik,58,2,0
+1201,3050,Deepa Gowda,24,2,0
+1202,3054,Suresh,40,1,0
+1203,3057,Nagamma Murthy,21,2,0
+1204,3060,Yogesh Reddy,58,1,0
+1205,3063,Vani Murthy,19,2,0
+1206,3065,Rekha Kumar,66,2,0
+1207,3066,Rekha Achar,38,2,0
+1208,3067,Savitha Swamy,74,2,0
+1209,3068,Pallavi Swamy,72,2,0
+1210,3069,Muniraju Reddy,16,1,0
+1211,3073,Manjula Shetty,47,2,0
+1212,3074,Padma,65,2,0
+1213,3076,Sunitha Murthy,19,2,0
+1214,3078,Asha,56,2,0
+1215,3079,Asha Rao,47,2,0
+1216,3082,Divya Achar,36,2,0
+1217,3084,Anand,39,1,0
+1218,3085,Manjula,35,2,0
+1219,3090,Suresh Gowda,37,1,0
+1220,3093,Manjula Reddy,72,2,0
+1221,3098,Yogesh Swamy,40,1,0
+1222,3104,Pallavi Gowda,27,2,0
+1223,3107,Asha Kumar,53,2,0
+1224,3109,Geetha Murthy,55,2,0
+1225,3111,Vani Patil,42,2,0
+1226,3112,Geetha Murthy,21,2,0
+1227,3115,Nagamma,52,2,0
+1228,3118,Asha Shetty,60,2,0
+1229,3119,Rathnamma Swamy,72,2,0
+1230,3122,Bhagya,41,2,0
+1231,3128,Kiran,62,1,1
+1232,3130,Shwetha Kumar,42,2,0
+1233,3133,Padma Rao,65,2,0
+1234,3134,Lakshmi Kumar,57,2,0
+1235,3136,Sunitha Shetty,38,2,0
+1236,3137,Shwetha Gowda,44,2,0
+1237,3139,Deepa Patil,52,2,0
+1238,3141,Asha Naik,51,2,0
+1239,3142,Asha Gowda,45,2,0
+1240,3144,Kavitha Rao,37,2,0
+1241,3145,Nagamma,55,2,0
+1242,3153,Krishnappa,73,1,0
+1243,3156,Yogesh Naik,49,1,0
+1244,3158,Manjula Achar,56,2,0
+1245,3160,Manjunath Gowda,75,1,0
+1246,3161,Prakash Shetty,72,1,0
+1247,3162,Muniraju,40,1,0
+1248,3167,Raghavendra Kumar,57,1,0
+1249,3168,Divya,45,2,0
+1250,3169,Suresh Hegde,72,1,0
+1251,3170,Shwetha Gowda,22,2,0
+1252,3171,Nagamma,46,2,0
+1253,3172,Krishnappa,19,1,0
+1254,3177,Harish Achar,16,1,0
+1255,3179,Pallavi Swamy,55,2,0
+1256,3180,Vani Poojari,61,2,0
+1257,3181,Kavitha Poojari,24,2,0
+1258,3182,Asha Hegde,68,2,0
+1259,3184,Sunitha Naik,57,2,0
+1260,3185,Savitha Swamy,56,2,0
+1261,3190,Asha Reddy,47,2,0
+1262,3191,Suresh,17,1,0
+1263,3195,Pallavi Achar,38,2,0
+1264,3196,Rathnamma Gowda,48,2,0
+1265,3199,Lakshmi Gowda,64,2,0
+1266,3202,Shobha Reddy,43,2,0
+1267,3203,Rekha Murthy,40,2,0
+1268,3207,Padma Patil,27,2,0
+1269,3208,Srinivas,23,1,0
+1270,3210,Pallavi Murthy,40,2,0
+1271,3216,Nagaraj,64,1,0
+1272,3217,Padma,44,2,0
+1273,3218,Manjula Murthy,67,2,0
+1274,3227,Asha Reddy,24,2,0
+1275,3228,Kavitha Swamy,39,2,0
+1276,3234,Shwetha Swamy,55,2,0
+1277,3237,Lakshmi,63,2,0
+1278,3238,Deepa Shetty,26,2,0
+1279,3239,Deepa Kumar,75,2,0
+1280,3240,Rathnamma Naik,50,2,0
+1281,3242,Kavitha Kumar,43,2,0
+1282,3245,Asha,46,2,0
+1283,3248,Basavaraj Poojari,71,1,0
+1284,3249,Savitha Patil,20,2,0
+1285,3251,Geetha Rao,53,2,0
+1286,3254,Nagamma Achar,65,2,0
+1287,3256,Bhagya,51,2,0
+1288,3264,Rathnamma Patil,28,2,0
+1289,3265,Muniraju Kumar,54,1,0
+1290,3266,Anand Patil,39,1,0
+1291,3269,Prakash Swamy,39,1,0
+1292,3273,Muniraju Swamy,16,1,0
+1293,3275,Puneeth Patil,63,1,0
+1294,3276,Vani Murthy,38,2,0
+1295,3281,Nagamma,37,2,0
+1296,3282,Rathnamma,61,2,0
+1297,3283,Padma Hegde,68,2,0
+1298,3286,Padma Shetty,59,2,0
+1299,3289,Lokesh Naik,30,1,0
+1300,3292,Venkatesh Naik,55,1,0
+1301,3295,Nagamma Achar,62,2,0
+1302,3296,Geetha,73,2,0
+1303,3297,Deepa Rao,74,2,0
+1304,3303,Anand Swamy,19,1,0
+1305,3304,Nagamma Rao,65,2,0
+1306,3312,Padma Swamy,51,2,0
+1307,3315,Sunitha Hegde,34,2,0
+1308,3316,Savitha Reddy,56,2,0
+1309,3317,Anand Gowda,40,1,0
+1310,3318,Anand Rao,23,1,0
+1311,3320,Rathnamma Kumar,31,2,0
+1312,3322,Lokesh,44,1,0
+1313,3324,Padma Achar,72,2,0
+1314,3329,Divya Gowda,59,2,0
+1315,3334,Girish Poojari,23,1,0
+1316,3335,Asha Swamy,61,2,0
+1317,3337,Pallavi Swamy,44,2,0
+1318,3340,Sunitha Naik,32,2,0
+1319,3343,Chandrashekar Kumar,24,1,0
+1320,3344,Nagamma,20,2,0
+1321,3345,Srinivas Gowda,73,1,0
+1322,3351,Rekha Naik,58,2,0
+1323,3356,Divya Hegde,31,2,0
+1324,3364,Sunitha Reddy,37,2,0
+1325,3365,Divya Achar,62,2,0
+1326,3366,Venkatesh,59,1,0
+1327,3368,Muniraju,47,1,0
+1328,3369,Nagaraj Gowda,26,1,0
+1329,3371,Geetha Gowda,58,2,0
+1330,3374,Shwetha Achar,48,2,0
+1331,3377,Divya Achar,25,2,0
+1332,3381,Geetha,70,2,0
+1333,3383,Geetha Hegde,48,2,0
+1334,3384,Kavitha,37,2,0
+1335,3385,Rekha,57,2,0
+1336,3390,Prakash Shetty,27,1,0
+1337,3398,Ramesh Murthy,46,1,0
+1338,3399,Padma Achar,44,2,0
+1339,3400,Pallavi Murthy,57,2,0
+1340,3402,Kavitha,57,2,0
+1341,3407,Shwetha Naik,24,2,0
+1342,3409,Krishnappa,29,1,0
+1343,3410,Ramesh Poojari,49,1,0
+1344,3412,Manjula,25,2,0
+1345,3413,Shwetha Rao,22,2,0
+1346,3415,Kavitha,68,2,0
+1347,3416,Prakash Shetty,31,1,0
+1348,3419,Santosh Patil,29,1,0
+1349,3420,Umesh Swamy,31,1,0
+1350,3427,Padma Shetty,25,2,0
+1351,3431,Sunitha Achar,48,2,0
+1352,3433,Geetha Kumar,67,2,0
+1353,3435,Shobha Poojari,62,2,0
+1354,3436,Divya Hegde,62,2,0
+1355,3439,Divya Patil,66,2,0
+1356,3441,Manjula Hegde,64,2,0
+1357,3445,Lakshmi Achar,44,2,0
+1358,3446,Srinivas Gowda,27,1,0
+1359,3448,Deepa,19,2,0
+1360,3449,Raghavendra Naik,72,1,0
+1361,3453,Srinivas Achar,44,1,0
+1362,3454,Srinivas Kumar,63,1,0
+1363,3455,Nagamma,25,2,0
+1364,3457,Kavitha Poojari,56,2,0
+1365,3458,Basavaraj,28,1,0
+1366,3460,Nagamma,23,2,0
+1367,3467,Rekha Reddy,65,2,0
+1368,3471,Lokesh,18,1,0
+1369,3472,Lakshmi Shetty,21,2,0
+1370,3473,Shwetha Poojari,71,2,0
+1371,3474,Manjula,23,2,0
+1372,3475,Shobha Achar,31,2,0
+1373,3479,Darshan Swamy,54,1,0
+1374,3481,Manjula Achar,33,2,0
+1375,3483,Anand Gowda,53,1,0
+1376,3484,Lakshmi Poojari,30,2,0
+1377,3485,Sunitha Murthy,75,2,0
+1378,3488,Nagamma Patil,31,2,0
+1379,3489,Sunitha Achar,26,2,0
+1380,3490,Asha,33,2,0
+1381,3492,Girish,49,1,0
+1382,3493,Sunitha Naik,70,2,0
+1383,3499,Lakshmi Shetty,63,2,0
+1384,3501,Bhagya,32,2,0
+1385,3509,Bhagya Naik,22,2,0
+1386,3510,Chandrashekar Shetty,36,1,0
+1387,3512,Lakshmi Naik,17,2,0
+1388,3514,Lokesh Reddy,20,1,0
+1389,3516,Anand Reddy,62,1,0
+1390,3519,Sunitha,63,2,0
+1391,3521,Darshan Rao,67,1,0
+1392,3522,Suresh,62,1,0
+1393,3527,Nagamma Poojari,72,2,0
+1394,3529,Bhagya Murthy,50,2,0
+1395,3532,Vani Reddy,22,2,0
+1396,3541,Umesh,69,1,0
+1397,3548,Shwetha Kumar,22,2,0
+1398,3549,Ramesh Reddy,27,1,0
+1399,3550,Muniraju,53,1,0
+1400,3556,Bhagya Naik,58,2,0
+1401,3559,Asha Reddy,21,2,0
+1402,3560,Lakshmi,69,2,0
+1403,3561,Sunitha,73,2,0
+1404,3566,Pallavi Hegde,38,2,0
+1405,3567,Rathnamma Patil,69,2,0
+1406,3571,Deepa Shetty,50,2,0
+1407,3573,Asha Gowda,64,2,0
+1408,3574,Bhagya Gowda,22,2,0
+1409,3577,Manjunath Achar,47,1,1
+1410,3579,Shobha Rao,46,2,0
+1411,3581,Rathnamma Swamy,64,2,0
+1412,3582,Chandrashekar Swamy,53,1,0
+1413,3583,Puneeth Achar,74,1,0
+1414,3585,Puneeth,35,1,0
+1415,3586,Kiran,44,1,0
+1416,3589,Nagamma Shetty,30,2,1
+1417,3595,Deepa Patil,61,2,0
+1418,3597,Mahesh Murthy,62,1,0
+1419,3600,Rathnamma Gowda,57,2,0
+1420,3602,Shwetha Patil,55,2,0
+1421,3607,Geetha Murthy,72,2,0
+1422,3608,Savitha Reddy,54,2,0
+1423,3609,Divya Gowda,58,2,0
+1424,3610,Divya Murthy,49,2,0
+1425,3612,Divya Naik,19,2,0
+1426,3613,Geetha,38,2,0
+1427,3621,Savitha Achar,74,2,0
+1428,3628,Prakash Patil,33,1,0
+1429,3630,Lakshmi Poojari,31,2,0
+1430,3633,Divya Swamy,56,2,0
+1431,3636,Santosh Shetty,60,1,0
+1432,3638,Asha,33,2,0
+1433,3642,Sunitha,44,2,0
+1434,3644,Nagamma Naik,29,2,0
+1435,3646,Prakash Gowda,65,1,0
+1436,3649,Shwetha Kumar,37,2,0
+1437,3657,Rekha Murthy,50,2,0
+1438,3660,Asha Achar,18,2,1
+1439,3661,Divya Reddy,59,2,0
+1440,3662,Rekha Achar,45,2,0
+1441,3668,Mahesh Shetty,39,1,0
+1442,3670,Rekha Shetty,64,2,0
+1443,3671,Shwetha,24,2,0
+1444,3672,Krishnappa Poojari,47,1,0
+1445,3678,Rathnamma Achar,21,2,0
+1446,3680,Santosh Patil,69,1,0
+1447,3682,Umesh Patil,48,1,0
+1448,3683,Sunitha Rao,24,2,0
+1449,3685,Shobha Kumar,72,2,0
+1450,3691,Nagamma Swamy,52,2,0
+1451,3695,Umesh Achar,48,1,0
+1452,3698,Rekha Shetty,54,2,0
+1453,3701,Lokesh Reddy,48,1,0
+1454,3703,Shivakumar Murthy,74,1,0
+1455,3707,Manjula Hegde,62,2,0
+1456,3708,Manjula Poojari,22,2,0
+1457,3711,Nagaraj,64,1,0
+1458,3721,Srinivas,32,1,0
+1459,3723,Deepa,26,2,0
+1460,3724,Vani Patil,47,2,0
+1461,3727,Asha Naik,21,2,0
+1462,3730,Savitha Naik,48,2,0
+1463,3731,Shwetha Naik,32,2,0
+1464,3736,Rathnamma,75,2,0
+1465,3737,Pallavi Gowda,27,2,0
+1466,3739,Anand Reddy,70,1,0
+1467,3742,Santosh,64,1,0
+1468,3744,Basavaraj Kumar,64,1,0
+1469,3747,Prakash Reddy,55,1,0
+1470,3749,Asha Swamy,68,2,0
+1471,3753,Girish,45,1,0
+1472,3757,Pallavi,31,2,0
+1473,3760,Rathnamma,44,2,0
+1474,3761,Vani,44,2,0
+1475,3768,Bhagya Rao,25,2,0
+1476,3769,Divya Murthy,43,2,0
+1477,3772,Sunitha Rao,17,2,0
+1478,3773,Geetha Achar,49,2,0
+1479,3774,Kavitha Patil,54,2,0
+1480,3780,Ramesh Swamy,40,1,0
+1481,3782,Darshan Naik,25,1,0
+1482,3783,Nagamma,58,2,0
+1483,3786,Geetha Poojari,38,2,0
+1484,3790,Anand Reddy,20,1,0
+1485,3792,Savitha Kumar,28,2,0
+1486,3795,Bhagya Shetty,64,2,0
+1487,3796,Asha Rao,17,2,0
+1488,3797,Manjula Poojari,47,2,0
+1489,3798,Raghavendra Murthy,21,1,0
+1490,3804,Geetha Kumar,46,2,0
+1491,3805,Padma,39,2,0
+1492,3807,Rekha Reddy,70,2,0
+1493,3808,Bhagya Kumar,28,2,0
+1494,3810,Vani Rao,30,2,0
+1495,3816,Shobha Poojari,63,2,0
+1496,3818,Chandrashekar,25,1,0
+1497,3819,Chandrashekar,19,1,0
+1498,3821,Sunitha Patil,17,2,0
+1499,3823,Shobha,64,2,0
+1500,3825,Umesh Achar,61,1,0
+1501,3826,Harish Swamy,17,1,0
+1502,3829,Nagamma Achar,45,2,0
+1503,3830,Geetha Reddy,21,2,0
+1504,3832,Basavaraj Murthy,42,1,0
+1505,3834,Rathnamma,37,2,0
+1506,3835,Sunitha Gowda,22,2,0
+1507,3836,Nagamma Naik,60,2,0
+1508,3838,Nagaraj Reddy,65,1,1
+1509,3840,Manjula Swamy,18,2,0
+1510,3844,Anand Gowda,57,1,0
+1511,3845,Kiran Reddy,67,1,0
+1512,3846,Kavitha Shetty,33,2,0
+1513,3847,Geetha Naik,24,2,0
+1514,3848,Rathnamma Reddy,32,2,0
+1515,3850,Deepa Kumar,70,2,0
+1516,3856,Deepa Kumar,66,2,0
+1517,3857,Vani Gowda,16,2,0
+1518,3858,Nagaraj Hegde,70,1,0
+1519,3859,Shobha Reddy,32,2,0
+1520,3860,Rekha Naik,48,2,0
+1521,3862,Shivakumar Naik,65,1,0
+1522,3864,Venkatesh Hegde,23,1,0
+1523,3869,Umesh Patil,56,1,0
+1524,3872,Rathnamma Swamy,73,2,0
+1525,3873,Savitha,44,2,0
+1526,3876,Asha Naik,61,2,0
+1527,3881,Divya Swamy,48,2,0
+1528,3882,Shobha Murthy,57,2,0
+1529,3885,Shobha Poojari,60,2,0
+1530,3886,Lakshmi Hegde,41,2,0
+1531,3887,Pallavi,61,2,0
+1532,3890,Bhagya Achar,34,2,0
+1533,3891,Darshan,44,1,0
+1534,3892,Darshan,55,1,0
+1535,3893,Raghavendra Shetty,70,1,0
+1536,3897,Lakshmi Rao,75,2,0
+1537,3898,Raghavendra Gowda,67,1,0
+1538,3899,Chandrashekar,19,1,0
+1539,3901,Shivakumar Murthy,65,1,0
+1540,3902,Pallavi,39,2,0
+1541,3903,Nagamma Rao,52,2,0
+1542,3905,Prakash Poojari,54,1,0
+1543,3912,Asha Patil,16,2,0
+1544,3914,Padma Poojari,35,2,0
+1545,3919,Raghavendra Gowda,68,1,0
+1546,3920,Geetha,53,2,0
+1547,3922,Lokesh Murthy,32,1,0
+1548,3925,Pallavi Shetty,24,2,0
+1549,3926,Basavaraj,60,1,0
+1550,3927,Divya,56,2,0
+1551,3928,Prakash Kumar,45,1,0
+1552,3929,Divya Swamy,51,2,0
+1553,3930,Girish Murthy,65,1,0
+1554,3931,Shobha Poojari,41,2,0
+1555,3934,Deepa,64,2,0
+1556,3938,Vani Swamy,18,2,0
+1557,3939,Bhagya Rao,44,2,0
+1558,3941,Anand Achar,38,1,0
+1559,3942,Nagamma Murthy,54,2,0
+1560,3943,Nagamma Rao,43,2,0
+1561,3950,Shwetha Kumar,18,2,0
+1562,3954,Manjula Swamy,35,2,0
+1563,3955,Rekha Gowda,61,2,0
+1564,3957,Puneeth Achar,62,1,0
+1565,3960,Geetha Murthy,44,2,0
+1566,3964,Rathnamma Gowda,45,2,0
+1567,3973,Yogesh Achar,65,1,0
+1568,3975,Savitha,60,2,0
+1569,3977,Divya,19,2,0
+1570,3985,Rathnamma,50,2,0
+1571,3987,Venkatesh,24,1,0
+1572,3990,Shobha Achar,68,2,0
+1573,3991,Pallavi Naik,21,2,0
+1574,3993,Divya Hegde,24,2,0
+1575,3999,Nagamma,16,2,0
+1576,4002,Ramesh Poojari,36,1,0
+1577,4008,Manjula Poojari,43,2,0
+1578,4009,Santosh Rao,42,1,0
+1579,4011,Kavitha,23,2,0
+1580,4012,Girish,64,1,0
+1581,4013,Deepa Reddy,41,2,0
+1582,4014,Yogesh Rao,54,1,0
+1583,4016,Rathnamma Rao,16,2,0
+1584,4020,Deepa Shetty,73,2,0
+1585,4022,Sunitha Achar,61,2,0
+1586,4023,Basavaraj Rao,69,1,0
+1587,4031,Sunitha Rao,39,2,0
+1588,4032,Padma Achar,16,2,0
+1589,4033,Yogesh Shetty,21,1,0
+1590,4035,Sunitha Naik,24,2,0
+1591,4036,Ramesh Patil,57,1,0
+1592,4041,Prakash Patil,45,1,0
+1593,4043,Divya Hegde,22,2,0
+1594,4044,Puneeth Gowda,48,1,0
+1595,4047,Divya Kumar,31,2,0
+1596,4050,Shwetha Kumar,59,2,0
+1597,4052,Geetha Poojari,66,2,0
+1598,4054,Asha Shetty,19,2,0
+1599,4055,Kavitha Shetty,66,2,0
+1600,4059,Kiran Naik,17,1,0
+1601,4065,Padma Rao,63,2,0
+1602,4068,Padma Hegde,69,2,0
+1603,4074,Vani Patil,30,2,0
+1604,4077,Santosh Patil,16,1,0
+1605,4079,Lakshmi Reddy,54,2,0
+1606,4080,Basavaraj Gowda,75,1,0
+1607,4081,Divya Achar,71,2,0
+1608,4083,Anand Poojari,20,1,0
+1609,4084,Rekha Patil,36,2,0
+1610,4087,Darshan Rao,35,1,0
+1611,4088,Bhagya Rao,49,2,0
+1612,4092,Kavitha Reddy,47,2,0
+1613,4093,Mahesh Kumar,39,1,0
+1614,4094,Umesh Naik,53,1,0
+1615,4095,Geetha,18,2,0
+1616,4096,Nagaraj Patil,48,1,0
+1617,4097,Shobha Gowda,57,2,0
+1618,4099,Divya Naik,25,2,0
+1619,4102,Nagamma Swamy,21,2,0
+1620,4103,Savitha Naik,67,2,0
+1621,4106,Savitha Poojari,58,2,0
+1622,4107,Kiran Swamy,27,1,0
+1623,4108,Vani,74,2,0
+1624,4109,Prakash Murthy,71,1,0
+1625,4111,Geetha Patil,45,2,0
+1626,4112,Rathnamma Swamy,55,2,0
+1627,4113,Rekha Achar,63,2,0
+1628,4115,Deepa Naik,65,2,0
+1629,4117,Chandrashekar,22,1,0
+1630,4118,Bhagya,63,2,0
+1631,4120,Divya Patil,73,2,0
+1632,4131,Manjula Achar,26,2,0
+1633,4136,Raghavendra Patil,46,1,0
+1634,4144,Kavitha Hegde,34,2,0
+1635,4149,Manjula Kumar,67,2,0
+1636,4153,Savitha Reddy,41,2,0
+1637,4154,Sunitha Naik,38,2,0
+1638,4157,Geetha Poojari,58,2,0
+1639,4162,Deepa Rao,37,2,0
+1640,4164,Lakshmi Achar,49,2,0
+1641,4176,Shwetha Kumar,59,2,0
+1642,4178,Rekha Kumar,20,2,0
+1643,4181,Rekha Achar,27,2,0
+1644,4182,Deepa Hegde,62,2,0
+1645,4187,Prakash Murthy,65,1,0
+1646,4192,Harish,51,1,0
+1647,4194,Venkatesh Shetty,73,1,0
+1648,4198,Divya Hegde,72,2,0
+1649,4200,Savitha Reddy,39,2,0
+1650,4202,Geetha Achar,62,2,0
+1651,4206,Prakash,56,1,0
+1652,4208,Manjula Patil,23,2,0
+1653,4209,Rekha Gowda,30,2,0
+1654,4210,Anand Poojari,25,1,0
+1655,4214,Vani Murthy,36,2,0
+1656,4215,Deepa,73,2,0
+1657,4218,Manjula Patil,53,2,0
+1658,4219,Raghavendra,17,1,0
+1659,4220,Umesh,41,1,0
+1660,4225,Lakshmi Naik,23,2,0
+1661,4227,Shwetha,55,2,0
+1662,4228,Darshan Shetty,19,1,0
+1663,4229,Geetha Hegde,22,2,0
+1664,4235,Geetha Murthy,27,2,0
+1665,4236,Rathnamma,23,2,0
+1666,4239,Rathnamma Shetty,61,2,0
+1667,4240,Harish Murthy,60,1,0
+1668,4241,Nagaraj Poojari,67,1,0
+1669,4243,Shwetha Naik,57,2,0
+1670,4245,Shobha Gowda,18,2,0
+1671,4248,Suresh,39,1,0
+1672,4249,Rekha Reddy,60,2,0
+1673,4250,Bhagya Shetty,26,2,0
+1674,4252,Nagamma Gowda,19,2,0
+1675,4253,Nagamma Patil,18,2,0
+1676,4255,Deepa Naik,38,2,0
+1677,4256,Bhagya,74,2,0
+1678,4258,Venkatesh,63,1,0
+1679,4262,Nagaraj Swamy,37,1,0
+1680,4266,Rekha Kumar,71,2,0
+1681,4269,Chandrashekar Gowda,51,1,0
+1682,4270,Shwetha Murthy,16,2,0
+1683,4274,Harish Reddy,26,1,0
+1684,4276,Deepa Reddy,29,2,0
+1685,4277,Prakash Reddy,51,1,0
+1686,4278,Bhagya Swamy,50,2,0
+1687,4282,Bhagya Kumar,17,2,0
+1688,4284,Ramesh Shetty,74,1,0
+1689,4286,Suresh Murthy,43,1,0
+1690,4287,Divya Naik,57,2,0
+1691,4290,Geetha,38,2,0
+1692,4291,Padma Swamy,59,2,0
+1693,4292,Rekha Reddy,43,2,0
+1694,4293,Manjula Naik,55,2,0
+1695,4294,Girish,36,1,0
+1696,4297,Rathnamma Achar,50,2,0
+1697,4299,Harish,41,1,0
+1698,4301,Rathnamma,34,2,0
+1699,4303,Suresh Reddy,20,1,0
+1700,4305,Harish Shetty,67,1,0
+1701,4306,Yogesh Patil,51,1,0
+1702,4308,Nagamma Murthy,59,2,0
+1703,4311,Bhagya Naik,28,2,0
+1704,4316,Lokesh,45,1,0
+1705,4318,Deepa Reddy,35,2,0
+1706,4322,Savitha Rao,50,2,0
+1707,4324,Rathnamma Patil,62,2,0
+1708,4336,Srinivas Murthy,63,1,0
+1709,4337,Lakshmi Rao,69,2,0
+1710,4339,Nagamma,74,2,0
+1711,4340,Rathnamma,56,2,0
+1712,4341,Lokesh Kumar,22,1,0
+1713,4346,Sunitha,65,2,0
+1714,4347,Geetha,54,2,0
+1715,4348,Kavitha,32,2,0
+1716,4355,Manjula Rao,39,2,0
+1717,4358,Pallavi Patil,44,2,0
+1718,4359,Savitha Hegde,73,2,0
+1719,4360,Girish,28,1,0
+1720,4366,Darshan Hegde,22,1,0
+1721,4367,Prakash Rao,63,1,0
+1722,4370,Suresh Achar,72,1,0
+1723,4372,Rekha Patil,29,2,0
+1724,4374,Lakshmi,20,2,0
+1725,4376,Rekha Patil,51,2,0
+1726,4387,Ramesh Rao,41,1,0
+1727,4390,Muniraju,53,1,0
+1728,4398,Basavaraj Murthy,48,1,0
+1729,4401,Santosh Murthy,26,1,0
+1730,4404,Manjunath Achar,42,1,0
+1731,4406,Pallavi,63,2,0
+1732,4407,Mahesh Swamy,49,1,0
+1733,4411,Geetha,69,2,0
+1734,4414,Nagaraj,17,1,0
+1735,4415,Shobha Naik,20,2,0
+1736,4418,Shobha Naik,27,2,0
+1737,4419,Rathnamma,65,2,0
+1738,4420,Manjula Achar,33,2,0
+1739,4424,Kiran Kumar,35,1,0
+1740,4430,Vani Poojari,26,2,0
+1741,4432,Chandrashekar Poojari,19,1,0
+1742,4436,Muniraju Reddy,36,1,0
+1743,4437,Shwetha Achar,31,2,0
+1744,4438,Nagaraj Patil,70,1,0
+1745,4440,Rekha,53,2,0
+1746,4444,Harish Shetty,65,1,0
+1747,4446,Prakash Murthy,57,1,0
+1748,4448,Prakash Naik,57,1,0
+1749,4449,Shobha,68,2,0
+1750,4451,Venkatesh Achar,34,1,0
+1751,4452,Lakshmi Achar,17,2,0
+1752,4453,Geetha Rao,28,2,0
+1753,4458,Deepa,26,2,0
+1754,4469,Shwetha Swamy,38,2,0
+1755,4473,Geetha Gowda,39,2,0
+1756,4475,Krishnappa Rao,35,1,0
+1757,4477,Venkatesh Hegde,63,1,0
+1758,4480,Girish Rao,65,1,0
+1759,4481,Girish,55,1,0
+1760,4484,Suresh Patil,34,1,0
+1761,4486,Rekha Kumar,37,2,0
+1762,4488,Bhagya Murthy,48,2,0
+1763,4490,Shwetha Shetty,53,2,0
+1764,4491,Yogesh Rao,30,1,0
+1765,4493,Manjula Poojari,17,2,0
+1766,4495,Bhagya Murthy,63,2,0
+1767,4499,Deepa Hegde,25,2,0
+1768,4502,Darshan Rao,18,1,0
+1769,4505,Sunitha Shetty,19,2,0
+1770,4508,Raghavendra,60,1,0
+1771,4510,Vani Kumar,30,2,0
+1772,4515,Rekha Gowda,74,2,0
+1773,4516,Savitha Patil,40,2,0
+1774,4518,Ramesh Kumar,35,1,0
+1775,4519,Shobha Achar,69,2,0
+1776,4522,Padma Reddy,38,2,0
+1777,4524,Raghavendra Gowda,27,1,0
+1778,4527,Geetha Patil,65,2,0
+1779,4529,Santosh Gowda,39,1,0
+1780,4534,Shobha Rao,70,2,0
+1781,4540,Geetha Shetty,48,2,0
+1782,4549,Basavaraj Poojari,21,1,0
+1783,4552,Yogesh Kumar,38,1,0
+1784,4556,Sunitha Naik,55,2,0
+1785,4557,Manjula Rao,58,2,0
+1786,4559,Kavitha Swamy,67,2,0
+1787,4561,Shwetha Gowda,66,2,0
+1788,4562,Prakash Poojari,61,1,0
+1789,4564,Rekha,26,2,0
+1790,4565,Lakshmi Hegde,20,2,0
+1791,4567,Divya Kumar,37,2,0
+1792,4568,Geetha Gowda,64,2,0
+1793,4570,Nagamma Kumar,63,2,0
+1794,4575,Deepa,58,2,0
+1795,4576,Pallavi,39,2,0
+1796,4577,Divya Swamy,43,2,0
+1797,4578,Sunitha Swamy,53,2,0
+1798,4583,Prakash Rao,37,1,0
+1799,4584,Puneeth Shetty,66,1,0
+1800,4587,Suresh Shetty,67,1,0
+1801,4591,Shwetha Achar,71,2,0
+1802,4593,Krishnappa Poojari,31,1,0
+1803,4594,Kiran,71,1,0
+1804,4595,Rathnamma Reddy,57,2,0
+1805,4596,Bhagya,26,2,0
+1806,4601,Umesh Reddy,40,1,0
+1807,4604,Rekha Achar,17,2,0
+1808,4605,Raghavendra Swamy,68,1,0
+1809,4607,Divya,25,2,0
+1810,4609,Savitha Kumar,33,2,0
+1811,4610,Rathnamma,73,2,0
+1812,4611,Krishnappa Murthy,62,1,0
+1813,4617,Geetha Hegde,23,2,0
+1814,4621,Sunitha Murthy,64,2,0
+1815,4622,Asha Kumar,74,2,0
+1816,4624,Chandrashekar Patil,64,1,0
+1817,4625,Deepa Murthy,55,2,0
+1818,4627,Geetha Naik,51,2,0
+1819,4628,Santosh,72,1,1
+1820,4629,Raghavendra Hegde,49,1,0
+1821,4630,Pallavi,44,2,0
+1822,4631,Sunitha Patil,33,2,0
+1823,4633,Kavitha Hegde,70,2,0
+1824,4637,Pallavi Naik,31,2,0
+1825,4639,Manjunath Poojari,66,1,0
+1826,4651,Shwetha Patil,35,2,0
+1827,4652,Geetha Shetty,63,2,0
+1828,4660,Suresh Naik,47,1,0
+1829,4661,Rekha Reddy,62,2,0
+1830,4665,Bhagya Murthy,24,2,0
+1831,4666,Prakash Kumar,65,1,0
+1832,4670,Mahesh Murthy,51,1,0
+1833,4674,Divya Gowda,28,2,0
+1834,4677,Shivakumar Naik,17,1,0
+1835,4678,Darshan Reddy,48,1,0
+1836,4686,Sunitha,42,2,0
+1837,4687,Bhagya Shetty,25,2,0
+1838,4688,Divya,18,2,1
+1839,4690,Rekha Kumar,32,2,0
+1840,4691,Suresh,58,1,0
+1841,4692,Srinivas Murthy,16,1,0
+1842,4694,Padma Reddy,49,2,0
+1843,4695,Shwetha Murthy,34,2,0
+1844,4698,Nagamma Rao,41,2,0
+1845,4700,Deepa Gowda,31,2,0
+1846,4706,Geetha Achar,66,2,0
+1847,4708,Manjula,53,2,0
+1848,4709,Sunitha Murthy,37,2,0
+1849,4710,Asha Shetty,52,2,0
+1850,4719,Santosh,41,1,0
+1851,4721,Puneeth Naik,72,1,0
+1852,4723,Shobha Patil,74,2,0
+1853,4727,Santosh Reddy,31,1,0
+1854,4728,Deepa Murthy,65,2,0
+1855,4729,Prakash Shetty,64,1,0
+1856,4731,Geetha Naik,54,2,0
+1857,4732,Bhagya Reddy,63,2,0
+1858,4733,Basavaraj Swamy,56,1,0
+1859,4737,Rathnamma Reddy,46,2,0
+1860,4738,Rathnamma Naik,23,2,0
+1861,4741,Shwetha Achar,44,2,0
+1862,4746,Bhagya Rao,34,2,0
+1863,4750,Padma Achar,21,2,0
+1864,4753,Puneeth Naik,53,1,0
+1865,4757,Sunitha Rao,17,2,0
+1866,4758,Savitha Murthy,55,2,0
+1867,4760,Rathnamma Achar,72,2,0
+1868,4761,Vani Achar,58,2,0
+1869,4763,Shobha Kumar,63,2,0
+1870,4765,Rekha,29,2,0
+1871,4768,Deepa Achar,31,2,0
+1872,4769,Shivakumar,29,1,0
+1873,4771,Pallavi Swamy,42,2,0
+1874,4772,Manjula Shetty,73,2,0
+1875,4774,Vani,18,2,0
+1876,4775,Rekha Rao,49,2,0
+1877,4780,Vani Patil,21,2,0
+1878,4782,Vani Swamy,63,2,0
+1879,4785,Puneeth Rao,54,1,0
+1880,4786,Rekha,65,2,0
+1881,4787,Darshan Shetty,56,1,0
+1882,4788,Raghavendra Hegde,75,1,0
+1883,4789,Shivakumar Rao,58,1,0
+1884,4790,Nagaraj Shetty,32,1,0
+1885,4795,Deepa Shetty,39,2,0
+1886,4796,Muniraju,67,1,0
+1887,4797,Shwetha Reddy,30,2,0
+1888,4800,Pallavi,63,2,0
+1889,4801,Srinivas Swamy,21,1,0
+1890,4808,Rekha Swamy,68,2,0
+1891,4811,Sunitha Murthy,27,2,0
+1892,4812,Nagamma Swamy,72,2,0
+1893,4817,Shobha Naik,48,2,0
+1894,4819,Shobha,52,2,0
+1895,4825,Nagaraj Poojari,40,1,0
+1896,4827,Vani Rao,45,2,0
+1897,4828,Srinivas Reddy,73,1,0
+1898,4832,Vani Shetty,61,2,0
+1899,4835,Krishnappa Poojari,54,1,0
+1900,4838,Padma,29,2,0
+1901,4840,Santosh Achar,38,1,0
+1902,4841,Padma Naik,46,2,0
+1903,4842,Bhagya Gowda,36,2,0
+1904,4843,Geetha,41,2,0
+1905,4844,Pallavi Patil,41,2,0
+1906,4846,Divya Rao,66,2,0
+1907,4847,Savitha Reddy,27,2,0
+1908,4850,Yogesh Poojari,74,1,0
+1909,4851,Ramesh,65,1,0
+1910,4853,Venkatesh Kumar,56,1,0
+1911,4854,Santosh Achar,28,1,0
+1912,4857,Lakshmi Naik,49,2,0
+1913,4859,Santosh Kumar,17,1,0
+1914,4860,Anand Shetty,67,1,0
+1915,4862,Manjunath Gowda,38,1,0
+1916,4863,Prakash Murthy,30,1,0
+1917,4866,Rekha Gowda,24,2,0
+1918,4869,Umesh Kumar,19,1,0
+1919,4872,Puneeth,55,1,0
+1920,4873,Bhagya,48,2,0
+1921,4874,Geetha Poojari,51,2,0
+1922,4875,Sunitha Shetty,63,2,0
+1923,4880,Pallavi,26,2,0
+1924,4883,Savitha Kumar,56,2,0
+1925,4887,Krishnappa Reddy,30,1,0
+1926,4889,Geetha Naik,55,2,0
+1927,4891,Kiran,51,1,0
+1928,4892,Suresh Naik,19,1,0
+1929,4893,Shobha Reddy,54,2,0
+1930,4895,Bhagya,37,2,0
+1931,4898,Bhagya Hegde,37,2,0
+1932,4899,Shwetha Reddy,41,2,0
+1933,4900,Anand Kumar,41,1,0
+1934,4901,Padma Patil,66,2,0
+1935,4903,Deepa Naik,43,2,0
+1936,4906,Shwetha Achar,67,2,0
+1937,4907,Vani Poojari,32,2,0
+1938,4912,Yogesh,64,1,0
+1939,4917,Kavitha Poojari,39,2,0
+1940,4922,Prakash Hegde,43,1,0
+1941,4923,Nagaraj Rao,31,1,0
+1942,4924,Geetha Gowda,28,2,0
+1943,4928,Asha,29,2,0
+1944,4929,Rekha,42,2,0
+1945,4930,Deepa Kumar,37,2,0
+1946,4931,Muniraju Achar,75,1,0
+1947,4937,Lakshmi Poojari,61,2,0
+1948,4938,Pallavi Patil,67,2,0
+1949,4939,Manjula Patil,27,2,0
+1950,4942,Lokesh Naik,40,1,0
+1951,4944,Asha Poojari,22,2,0
+1952,4947,Lakshmi Shetty,53,2,0
+1953,4948,Pallavi Patil,75,2,0
+1954,4950,Manjula,55,2,0
+1955,4956,Asha Rao,24,2,0
+1956,4965,Vani Poojari,65,2,0
+1957,4972,Anand Shetty,37,1,0
+1958,4974,Umesh Poojari,73,1,0
+1959,4976,Divya Achar,26,2,0
+1960,4978,Rekha,75,2,0
+1961,4980,Anand Gowda,42,1,0
+1962,4981,Pallavi Poojari,41,2,0
+1963,4992,Nagamma Shetty,67,2,0
+1964,4995,Raghavendra Reddy,37,1,0
+1965,4997,Vani Reddy,38,2,0
