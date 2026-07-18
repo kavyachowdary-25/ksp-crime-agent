@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "targets": [
+      "seeder",
+      "crime-agent"
+    ],
+    "ignore": [],
+    "source": "functions",
+    "client": { "source": "client" }
+  }
+}
