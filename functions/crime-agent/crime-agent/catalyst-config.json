@@ -1,0 +1,18 @@
+{
+	"deployment": {
+		"name": "crime-agent",
+		"stack": "python_3_13",
+		"type": "advancedio",
+		"timeout": 300,
+		"env_variables": {
+			"GLM_ENDPOINT_URL": "https://api.catalyst.zoho.eu/quickml/v1/project/17851000000014024/glm/chat",
+			"CAT_ORG_ID": "20116559418",
+			"ZOHO_CLIENT_ID": "1000.MC95DZ46MNP6U3VHAWE48RZA7KUIQG",
+			"ZOHO_CLIENT_SECRET": "bcbdfccd65e7cbf4461ce5ebe278637a6311195f27",
+			"ZOHO_REFRESH_TOKEN": "1000.3f9fcaf656b862da4aac3f0a430dbb66.950bad6df40f6e15bae0937654204e8f"
+		}
+	},
+	"execution": {
+		"main": "main.py"
+	}
+}
