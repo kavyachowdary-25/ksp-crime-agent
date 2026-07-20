@@ -1,0 +1,12 @@
+{
+  "deployment": {
+    "name": "analytics",
+    "stack": "node18",
+    "type": "advancedio",
+    "memory": 256,
+    "main": "index.js"
+  },
+  "execution": {
+    "main": "index.js"
+  }
+}

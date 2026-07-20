@@ -2,10 +2,16 @@
   "functions": {
     "targets": [
       "seeder",
-      "crime-agent"
+      "crime-agent",
+      "analytics"
     ],
     "ignore": [],
     "source": "functions",
-    "client": { "source": "client" }
+    "client": {
+      "source": "client"
+    }
+  },
+  "client": {
+    "source": "client"
   }
 }
