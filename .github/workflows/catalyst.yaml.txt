@@ -1,0 +1,159 @@
+name: Deploy to Zoho Catalyst
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'functions/**'
+      - 'client/**'
+      - 'catalyst.json'
+      - '.github/workflows/deploy-catalyst.yml'
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'What to deploy'
+        required: true
+        default: 'auto'
+        type: choice
+        options:
+          - auto
+          - crime-agent
+          - analytics
+          - client
+          - all-safe
+          - seeder
+      confirm_seeder:
+        description: 'Type SEED to confirm seeder deploy (it can truncate tables)'
+        required: false
+        default: ''
+        type: string
+
+concurrency:
+  group: catalyst-deploy
+  cancel-in-progress: false
+
+env:
+  CATALYST_PROJECT_DIR: .
+
+jobs:
+  changes:
+    name: Detect changed components
+    runs-on: ubuntu-latest
+    outputs:
+      crime_agent: ${{ steps.filter.outputs.crime_agent }}
+      analytics: ${{ steps.filter.outputs.analytics }}
+      client: ${{ steps.filter.outputs.client }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Filter paths
+        id: filter
+        uses: dorny/paths-filter@v3
+        with:
+          filters: |
+            crime_agent:
+              - 'functions/crime-agent/**'
+            analytics:
+              - 'functions/analytics/**'
+            client:
+              - 'client/**'
+
+  deploy:
+    name: Deploy
+    needs: changes
+    runs-on: ubuntu-latest
+    environment: catalyst-development
+    steps:
+      - name: Guard seeder deploys
+        if: github.event.inputs.target == 'seeder' && github.event.inputs.confirm_seeder != 'SEED'
+        run: |
+          echo "::error::Seeder deploy requires confirm_seeder=SEED. The seeder can truncate and reload Data Store tables."
+          exit 1
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Cache npm
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: npm-catalyst-cli-${{ runner.os }}
+
+      - name: Install Catalyst CLI
+        run: |
+          npm install -g zcatalyst-cli
+          catalyst --version
+
+      - name: Restore Catalyst credentials
+        env:
+          CATALYST_CREDENTIALS: ${{ secrets.CATALYST_CREDENTIALS }}
+        run: |
+          if [ -z "$CATALYST_CREDENTIALS" ]; then
+            echo "::error::CATALYST_CREDENTIALS secret is empty. See scripts/ci-setup.md."
+            exit 1
+          fi
+          mkdir -p "$HOME/.config/zoho-catalyst-cli"
+          printf '%s' "$CATALYST_CREDENTIALS" > "$HOME/.config/zoho-catalyst-cli/catalyst-credentials.json"
+          chmod 600 "$HOME/.config/zoho-catalyst-cli/catalyst-credentials.json"
+
+      - name: Inject function environment variables
+        env:
+          GLM_ENDPOINT_URL: ${{ secrets.GLM_ENDPOINT_URL }}
+          CAT_ORG_ID: ${{ secrets.CAT_ORG_ID }}
+          ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
+          ZOHO_CLIENT_SECRET: ${{ secrets.ZOHO_CLIENT_SECRET }}
+          ZOHO_REFRESH_TOKEN: ${{ secrets.ZOHO_REFRESH_TOKEN }}
+        run: python3 scripts/inject_env.py
+
+      - name: Deploy
+        run: |
+          set -euo pipefail
+          TARGET="${{ github.event.inputs.target || 'auto' }}"
+          ARGS=()
+
+          add() { ARGS+=("--only" "$1"); }
+
+          case "$TARGET" in
+            crime-agent) add "functions:crime-agent" ;;
+            analytics)   add "functions:analytics" ;;
+            seeder)      add "functions:seeder" ;;
+            client)      add "client" ;;
+            all-safe)    add "functions:crime-agent"; add "functions:analytics"; add "client" ;;
+            auto)
+              [ "${{ needs.changes.outputs.crime_agent }}" = "true" ] && add "functions:crime-agent"
+              [ "${{ needs.changes.outputs.analytics }}"  = "true" ] && add "functions:analytics"
+              [ "${{ needs.changes.outputs.client }}"     = "true" ] && add "client"
+              ;;
+          esac
+
+          if [ ${#ARGS[@]} -eq 0 ]; then
+            echo "No deployable changes detected. Skipping."
+            exit 0
+          fi
+
+          echo "Deploying: ${ARGS[*]}"
+          catalyst deploy "${ARGS[@]}"
+
+      - name: Smoke test crime-agent
+        if: contains(fromJSON('["auto","crime-agent","all-safe"]'), github.event.inputs.target || 'auto')
+        env:
+          BASE_URL: ${{ secrets.CATALYST_BASE_URL }}
+        run: |
+          if [ -z "$BASE_URL" ]; then echo "No BASE_URL set, skipping smoke test"; exit 0; fi
+          code=$(curl -s -o /tmp/out.json -w '%{http_code}' -X POST "$BASE_URL/server/crime-agent/" \
+            -H 'Content-Type: application/json' \
+            -d '{"message":"How many chain snatching cases were registered in Bengaluru City in 2025?","session_id":"ci-smoke"}' \
+            --max-time 90 || true)
+          echo "HTTP $code"; head -c 600 /tmp/out.json || true
+          if [ "$code" != "200" ]; then
+            echo "::warning::Smoke test did not return 200 (gateway timeouts are expected on cold starts)."
+          fi
+
+      - name: Scrub credentials
+        if: always()
+        run: |
+          rm -f "$HOME/.config/zoho-catalyst-cli/catalyst-credentials.json" || true
+          git checkout -- functions/*/catalyst-config.json 2>/dev/null || true
