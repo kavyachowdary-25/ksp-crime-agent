@@ -27,7 +27,7 @@ import os
 import random
 from datetime import date, datetime, timedelta
 
-random.seed(none)
+random.seed(None)
 
 # ------------------------------------------------------------------
 # Reference data — Karnataka flavored
