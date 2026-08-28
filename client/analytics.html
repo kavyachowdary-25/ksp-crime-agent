@@ -60,7 +60,17 @@ select {
   background: var(--panel-2); color: var(--paper); border: 1px solid var(--line);
   font-family: var(--font-mono); font-size: 12px; padding: 6px 8px; min-width: 150px;
 }
-select:focus-visible, button:focus-visible { outline: 2px solid var(--cyan); outline-offset: 1px; }
+select:focus-visible, button:focus-visible, input[type=date]:focus-visible { outline: 2px solid var(--cyan); outline-offset: 1px; }
+input[type=date] {
+  background: var(--panel-2); color: var(--paper); border: 1px solid var(--line);
+  font-family: var(--font-mono); font-size: 12px; padding: 5px 8px; color-scheme: dark;
+}
+button.toggle {
+  background: none; border: 1px solid var(--line); color: var(--dim); font-family: var(--font-mono);
+  font-size: 12px; padding: 6px 12px; cursor: pointer;
+}
+button.toggle.on { color: var(--ink); background: var(--red); border-color: var(--red); font-weight: 500; }
+button.toggle:not(.on):hover { color: var(--paper); border-color: var(--dim); }
 button.reset {
   background: none; border: 1px solid var(--line); color: var(--dim); font-family: var(--font-mono);
   font-size: 12px; padding: 6px 12px; cursor: pointer;
@@ -195,6 +205,108 @@ table.socio .num { text-align: right; }
 .ratebar { display: inline-block; height: 8px; background: var(--cyan); vertical-align: middle; margin-right: 6px; }
 .caveat { padding: 10px 16px; border-top: 1px solid var(--line); color: var(--dim); font-size: 11px; font-family: var(--font-mono); }
 
+.tri { display: grid; grid-template-columns: 64px 1fr; gap: 4px 14px; padding: 11px 16px; border-bottom: 1px solid var(--line); align-items: center; }
+.tri:last-child { border-bottom: 0; }
+.tri .p { font-family: var(--font-mono); font-size: 15px; color: var(--red); text-align: right; }
+.tri .p.med { color: var(--brass); }
+.tri .info { font-family: var(--font-mono); font-size: 12px; }
+.tri .info .meta2 { color: var(--dim); }
+.tri .bar { grid-column: 1; height: 4px; background: var(--panel-2); }
+.tri .bar i { display: block; height: 100%; background: var(--red); }
+.tri .drv { grid-column: 2; display: flex; flex-wrap: wrap; gap: 6px; }
+.tri .drv span { font-family: var(--font-mono); font-size: 10.5px; padding: 1px 7px; border: 1px solid var(--line); color: var(--dim); }
+.tri .drv span.up { border-color: var(--red); color: var(--red); }
+.mlcard { display: flex; gap: 18px; flex-wrap: wrap; padding: 10px 16px; border-bottom: 1px solid var(--line); font-family: var(--font-mono); font-size: 11.5px; color: var(--dim); }
+.mlcard b { color: var(--paper); font-weight: 500; }
+
+.scrub { display: flex; align-items: center; gap: 12px; padding: 10px 16px; border-top: 1px solid var(--line); font-family: var(--font-mono); font-size: 12px; }
+.scrub button { background: var(--panel-2); border: 1px solid var(--line); color: var(--paper); font-family: var(--font-mono); font-size: 12px; padding: 4px 12px; cursor: pointer; }
+.scrub button:hover { border-color: var(--dim); }
+.scrub button:disabled, .scrub input:disabled { opacity: 0.35; cursor: default; }
+.scrub button.playing { background: var(--brass); color: var(--ink); border-color: var(--brass); }
+.scrub input[type=range] { flex: 1; accent-color: var(--brass); }
+.scrub .lbl { min-width: 76px; color: var(--brass); text-align: right; }
+
+.dv-ov { position: fixed; inset: 0; background: rgba(8,12,20,0.55); z-index: 40; }
+.dv { position: fixed; top: 0; right: 0; bottom: 0; width: min(420px, 92vw); z-index: 41;
+  background: var(--panel); border-left: 1px solid var(--line); display: flex; flex-direction: column;
+  transform: translateX(100%); transition: transform 0.22s ease; }
+.dv.open { transform: none; }
+@media (prefers-reduced-motion: reduce) { .dv { transition: none; } }
+.dv header { display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: 14px 18px; border-bottom: 1px solid var(--line); }
+.dv header .cn { font-family: var(--font-mono); font-size: 15px; color: var(--cyan); }
+.dv header button { background: none; border: 1px solid var(--line); color: var(--dim);
+  font-family: var(--font-mono); padding: 3px 10px; cursor: pointer; }
+.dv header button:hover { color: var(--paper); }
+.dv .body2 { padding: 16px 18px; overflow-y: auto; flex: 1; }
+.dv dl { display: grid; grid-template-columns: 110px 1fr; gap: 7px 12px; margin: 0 0 14px;
+  font-family: var(--font-mono); font-size: 12px; }
+.dv dt { color: var(--dim); text-transform: uppercase; letter-spacing: 0.06em; font-size: 10.5px; padding-top: 1px; }
+.dv dd { margin: 0; }
+.dv .facts { font-size: 13px; line-height: 1.55; border-top: 1px solid var(--line); padding-top: 12px; }
+.dv .facts h3, .dv .pp h3 { font-family: var(--font-display); font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.1em; font-size: 12px; color: var(--dim); margin: 0 0 8px; }
+.dv .pp { border-top: 1px solid var(--line); margin-top: 14px; padding-top: 12px; }
+.dv .pp a { display: inline-block; font-family: var(--font-mono); font-size: 12px; text-decoration: none;
+  color: var(--paper); border: 1px solid var(--line); padding: 4px 10px; margin: 0 6px 6px 0; }
+.dv .pp a:hover { border-color: var(--brass); color: var(--brass); }
+.dv .pp a .tc { color: var(--dim); }
+.dv footer { padding: 14px 18px; border-top: 1px solid var(--line); display: flex; gap: 10px; }
+.dv footer a, .dv footer button { flex: 1; text-align: center; font-family: var(--font-mono); font-size: 12px;
+  padding: 9px 0; cursor: pointer; text-decoration: none; }
+.dv footer .ask { background: var(--brass); color: var(--ink); border: 1px solid var(--brass); font-weight: 500; }
+.dv footer .loc { background: none; color: var(--dim); border: 1px solid var(--line); }
+.dv footer .loc:hover { color: var(--paper); border-color: var(--dim); }
+.dv .gv-heinous { color: var(--red); }
+
+.wif { display: grid; grid-template-columns: 300px 1fr; gap: 0; }
+@media (max-width: 980px) { .wif { grid-template-columns: 1fr; } }
+.wif .ctrl { padding: 16px; border-right: 1px solid var(--line); display: flex; flex-direction: column; gap: 12px; }
+.wif .ctrl label { font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; color: var(--dim); display: block; margin-bottom: 4px; }
+.wif .ctrl select { width: 100%; }
+.wif .ctrl .hourrow { display: flex; align-items: center; gap: 10px; }
+.wif .ctrl input[type=range] { flex: 1; accent-color: var(--brass); }
+.wif .ctrl .hv { font-family: var(--font-mono); font-size: 12px; min-width: 44px; text-align: right; }
+.wif .ctrl .flags { display: flex; gap: 8px; flex-wrap: wrap; }
+.wif .out { padding: 16px 20px; }
+.wif .big { font-family: var(--font-mono); font-size: 44px; font-weight: 500; }
+.wif .big.hi { color: var(--red); } .wif .big.med { color: var(--brass); } .wif .big.lo { color: var(--cyan); }
+.wif .sub { color: var(--dim); font-family: var(--font-mono); font-size: 11.5px; margin: 2px 0 16px; }
+.wif .contrib { display: grid; grid-template-columns: 200px 1fr; gap: 6px 12px; font-family: var(--font-mono); font-size: 11.5px; align-items: center; }
+.wif .contrib .nm { color: var(--dim); text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.wif .cbar { position: relative; height: 12px; }
+.wif .cbar i { position: absolute; top: 1px; bottom: 1px; }
+.wif .cbar .mid { position: absolute; left: 50%; top: -3px; bottom: -3px; width: 2px; background: var(--dim); opacity: 0.6; }
+.wif .axis { display: grid; grid-template-columns: 200px 1fr; gap: 6px 12px; font-family: var(--font-mono); font-size: 10.5px; color: var(--dim); margin-bottom: 8px; }
+.wif .axis div:last-child { display: flex; justify-content: space-between; }
+.wif .axis .lo2 { color: var(--cyan); } .wif .axis .hi2 { color: var(--red); }
+
+.pat { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 1px; background: var(--line); }
+.pat .card { background: var(--panel); padding: 14px 16px; }
+.pat .card .st { font-weight: 600; }
+.pat .card .st .d { color: var(--dim); font-weight: 400; font-size: 12px; }
+.pat .card .prio { float: right; font-family: var(--font-mono); font-size: 10.5px; padding: 2px 8px; border: 1px solid var(--line); color: var(--dim); }
+.pat .card .prio.crit { color: var(--red); border-color: var(--red); }
+.pat .card .prio.elev { color: var(--brass); border-color: var(--brass); }
+.pat .win { display: grid; grid-template-columns: 96px 1fr 44px; gap: 4px 10px; font-family: var(--font-mono); font-size: 11.5px; margin-top: 10px; align-items: center; }
+.pat .win .wl { color: var(--dim); }
+.pat .win .wl.top { color: var(--brass); }
+.pat .win .wb { height: 8px; background: var(--panel-2); }
+.pat .win .wb i { display: block; height: 100%; background: var(--dim); }
+.pat .win .wb i.top { background: var(--brass); }
+.pat .win .wr { text-align: right; color: var(--dim); }
+@media print {
+  body.print-patrol * { visibility: hidden; }
+  body.print-patrol #patrol-panel, body.print-patrol #patrol-panel * { visibility: visible; }
+  body.print-patrol #patrol-panel { position: absolute; left: 0; top: 0; width: 100%;
+    background: #fff !important; color: #000 !important; border: 0; }
+  body.print-patrol #patrol-panel .card, body.print-patrol #patrol-panel .pat { background: #fff !important; }
+  body.print-patrol #patrol-panel h2, body.print-patrol #patrol-panel .st,
+  body.print-patrol #patrol-panel .wl, body.print-patrol #patrol-panel .wr { color: #000 !important; }
+  body.print-patrol #patrol-panel button { display: none; }
+}
+
 .loading, .error-banner { padding: 40px; text-align: center; color: var(--dim); font-family: var(--font-mono); }
 .error-banner { color: var(--red); }
 .maplibregl-popup-content { background: var(--panel-2); color: var(--paper); font-family: var(--font-mono); font-size: 12px; border: 1px solid var(--line); border-radius: 0; }
@@ -221,6 +333,13 @@ table.socio .num { text-align: right; }
     <select id="f-district"><option value="">All districts</option></select>
     <label for="f-head">Crime head</label>
     <select id="f-head"><option value="">All crime heads</option></select>
+    <label for="f-station">Station</label>
+    <select id="f-station"><option value="">All stations</option></select>
+    <label for="f-from">From</label>
+    <input type="date" id="f-from" />
+    <label for="f-to">To</label>
+    <input type="date" id="f-to" />
+    <button class="toggle" id="f-heinous" aria-pressed="false">Heinous only</button>
     <button class="reset" id="f-reset">Clear filters</button>
   </div>
 
@@ -229,11 +348,28 @@ table.socio .num { text-align: right; }
   </div>
 </div>
 
+<div class="dv-ov" id="dv-ov" hidden></div>
+<aside class="dv" id="dv" role="dialog" aria-label="Case detail" hidden>
+  <header>
+    <span class="cn" id="dv-cn">&#8212;</span>
+    <button id="dv-x" aria-label="Close">ESC</button>
+  </header>
+  <div class="body2">
+    <dl id="dv-fields"></dl>
+    <div class="facts" id="dv-facts"></div>
+    <div class="pp" id="dv-pp"></div>
+  </div>
+  <footer>
+    <button class="loc" id="dv-loc">Show on map</button>
+    <a class="ask" id="dv-ask" href="#">Ask the agent</a>
+  </footer>
+</aside>
+
 <script>
 (function () {
   "use strict";
   const API = "/server/analytics";
-  const state = { district: "", majorHead: "", summary: null, map: null, mapMode: "stations", charts: {} };
+  const state = { district: "", majorHead: "", station: "", from: "", to: "", heinous: false, spiked: new Map(), months: [], byMonth: new Map(), scrubIdx: null, fullHeat: null, lastBD: null, summary: null, map: null, mapMode: "stations", charts: {} };
 
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -243,6 +379,10 @@ table.socio .num { text-align: right; }
     const p = new URLSearchParams();
     if (state.district) p.set("district", state.district);
     if (state.majorHead) p.set("majorHead", state.majorHead);
+    if (state.station) p.set("station", state.station);
+    if (state.from) p.set("from", state.from);
+    if (state.to) p.set("to", state.to);
+    if (state.heinous) p.set("gravity", "Heinous");
     for (const k in extra || {}) p.set(k, extra[k]);
     const s = p.toString();
     return s ? "?" + s : "";
@@ -268,10 +408,17 @@ table.socio .num { text-align: right; }
             </span>
           </h2>
           <div id="map"></div>
+          <div class="scrub">
+            <button id="sc-play" aria-label="Play timeline">&#9654;</button>
+            <input type="range" id="sc-range" min="0" max="0" value="0" aria-label="Month" />
+            <span class="lbl" id="sc-label">All time</span>
+            <button id="sc-all">All</button>
+          </div>
           <div class="legend">
             <span><span class="sw" style="background:var(--brass)"></span>circle area = case volume</span>
             <span><span class="sw" style="background:var(--red)"></span>heat = incident density</span>
-            <span>click a station to drill down</span>
+            <span><span class="sw" style="background:var(--red); border-radius:50%"></span>pulsing = active spike alert</span>
+            <span>district shade = case volume · click a district or station to drill down</span>
           </div>
         </div>
         <div class="panel">
@@ -299,6 +446,11 @@ table.socio .num { text-align: right; }
           <div class="spike-rail" id="anomalies"></div>
         </div>
       </div>
+      <div class="panel" style="margin-top:20px" id="patrol-panel">
+        <h2>Patrol Deployment Recommendations
+          <span class="meta">derived from hotspot rates · <button class="reset" id="pat-print" style="padding:2px 10px">Print duty chart</button></span></h2>
+        <div class="pat" id="patrol"></div>
+      </div>
       <div class="charts">
         <div class="panel">
           <h2>Repeat Offenders <span class="meta" id="off-meta"></span></h2>
@@ -309,6 +461,33 @@ table.socio .num { text-align: right; }
           <div class="socio-corr" id="socio-corr"></div>
           <div class="matrix-wrap"><table class="socio" id="socio-table"></table></div>
           <div class="caveat" id="socio-caveat"></div>
+        </div>
+      </div>
+      <div class="panel" style="margin-top:20px">
+        <h2>Case Triage — Trained Risk Model <span class="meta" id="ml-meta"></span></h2>
+        <div class="mlcard" id="ml-card"></div>
+        <div id="triage"></div>
+      </div>
+      <div class="panel" style="margin-top:20px">
+        <h2>What-If Risk Explorer <span class="meta">live from the trained model's coefficients</span></h2>
+        <div class="wif">
+          <div class="ctrl">
+            <div><label for="wi-station">Station</label><select id="wi-station"></select></div>
+            <div><label for="wi-head">Crime head</label><select id="wi-head"></select></div>
+            <div><label for="wi-hour">Incident hour</label>
+              <div class="hourrow"><input type="range" id="wi-hour" min="0" max="23" value="21" /><span class="hv" id="wi-hv">21:00</span></div></div>
+            <div><label for="wi-q">Quarter</label><select id="wi-q"><option>Q1</option><option>Q2</option><option>Q3</option><option selected>Q4</option></select></div>
+            <div class="flags">
+              <button class="toggle" id="wi-heinous" aria-pressed="false">Heinous</button>
+              <button class="toggle" id="wi-linked" aria-pressed="false">Linked repeat offender</button>
+            </div>
+          </div>
+          <div class="out">
+            <div class="big" id="wi-p">&#8212;</div>
+            <div class="sub">predicted probability the case goes undetected · every factor shown below</div>
+            <div class="axis"><div></div><div><span class="lo2">&#9668; lowers risk</span><span class="hi2">raises risk &#9658;</span></div></div>
+            <div class="contrib" id="wi-c"></div>
+          </div>
         </div>
       </div>
       <div class="panel" style="margin-top:20px">
@@ -336,6 +515,94 @@ table.socio .num { text-align: right; }
   }
 
   // ---------- map ----------
+  const PU_TO_CENSUS = { "Bengaluru City": "Bengaluru Urban", "Bengaluru Rural": "Bengaluru Rural",
+    "Mysuru": "Mysuru", "Mangaluru City": "Dakshina Kannada", "Belagavi": "Belagavi",
+    "Hubballi-Dharwad": "Dharwad", "Kalaburagi": "Kalaburagi", "Shivamogga": "Shivamogga" };
+  const CENSUS_TO_PU = Object.fromEntries(Object.entries(PU_TO_CENSUS).map(([a, b]) => [b, a]));
+
+  function updateChoropleth(districts) {
+    const map = state.map;
+    if (!map || !map.getLayer("lyr-district-fill")) return;
+    const max = Math.max(...districts.map((d) => d.count), 1);
+    const expr = ["match", ["get", "district"]];
+    for (const d of districts) {
+      const census = PU_TO_CENSUS[d.district];
+      if (!census) continue;
+      const t = d.count / max;
+      expr.push(census, "rgba(232,163,61," + (0.12 + t * 0.6).toFixed(2) + ")");
+    }
+    expr.push("rgba(21,29,44,0.35)"); // districts with no demo data
+    map.setPaintProperty("lyr-district-fill", "fill-color", expr);
+    map.setFilter("lyr-district-sel",
+      ["==", ["get", "district"], PU_TO_CENSUS[state.district] || ""]);
+  }
+
+  // ---------- time scrubber ----------
+  let scrubTimer = null;
+
+  function buildMonthIndex(points) {
+    const byMonth = new Map();
+    points = (points || []).filter((p) => typeof p[2] === "string" && /^\d{4}-\d{2}$/.test(p[2]));
+    for (const p of points) {
+      let b = byMonth.get(p[2]);
+      if (!b) { b = { feats: [], dist: new Map() }; byMonth.set(p[2], b); }
+      b.feats.push({ type: "Feature", geometry: { type: "Point", coordinates: [p[1], p[0]] }, properties: {} });
+      b.dist.set(p[3], (b.dist.get(p[3]) || 0) + 1);
+    }
+    state.months = [...byMonth.keys()].sort();
+    state.byMonth = byMonth;
+    const r = $("sc-range");
+    const ok = state.months.length > 1;
+    r.max = Math.max(0, state.months.length - 1);
+    r.disabled = !ok;
+    $("sc-play").disabled = !ok;
+    $("sc-all").disabled = !ok;
+    if (!ok) { $("sc-label").textContent = "\u2014"; return; }
+    if (state.scrubIdx == null) { r.value = 0; $("sc-label").textContent = "All time"; }
+  }
+
+  function applyScrub(idx) {
+    state.scrubIdx = idx;
+    const map = state.map;
+    if (idx == null) {
+      $("sc-label").textContent = "All time";
+      if (map.getSource("src-heat") && state.fullHeat) map.getSource("src-heat").setData(state.fullHeat);
+      if (state.lastBD) updateChoropleth(state.lastBD);
+      return;
+    }
+    const mk = state.months[idx];
+    $("sc-label").textContent = mk;
+    $("sc-range").value = idx;
+    const b = state.byMonth.get(mk) || { feats: [], dist: new Map() };
+    if (map.getSource("src-heat"))
+      map.getSource("src-heat").setData({ type: "FeatureCollection", features: b.feats });
+    setMapMode("heat");
+    const dl = [...b.dist.entries()].map(([district, count]) => ({ district, count }));
+    updateChoropleth(dl);
+  }
+
+  function stopScrubPlay() {
+    if (scrubTimer) { clearInterval(scrubTimer); scrubTimer = null; }
+    $("sc-play").classList.remove("playing");
+    $("sc-play").innerHTML = "&#9654;";
+  }
+
+  function wireScrubber() {
+    $("sc-range").oninput = (e) => { stopScrubPlay(); applyScrub(+e.target.value); };
+    $("sc-all").onclick = () => { stopScrubPlay(); applyScrub(null); };
+    $("sc-play").onclick = () => {
+      if (scrubTimer) { stopScrubPlay(); return; }
+      $("sc-play").classList.add("playing");
+      $("sc-play").innerHTML = "&#10074;&#10074;";
+      let i = state.scrubIdx != null && state.scrubIdx < state.months.length - 1 ? state.scrubIdx : -1;
+      scrubTimer = setInterval(() => {
+        i += 1;
+        if (i >= state.months.length) { stopScrubPlay(); applyScrub(null); return; }
+        applyScrub(i);
+      }, 450);
+    };
+  }
+
   function initMap() {
     state.map = new maplibregl.Map({
       container: "map",
@@ -345,7 +612,40 @@ table.socio .num { text-align: right; }
       attributionControl: true
     });
     state.map.addControl(new maplibregl.NavigationControl({ showCompass: false }));
-    return new Promise((res) => state.map.on("load", res));
+    return new Promise((res) => state.map.on("load", async () => {
+      try {
+        const r = await fetch("/app/karnataka-districts.geojson");
+        if (r.ok) state.geo = await r.json();
+      } catch (e) { state.geo = null; }
+      const map = state.map;
+      if (state.geo) {
+        map.addSource("src-districts", { type: "geojson", data: state.geo });
+        map.addLayer({ id: "lyr-district-fill", type: "fill", source: "src-districts",
+          paint: { "fill-color": "rgba(21,29,44,0.35)" } });
+        map.addLayer({ id: "lyr-district-line", type: "line", source: "src-districts",
+          paint: { "line-color": "#26314a", "line-width": 1 } });
+        map.addLayer({ id: "lyr-district-sel", type: "line", source: "src-districts",
+          filter: ["==", ["get", "district"], ""],
+          paint: { "line-color": "#e8a33d", "line-width": 2.5 } });
+        map.on("click", "lyr-district-fill", (e) => {
+          if (e.originalEvent._handled) return;
+          const census = e.features[0].properties.district;
+          const pu = CENSUS_TO_PU[census];
+          if (!pu) {
+            new maplibregl.Popup().setLngLat(e.lngLat)
+              .setHTML(`<b>${esc(census)}</b><br>no records in demo dataset`).addTo(map);
+            return;
+          }
+          state.district = state.district === pu ? "" : pu;
+          state.station = "";
+          $("f-district").value = state.district;
+          refresh();
+        });
+        map.on("mouseenter", "lyr-district-fill", () => (map.getCanvas().style.cursor = "pointer"));
+        map.on("mouseleave", "lyr-district-fill", () => (map.getCanvas().style.cursor = ""));
+      }
+      res();
+    }));
   }
 
   function stationsToGeoJSON(stations) {
@@ -372,12 +672,22 @@ table.socio .num { text-align: right; }
   }
 
   async function refreshMap() {
-    const [st, heat, night] = await Promise.all([
+    const [st, heat, night, monthly] = await Promise.all([
       get("/by-station" + qs()),
       get("/heatmap" + qs()),
-      get("/heatmap" + qs({ hourFrom: 22, hourTo: 5 }))
+      get("/heatmap" + qs({ hourFrom: 22, hourTo: 5 })),
+      get("/heatmap" + qs({ monthly: 1 }))
     ]);
+    buildMonthIndex(monthly.points);
     $("kpi-stations") && ($("kpi-stations").textContent = st.stations.length);
+    const sel = $("f-station");
+    if (sel) {
+      const names = st.stations.map((x) => x.station).sort();
+      const keep = state.station && names.includes(state.station) ? state.station : "";
+      sel.innerHTML = '<option value="">All stations</option>' +
+        names.map((n) => `<option${n === keep ? " selected" : ""}>${esc(n)}</option>`).join("");
+      if (!keep && state.station) { state.station = ""; }
+    }
 
     const map = state.map;
     const sets = {
@@ -385,6 +695,7 @@ table.socio .num { text-align: right; }
       heat: heatToGeoJSON(heat.points),
       night: heatToGeoJSON(night.points)
     };
+    state.fullHeat = sets.heat;
     for (const id of ["stations", "heat", "night"]) {
       if (map.getSource("src-" + id)) map.getSource("src-" + id).setData(sets[id]);
       else map.addSource("src-" + id, { type: "geojson", data: sets[id] });
@@ -410,6 +721,7 @@ table.socio .num { text-align: right; }
         });
       }
       map.on("click", "lyr-stations", (e) => {
+        e.originalEvent._handled = true;
         const p = e.features[0].properties;
         new maplibregl.Popup().setLngLat(e.lngLat)
           .setHTML(`<b>${esc(p.station)}</b><br>${esc(p.district)}<br>${fmt(p.count)} cases · top: ${esc(p.top)}`)
@@ -418,7 +730,63 @@ table.socio .num { text-align: right; }
       map.on("mouseenter", "lyr-stations", () => (map.getCanvas().style.cursor = "pointer"));
       map.on("mouseleave", "lyr-stations", () => (map.getCanvas().style.cursor = ""));
     }
+    // red-zone pulse for districts with active spike alerts
+    const dAgg = new Map();
+    for (const stn of st.stations) {
+      if (!stn.centroid) continue;
+      let a = dAgg.get(stn.district);
+      if (!a) { a = { latSum: 0, lngSum: 0, n: 0 }; dAgg.set(stn.district, a); }
+      a.latSum += stn.centroid.lat; a.lngSum += stn.centroid.lng; a.n += 1;
+    }
+    const pulseGeo = {
+      type: "FeatureCollection",
+      features: [...state.spiked.entries()]
+        .filter(([d]) => dAgg.has(d))
+        .map(([d, heads]) => {
+          const a = dAgg.get(d);
+          return { type: "Feature",
+            geometry: { type: "Point", coordinates: [a.lngSum / a.n, a.latSum / a.n] },
+            properties: { district: d, heads: heads.join("<br>") } };
+        })
+    };
+    if (map.getSource("src-pulse")) map.getSource("src-pulse").setData(pulseGeo);
+    else {
+      map.addSource("src-pulse", { type: "geojson", data: pulseGeo });
+      map.addLayer({ id: "lyr-pulse-halo", type: "circle", source: "src-pulse",
+        paint: { "circle-radius": 22, "circle-color": "#e4573d", "circle-opacity": 0.25,
+                 "circle-stroke-color": "#e4573d", "circle-stroke-width": 1, "circle-stroke-opacity": 0.5 } });
+      map.addLayer({ id: "lyr-pulse-core", type: "circle", source: "src-pulse",
+        paint: { "circle-radius": ["interpolate", ["exponential", 1.6], ["zoom"], 4, 2.5, 6.5, 6, 10, 12],
+                 "circle-color": "#e4573d" } });
+      map.on("click", "lyr-pulse-core", (e) => {
+        const p = e.features[0].properties;
+        new maplibregl.Popup().setLngLat(e.lngLat)
+          .setHTML(`<b>SPIKE \u00b7 ${esc(p.district)}</b><br>${p.heads}`).addTo(map);
+      });
+      map.on("mouseenter", "lyr-pulse-core", () => (map.getCanvas().style.cursor = "pointer"));
+      map.on("mouseleave", "lyr-pulse-core", () => (map.getCanvas().style.cursor = ""));
+      startPulse();
+    }
     setMapMode(state.mapMode);
+    if (state.scrubIdx != null) applyScrub(Math.min(state.scrubIdx, state.months.length - 1));
+  }
+
+  let pulseRAF = null;
+  function startPulse() {
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    if (pulseRAF) cancelAnimationFrame(pulseRAF);
+    const loop = (t) => {
+      const map = state.map;
+      if (map && map.getLayer("lyr-pulse-halo")) {
+        const k = (Math.sin(t / 450) + 1) / 2;
+        const r = 14 + k * 26;
+        map.setPaintProperty("lyr-pulse-halo", "circle-radius",
+          ["interpolate", ["exponential", 1.6], ["zoom"], 4, r * 0.4, 6.5, r, 10, r * 2]);
+        map.setPaintProperty("lyr-pulse-halo", "circle-opacity", 0.38 * (1 - k) + 0.05);
+      }
+      pulseRAF = requestAnimationFrame(loop);
+    };
+    pulseRAF = requestAnimationFrame(loop);
   }
 
   function setMapMode(mode) {
@@ -615,54 +983,272 @@ table.socio .num { text-align: right; }
     $("socio-caveat").textContent = so.caveat;
   }
 
+  // ---------- ML triage ----------
+  function renderML(card, tr) {
+    $("ml-meta").textContent = "predicts P(case goes undetected) \u00b7 trained in-function";
+    const m = card.metrics;
+    $("ml-card").innerHTML =
+      `<span>algorithm <b>logistic regression</b></span>` +
+      `<span>trained on <b>${fmt(card.trainedOn.resolvedCases)}</b> resolved cases</span>` +
+      `<span>holdout AUC <b>${m.auc ?? "\u2014"}</b></span>` +
+      `<span>accuracy <b>${m.accuracy ?? "\u2014"}</b></span>` +
+      `<span>features <b>${card.features}</b> incl. graph + target-encoded</span>`;
+    const rows = tr.triage;
+    if (!rows.length) { $("triage").innerHTML = '<div class="empty">No open cases match this filter.</div>'; return; }
+    const maxP = Math.max(...rows.map((t) => t.probability), 0.01);
+    $("triage").innerHTML = rows.slice(0, 8).map((t) => `
+      <div class="tri">
+        <div class="p ${t.probability < 0.5 ? "med" : ""}">${(t.probability * 100).toFixed(0)}%</div>
+        <div class="info"><a class="no" href="/app/index.html?q=${encodeURIComponent("Tell me about case " + t.crimeNo)}">${esc(t.crimeNo)}</a>
+          \u00b7 ${esc(t.majorHead)} <span class="meta2">\u00b7 ${esc(t.station)} \u00b7 ${esc(t.incidentAt)} \u00b7 ${esc(t.gravity)}</span></div>
+        <div class="bar"><i style="width:${Math.round((t.probability / maxP) * 100)}%"></i></div>
+        <div class="drv">${t.drivers.map((d) => `<span class="${d.effect === "raises risk" ? "up" : ""}">${esc(d.feature)}</span>`).join("")}</div>
+      </div>`).join("");
+  }
+
   // ---------- filters ----------
   function populateFilters(summary) {
     $("f-district").innerHTML = '<option value="">All districts</option>' +
       summary.districts.map((d) => `<option>${esc(d.district)}</option>`).join("");
     $("f-head").innerHTML = '<option value="">All crime heads</option>' +
       summary.majorHeads.map((c) => `<option>${esc(c.majorHead)}</option>`).join("");
-    $("f-district").onchange = (e) => { state.district = e.target.value; refresh(); };
+    $("f-district").onchange = (e) => { state.district = e.target.value; state.station = ""; refresh(); };
     $("f-head").onchange = (e) => { state.majorHead = e.target.value; refresh(); };
+    $("f-station").onchange = (e) => { state.station = e.target.value; refresh(); };
+    $("f-from").onchange = (e) => { state.from = e.target.value; refresh(); };
+    $("f-to").onchange = (e) => { state.to = e.target.value; refresh(); };
+    $("f-heinous").onclick = () => {
+      state.heinous = !state.heinous;
+      $("f-heinous").classList.toggle("on", state.heinous);
+      $("f-heinous").setAttribute("aria-pressed", String(state.heinous));
+      refresh();
+    };
     $("f-reset").onclick = () => {
-      state.district = state.majorHead = "";
+      state.district = state.majorHead = state.station = state.from = state.to = "";
+      $("f-station").value = ""; $("f-from").value = ""; $("f-to").value = "";
+      state.heinous = false;
+      $("f-heinous").classList.remove("on");
+      $("f-heinous").setAttribute("aria-pressed", "false");
       $("f-district").value = $("f-head").value = "";
       refresh();
     };
   }
 
   async function refresh() {
-    const [ts, bd, hs, sp, rk, an, so, off] = await Promise.all([
+    const [ts, bd, hs, sp, rk, an, so, off, mlCard, mlTriage, mlExp] = await Promise.all([
       get("/timeseries" + qs({ granularity: "month" })),
       get("/by-district" + qs()),
       get("/hotspots" + qs()),
       get("/spikes"),
       get("/risk" + qs()),
       get("/anomalies" + qs({ limit: 8 })),
-      get("/socio" + (state.majorHead ? "?majorHead=" + encodeURIComponent(state.majorHead) : "")),
-      get("/offenders?limit=25")
+      get("/socio" + (() => { const p = new URLSearchParams();
+        if (state.majorHead) p.set("majorHead", state.majorHead);
+        if (state.heinous) p.set("gravity", "Heinous");
+        const t = p.toString(); return t ? "?" + t : ""; })()),
+      get("/offenders?limit=25"),
+      get("/ml"),
+      get("/ml/triage" + qs({ limit: 8 })),
+      get("/ml/model")
     ]);
     renderTimeseries(ts);
     renderCategories(bd);
+    state.lastBD = bd.districts;
+    updateChoropleth(bd.districts);
     renderMatrix(hs);
+    renderPatrol(hs);
     renderSpikes(sp);
     renderRisk(rk);
     renderAnomalies(an);
     renderOffenders(off);
+    renderML(mlCard, mlTriage);
+    wiInit(mlExp);
     renderSocio(so);
     await refreshMap();
   }
+
+  function renderStamp(sm, liveText) {
+    $("stamp").innerHTML = `DATA HORIZON <b>${sm.horizon.from}</b> \u2014 <b>${sm.horizon.to}</b> \u00b7 ${fmt(sm.totalCases)} RECORDS \u00b7 <span style="color:var(--cyan)">${liveText}</span>`;
+  }
+
+  // ---------- patrol deployment ----------
+  const BUCKET_WINDOWS = { night: "22:00\u201306:00", morning: "06:00\u201312:00", afternoon: "12:00\u201318:00", evening: "18:00\u201322:00" };
+  const BUCKET_HOURS = { night: 8, morning: 6, afternoon: 6, evening: 4 };
+  function renderPatrol(hs) {
+    const byStation = new Map();
+    for (const c of hs.cells) {
+      if (!byStation.has(c.station)) byStation.set(c.station, { district: c.district, cells: {} });
+      byStation.get(c.station).cells[c.bucket] = c;
+    }
+    const cards = [...byStation.entries()].map(([station, s2]) => {
+      const wins = Object.keys(BUCKET_WINDOWS).map((b) => {
+        const c = s2.cells[b];
+        return { bucket: b, rate: c ? c.count / BUCKET_HOURS[b] : 0, z: c ? c.zScore : 0, count: c ? c.count : 0 };
+      }).sort((a, b) => b.rate - a.rate);
+      return { station, district: s2.district, wins, topZ: wins[0].z, topRate: wins[0].rate };
+    }).sort((a, b) => b.topRate - a.topRate);
+    const maxRate = Math.max(...cards.map((c) => c.topRate), 0.01);
+    $("patrol").innerHTML = cards.map((c) => {
+      const prio = c.topZ >= 2 ? '<span class="prio crit">critical</span>'
+        : c.topZ >= 1.5 ? '<span class="prio elev">elevated</span>' : "";
+      return `<div class="card">
+        ${prio}<div class="st">${esc(c.station)} <span class="d">${esc(c.district)}</span></div>
+        <div class="win">${c.wins.map((w, i) => `
+          <span class="wl ${i === 0 ? "top" : ""}">${w.bucket} ${BUCKET_WINDOWS[w.bucket]}</span>
+          <span class="wb"><i class="${i === 0 ? "top" : ""}" style="width:${Math.round((w.rate / maxRate) * 100)}%"></i></span>
+          <span class="wr">${w.rate.toFixed(1)}/h</span>`).join("")}
+        </div></div>`;
+    }).join("");
+  }
+
+  // ---------- what-if risk explorer ----------
+  let wiModel = null;
+  function wiInit(m) {
+    wiModel = m;
+    const st = $("wi-station"), hd = $("wi-head");
+    const keepS = st.value, keepH = hd.value;
+    st.innerHTML = Object.keys(m.stationRates).sort().map((n) => `<option${n === keepS ? " selected" : ""}>${esc(n)}</option>`).join("");
+    hd.innerHTML = m.heads.map((n) => `<option${n === keepH ? " selected" : ""}>${esc(n)}</option>`).join("");
+    wiCompute();
+  }
+  function wiCompute() {
+    if (!wiModel) return;
+    const m = wiModel;
+    const station = $("wi-station").value, head = $("wi-head").value;
+    const hour = +$("wi-hour").value;
+    const quarter = $("wi-q").value;
+    const heinous = $("wi-heinous").classList.contains("on");
+    const linked = $("wi-linked").classList.contains("on");
+    const district = m.stationDistrict[station];
+
+    const x = m.featNames.map((f, j) => {
+      if (j === 0) return 1;
+      if (f === "station undetected history") {
+        const st = m.stand.find((z) => z.idx === 1);
+        return ((m.stationRates[station] ?? 0.5) - st.mean) / st.sd;
+      }
+      if (f === "crime-head undetected history") {
+        const st = m.stand.find((z) => z.idx === 2);
+        return ((m.headRates[head] ?? 0.5) - st.mean) / st.sd;
+      }
+      if (f === "night incident") return hour >= 22 || hour <= 5 ? 1 : 0;
+      if (f === "heinous gravity") return heinous ? 1 : 0;
+      if (f === "linked repeat offender") return linked ? 1 : 0;
+      if (f.startsWith("district: ")) return f.slice(10) === district ? 1 : 0;
+      if (f.startsWith("head: ")) return f.slice(6) === head ? 1 : 0;
+      if (f.startsWith("quarter ")) return f.slice(8) === quarter ? 1 : 0;
+      return 0;
+    });
+    const z = x.reduce((a, v, j) => a + v * m.weights[j], 0);
+    const p = 1 / (1 + Math.exp(-z));
+    const el = $("wi-p");
+    el.textContent = (p * 100).toFixed(1) + "%";
+    el.className = "big " + (p >= 0.5 ? "hi" : p >= 0.3 ? "med" : "lo");
+
+    const contribs = x.map((v, j) => ({ f: m.featNames[j], c: v * m.weights[j] }))
+      .filter((c) => c.f !== "bias" && Math.abs(c.c) > 0.001)
+      .sort((a, b) => Math.abs(b.c) - Math.abs(a.c)).slice(0, 8);
+    const maxC = Math.max(...contribs.map((c) => Math.abs(c.c)), 0.01);
+    $("wi-c").innerHTML = contribs.map((c) => {
+      const w = Math.abs(c.c) / maxC * 48;
+      const pos = c.c > 0;
+      return `<div class="nm">${esc(c.f)}</div>
+        <div class="cbar"><span class="mid"></span>
+          <i style="${pos ? "left:50%" : "right:50%"};width:${w}%;background:${pos ? "var(--red)" : "var(--cyan)"}"></i></div>`;
+    }).join("");
+  }
+  function wiWire() {
+    ["wi-station", "wi-head", "wi-q"].forEach((id) => { $(id).onchange = wiCompute; });
+    $("wi-hour").oninput = (e) => { $("wi-hv").textContent = String(e.target.value).padStart(2, "0") + ":00"; wiCompute(); };
+    ["wi-heinous", "wi-linked"].forEach((id) => {
+      $(id).onclick = () => { $(id).classList.toggle("on"); $(id).setAttribute("aria-pressed", $(id).classList.contains("on")); wiCompute(); };
+    });
+  }
+
+  // ---------- case drawer ----------
+  let dvCase = null;
+  function closeDrawer() {
+    $("dv").classList.remove("open");
+    setTimeout(() => { $("dv").hidden = true; }, 230);
+    $("dv-ov").hidden = true;
+  }
+  async function openCase(crimeNo) {
+    let c;
+    try {
+      const r = await fetch(API + "/case?crimeNo=" + encodeURIComponent(crimeNo));
+      if (!r.ok) throw new Error();
+      c = await r.json();
+    } catch (e) {
+      window.location.href = "/app/index.html?q=" + encodeURIComponent("Tell me about case " + crimeNo);
+      return;
+    }
+    dvCase = c;
+    $("dv-cn").textContent = c.crimeNo;
+    const rows = [
+      ["Status", c.status], ["Gravity", c.gravity],
+      ["Crime head", c.majorHead], ["Minor head", c.minorHead],
+      ["Station", c.station], ["District", c.district],
+      ["Incident", c.incidentAt], ["Registered", c.registeredDate],
+      ["Court", c.court], ["Final report", c.finalReport]
+    ].filter(([, v]) => v);
+    $("dv-fields").innerHTML = rows.map(([k, v]) =>
+      `<dt>${k}</dt><dd class="${k === "Gravity" && v === "Heinous" ? "gv-heinous" : ""}">${esc(v)}</dd>`).join("");
+    $("dv-facts").innerHTML = c.briefFacts
+      ? `<h3>Brief facts</h3>${esc(c.briefFacts)}` : "";
+    $("dv-pp").innerHTML = c.persons.length
+      ? `<h3>Linked persons</h3>` + c.persons.map((p) =>
+          `<a href="/app/index.html?q=${encodeURIComponent("Show me the criminal history of " + p.name)}">${esc(p.name)} <span class="tc">×${p.totalCases}</span></a>`).join("")
+      : "";
+    $("dv-ask").href = "/app/index.html?q=" + encodeURIComponent("Tell me about case " + c.crimeNo);
+    $("dv-loc").style.display = c.lat != null ? "" : "none";
+    $("dv").hidden = false;
+    $("dv-ov").hidden = false;
+    requestAnimationFrame(() => $("dv").classList.add("open"));
+  }
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest("a.no");
+    if (!a) return;
+    e.preventDefault();
+    openCase(a.textContent.trim());
+  });
+  $("dv-x").onclick = closeDrawer;
+  $("dv-ov").onclick = closeDrawer;
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("dv").hidden) closeDrawer(); });
+  $("dv-loc").onclick = () => {
+    if (!dvCase || dvCase.lat == null || !state.map) return;
+    closeDrawer();
+    state.map.flyTo({ center: [dvCase.lng, dvCase.lat], zoom: 12 });
+    new maplibregl.Popup().setLngLat([dvCase.lng, dvCase.lat])
+      .setHTML(`<b>${esc(dvCase.crimeNo)}</b><br>${esc(dvCase.majorHead)}<br>${esc(dvCase.incidentAt)}`)
+      .addTo(state.map);
+    document.querySelector("#map").scrollIntoView({ behavior: "smooth", block: "center" });
+  };
 
   // ---------- boot ----------
   (async function boot() {
     try {
       const [summary, spikes] = await Promise.all([get("/summary"), get("/spikes")]);
       state.summary = summary;
-      $("stamp").innerHTML = `DATA HORIZON <b>${summary.horizon.from}</b> — <b>${summary.horizon.to}</b> · ${fmt(summary.totalCases)} RECORDS`;
+      renderStamp(summary, "live");
       renderShell();
       renderKpis(summary, spikes);
       populateFilters(summary);
       await initMap();
+      wireScrubber();
+      wiWire();
+      $("pat-print").onclick = () => {
+        document.body.classList.add("print-patrol");
+        window.print();
+      };
+      window.addEventListener("afterprint", () => document.body.classList.remove("print-patrol"));
       await refresh();
+      setInterval(() => {
+        refresh().then(() => {
+          get("/summary").then((sm) => {
+            renderStamp(sm, "checked " + new Date().toLocaleTimeString("en-IN", { hour12: false }));
+          }).catch(() => {});
+        }).catch(() => {});
+      }, 90 * 1000);
     } catch (err) {
       $("app").innerHTML = `<div class="error-banner">Could not reach the analytics service.<br>${esc(err.message)}<br><br>Check that /server/analytics/health responds.</div>`;
       console.error(err);
