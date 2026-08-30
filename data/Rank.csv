@@ -1,0 +1,8 @@
+RankID,RankName,Hierarchy,Active
+1,DGP,1,1
+2,SP,3,1
+3,DSP,4,1
+4,Inspector,5,1
+5,Sub-Inspector,6,1
+6,Head Constable,7,1
+7,Constable,8,1

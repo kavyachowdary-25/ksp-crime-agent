@@ -1,0 +1,18 @@
+UnitID,UnitName,TypeID,ParentUnit,NationalityID,StateID,DistrictID,Active
+1,Bengaluru City Commissionerate,4,,1,29,1,1
+6,Upparpet PS,1,1,1,29,1,1
+7,KR Market PS,1,1,1,29,1,1
+8,Cubbon Park PS,1,1,1,29,1,1
+9,Jayanagar PS,1,1,1,29,1,1
+10,Koramangala PS,1,1,1,29,1,1
+11,Whitefield PS,1,1,1,29,1,1
+12,Yelahanka PS,1,1,1,29,1,1
+13,Nelamangala PS,1,1,1,29,2,1
+14,Devanahalli PS,1,1,1,29,2,1
+15,Mysuru Lakshmipuram PS,1,1,1,29,3,1
+16,Mysuru VV Puram PS,1,1,1,29,3,1
+17,Mangaluru North PS,1,1,1,29,4,1
+18,Belagavi Market PS,1,1,1,29,5,1
+19,Kalaburagi Station Bazaar PS,1,1,1,29,6,1
+20,Hubballi Town PS,1,1,1,29,7,1
+21,Shivamogga Doddapete PS,1,1,1,29,8,1

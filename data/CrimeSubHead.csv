@@ -1,0 +1,18 @@
+CrimeSubHeadID,CrimeHeadID,CrimeHeadName,SeqID
+101,1,Murder,1
+102,1,Attempt to Murder,2
+103,1,Grievous Hurt,3
+104,1,Simple Hurt,4
+201,2,House Burglary,5
+202,2,Vehicle Theft,6
+203,2,Chain Snatching,7
+204,2,Robbery,8
+205,2,Ordinary Theft,9
+301,3,Cruelty by Husband/Relatives,10
+302,3,Molestation,11
+401,4,Cheating,12
+402,4,Criminal Breach of Trust,13
+501,5,Online Financial Fraud,14
+502,5,Identity Theft,15
+601,6,Rioting,16
+602,6,Unlawful Assembly,17
