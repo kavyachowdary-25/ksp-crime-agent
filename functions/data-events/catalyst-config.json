@@ -1,0 +1,10 @@
+{
+  "deployment": {
+    "name": "data-events",
+    "stack": "node18",
+    "type": "event",
+    "memory": 256,
+    "main": "index.js"
+  },
+  "execution": { "main": "index.js" }
+}
