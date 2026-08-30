@@ -185,9 +185,9 @@ URLs (development environment):
 
 |Surface|Path|
 |-|-|
-|Dashboard|'<https://project-rainfall-20116559418.development.catalystserverless.eu/app/analytics.html>/app/analytics.html`|
-|Agent console|`https://project-rainfall-20116559418.development.catalystserverless.eu/app/analytics.html>/app/index.html`|
-|Analytics API|`https://project-rainfall-20116559418.development.catalystserverless.eu/app/analytics.html>/server/analytics/\\\*`|
+|Dashboard|'<https://project-rainfall-20116559418.development.catalystserverless.eu/app/analytics.html`|
+|Agent console|`https://project-rainfall-20116559418.development.catalystserverless.eu/app/index.html`|
+|Analytics API|`https://project-rainfall-20116559418.development.catalystserverless.eu/server/analytics/\\\*`|
 
 ## One-time data operations
 
