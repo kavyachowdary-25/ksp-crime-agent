@@ -75,7 +75,10 @@ async function fetchAllRows(capp) {
 }
 
 async function getData(req) {
-  if (cache) return cache;
+  if (cache) {
+    maybeRefresh(req); // background; never blocks the request
+    return cache;
+  }
   if (!loadPromise) {
     const capp = catalyst.initialize(req);
     loadPromise = fetchAllRows(capp)
@@ -98,6 +101,46 @@ async function getData(req) {
       });
   }
   return loadPromise;
+}
+
+// ---------------------------------------------------------------------------
+// Freshness: at most once per FRESHNESS_MS, compare the store's row count to
+// the cache; on any change, reload everything in the background while the
+// current cache keeps serving. Handles inserts, deletes, and (via /refresh)
+// edits without ever blocking a request.
+// ---------------------------------------------------------------------------
+const FRESHNESS_MS = 60 * 1000;
+let lastFreshCheck = 0;
+let refreshing = false;
+
+async function maybeRefresh(req) {
+  const now = Date.now();
+  if (refreshing || now - lastFreshCheck < FRESHNESS_MS) return;
+  lastFreshCheck = now;
+  refreshing = true;
+  try {
+    const capp = catalyst.initialize(req);
+    const res = await capp.zcql().executeZCQLQuery(
+      `SELECT COUNT(ROWID) FROM ${TABLE} LIMIT 0, 300`
+    );
+    const count = +Object.values(res[0][TABLE])[0];
+    if (Number.isFinite(count) && cache && count !== cache.rows.length) {
+      const rows = await fetchAllRows(capp);
+      let maxTs = 0, minTs = Infinity;
+      for (const r of rows) {
+        if (r.t.ts > maxTs) maxTs = r.t.ts;
+        if (r.t.ts < minTs) minTs = r.t.ts;
+      }
+      cache = { rows, horizon: { minTs, maxTs }, loadedAt: Date.now() };
+      peopleCache = null; // person/link tables typically ingest alongside cases
+      mlModel = null; // retrain on next /ml request
+      console.log(`cache refreshed: ${rows.length} rows`);
+    }
+  } catch (e) {
+    console.error("freshness check failed:", e.message);
+  } finally {
+    refreshing = false;
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -250,6 +293,12 @@ app.get("/heatmap", asyncRoute(async (req, res) => {
     filtered = filtered.filter((r) =>
       hf <= ht ? r.t.h >= hf && r.t.h <= ht : r.t.h >= hf || r.t.h <= ht // wraps midnight
     );
+  }
+  if (req.query.monthly) {
+    const points = filtered
+      .filter((r) => r.lat != null && r.lng != null)
+      .map((r) => [r.lat, r.lng, r.t.monthKey, r.district]);
+    return res.json({ total: points.length, monthly: true, points });
   }
   const points = filtered
     .filter((r) => r.lat != null && r.lng != null)
@@ -748,6 +797,396 @@ app.get("/socio", asyncRoute(async (req, res) => {
     units
   });
 }));
+
+// GET /network?personId=<id>&depth=1  or  ?name=<CanonicalName fragment>
+// Cytoscape-ready elements: person nodes + station nodes ("recurring locations").
+// Person-person edges = shared cases (weight = count); person-station edges =
+// cases that person has at that station (weight = count).
+app.get("/network", asyncRoute(async (req, res) => {
+  const { rows } = await getData(req);
+  let people;
+  try {
+    people = await getPeople(req);
+  } catch (e) {
+    return res.status(500).json({ error: e.message });
+  }
+
+  const caseById = new Map();
+  for (const r of rows) caseById.set(String(r.caseId), r);
+
+  const byPerson = new Map(); // personId -> Set(caseId)
+  const byCase = new Map();   // caseId -> Set(personId)
+  for (const l of people.links) {
+    if (!byPerson.has(l.personId)) byPerson.set(l.personId, new Set());
+    byPerson.get(l.personId).add(l.caseId);
+    if (!byCase.has(l.caseId)) byCase.set(l.caseId, new Set());
+    byCase.get(l.caseId).add(l.personId);
+  }
+
+  // resolve the seed person
+  let seedId = req.query.personId ? String(req.query.personId) : null;
+  if (!seedId && req.query.name) {
+    const q = req.query.name.toLowerCase();
+    for (const [id, nm] of people.names.entries()) {
+      if (nm && nm.toLowerCase().includes(q)) { seedId = id; break; }
+    }
+  }
+  if (!seedId || !byPerson.has(seedId)) {
+    return res.status(404).json({ error: "person not found", hint: "pass ?personId= or ?name=" });
+  }
+
+  // neighborhood: seed + everyone sharing a case with the seed
+  const members = new Set([seedId]);
+  for (const caseId of byPerson.get(seedId)) {
+    for (const p of byCase.get(caseId) || []) members.add(p);
+  }
+
+  // person-person co-offending edges within the neighborhood
+  const ppEdges = new Map(); // "a|b" sorted -> count
+  for (const [caseId, persons] of byCase.entries()) {
+    const inSet = [...persons].filter((p) => members.has(p));
+    for (let i = 0; i < inSet.length; i++)
+      for (let j = i + 1; j < inSet.length; j++) {
+        const k = [inSet[i], inSet[j]].sort().join("|");
+        ppEdges.set(k, (ppEdges.get(k) || 0) + 1);
+      }
+  }
+
+  // person-station edges + station node set
+  const psEdges = new Map(); // "personId|station" -> count
+  const stations = new Map(); // station -> { district, total }
+  for (const pid of members) {
+    for (const caseId of byPerson.get(pid) || []) {
+      const c = caseById.get(caseId);
+      if (!c) continue;
+      const k = pid + "|" + c.station;
+      psEdges.set(k, (psEdges.get(k) || 0) + 1);
+      const st = stations.get(c.station) || { district: c.district, total: 0 };
+      st.total += 1;
+      stations.set(c.station, st);
+    }
+  }
+
+  const nodes = [];
+  for (const pid of members) {
+    nodes.push({ data: {
+      id: "p:" + pid, type: "person",
+      label: people.names.get(pid) || "Unknown",
+      caseCount: (byPerson.get(pid) || new Set()).size,
+      seed: pid === seedId
+    }});
+  }
+  for (const [station, st] of stations.entries()) {
+    nodes.push({ data: {
+      id: "s:" + station, type: "station",
+      label: station, district: st.district, caseCount: st.total
+    }});
+  }
+
+  const edges = [];
+  for (const [k, w] of ppEdges.entries()) {
+    const [a, b] = k.split("|");
+    edges.push({ data: { id: "pp:" + k, source: "p:" + a, target: "p:" + b, type: "co-offending", weight: w } });
+  }
+  for (const [k, w] of psEdges.entries()) {
+    const [pid, station] = k.split("|");
+    edges.push({ data: { id: "ps:" + k, source: "p:" + pid, target: "s:" + station, type: "frequents", weight: w } });
+  }
+
+  // recurring-location signal: stations tying 2+ people in this network
+  const recurring = [...stations.entries()]
+    .map(([station, st]) => ({
+      station, district: st.district,
+      persons: [...members].filter((p) => psEdges.has(p + "|" + station)).length,
+      cases: st.total
+    }))
+    .filter((s) => s.persons >= 2)
+    .sort((a, b) => b.persons - a.persons);
+
+  res.json({
+    seed: { personId: seedId, name: people.names.get(seedId) || "Unknown" },
+    counts: { persons: members.size, stations: stations.size,
+      coOffendingEdges: edges.filter((e) => e.data.type === "co-offending").length },
+    recurringLocations: recurring,
+    elements: { nodes, edges }
+  });
+}));
+
+// ---------------------------------------------------------------------------
+// ML: trained case-outcome model ("undetected risk")
+// Logistic regression trained end-to-end at runtime on resolved cases,
+// scored against open (Under Investigation) cases for investigation triage.
+// ---------------------------------------------------------------------------
+const ML_POSITIVE = "Closed - Undetected";
+const ML_NEGATIVE = new Set(["Convicted", "Acquitted", "Charge Sheeted", "Closed - False Case"]);
+const ML_OPEN = "Under Investigation";
+
+let mlModel = null;
+let mlPromise = null;
+
+function mulberry32(seed) {
+  return function () {
+    let t = (seed += 0x6d2b79f5);
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+const sigmoid = (z) => 1 / (1 + Math.exp(-z));
+const laplaceRate = (pos, total) => (pos + 1) / (total + 2);
+
+async function getModel(req) {
+  if (mlModel) return mlModel;
+  if (mlPromise) return mlPromise;
+  mlPromise = (async () => {
+    const { rows } = await getData(req);
+    let linkedHeavy = new Set(); // caseIds linked to a person with >= 3 cases
+    try {
+      const people = await getPeople(req);
+      const perPerson = new Map();
+      for (const l of people.links)
+        perPerson.set(l.personId, (perPerson.get(l.personId) || 0) + 1);
+      for (const l of people.links)
+        if ((perPerson.get(l.personId) || 0) >= 3) linkedHeavy.add(String(l.caseId));
+    } catch (e) { /* graph feature degrades to 0 */ }
+
+    const labeled = rows.filter((r) => r.status === ML_POSITIVE || ML_NEGATIVE.has(r.status));
+
+    const rnd = mulberry32(1337);
+    const train = [], test = [];
+    for (const r of labeled) (rnd() < 0.8 ? train : test).push(r);
+
+    // target encoding from TRAIN only (no leakage)
+    const stStats = new Map(), mhStats = new Map();
+    for (const r of train) {
+      const y = r.status === ML_POSITIVE ? 1 : 0;
+      const a = stStats.get(r.station) || { p: 0, n: 0 };
+      a.p += y; a.n += 1; stStats.set(r.station, a);
+      const b = mhStats.get(r.majorHead) || { p: 0, n: 0 };
+      b.p += y; b.n += 1; mhStats.set(r.majorHead, b);
+    }
+    const stRate = (s) => { const a = stStats.get(s); return a ? laplaceRate(a.p, a.n) : 0.5; };
+    const mhRate = (m) => { const a = mhStats.get(m); return a ? laplaceRate(a.p, a.n) : 0.5; };
+
+    const districts = [...new Set(rows.map((r) => r.district))].sort();
+    const heads = [...new Set(rows.map((r) => r.majorHead))].sort();
+
+    const featNames = ["bias", "station undetected history", "crime-head undetected history",
+      "night incident", "heinous gravity", "linked repeat offender"];
+    for (const d of districts) featNames.push("district: " + d);
+    for (const h of heads) featNames.push("head: " + h);
+    for (let q = 1; q <= 4; q++) featNames.push("quarter Q" + q);
+
+    function vec(r) {
+      const x = new Array(featNames.length).fill(0);
+      x[0] = 1;
+      x[1] = stRate(r.station);
+      x[2] = mhRate(r.majorHead);
+      x[3] = r.t.h >= 22 || r.t.h <= 5 ? 1 : 0;
+      x[4] = r.gravity === "Heinous" ? 1 : 0;
+      x[5] = linkedHeavy.has(String(r.caseId)) ? 1 : 0;
+      let i = 6;
+      for (const d of districts) x[i++] = r.district === d ? 1 : 0;
+      for (const h of heads) x[i++] = r.majorHead === h ? 1 : 0;
+      const q = Math.min(4, Math.floor((r.t.mo - 1) / 3) + 1);
+      for (let k = 1; k <= 4; k++) x[i++] = q === k ? 1 : 0;
+      return x;
+    }
+
+    const stand = [1, 2].map((idx) => {
+      const vals = train.map((r) => vec(r)[idx]);
+      const { mean, sd } = meanSd(vals);
+      return { idx, mean, sd: sd || 1 };
+    });
+    function vecStd(r) {
+      const x = vec(r);
+      for (const s of stand) x[s.idx] = (x[s.idx] - s.mean) / s.sd;
+      return x;
+    }
+
+    // full-batch gradient descent with L2
+    const Xtr = train.map(vecStd);
+    const ytr = train.map((r) => (r.status === ML_POSITIVE ? 1 : 0));
+    const dim = featNames.length, n = Xtr.length;
+    const w = new Array(dim).fill(0);
+    const lr = 0.3, l2 = 1e-3, epochs = 500;
+    for (let e = 0; e < epochs; e++) {
+      const g = new Array(dim).fill(0);
+      for (let i = 0; i < n; i++) {
+        const err = sigmoid(Xtr[i].reduce((a, v, j) => a + v * w[j], 0)) - ytr[i];
+        for (let j = 0; j < dim; j++) g[j] += err * Xtr[i][j];
+      }
+      for (let j = 0; j < dim; j++) w[j] -= lr * (g[j] / n + (j === 0 ? 0 : l2 * w[j]));
+    }
+
+    // holdout metrics
+    const scored = test.map((r) => ({
+      y: r.status === ML_POSITIVE ? 1 : 0,
+      p: sigmoid(vecStd(r).reduce((a, v, j) => a + v * w[j], 0))
+    }));
+    const pos = scored.filter((s) => s.y === 1).length;
+    const neg = scored.length - pos;
+    scored.sort((a, b) => a.p - b.p);
+    let rankSum = 0;
+    scored.forEach((s, i) => { if (s.y === 1) rankSum += i + 1; });
+    const auc = pos && neg ? (rankSum - (pos * (pos + 1)) / 2) / (pos * neg) : null;
+    let tp = 0, fp = 0, fn = 0, correct = 0;
+    for (const s of scored) {
+      const pred = s.p >= 0.5 ? 1 : 0;
+      if (pred === s.y) correct++;
+      if (pred === 1 && s.y === 1) tp++;
+      if (pred === 1 && s.y === 0) fp++;
+      if (pred === 0 && s.y === 1) fn++;
+    }
+
+    const coefs = featNames.map((f, j) => ({ feature: f, weight: +w[j].toFixed(3) }))
+      .filter((c) => c.feature !== "bias");
+    coefs.sort((a, b) => b.weight - a.weight);
+
+    const stationDistrict = {};
+    for (const r of rows) stationDistrict[r.station] = r.district;
+    const stationRates = {}, headRates = {};
+    for (const st of stStats.keys()) stationRates[st] = +stRate(st).toFixed(4);
+    for (const h of mhStats.keys()) headRates[h] = +mhRate(h).toFixed(4);
+
+    mlModel = {
+      w, vecStd, featNames,
+      explorer: {
+        featNames, weights: w.map((v) => +v.toFixed(4)), stand,
+        stationRates, headRates, districts, heads, stationDistrict
+      },
+      card: {
+        algorithm: "logistic regression, full-batch gradient descent (500 epochs, L2 regularization), trained in-function at runtime",
+        target: `P(case ends "${ML_POSITIVE}")`,
+        trainedOn: {
+          resolvedCases: labeled.length, train: train.length, test: test.length,
+          positiveRateTrain: n ? +(ytr.reduce((a, b) => a + b, 0) / n).toFixed(3) : null
+        },
+        features: featNames.length - 1,
+        engineeredFeatures: [
+          "station undetected history (target-encoded, train-only)",
+          "crime-head undetected history (target-encoded, train-only)",
+          "linked repeat offender (entity-resolution graph feature)",
+          "night incident", "quarter seasonality"
+        ],
+        metrics: {
+          auc: auc == null ? null : +auc.toFixed(3),
+          accuracy: scored.length ? +(correct / scored.length).toFixed(3) : null,
+          precision: tp + fp ? +(tp / (tp + fp)).toFixed(3) : null,
+          recall: tp + fn ? +(tp / (tp + fn)).toFixed(3) : null,
+          holdout: scored.length
+        },
+        topRiskFactors: coefs.slice(0, 5),
+        topProtectiveFactors: coefs.slice(-5).reverse(),
+        trainedAt: new Date().toISOString()
+      }
+    };
+    mlPromise = null;
+    return mlModel;
+  })().catch((e) => { mlPromise = null; throw e; });
+  return mlPromise;
+}
+
+// GET /ml — model card with honest holdout metrics
+app.get("/ml", asyncRoute(async (req, res) => {
+  const m = await getModel(req);
+  res.json(m.card);
+}));
+
+// GET /ml/model — model internals for the client-side what-if explorer
+app.get("/ml/model", asyncRoute(async (req, res) => {
+  const m = await getModel(req);
+  res.json(m.explorer);
+}));
+
+// GET /ml/triage?limit=10 — open cases ranked by P(going undetected), with drivers
+app.get("/ml/triage", asyncRoute(async (req, res) => {
+  const m = await getModel(req);
+  const { rows } = await getData(req);
+  const limit = Math.min(30, +(req.query.limit || 10));
+  const open = applyFilters(rows.filter((r) => r.status === ML_OPEN), req.query);
+  const ranked = open.map((r) => {
+    const x = m.vecStd(r);
+    const p = sigmoid(x.reduce((a, v, j) => a + v * m.w[j], 0));
+    const drivers = x.map((v, j) => ({ feature: m.featNames[j], c: v * m.w[j] }))
+      .filter((c) => c.feature !== "bias" && Math.abs(c.c) > 0.01)
+      .sort((a, b) => Math.abs(b.c) - Math.abs(a.c))
+      .slice(0, 3)
+      .map((c) => ({ feature: c.feature, effect: c.c > 0 ? "raises risk" : "lowers risk" }));
+    return {
+      crimeNo: r.crimeNo, caseId: r.caseId, station: r.station, district: r.district,
+      majorHead: r.majorHead, gravity: r.gravity, incidentAt: r.t.dateKey,
+      probability: +p.toFixed(3), drivers
+    };
+  }).sort((a, b) => b.probability - a.probability);
+  res.json({
+    openCases: open.length,
+    model: { auc: m.card.metrics.auc, trainedOn: m.card.trainedOn.resolvedCases },
+    triage: ranked.slice(0, limit)
+  });
+}));
+
+// GET /case?crimeNo=<no>  or  ?id=<CaseMasterID>
+// Full detail for one case: cached fields + on-demand Data Store fetch for the
+// heavy columns kept out of the cache (BriefFacts etc.) + linked persons.
+app.get("/case", asyncRoute(async (req, res) => {
+  const { rows } = await getData(req);
+  const q = (req.query.crimeNo || "").trim();
+  const cid = (req.query.id || "").trim();
+  if (!q && !cid) return res.status(400).json({ error: "pass ?crimeNo= or ?id=" });
+  const r = rows.find((x) => (q && String(x.crimeNo) === q) || (cid && String(x.caseId) === cid));
+  if (!r) return res.status(404).json({ error: "case not found" });
+
+  let detail = {};
+  try {
+    const capp = catalyst.initialize(req);
+    const dres = await capp.zcql().executeZCQLQuery(
+      `SELECT BriefFacts, CrimeMinorHead, Court, CrimeRegisteredDate, FinalReportType FROM ${TABLE} WHERE ROWID = ${r.id} LIMIT 0, 1`
+    );
+    if (dres && dres[0]) detail = dres[0][TABLE] || {};
+  } catch (e) { /* detail fields degrade to null */ }
+
+  let persons = [];
+  try {
+    const people = await getPeople(req);
+    const per = new Map();
+    for (const l of people.links) per.set(l.personId, (per.get(l.personId) || 0) + 1);
+    const seen = new Set();
+    persons = people.links
+      .filter((l) => String(l.caseId) === String(r.caseId))
+      .filter((l) => !seen.has(l.personId) && seen.add(l.personId))
+      .map((l) => ({
+        personId: l.personId,
+        name: people.names.get(l.personId) || "Unknown",
+        totalCases: per.get(l.personId) || 1
+      }));
+  } catch (e) { /* persons degrade to empty */ }
+
+  res.json({
+    crimeNo: r.crimeNo, caseId: r.caseId, station: r.station, district: r.district,
+    category: r.category, majorHead: r.majorHead,
+    minorHead: detail.CrimeMinorHead || null,
+    gravity: r.gravity, status: r.status,
+    finalReport: detail.FinalReportType || r.finalReport || null,
+    court: detail.Court || null,
+    incidentAt: r.t.dateKey + " " + String(r.t.h).padStart(2, "0") + ":00",
+    registeredDate: detail.CrimeRegisteredDate || null,
+    lat: r.lat, lng: r.lng,
+    briefFacts: detail.BriefFacts || null,
+    persons
+  });
+}));
+
+// GET /refresh — explicit cache invalidation. Call this from any ingestion
+// script after inserting/updating rows for immediate (rather than within-60s)
+// freshness. Next request rebuilds the cache.
+app.get("/refresh", (req, res) => {
+  cache = null;
+  peopleCache = null;
+  mlModel = null;
+  lastFreshCheck = 0;
+  res.json({ ok: true, message: "caches cleared; next request reloads from Data Store" });
+});
 
 // GET /health
 app.get("/health", (req, res) => {
