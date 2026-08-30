@@ -29,11 +29,11 @@ Companion track: a conversational crime-intelligence agent (English/Kannada, cit
 
 ### Geospatial intelligence
 
-* **District choropleth** — all 30 Karnataka districts (Census 2011 boundaries, slimmed GeoJSON \~104 KB) shaded by case volume; **click any district polygon to drill the entire dashboard down**; brass outline marks the active selection
+* **District choropleth** — all 30 Karnataka districts (Census 2011 boundaries, slimmed GeoJSON \~104 KB) shaded by case volume;
 * **Station markers** — proportional circles (area = case volume), click-to-drill
-* **Incident heatmap** and **night-only layer** (22:00–05:00)
+* **Incident heatmap** and **night-only layer** 
 * **Spike pulses** — animated red halos on districts with active statistical spikes, zoom-interpolated radius
-* **Time scrubber with playback** — 72-month slider animating both the heatmap and the choropleth month-by-month; ▶ replays six years of crime patterns ("dynamic spatial storytelling")
+* **Time scrubber with playback** — slider animating both the heatmap and the choropleth month-by-month; 
 
 ### Alerting \& statistics
 
@@ -143,7 +143,7 @@ ksp-catalyst/
 ## Setup
 
 ```bash
-git clone <https://github.com/kavyachowdary-25/ksp-crime-agent​
+git clone https://github.com/kavyachowdary-25/ksp-crime-agent​
 
 
 
@@ -176,7 +176,7 @@ catalyst deploy --only client
 Golden verification rule (learned the hard way): after any functions deploy, **curl a field that only the new code returns** before trusting the browser:
 
 ```bash
-BASE="https://<https://project-rainfall-20116559418.development.catalystserverless.eu/app/analytics.html>/server/analytics"
+BASE="https://project-rainfall-20116559418.development.catalystserverless.eu/app/analytics.html>/server/analytics"
 curl -s "$BASE/health"                       # row count + cache age
 curl -s "$BASE/heatmap?monthly=1" | head -c 60   # {"total":...,"monthly":true → new code live
 ```
